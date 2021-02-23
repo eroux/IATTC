@@ -1,7 +1,7 @@
 import csv
 
 ROLEEVENTS = {
-    "translator": "transation1",
+    "translator": "translation1",
     "translatorPandita": "translation1",
     "sponsor": "translation1",
     "translator2": "translation2",
@@ -53,7 +53,6 @@ def addToPersonFile(fnamesrc, fnamedst, res, seenpersons):
             pid = row[0]
             if pid in res['perperson']:
                 workedwith = ','.join(list(res['perperson'][pid]))
-                #print(workedwith)
                 row.insert(10,workedwith)
             rows.append(row)
     with open(fnamedst, 'w', newline='') as csvfile:
