@@ -411,7 +411,7 @@ P4CZ15236,dz+nyA nA ka ra/,śrījñānākara,,,1000,1099,,,,"ma,pa",P3456
 P4CZ15139,dz+nyA na bdz+ra/,Jñāvajra,,,,,,,,"ma,pa",P4CZ15141
 P4CZ15465,mu ni dra b+ha dra/,munīndrabhadra,,,1000,1099,,,,"ma,pa",P3890
 P3822,su ma ti kIr ti/,sumatikīrti,,,1000,1099,,,,"ma,pa",
-P44,maitri pa/,"maitrīpa,Maitripāda,Maitrīgupta",,,900,999,,,"DM: 11th. c., a lot of wrong attributions the Tengyur sheet","ma,pa","P3731,P4243,P2636"
+P44,maitri pa/,"maitrīpa,Maitripāda,Maitrīgupta",,,900,999,,,"DM: 11th. c., Wikipedia: 1007-1085, in BDRC's database, merged with P0TMP068, all attributions should be differenciated","ma,pa","P3731,P4243,P2636"
 P9963,sang rgyas dpal ye shes/,buddhaśrījñāna,,,,,,,RR: circa 12th-13th c.,"ma,pa",P4007
 P4CZ15113,a b+ha ya badz+ra/,abhayavajra,,,1100,1199,,,,"ma,pa",P4CZ15112
 P4CZ15245,ye shes 'byung gnas/,jñānākara,,,1000,1099,,,,"ma,pa",P3456
@@ -475,7 +475,7 @@ P4CZ10541,zla ba gzhon nu/,candrakumāra,,,,,,,RR: 8th c.,"ma,pa,tr",P2554
 P8252,a nan+ta/,ānanda,,,1000,1099,,,,"ma,pa,tr","P3143,P4266"
 P00EGS1017688,rab 'byor zla ba,"vibhūticandra,bhūticandra",,,1100,1199,,,,"ma,pa,tr","P1061,P3890,P6532,P1582"
 P1243,dam pa sangs rgyas/,,,,1000,1099,,,,"ma,pa,tr",
-P4CZ15091,bsod snyoms pa/,Paiṇḍapātika,,,,,,,,"ma,pa,tr",
+P4CZ15091,bram ze bsod snyoms pa/,Paiṇḍapātika,,,,,,,the Brahmin,"ma,pa,tr",
 P7603,las kyi rdo rje/,karmavajra,,,,,,,RR: circa 11th-12th c.,"ma,pa,tr",P4418
 P4956,pad+ma 'byung gnas/,padmasambhava,,,700,799,,,,"ma,pa,tr","P00EGS1017620,P5013"
 P4849,smri ti dz+nyA na/,Smṛtijñānakīrti,,892,,,,,,"ma,pa,tr",
@@ -496,7 +496,7 @@ P4CZ15122,shU n+ya tA sa mA d+hi/,śūnyatāsamādhi,,,1100,1199,,,,pa,"P2614,P4
 P1GS107979,rab 'byor/,sthavira subhuti ?,,,,,,,,pa,
 P1KG3465,a lang+ka de ba/,"alaṁkakalaśa,alaṁkadeva",,,1000,1099,,,,pa,P3849
 P3174,b+ha ro phyag rdum/,,,,1000,1099,,,,pa,P3143
-P4CZ15496,dpal go mi 'chi med/,śrīgomiamar ?,,,1000,1099,,,,pa,P2551
+P4CZ15496,dpal go mi 'chi med/,"śrīgomiamar ?,Amaragomin",,,1000,1099,,,,pa,P2551
 P4CZ15472,su b+ha dra/,subhadra,,,1000,1099,,,,pa,P3890
 P4CZ15278,dpal phyogs dbang dga' byed/,Digīśanandana,,,1200,1299,,,,pa,
 P4CZ15471,dus 'khor ba/,kālacakra,,,600,799,,,,pa,
@@ -522,7 +522,7 @@ P3127,ma ha bho dhi/,mahabodhi,,,1400,1499,,,,pa,
 P4CZ15085,d+harma d+ha ra/,dharmadhara,,,1200,1299,,,,pa,"P2637,P3980,P3281"
 P4CZ15507,nyi ma 'byung gnas zla ba/,sūryākaracandra,,,1000,1099,,,,pa,
 P8397,bA su d+ha ra/,vāsudhara,,,,,,,,pa,P4402
-P4CZ15638,bstan skyong 'bum phrag gsum pa/,,,,1000,1099,,,,pa,
+P4CZ15638,bstan skyong 'bum phrag gsum pa/,"Dhirapāla,trilakSa sthirapAla ?",,,1000,1099,,,,pa,
 P3891,su ba dz+ra/,suvajra,,,,,,,,pa,P3890
 P4CZ16830,bal po dza ya ka ra/,jayakara,,,1200,1299,,,,pa,
 P00KG07267,,sarvajñadeva,,,800,899,,,,pa,"P20,P4CZ10511,P4256,P8213,P8211,P8182,P4259,P8249,P8212,P2JM5"
@@ -761,3 +761,12 @@ P0TMP064,jig rten gsum gyi rdo rje,Trailokyavajra,,,,,,,,,
 P0TMP065,nai ri ti pa,Nairitipa,,,,,,,,,
 P0TMP066,dri ma med pa'i lha,Vimaladeva,,,,,,,,,
 P0TMP067,,Śaṅku,,,,,,,,,
+P0TMP068,,"Avadhūtipa,Paiṇḍapātika,Yavadvīpa",,,,,"in BDRC's database (and DILA's), equated with P44",,,,
+P0TMP069,nor sbyin,Dhanada,,,,,,,,,
+P0TMP070,nor 'dzin dpal,Vasundharaśrī,,,,,,,,,
+P0TMP071,mi'i dbang po nyi ma rnam par gnon pa,*Sūryavikrama,,,,,,,,,
+P0TMP072,slob dpon snang mdzad myu gu,*Rocāṅchura,,,,,,,,,
+P0TMP073,srid gsum rnam par dag pa'i rdo rje,*Tribhavavimalavajra,,,,,,,,,
+P0TMP074,,Dharmadīpaṅkara,,,,,,,,,
+P0TMP075,,Dharmadivākara,,,,,,,,,
+P0TMP076,phags ma Sgrol ma,Tārā,,,,,,,,,
