@@ -1,312 +1,312 @@
 ID,names_tib,names_skt,birth year,floruit not before,floruit not after,death_year,period,notes,roles,worked with
 "for records in the BDRC database, indicate it here (ex: P123), for duplicates, indicate all IDs, for records not in the BDRC database, create an ID starting with P1TMP (ex: P1TMP123)","coma separated list of names in Tibetan, prefilled witht the primary name in the BDRC database","coma-separated list of Sanskrit names, in IAST. BDRC has very sparse data of this kind and this has been prefilled with some strings from Otani and Tibskrit",when known,,,,Earlier (E) or Later (L),,"ma = main author, pa = pandita, tr = translator",computed automatically
-P8205,ye shes sde/,,,700,799,,,,"ma,tr","P8175,P4CZ15493,P1KG8854,P8222,P8269,P8209,P10180,P8261,P4CZ10511,P4CZ15644,P8228,P2548,P8267,P8217,P8266,P8210,P4CZ16819,P3214,P8268,P1KG8854,P3396,P4CZ16780"
-P2085,dpang ston blo gros brtan pa/,,1276,,,1342,,DM: Blo brtan III,"ma,tr","P1518,P3939"
-P8182,ka ba dpal brtsegs/,,,800,899,,,same as P4CZ10511 ?,"ma,tr","P4255,P4258,P3214,P8213,P8211,P1KG8854,P4259,P00KG07267,P8209,P8228,P8260"
-P753,rin chen bzang po/,,958,,,1055,,,"ma,tr","P4CZ15258,P4CZ15493,P8222,P4CZ15523,P4CZ15568,P8171,P8093,P4CZ16821,P5568,P4CZ15517,P00KG02663,P3379,P4CZ15254,P8194,P7648,P4CZ10517,P8194,P8266,P4CZ16842,P8280,P7257,P8216,P3388,P5654,P3388"
-P5169,sangs rgyas grags pa/,,,1000,1099,,,,"ma,tr","P4004,P4CZ15172"
-P7743,nam mkha'i snying po/,,,700,799,,,,"ma,tr",P5263
-P4CZ15401,skye med bde chen/,,,,,,,,"ma,tr",
-P4CZ15368,sgeg pa'i dpal/,,,1200,1299,,,,tr,
-P4CZ10533,pradz+nyA kIrti/,Prajñākīrti,,1100,1199,,,duplicate of P2553 ?,tr,P8893
+P8205,sna nam btsun pa ye shes sde/,,,700,799,,,,"ma,tr","P8175,P4CZ15493,P1KG8854,P8222,P8269,P8209,P10180,P8261,P4CZ10511,P4CZ15644,P8228,P2548,P8267,P8217,P8266,P8210,P4CZ16819,P3214,P8268,P1KG8854,P3396,P4CZ16780"
+P2085,dpang lo tsA ba blo gros brtan pa/,,1276,,,1342,,DM: Blo brtan III,"ma,tr","P1518,P3939"
+P8182,ska ba dpal brtsegs/,,,800,899,,,same as P4CZ10511 ?,"ma,tr","P4255,P4258,P3214,P8213,P8211,P1KG8854,P4259,P00KG07267,P8209,P8228,P8260"
+P753,lo chen rin chen bzang po/,,958,,,1055,,,"ma,tr","P4CZ15258,P4CZ15493,P8222,P4CZ15523,P4CZ15568,P8171,P8093,P4CZ16821,P5568,P4CZ15517,P00KG02663,P3379,P4CZ15254,P8194,P7648,P4CZ10517,P8194,P8266,P4CZ16842,P8280,P7257,P8216,P3388,P5654,P3388"
+P5169,tsa mi sangs rgyas grags pa/,,,1000,1099,,,,"ma,tr","P4004,P4CZ15172"
+P7743,gnub nam mkha'i snying po/,,,700,799,,,,"ma,tr",P5263
+P4CZ15401,slob dpon skye med bde chen/,,,,,,,,"ma,tr",
+P4CZ15368,lo tsA ba sgeg pa'i dpal/,,,1200,1299,,,,tr,
+P4CZ10533,snyel cor dge slong pradz+nyA kIrti/,Prajñākīrti,,1100,1199,,,duplicate of P2553 ?,tr,P8893
 P10185,dpal mchog dang po'i rdo rje/,,,1100,1199,,,,tr,P8218
-P2637,grags pa rgyal mtshan/,,1242,,,1346,,"a lot of homonyms here... P3980 is the correct one? Also warning, P10MS19659 is probably the correct one",tr,"P4CZ10553,P4CZ15100,P4CZ15085,P5782"
-P10MS19659,"bo dong grags pa rgyal mtshan/, paN chen grags pa rgyal/",,1352,,,1405,,,,
-P4CZ10557,rma ban chos 'bar/,,1044,,,1089,,,tr,"P4CZ15179,P4CZ10561,P4CZ15226,P7753,P4CZ15390,P00KG01611,P8224,P4CZ15371,P4CZ15081,P8232,P4CZ15227"
+P2637,yar lung lo tsA ba grags pa rgyal mtshan/,,1242,,,1346,,"a lot of homonyms here... P3980 is the correct one? Also warning, P10MS19659 is probably the correct one",tr,"P4CZ10553,P4CZ15100,P4CZ15085,P5782"
+P10MS19659,lo tsA ba grags pa rgyal mtshan/,,1352,,,1405,,,,
+P4CZ10557,rma lo tsA ba rma ban chos 'bar/,,1044,,,1089,,,tr,"P4CZ15179,P4CZ10561,P4CZ15226,P7753,P4CZ15390,P00KG01611,P8224,P4CZ15371,P4CZ15081,P8232,P4CZ15227"
 P4241,shes rab ye shes/,,,1000,1099,,,,tr,P4CZ15122
-P4374,rgya gar brtsegs pa/,,,1000,1099,,,,tr,P4CZ15076
-P4CZ15585,dge slong chos grags dpal bzang /,,,,,,,,tr,
-P00EGS1017627,gyi ljang dbu dkar ba/,,,1000,1099,,,,tr,P4CZ15232
-P79,shes rab rin chen/,,1405,,,,,,tr,P4CZ15242
-P4266,grags 'byor shes rab/,,,1000,1099,,,,tr,"P3239,P8893,P4CZ16840,P4CZ15242,P8252,P4CZ15136"
-P4CZ15499,phyes pa dpal/,,,1100,1199,,,,tr,P1518
-P10183,dar ma yon tan/,,,1100,1199,,,RR; b. 1100?,tr,"P4CZ15574,P7878"
-P3088,blo gros grags pa/,,,1000,1099,,,,tr,"P4CZ10575,P4CZ15307,P4CZ15126"
-P4CZ15124,tho gar dge mdzes/,,,1200,1299,,,,tr,
-P2614,dar ma grags/,,,1000,1099,,,RR: 1076- ?,tr,"P4CZ15122,P8893,P4CZ15270,P3850,P4004,P489,P3299"
-P3281,grags pa rgyal mtshan/,,,1200,1299,,,a lot of homonyms here... P3980 is the correct one?,tr,P4CZ15085
-P1CZ1218,jam dbyangs ral gri/,,,1400,1499,,,,tr,
-P4240,shes rab 'od zer/,,,1000,1099,,,,tr,
-P4CZ15123,nyi ma rdo rje/,,,1100,1199,,,,tr,P8208
-P4264,rgyal ba shes rab/,,,800,899,,,,tr,
-P4CZ15497,lce dga' ba'i dpal/,,,1000,1099,,,,tr,P8246
-P4261,dran pa nam mkha',,,700,799,,,,tr,P7166
-P3814,chos kyi dbang phyug,,1042,,,1136,,,tr,"P8128,P8893,P4CZ15089,P3144"
-P4262,khyung grags/,,,1000,1099,,,,tr,"P8181,P5654"
-P4153,ye shes rgyal mtshan/,,,1000,1099,,,,tr,P8093
+P4374,'a zha rgya gar brtsegs pa/,,,1000,1099,,,,tr,P4CZ15076
+P4CZ15585,lo tsA ba chos grags dpal bzang /,,,,,,,,tr,
+P00EGS1017627,lo tsA ba gyi ljang dbu dkar/,,,1000,1099,,,,tr,P4CZ15232
+P79,stag tshang lo tsA ba shes rab rin chen/,,1405,,,,,,tr,P4CZ15242
+P4266,lo chung grags 'byor shes rab/,,,1000,1099,,,,tr,"P3239,P8893,P4CZ16840,P4CZ15242,P8252,P4CZ15136"
+P4CZ15499,lo tsa ba phes pa dpal/,,,1100,1199,,,,tr,P1518
+P10183,lo tsA ba dar ma yon tan/,,,1100,1199,,,RR; b. 1100?,tr,"P4CZ15574,P7878"
+P3088,mal lo tsA ba blo gros grags pa/,,,1000,1099,,,,tr,"P4CZ10575,P4CZ15307,P4CZ15126"
+P4CZ15124,lo tsa ba tho gar dge mdzes/,,,1200,1299,,,,tr,
+P2614,gnyan lo tsA ba dar ma grags/,,,1000,1099,,,RR: 1076- ?,tr,"P4CZ15122,P8893,P4CZ15270,P3850,P4004,P489,P3299"
+P3281,kun spangs grags pa rgyal mtshan/,,,1200,1299,,,a lot of homonyms here... P3980 is the correct one?,tr,P4CZ15085
+P1CZ1218,lo ts+tsha ba 'jam dbyangs ral gri/,,,1400,1499,,,,tr,
+P4240,lo tsA ba shes rab 'od zer/,,,1000,1099,,,,tr,
+P4CZ15123,lo tsA ba nyi ma rdo rje/,,,1100,1199,,,,tr,P8208
+P4264,lo tsA ba rgyal ba shes rab/,,,800,899,,,,tr,
+P4CZ15497,lo tsA ba lce dga' ba'i dpal/,,,1000,1099,,,,tr,P8246
+P4261,lo tsA ba dran pa nam mkha',,,700,799,,,,tr,P7166
+P3814,mar pa do ba chos kyi dbang phyug,,1042,,,1136,,,tr,"P8128,P8893,P4CZ15089,P3144"
+P4262,lo tsA ba khyung grags/,,,1000,1099,,,,tr,"P8181,P5654"
+P4153,lha ye shes rgyal mtshan/,,,1000,1099,,,,tr,P8093
 P4068,thugs rje dpal bzang po/,,,1300,1399,,,,tr,
-P2922,thugs rje dpal ba/,,,1300,1399,,,,tr,
-P4CZ10539,rin chen rgyal mtshan/,,,1300,1399,,,,tr,"P7868,P4CZ10538"
-P4283,rig pa gzhon nu/,,,1000,1099,,,,tr,"P8171,P8194"
-P2921,nam mkha' bzang po/,,,1300,1399,,,,tr,
-P3285,shAkya ye shes/,,,992,993,,,,tr,"P4CZ10528,P4CZ10565,P3302,P8151,P8153,P8152"
-P8203,dar ma blo gros/,,,1000,1099,,,,tr,"P4CZ15308,P4CZ15088,P3214,P2CZ7929,P00KG02663,P5013"
-P4CZ15361,dharma b+hi/,dharmabhi?,,1100,1199,,,,tr,
+P2922,lo chen thugs rje dpal ba/,,,1300,1399,,,,tr,
+P4CZ10539,ban+de rin chen rgyal mtshan/,,,1300,1399,,,,tr,"P7868,P4CZ10538"
+P4283,lo tsA ba dge slong rig pa gzhon nu/,,,1000,1099,,,,tr,"P8171,P8194"
+P2921,lo chen nam mkha' bzang po/,,,1300,1399,,,,tr,
+P3285,'brog mi lo tsA ba shAkya ye shes/,,,992,993,,,,tr,"P4CZ10528,P4CZ10565,P3302,P8151,P8153,P8152"
+P8203,glan dar ma blo gros/,,,1000,1099,,,,tr,"P4CZ15308,P4CZ15088,P3214,P2CZ7929,P00KG02663,P5013"
+P4CZ15361,'bro lo tsA ba dar ma b+hi/,dharmabhi?,,1100,1199,,,,tr,
 P2CZ7940,rgyal ba mchog dbyangs/,,,,,,,,tr,
-P3816,rong zom chos bzang /,Dharmabhadra,1042,,,1136,,RR: 1012-1088,tr,"P4CZ10575,P4CZ15287"
-P4260,nam mkha' skyong /,,,800,899,,,,tr,"P8175,P4CZ15644"
-P4284,rin chen rgyal mtshan/,,,1200,1299,,,,tr,
+P3816,rong zom paN+Di ta/,Dharmabhadra,1042,,,1136,,RR: 1012-1088,tr,"P4CZ10575,P4CZ15287"
+P4260,lo tsA ba nam mkha' skyong /,,,800,899,,,,tr,"P8175,P4CZ15644"
+P4284,sgra tshad pa rin chen rgyal mtshan/,,,1200,1299,,,,tr,
 P1061,shes rab rin chen/,prajñāratna,,1200,1299,,,,tr,"P00EGS1017688,P3217"
-P4007,"byams pa dpal/,gnubs lo tsA ba",,1173,,,1236,,,tr,"P8200,P4CZ15090,P8128,P8192,P8191,P9963,P4CZ15365,P1518"
-P4CZ10572,khu dngos grub/,,,1000,1099,,,,tr,
+P4007,khro phu lo tsA ba byams pa dpal/,,1173,,,1236,,,tr,"P8200,P4CZ15090,P8128,P8192,P8191,P9963,P4CZ15365,P1518"
+P4CZ10572,lo tsA ba khu dngos grub/,,,1000,1099,,,,tr,
 P2JM5,rma thog rin chen/,,,700,799,,,,tr,"P8211,P8191,P00KG07267"
-P2947,ngag dbang phun tshogs lhun grub/,,,1600,1699,,,,tr,P4CZ16901
-P3709,phags pa shes rab/,,,1000,1099,,,,tr,"P4CZ15186,P8225,P7230,P8206,P8226,P2JM77"
+P2947,'dar pa lo tsA ba ngag dbang phun tshogs lhun grub/,,,1600,1699,,,,tr,P4CZ16901
+P3709,zangs dkar lo tsA ba 'phags pa shes rab/,,,1000,1099,,,,tr,"P4CZ15186,P8225,P7230,P8206,P8226,P2JM77"
 P4335,g.yung drung snying po/,,,1300,1399,,,,tr,
-P4CZ15141,zhng zhung pa/,,,,,,,,tr,P4CZ15139
-P4420,gzhon nu mchog,,,1300,1399,,,,tr,"P3379,P8225"
+P4CZ15141,lo tsA ba zhang zhung /,,,,,,,,tr,P4CZ15139
+P4420,lo tsa ba gzhon nu mchog,,,1300,1399,,,,tr,"P3379,P8225"
 P4114,ong po lo tsA ba/,,,1000,1099,,,,tr,
-P4CZ15140,ba reg thos pa dga',,,1100,1199,,,,tr,
-P4CZ15188,gnyan bsod nams/,,,1100,1199,,,,tr,
-P8183,klu'i rgyal mtshan/,,,800,899,,,,tr,"P8209,P8175"
-P155,rin chen grub/,,1290,,,1364,,,tr,"P8094,P4CZ16866"
-P10711,spong zho gsang ba grags/,,,,,,,,tr,
-P4CZ16804,lce bkra shis/,,,1000,1099,,,,tr,
-P6532,mi mnyam bzang po/,,,1100,1199,,,,tr,P00EGS1017688
-P4440,dgra bcom/,,1153,,,1216,,,tr,P1518
+P4CZ15140,lo tsA ba ba reg thos pa dga',,,1100,1199,,,,tr,
+P4CZ15188,lo tsA ba gnyan bsod nams/,,,1100,1199,,,,tr,
+P8183,cog ro klu'i rgyal mtshan/,,,800,899,,,,tr,"P8209,P8175"
+P155,bu ston rin chen grub/,,1290,,,1364,,,tr,"P8094,P4CZ16866"
+P10711,lo tsA ba spong zho gsal ba grags/,,,,,,,,tr,
+P4CZ16804,lo tsA ba lce bkra shis/,,,1000,1099,,,,tr,
+P6532,gnyal gyi lo tsA ba mi mnyam bzang po/,,,1100,1199,,,,tr,P00EGS1017688
+P4440,chag lo tsA ba dge slong dgra bcom/,,1153,,,1216,,,tr,P1518
 P4267,legs pa'i blo gros/,,,1200,1299,,,,tr,
 P4243,shAkya brtson 'grus/,,,1000,1099,,,,tr,"P4CZ15153,P4CZ10578,P7048,P8253,P44"
-P3890,chos kyi shes rab/,,,1000,1099,,,,tr,"P3891,P4CZ15080,P4CZ15179,P2551,P9951,P4257,P4CZ15465,P4CZ15574,P4CZ15472,P8245,P2956,P4CZ15284,P00EGS1017688,P3388,P8232,P3299"
-P4960,ma hA de wa/,mahādeva,,,,,,,tr,
-P2147,nyi ma rgyal mtshan/,,,1200,1299,,,,tr,"P9962,P9962"
-P8156,khor lo grags/,,,1100,1199,,,,tr,"P4004,P4CZ15097"
-P4308,ye shes 'byung gnas/,Jñānākara,,1000,1099,,,,tr,"P8149,P8232"
-P4416,gzhon nu shes rab/,,,1000,1099,,,,tr,
-P4307,ye shes rdo rje/,,,1300,1399,,,,tr,P4CZ15167
-P2388,byang chub rtse mo/,,1303,,,1380,,,tr,
-P8179,chos kyi brtson 'grus/,,,1400,1499,,,,tr,"P8215,P4CZ15186,P8180"
-P3456,tshul khrims rgyal ba/,,1011,,,1064,,,tr,"P3379,P4CZ15179,P4CZ15289,P4CZ10559,P4CZ15236,P2956,P8232,P4CZ15245"
-P10103,chos kyi rin chen/,,,,,,,,tr,
-P4546,dbyig gi rgyal mtshan/,,,1000,1099,,,,tr,
-P4CZ16819,shAkya 'od/,,,700,799,,,,tr,"P4CZ16770,P4CZ54055,P8222,P8205,P8266,P0RK8,P1KG8854,P8209,P8265"
-P1581,gzhon nu 'bar ba/,,,,,,,RR: 11th-12th c.,tr,P4CZ15089
-P4CZ15613,ga rod tshul khrims 'byung gnas/,,,1000,1099,,,,tr,
+P3890,shel dkar lo tsA ba chos kyi shes rab/,,,1000,1099,,,,tr,"P3891,P4CZ15080,P4CZ15179,P2551,P9951,P4257,P4CZ15465,P4CZ15574,P4CZ15472,P8245,P2956,P4CZ15284,P00EGS1017688,P3388,P8232,P3299"
+P4960,hwa shang ma hA de wa/,mahādeva,,,,,,,tr,
+P2147,thar pa lo tsA ba nyi ma rgyal mtshan/,,,1200,1299,,,,tr,"P9962,P9962"
+P8156,khe'u gang 'khor lo grags/,,,1100,1199,,,,tr,"P4004,P4CZ15097"
+P4308,lo tsA ba mtshur ston ye shes 'byung gnas/,Jñānākara,,1000,1099,,,,tr,"P8149,P8232"
+P4416,lo tsA ba ban+de gzhon nu shes rab/,,,1000,1099,,,,tr,
+P4307,lo tsA ba ye shes rdo rje/,,,1300,1399,,,,tr,P4CZ15167
+P2388,lo chen byang chub rtse mo/,,1303,,,1380,,,tr,
+P8179,bla ban chos kyi brtson 'grus/,,,1400,1499,,,,tr,"P8215,P4CZ15186,P8180"
+P3456,nag 'tsho lo tsA ba tshul khrims rgyal ba/,,1011,,,1064,,,tr,"P3379,P4CZ15179,P4CZ15289,P4CZ10559,P4CZ15236,P2956,P8232,P4CZ15245"
+P10103,mkhas btsun chos kyi rin chen/,,,,,,,,tr,
+P4546,mtshur ston dbyig gi rgyal mtshan/,,,1000,1099,,,,tr,
+P4CZ16819,slob dpon shAkya 'od/,,,700,799,,,,tr,"P4CZ16770,P4CZ54055,P8222,P8205,P8266,P0RK8,P1KG8854,P8209,P8265"
+P1581,klog skya lo tsA ba gzhon nu 'bar ba/,,,,,,,RR: 11th-12th c.,tr,P4CZ15089
+P4CZ15613,lo tsA ba ga rod tshul khrims 'byung gnas/,,,1000,1099,,,,tr,
 P1582,shes rab brtsegs pa/,,,,,,,RR: 11th c.,tr,"P00EGS1017688,P4CZ15089,P8946"
-P4CZ16747,dpal 'byor snying po/,,,700,799,,,,tr,
-P5897,grub pa dpal/,,1237,,,,,,tr,"P1520,P1GS14003,P8265"
-P1560,shes rab dpal ba/,,,1000,1099,,,,tr,P4004
-P4239,shes rab brtson 'grus/,,,1000,1099,,,,tr,P4CZ15254
-P4CZ15525,ma hA pa la/,mahāpāla ?,,,,,,,tr,
-P3980,grags pa rgyal mtshan/,,,1200,1299,,,,tr,"P8166,P4CZ15085"
-P4CZ15439,rat+na pha la/,"ratnapāla ?, Ratnaphala ?",,,,,,duplicate of P753 ?,tr,
-P7137,smon grub shes rab/,,,,,,,,tr,P4004
-P4CZ16874,mnyel cor dbyig gi rin chen/,,,1000,1099,,,,tr,
-P993,bsod nams rnam rgyal/,,1401,,,1475,,,tr,
-P208,bsod nams rgya mtsho/,,1424,,,1482,,,tr,P207
-P4CZ15216,jam dpal sgeg pa'i rdo rje/,,,1300,1399,,,,tr,P4CZ15217
-P4529,tshul khrims gzhon nu/,,,1300,1399,,,,tr,
-P1760,dbang phyug rgyal mtshan/,,,,,,,,tr,P8245
-P4CZ15565,brog mi jo sras/,,,1200,1299,,,,tr,P4CZ15567
-P8221,chos 'grub/,,,800,899,,,,tr,
-P5197,shAkya 'od/,,,1200,1299,,,RR: 11th c.,tr,P4CZ15137
-P4832,blo gros brtan pa/,,,,,,,,tr,
-P4CZ15214,cog gru mya ngan med/,,,1000,1099,,,,tr,
-P4CZ15455,jam dpal go cha/,,,1200,1299,,,,tr,P7868
-P4CZ15564,bud+d+ha pA la/,buddhapāla,,1000,1099,,,,tr,P7148
+P4CZ16747,lo tsA ba dpal 'byor nsying po/,,,700,799,,,,tr,
+P5897,zhang lo tsA ba grub pa dpal/,,1237,,,,,,tr,"P1520,P1GS14003,P8265"
+P1560,kre bo lo tsA ba shes rab dpal ba/,,,1000,1099,,,,tr,P4004
+P4239,lo tsA ba 'bro dge bsnyen shes rab brtsn 'grus/,,,1000,1099,,,,tr,P4CZ15254
+P4CZ15525,bal po lo tsA ba ma hA pa la/,mahāpāla ?,,,,,,,tr,
+P3980,shud ge lo tsA ba grags pa rgyal mtshan/,,,1200,1299,,,,tr,"P8166,P4CZ15085"
+P4CZ15439,paN+Di ta rat+na pha la/,"ratnapāla ?, Ratnaphala ?",,,,,,duplicate of P753 ?,tr,
+P7137,tsa mi lo tsA ba smon grub shes rab/,,,,,,,,tr,P4004
+P4CZ16874,lo tsA ba dge slong dbyig gi rin chen/,,,1000,1099,,,,tr,
+P993,byams gling paN chen bsod nams rnam rgyal/,,1401,,,1475,,,tr,
+P208,khrims khang lo tsA ba bsod nams rgya mtsho/,,1424,,,1482,,,tr,P207
+P4CZ15216,lo tsA ba 'jam dpal sgeg pa'i rdo rje/,,,1300,1399,,,,tr,P4CZ15217
+P4529,lo tsA ba tshul khrims gzhon nu/,,,1300,1399,,,,tr,
+P1760,lo tsA ba dbang phyug rgyal mtshan/,,,,,,,,tr,P8245
+P4CZ15565,'brog mi lo tsA ba jo sras/,,,1200,1299,,,,tr,P4CZ15567
+P8221,'gos chos 'grub/,,,800,899,,,,tr,
+P5197,sman lung pa shAkya 'od/,,,1200,1299,,,RR: 11th c.,tr,P4CZ15137
+P4832,snye thang lo tsA ba blo gros brtan pa/,,,,,,,,tr,
+P4CZ15214,cog gru lo tsA ba mya ngan med/,,,1000,1099,,,,tr,
+P4CZ15455,lo tsA ba 'jam dpal go cha/,,,1200,1299,,,,tr,P7868
+P4CZ15564,rngog lo tsA ba bud+d+ha pA la/,buddhapāla,,1000,1099,,,,tr,P7148
 P5724,ye shes dpal/,,,1200,1299,,,,tr,
-P4418,gzhon nu tshul khrims/,,,1000,1099,,,RR: 11th-12th c.,tr,"P8246,P8193,P7603,P4CZ15369,P8226"
+P4418,lo tsA ba tshul khrims gzhon nu/,,,1000,1099,,,RR: 11th-12th c.,tr,"P8246,P8193,P7603,P4CZ15369,P8226"
 P4309,ye shes sems dpa',,,1300,1399,,,,tr,
-P4417,gzhon nu 'od/,,,1300,1399,,,,tr,P8226
-P4528,tshul khrims brtsegs pa/,,,1000,1099,,,,tr,P4CZ15492
-P4CZ16898,ban+de tsan+dra/,candra ?,,800,899,,,,tr,
+P4417,lo tsA ba gzhon nu 'od/,,,1300,1399,,,,tr,P8226
+P4528,lo tsA ba langs ban+de tshul khrims brtsegs/,,,1000,1099,,,,tr,P4CZ15492
+P4CZ16898,lo tsA ba tsan+dra/,candra ?,,800,899,,,,tr,
 P4527,tshul khrims bkra shis/,,,1200,1299,,,,tr,
-P4CZ15212,dar ma rin chen/,,,800,899,,,,tr,P4CZ15211
-P3074,dbang gi rdo rje/,,,1000,1099,,,,tr,P8232
-P20,rin chen mchog,,,1300,1399,,,,tr,"P00KG07267,P4957"
-P4277,rab zhi bshes gnyen/,,,1000,1099,,,,tr,P4CZ15186
-P4CZ15573,snang mdzad myu gu/,,,,,,,,tr,
-P1428,tA ra nA tha/,Tāranātha,1575,,,1634,,,tr,P4013
-P3849,tshul khrims 'byung gnas/,,1107,,,1190,,,tr,P1KG3465
-P4CZ15112,sbal rdo rje rgyal po/,,,1100,1199,,,,tr,"P4CZ15113,P1GS147817"
-P4CZ10522,yon tan dpal/,,,,,,,,tr,P4CZ10518
-P4CZ15220,rtses thang gzhon nu dpal/,,,1400,1499,,,duplicate of P318 ?,tr,
+P4CZ15212,lo tsA ba dar ma rin chen/,,,800,899,,,,tr,P4CZ15211
+P3074,mtshur ston dbang gi rdo rje/,,,1000,1099,,,,tr,P8232
+P20,A tsA rya rin chen mchog,,,1300,1399,,,,tr,"P00KG07267,P4957"
+P4277,lo tsA ba rab zhi bshes gnyen/,,,1000,1099,,,,tr,P4CZ15186
+P4CZ15573,slob dpon snang mdzad myu gu/,,,,,,,,tr,
+P1428,jo nang rje btsun tA ra nA tha/,Tāranātha,1575,,,1634,,,tr,P4013
+P3849,steng pa lo tsA ba tshul khrims 'byung gnas/,,1107,,,1190,,,tr,P1KG3465
+P4CZ15112,lo tsA ba sbal rdo rje rgyal po/,,,1100,1199,,,,tr,"P4CZ15113,P1GS147817"
+P4CZ10522,khe'u brgad yon tan dpal/,,,,,,,,tr,P4CZ10518
+P4CZ15220,rtses thang lo tsA ba gzhon nu dpal/,,,1400,1499,,,duplicate of P318 ?,tr,
 P4CZ15111,gu Na shrI/,guṇaśrī,,,,,,,tr,P4CZ15107
-P6453,tshul khrims rgyal mtshan/,,,1000,1099,,,,tr,"P8200,P3214,P3870,P4004,P4CZ15533,P1GS147817,P4CZ15509"
-P4276,rab mchog dpal bzang /,,,1300,1399,,,,tr,
-P4CZ15110,chos kyi yon tan/,,,1000,1099,,,,tr,P8144
-P318,gzhon nu dpal/,,1392,,,1481,,,tr,P207
-P4CZ15243,khu mdo sde 'bar/,,,1000,1099,,,,tr,P4CZ15242
-P4CZ10524,ting 'dzin bzang po/,,,1000,1099,,,,tr,"P4CZ16760,P4CZ15090,P4CZ16758"
-P4CZ10548,lha btsan po mu ne rA dza/,pomunerāja?,,,,,,,tr,P4CZ10549
-P8216,shAkya blo gros/,,,,,,,not duplicate of P4CZ16874 according to BDRC,tr,"P3379,P753,P8171,P4CZ15090,P8215,P4CZ15568,P3388,P4CZ15137,P1242"
-P4CZ16791,rnyi ba de ba g+ho Sha/,devaghoṣa ?,,700,799,,,,tr,P5659
-P4380,chos 'byung /,,,1300,1399,,,,tr,
+P6453,pa tshab lo tsA ba tshul khrims rgyal mtshan/,,,1000,1099,,,,tr,"P8200,P3214,P3870,P4004,P4CZ15533,P1GS147817,P4CZ15509"
+P4276,lo tsA ba rab mchog dpal bzang /,,,1300,1399,,,,tr,
+P4CZ15110,lo tsA ba chos kyi yon tan/,,,1000,1099,,,,tr,P8144
+P318,'gos lo tsA ba gzhon nu dpal/,,1392,,,1481,,,tr,P207
+P4CZ15243,lo tsA ba khu mdo sde 'bar/,,,1000,1099,,,,tr,P4CZ15242
+P4CZ10524,zhu chen gyi lo tsA ba ting 'dzin bzang po/,,,1000,1099,,,,tr,"P4CZ16760,P4CZ15090,P4CZ16758"
+P4CZ10548,lo tsA ba lha btsan po mu ne rA dza/,pomunerāja?,,,,,,,tr,P4CZ10549
+P8216,lo tsA ba shAkya blo gros/,,,,,,,not duplicate of P4CZ16874 according to BDRC,tr,"P3379,P753,P8171,P4CZ15090,P8215,P4CZ15568,P3388,P4CZ15137,P1242"
+P4CZ16791,lo tsA ba rnyi ba de ba g+ho Sha/,devaghoṣa ?,,700,799,,,,tr,P5659
+P4380,'or ston chos 'byung /,,,1300,1399,,,,tr,
 P6473,shes rab ye shes/,,,,,1352,,,tr,P4CZ15179
-P3143,rdo rje grags/,,1016,,,,,,tr,"P3174,P8252,P3379"
+P3143,rwa lo tsA ba rdo rje grags/,,1016,,,,,,tr,"P3174,P8252,P3379"
 P4213,bsod nams bzang po/,,,1000,1099,,,,tr,P8215
-P6525,ye shes gzhon nu/,Jñānakumāra,,700,799,,,,tr,P5011
+P6525,gnyags lo tsA ba ye shes gzhon nu/,Jñānakumāra,,700,799,,,,tr,P5011
 P4540,tshogs chags chung ba/,,,1100,1199,,,,tr,
-P4104,rgya brtson 'grus seng+ge,,,900,999,,,RR: ?-1040 (later than BDRC),tr,P3379
-P4CZ15480,bran ka mu ti/,kamuti ?,,1000,1099,,,,tr,
+P4104,rgya lo tsA ba brtson 'grus seng+ge,,,900,999,,,RR: ?-1040 (later than BDRC),tr,P3379
+P4CZ15480,lo tsA ba bran ka mu ti/,kamuti ?,,1000,1099,,,,tr,
 P6524,gnyan chung lo tsA ba/,,,1200,1299,,,,tr,P8232
-P4105,shes rab rgyal mtshan/,,,1000,1099,,,,tr,"P7148,P8225"
+P4105,lo tsA ba shes rab run chen/,,,1000,1099,,,,tr,"P7148,P8225"
 P4238,shes rab skyabs/,,,1000,1099,,,,tr,P2MS13214
-P3939,chos kyi bzang po/,,,1100,1199,,,DM: death 1216,tr,"P8176,P8231,P2085,P4CZ15158,P8266,P4CZ15160,P3203,P1518"
-P5651,nyi ma grags/,,1055,,,,,RR: 1055-1145?,tr,"P4CZ15246,P5654,P4CZ15457,P4CZ16848,P4CZ16745,P4CZ16738"
-P4259,dpal gyi lhun po/,,,800,899,,,RR: early 9th c.,tr,"P4CZ16882,P8213,P8211,P8182,P00KG07267,P8249,P8574"
-P1053,mchog ldan legs pa'i blo gros/,,,1200,1299,,,,tr,
-P4CZ10564,sna nam rdo rje bdud 'joms/,,,,,,,,tr,P4CZ15273
-P3146,chos rab/,,,1000,1099,,,,tr,"P8141,P4CZ15089"
-P4149,zhi ba 'od/,,,1000,1099,,,,tr,"P4CZ15241,P4CZ15235"
-P4CZ15173,jam dpal ye shes/,,,1300,1399,,,,tr,P207
-P4101,tshul khrims seng+ge,,,1200,1299,,,,tr,"P4CZ15213,P4CZ15099"
-P4255,ye shes snying po/,,,800,899,,,,tr,"P2548,P8213,P8217,P8211,P8219,P8182,P8249,P2636"
-P1056,kun dga' rgyal mtshan/,,1182,,,1251,,,tr,P8200
-P4256,bzang skyong /,,,800,899,,,,tr,"P7166,P8211,P8249,P00KG07267"
-P4CZ15171,khu ne co/,,,1100,1199,,,,tr,P3379
-P2168,bkra shis rgyal mtshan/,,,1000,1099,,,,tr,"P1KG3490,P4CZ15457"
-P4CZ16847,dharma A lo ka,dharmāloka ?,,700,799,,,,tr,
+P3939,dpyal lo tsA ba chos kyi bzang po/,,,1100,1199,,,DM: death 1216,tr,"P8176,P8231,P2085,P4CZ15158,P8266,P4CZ15160,P3203,P1518"
+P5651,pa tshab lo tsA ba nyi ma grags pa/,,1055,,,,,RR: 1055-1145?,tr,"P4CZ15246,P5654,P4CZ15457,P4CZ16848,P4CZ16745,P4CZ16738"
+P4259,lo tsA ba dpal gyi lhun po/,,,800,899,,,RR: early 9th c.,tr,"P4CZ16882,P8213,P8211,P8182,P00KG07267,P8249,P8574"
+P1053,mang mkhar lo tsA ba mchog ldan legs pa'i blo gros/,,,1200,1299,,,,tr,
+P4CZ10564,lo tsA ba sna nam rdo rle bla ma/,,,,,,,,tr,P4CZ15273
+P3146,rwa chos rab/,,,1000,1099,,,,tr,"P8141,P4CZ15089"
+P4149,lha zhi ba 'od/,,,1000,1099,,,,tr,"P4CZ15241,P4CZ15235"
+P4CZ15173,chos 'khor lo tsA ba 'jam dpal ye shes/,,,1300,1399,,,,tr,P207
+P4101,ldan ma lo tsA ba tshul khrims seng+ge,,,1200,1299,,,,tr,"P4CZ15213,P4CZ15099"
+P4255,lo tsA ba ye shes snying po/,,,800,899,,,,tr,"P2548,P8213,P8217,P8211,P8219,P8182,P8249,P2636"
+P1056,sa skya paN+Di ta kun dga' rgyal mtshan/,,1182,,,1251,,,tr,P8200
+P4256,lo tsA ba bzang skyong /,,,800,899,,,,tr,"P7166,P8211,P8249,P00KG07267"
+P4CZ15171,lo tsA ba khi ne tso/,,,1100,1199,,,,tr,P3379
+P2168,lo tsA ba bkra shis rgyal mtshan/,,,1000,1099,,,,tr,"P1KG3490,P4CZ15457"
+P4CZ16847,lo tsA ba dharma A lo ka,dharmāloka ?,,700,799,,,,tr,
 P5820,zhe sdang rdo rje/,,,1000,1099,,,,tr,P3217
-P8168,byang chub shes rab/,,,1000,1099,,,,tr,"P4CZ15151,P8169"
-P1046,rdo rje rgyal mtshan/,,,1200,1299,,,,tr,P1051
-P4CZ15290,cog gru shes rab bla ma/,,,1000,1099,,,,tr,"P4CZ15469,P4CZ15306,P4CZ10578,P8224"
-P4404,kun dga' rgyal mtshan/,,,1300,1399,,,,tr,P1518
-P856,chos skyong bzang po/,dharmabhadra,1441,,,1527,,,tr,
-P4401,dga' ba rdo rje/,,,1000,1099,,,,tr,P8225
+P8168,lo tsA ba mang 'or byang chub shes rab/,,,1000,1099,,,,tr,"P4CZ15151,P8169"
+P1046,shong lo tsA ba rdo rje rgyal mtshan/,,,1200,1299,,,,tr,P1051
+P4CZ15290,lo tsA ba cog gru shes rab bla ma/,,,1000,1099,,,,tr,"P4CZ15469,P4CZ15306,P4CZ10578,P8224"
+P4404,sa skya bla chen kun dga' rgyal mtshan/,,,1300,1399,,,,tr,P1518
+P856,zhwa lu lo tsA ba chos skyong bzang po/,dharmabhadra,1441,,,1527,,,tr,
+P4401,zhu chen gyi lo tsA ba dga' rdor/,,,1000,1099,,,,tr,P8225
 P8142,lha rin po che/,,,,,,,RR: 11th-12th c.,tr,P8213
-P8275,shes rab seng+ge,,,,,,,,tr,
-P1048,blo gros rgyal mtshan/,,1235,,,1280,,,tr,
-P4209,bsod nams rgyal ba/,,,1000,1099,,,,tr,"P4CZ15273,P8093"
-P4402,seng+ge rgyal ba/,,,1000,1099,,,,tr,"P7641,P8397"
-P1025,chos rje dpal/,,1197,,,1264,,"RR: 1197-1263/4, DM 1197-1265",tr,"P7648,P4CZ15501,P4CZ15105,P4CZ15242,P2098,P8265"
-P4CZ15648,lo tsA ba seng+ge rgyal mtshan/,,,900,1099,,,,tr,P8226
-P4CZ15406,lo btsun chung /,,,1000,1099,,,,tr,P4CZ15405
-P4CZ15515,pu rangs bsod nams blo gros/,,,1300,1399,,,,tr,
-P8164,grags pa rgyal mtshan/,,,,,,,a lot of homonyms here... P3980 is the correct one?,tr,
-P1159,kun dga' grags pa/,,,,,,,,tr,P4CZ15242
-P2138,bsod nams seng+ge,,,1200,1299,,,,tr,P3214
-P7604,dar ma tshul khrims/,,,1400,1499,,,,tr,"P4CZ15308,P8184,P4CZ15366,P7132"
-P4530,tshul khrims yon tan/,,,1000,1099,,,,tr,P8171
-P4336,g.yung drung 'od/,,,1000,1099,,,,tr,P4CZ15481
-P4CZ10570,skyob pa dpal bzang /,,,1400,1499,,,,tr,
-P2553,shes rab grags pa/,Prajñākīrti,,1100,1199,,,,tr,"P8893,P4CZ15450,P7148,P3244,P8094"
+P8275,lo tsA ba pra dz+nyA sing ha/,,,,,,,,tr,
+P1048,'gro mgon chos rgyal 'phags pa/,,1235,,,1280,,,tr,
+P4209,lo tsA ba bsod nams rgyal ba/,,,1000,1099,,,,tr,"P4CZ15273,P8093"
+P4402,zha ma lo tsA ba ston pa seng+ge rgyal po/,,,1000,1099,,,,tr,"P7641,P8397"
+P1025,chag lo tsA ba chos rje dpal/,,1197,,,1264,,"RR: 1197-1263/4, DM 1197-1265",tr,"P7648,P4CZ15501,P4CZ15105,P4CZ15242,P2098,P8265"
+P4CZ15648,sgra bsgyur gyi lo tsA ba seng+ge rgyal mtshan/,,,900,1099,,,,tr,P8226
+P4CZ15406,lo tsA ba lo btsun chung /,,,1000,1099,,,,tr,P4CZ15405
+P4CZ15515,lo tsA ba pu rangs bsod nams blo gros/,,,1300,1399,,,,tr,
+P8164,lo tsA ba grags pa rgyal mtshan/,,,,,,,a lot of homonyms here... P3980 is the correct one?,tr,
+P1159,dpyal lo tsA ba kun dga' grags pa/,,,,,,,,tr,P4CZ15242
+P2138,g.yag sde lo tsA ba bsod nams seng+ge,,,1200,1299,,,,tr,P3214
+P7604,lo tsA ba glan dar ma tshul khrims/,,,1400,1499,,,,tr,"P4CZ15308,P8184,P4CZ15366,P7132"
+P4530,lo tsA ba tshul khrims yon tan/,,,1000,1099,,,,tr,P8171
+P4336,lo tsA ba dge slong g.yung drun g'od/,,,1000,1099,,,,tr,P4CZ15481
+P4CZ10570,lo tsA ba skyob pa dpal bzang po/,,,1400,1499,,,,tr,
+P2553,'bro lo tsA ba shes rab grags pa/,Prajñākīrti,,1100,1199,,,,tr,"P8893,P4CZ15450,P7148,P3244,P8094"
 P1791,blo bzang chos grags/,,1638,,,1710,,,tr,
 P4531,tshul dge rin chen/,,,1300,1399,,,,tr,P4CZ10535
-P00EGS1017620,dpal gyi seng+ge,,,700,799,,,,tr,P4956
-P8129,zla ba'i 'od zer/,,,1000,1099,,,,tr,"P8128,P4CZ10535,P3302,P4CZ10545,P4CZ15087"
-P981,ngag dbang kun dga' rgyal mtshan/,,1792,,,1841,,,tr,P8200
-P2554,bro seng dkar/,,,1000,1099,,,,tr,"P3379,P4CZ15179,P4CZ15390,P42,P4CZ16770,P8191,P4CZ15137,P1518,P4CZ10541"
-P3731,rin chen grags/,dharmakīrti,1040,,,1112,,,tr,"P3379,P8240,P2CZ7929,P1059,P4CZ15260,P4CZ10575,P4CZ15165,P8227,P8224,P00KG02663,P8232,P44"
+P00EGS1017620,rlangs dpal gyi seng+ge,,,700,799,,,,tr,P4956
+P8129,gyi jo zla ba'i 'od zer/,,,1000,1099,,,,tr,"P8128,P4CZ10535,P3302,P4CZ10545,P4CZ15087"
+P981,sa skya bdag chen ngag dbang kun dga' rgyal mtshan/,,1792,,,1841,,,tr,P8200
+P2554,lo tsA ba 'bro seng dkar shAkya 'od/,,,1000,1099,,,,tr,"P3379,P4CZ15179,P4CZ15390,P42,P4CZ16770,P8191,P4CZ15137,P1518,P4CZ10541"
+P3731,ba ri lo tsA ba rin chen grags/,dharmakīrti,1040,,,1112,,,tr,"P3379,P8240,P2CZ7929,P1059,P4CZ15260,P4CZ10575,P4CZ15165,P8227,P8224,P00KG02663,P8232,P44"
 P2557,rgyal ba'i 'byung gnas/,,1004,,,1064,,,tr,P3379
-P1359,chos kyi ye shes/,,,1000,1099,,,,tr,"P8160,P8159"
-P4CZ15445,rba ye shes bzang po/,,,1100,1199,,,,tr,P3302
-P8149,khu ston dngos grub/,,,,,,,,tr,"P4308,P4CZ10525"
-P4180,bsod nams rgyal mtshan/,,,1000,1099,,,,tr,"P4CZ10578,P4CZ10565,P4CZ10535,P4CZ15359,P8248"
-P1578,byang chub 'byung gnas/,,,1000,1099,,,,tr,
-P4CZ15444,tshul khrims shes rab/,,,1100,1199,,,,tr,P8192
+P1359,kam kam lo tsA ba chos kyi ye shes/,,,1000,1099,,,,tr,"P8160,P8159"
+P4CZ15445,lo tsA ba rba ye shes bzang po/,,,1100,1199,,,,tr,P3302
+P8149,lo tsA ba khu ston dngos grub/,,,,,,,,tr,"P4308,P4CZ10525"
+P4180,lo tsA ba bsod nams rgyal mtshan/,,,1000,1099,,,,tr,"P4CZ10578,P4CZ10565,P4CZ10535,P4CZ15359,P8248"
+P1578,rngog byang chub 'byung gnas/,,,1000,1099,,,,tr,
+P4CZ15444,gnubs lo tsA ba tshul khrims shes rab/,,,1100,1199,,,,tr,P8192
 P4181,se lo tsA ba/,,,1000,1099,,,,tr,
-P8148,yon tan 'bar/,,,,,,,RR: 11th c.,tr,"P8181,P7582,P8147"
-P4CZ16883,mkha' 'gro rdo rje/,,,,,,,,tr,P4CZ16881
+P8148,lo tsA ba chings yon tan 'bar/,,,,,,,RR: 11th c.,tr,"P8181,P7582,P8147"
+P4CZ16883,lo tsA ba mkha' 'gro rdo rje/,,,,,,,,tr,P4CZ16881
 P1798,chos grags/,,,1000,1099,,,,tr,P2CZ7929
-P4CZ15225,khu rnal 'byor/,,,1100,1199,,,,tr,P3214
+P4CZ15225,lo tsA ba khu rnal 'byor/,,,1100,1199,,,,tr,P3214
 P4CZ15575,grags pa byang chub/,,,,,,,,tr,P4CZ15161
-P4CZ10573,le'u ston rgya nag,,,,,,,,,
-P4CZ15078,dbang phyug rgya mtsho/,,,1000,1199,,,,,
-P3221,chos kyi bzang po/,,,,,,,,,
-P6944,rdo rje bzang po/,,,,,,,,,
-P461,kun dga' bsod nams/,,1485,,,1533,,,,
-P4CZ15304,phyug 'tshams dbang phyug rgyal po/,,,1000,1199,,,,,
-P3827,ting 'dzin bzang po/,,,800,899,,,,,
-P7084,mdo sde dpal/,,,1200,1299,,,,,
-P4CZ16820,dge slong shAkya bshes gnyen/,,,1000,1099,,,,,
-P1224,byang chub rgyal mtshan/,,1302,,,1364,,,,
-P431,shes bya kun rig,,1367,,,1449,,,,
-P8218,khon klu'i dbang po bsrung ba,Nāgandra Rakṣita,,700,799,,,"disciple of Padmasambhava, RR: 8th c.",,"P8213,P8217"
-P8277,rgya mtsho'i sde,,,,,,,RR: 15 c.,,
-P4263,dge ba dpal,,,800,900,,,,,P8219
+P4CZ10573,lo tsA ba le'u ston rgya nag,,,,,,,,,
+P4CZ15078,lo tsA ba phyug brtsams dbang phyug rgya mtsho/,,,1000,1199,,,,,
+P3221,'gar lo tsA ba chos kyi bzang po/,,,,,,,,,
+P6944,rgya lo tsA ba rdo rje bzang po/,,,,,,,,,
+P461,sa lo kun dga' bsod nams/,,1485,,,1533,,,,
+P4CZ15304,lo tsA ba phyug 'tshams dbang phyug rgyal po/,,,1000,1199,,,,,
+P3827,myang ting 'dzin bzang po/,,,800,899,,,,,
+P7084,zhang mdo sde dpal/,,,1200,1299,,,,,
+P4CZ16820,lo tsA ba shAkya bshes gnyen/,,,1000,1099,,,,,
+P1224,phag mo gru pa sde srid 01 byang chub rgyal mtshan/,,1302,,,1364,,,,
+P431,rong ston shes bya kun rig,,1367,,,1449,,,,
+P8218,'khon klu'i dbang po/,Nāgandra Rakṣita,,700,799,,,"disciple of Padmasambhava, RR: 8th c.",,"P8213,P8217"
+P8277,rgya mtsho'i sde/,,,,,,,RR: 15 c.,,
+P4263,lo tsA ba dge ba dpal/,,,800,900,,,,,P8219
 P4274,ra byid lo tsA ba/,,,1000,1099,,,,,P8208
 P8143,d+harma yon tan/,,,,,,,,,"P8144,P7878"
 P8242,rdo rje sems ma/,,,,,,,,,P8243
-P1493,bsod nams lhun grub/,,,,,,,,,
-P3181,seng+ge dpal/,,,,,,,,,
-P3476,gzhon nu grags pa/,,,,,,,,,
+P1493,dge slong bsod nams lhun grub/,,,,,,,,,
+P3181,mkhan chen seng+ge dpal/,,,,,,,,,
+P3476,dgyer sgom chen po gzhon nu grags pa/,,,,,,,,,
 P0RK8,dpal ldan chos skyong /,,,,,,,,,"P8209,P8266,P4CZ16819"
 P8411,grub pa dpal bzang po/,,,,,,,,,
-P2139,shes rab seng+ge,,,,,,,,,
-P4CZ15616,phur bu 'od/,,,,,,,,,P8224
-P4275,tshul khrims 'byung gnas/,,,,,,,,,
+P2139,rong pa shes rab seng+ge,,,,,,,,,
+P4CZ15616,lo tsA ba phur bu 'od/,,,,,,,,,P8224
+P4275,rag shi tshul khrims 'byung gnas/,,,,,,,,,
 P8263,legs kyi sde/,,,,,,,,,P2548
 P8253,mchog gi dbang phyug,,,,,,,,,P4243
 P8178,chos kyi dbang phyug grags pa/,,,,,,,,,P8LS15063
-P8243,shes rab 'byung gnas/,,,,,,,,,P8242
-P8146,smon lam grags/,,,,,,,,,
-P8269,dgon gling rma/,,,,,,,,,P8205
-P1256,rin chen sde/,,,,,,,,,P5011
-P8239,tshul khrims 'od zer/,,,,,,,,,P8238
-P2JM492,lung rtogs bstan pa'i rgyal mtshan/,,,,,,,,,
+P8243,'gar shes rab 'byung gnas/,,,,,,,,,P8242
+P8146,rgyus smon lam grags/,,,,,,,,,
+P8269,rma dgon gling /,,,,,,,,,P8205
+P1256,sgro lo tsA ba rin chen sde/,,,,,,,,,P5011
+P8239,kyu ra lo tsA ba tshul khrims 'od zer/,,,,,,,,,P8238
+P2JM492,smyo shul lung rtogs bstan pa'i rgyal mtshan/,,,,,,,,,
 P8LS15063,blo gros dpal/,,,,,,,,,P8178
-P4258,dpal 'byor/,,,,,,,,,"P8211,P8182"
+P4258,lo tsA ba dpal 'byor/,,,,,,,,,"P8211,P8182"
 P4242,shes rab legs pa/,,,,,,,,,P8171
-P8160,dgra bcom/,,,,,,,,,"P1359,P8159"
+P8160,phyug mtshams dgra bcom/,,,,,,,,,"P1359,P8159"
 P4274,ra byid lo tsA ba/,,,,,,,,,P8208
-P8273,rin chen 'tsho/,,,,,,,,,P8266
-P1493,bsod nams lhun grub/,,,1600,1699,,,,,
-P3181,seng+ge dpal/,,,1300,1399,,,,,
-P2JM492,lung rtogs bstan pa'i rgyal mtshan/,,1830,,,,,,,
-P3476,gzhon nu grags pa/,,1090,,,1171,,,,
-P4258,dpal 'byor/,,,800,899,,,,,"P8211,P8182"
+P8273,lo tsA ba rin chen 'tsho/,,,,,,,,,P8266
+P1493,dge slong bsod nams lhun grub/,,,1600,1699,,,,,
+P3181,mkhan chen seng+ge dpal/,,,1300,1399,,,,,
+P2JM492,smyo shul lung rtogs bstan pa'i rgyal mtshan/,,1830,,,,,,,
+P3476,dgyer sgom chen po gzhon nu grags pa/,,1090,,,1171,,,,
+P4258,lo tsA ba dpal 'byor/,,,800,899,,,,,"P8211,P8182"
 P8411,grub pa dpal bzang po/,,,1300,1399,,,,,
-P2139,shes rab seng+ge,,1251,,,1315,,,,
+P2139,rong pa shes rab seng+ge,,1251,,,1315,,,,
 P4242,shes rab legs pa/,,,1000,1099,,,,,P8171
-P4275,tshul khrims 'byung gnas/,,,900,999,,,,,
+P4275,rag shi tshul khrims 'byung gnas/,,,900,999,,,,,
 P0TMPT001,slob dpon rgyal ba'i sras,,,,,,,,,
-P1052,shong blo gros brtan pa,,,,1200,1299,,"Attributions are messed up in our database. From RR and DM, DM: Younger brother of Shong Rdo rje rgyal mtshan, RR: 13th c. DM calls him Shong blo brtan II",,"P2098,P8166"
-P1046,Shong Rdo rje rgyal mtshan,,,,,,,,,P1051
+P1052,shong lo tsA ba blo gros brtan pa/,,,,1200,1299,,"Attributions are messed up in our database. From RR and DM, DM: Younger brother of Shong Rdo rje rgyal mtshan, RR: 13th c. DM calls him Shong blo brtan II",,"P2098,P8166"
+P1046,shong lo tsA ba rdo rje rgyal mtshan/,,,,,,,,,P1051
 P4CZ15594,a tsar+ya dmar po/,,,,,,,,,
-P7787,khri srong lde btsan/,,,742,,,800,,,
-P4848,od zer 'byung gnas/,,,,,,,,,
-P4CZ16815,chos skyob/,,,,,,,,,
-P3086,jigs med grags pa/,,,,1000,1099,,,,
+P7787,chos rgyal khri srong lde btsan/,,,742,,,800,,,
+P4848,khro phu 'od zer 'byung gnas/,,,,,,,,,
+P4CZ16815,dgra bcom pa chos skyob/,,,,,,,,,
+P3086,pham mthing pa gcen 'jigs med grags pa/,,,,1000,1099,,,,
 P4015,ra ti gupta/,,,,1400,1499,,,,
-P3835,don yod rdo rje/,,,,900,1099,,,,
-P4CZ16870,dbang pos byin/,,,,,,,,,
-P1KG10638,jam dbyangs kha che/,,,,1300,1399,,,,
-P4095,bstan pa tshe ring /,,,1678,,,1738,,,
-P940,mi pham dbang po/,,,1641,,,1717,,,
-P4CZ15102,rnam par rgyal ba dbang po/,*Vijayendra,,,,,,,,
-P4CZ15597,rta mchog,,,,,,,,,
+P3835,rdo rje gdan chung ba don yod rdo rje/,,,,900,1099,,,,
+P4CZ16870,slob dpon dbang pos byin/,,,,,,,,,
+P1KG10638,'jam dbyangs kha che paN+Di ta/,,,,1300,1399,,,,
+P4095,sde dge rgyal po bstan pa tshe ring /,,,1678,,,1738,,,
+P940,'brug chen 06 mi pham dbang po/,,,1641,,,1717,,,
+P4CZ15102,paN+Di ta rnam par rgyal ba dbang po'i zhabs/,*Vijayendra,,,,,,,,
+P4CZ15597,slob dpon rta mchog zhabs/,,,,,,,,,
 P3130,dpal 'phrog byed bzang po/,,,,1300,1399,,,,
-P4CZ10508,bde byed bdag po/,,,,,,,,,
-P3457,byang chub 'od/,,,,1000,1099,,,,
+P4CZ10508,slob dpon bde byed bdag po/,,,,,,,,,
+P3457,lha bla ma byang chub 'od/,,,,1000,1099,,,,
 P3927,rig pa'i khu byug che ba/,,,,,,,,,
-P4278,rdo rje grags pa/,,,1085,,,1161,,,
-P153,blo gros dpal bzang /,,,1299,,,,,,
-P39,khyung po rnal 'byor/,,,,978,990,1127,,,
-P0RK998,dga' rab rdo rje/,"*Prahevajra,*Pramodavajra,*Surativajra",,,,,,,,
-P2JM167,rgyal ba mchog dbyangs/,,,,700,799,,,,
-P6242,rgya ma pa yon tan 'od/,guṇaprabha,,,,,,,,
+P4278,ras chung rdo rje grags pa/,,,1085,,,1161,,,
+P153,lo tsA ba blo gros dpal bzang /,,,1299,,,,,,
+P39,mkhas grub khyung po rnal 'byor/,,,,978,990,1127,,,
+P0RK998,sprul sku dga' rab rdo rje/,"*Prahevajra,*Pramodavajra,*Surativajra",,,,,,,,
+P2JM167,ngan lam rgyal ba mchog dbyangs/,,,,700,799,,,,
+P6242,slob dpon yon tan 'od/,guṇaprabha,,,,,,,,
 P4CZ15250,dam tshig rdo rje/,,,,,,,,,
-P4921,skyabs mchog dpal bzang /,,,,1300,1399,,,,
-P4CZ15607,phra ras/,,,,,,,,,
-P476,chos skyong bzang po/,,,1441,,,1527,,,
-P2146,byams pa mgon/,,,,1200,1299,,,,
-P7418,chos grags/,,,,,,,,,
-P4CZ15596,gar pa ri pa/,,,,,,,,,
-P5312,chos kyi nyin byed/,,,,1300,1399,,,,
+P4921,lo chen skyabs mchog dpal/,,,,1300,1399,,,,
+P4CZ15607,paN+Di ta 'phra ras/,,,,,,,,,
+P476,zhwa lu lo tsA ba chos skyong bzang po/,,,1441,,,1527,,,
+P2146,slob dpon byams pa mgon/,,,,1200,1299,,,,
+P7418,lo tsA ba ldi ri chos grags/,,,,,,,,,
+P4CZ15596,slob dpon 'gar pa ri pa/,,,,,,,,,
+P5312,sing ga la pa chos kyi nyin byed/,,,,1300,1399,,,,
 P8337,pad+ma 'i thod phreng /,,,,,,,,,
 P7135,dpa' bo 'od gsal/,"*Vīraprabhāsvara,*Vīraprakāśa",,,,,,,,
-P3674,gzhon nu dpal/,,,,1100,1199,,,,
-P6866,jam dbyangs ston gzhon/,,,1224,,,,,,
-P4CZ16763,shes rab thar pa/,,,,,,,,,
-P154,rin chen rnam rgyal/,,,1318,,,1388,,,
-P6515,seng+ge rgyal mtshan/,,,1345,,,1413,,,
-P4CZ15618,rga lo gzhon nu dpal/,,,,,,,,,
-P003JR5071,nyi ma'i seng+ge'i 'od/,,,,,,,,,
-P4CZ15156,bsod nams 'byung gnas bzang po/,,,,,,,,,
-P2387,kun dga' grol mchog,,,1507,,,1565,,,
-P801,tshul khrims rin chen/,,,1697,,,1774,,,
-P1440,rin chen bkra shis/,,,,1400,1499,,,,
+P3674,rgwa lo gzhon nu dpal/,,,,1100,1199,,,,
+P6866,btsun pa ston gzhon/,,,1224,,,,,,
+P4CZ16763,mkhan po shes rab thar pa/,,,,,,,,,
+P154,sgra tshad pa rin chen rnam rgyal/,,,1318,,,1388,,,
+P6515,yar klung pa seng+ge rgyal mtshan/,,,1345,,,1413,,,
+P4CZ15618,rga lo tsA ba gzhon nu dpal/,,,,,,,,,
+P003JR5071,slob dpon nyi ma'i seng+ge'i 'od/,,,,,,,,,
+P4CZ15156,mkhan po bsod nams 'byung gnas bzang po/,,,,,,,,,
+P2387,rje btsun kun dga' grol mchog,,,1507,,,1565,,,
+P801,zhu chen tshul khrims rin chen/,,,1697,,,1774,,,
+P1440,karma lo tsA ba rin chen bkra shis/,,,,1400,1499,,,,
 P5660,ye shes snying po/,,,,700,799,,,,
-P4CZ16885,lce khyi 'brug,,,,,,,,,
-P5171,bsod nams rgya mtsho/,,,,,,,,,
-P151,blo gros rgyal mtshan/,,,1294,,,1376,,,
-P2CZ8011,thang san bla ma/,,,602,,,664,Chinese,,
-P4CZ15617,rong gling rdo rje dbang phyug,,,,,,,,,
-P4CZ15131,byang chub rdo rje/,,,,,,,,,
-P4CZ15629,dge bsnyen nyi ma/,,,,,,,,,
+P4CZ16885,lo tsA ba lce khyi 'brug,,,,,,,,,
+P5171,dA ri Da pa/,,,,,,,,,
+P151,sa bzang ma ti paN chen blo gros rgyal mtshan/,,,1294,,,1376,,,
+P2CZ8011,thang sde snod gsum pa/,,,602,,,664,Chinese,,
+P4CZ15617,rong gling lo tsA ba rdo rje dbang phyug,,,,,,,,,
+P4CZ15131,slob dpon byang chub rdo rje/,,,,,,,,,
+P4CZ15629,ma ga d+ha'i yul du byung ba'i dge bsnyen nyi ma/,,,,,,,,,
 P8565,rab 'byor zla ba/,,,,,,,,,
-P8LS12977,kun mkhyen ye shes,,,,,,,is it really the correct person?,,
-P0RK737,shes rab bsod nams,,,,,,,,,
+P8LS12977,kun mkhyen ye shes/,,,,,,,is it really the correct person?,,
+P0RK737,shes rab bsod nams/,,,,,,,,,
 P0TMPT002,phyug mtshams dbang phyug rgyal po,,,,,,,,,
 P0TMPT003,rma dge ba'i blo gros,,,,,,,,,
 P0TMPT004,bsod nams mos pa,,,,,,,,,
