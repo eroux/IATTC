@@ -39,7 +39,7 @@ P4CZ10536,pad+ma rdo rje/,padmavajra,,,,,,,,ma,,
 P4CZ15387,tsi to/,sahajayoginī cintā ?,,,,,,,,ma,,
 P4CZ15145,dpal nyin mo mdzad/,*divākaravajra,,,,,,,,ma,,
 P1KG3464,dza gat+ta tA lar gnas pa/,jagaddalanivāsin ?,,,700,799,,,,ma,,
-P4CZ15386,lak+Shi mi ka ra/,lakṣmīkara,,,,,,,,ma,,
+P4CZ15386,lak+Shi mi ka ra/,lakṣmīkara,,,,,,,"see P1051, the two are confused in the attributions, needs cleanup, see Tibskrit",ma,,
 P4CZ15495,ke d+ha ra Na d+hi/,kedharanaṇaddhi,,,,,,,,ma,,
 P3926,rin chen bzang /,,,,,,,,,ma,,
 P4CZ15253,mi gnas rdo rje/,asthiravajra,,,900,1099,,,,ma,,
@@ -151,7 +151,7 @@ P4CZ16878,dpal sde/,śrīdeva ?,,,,,,,,ma,,
 P4CZ15435,ko ki la/,kokila,,,,,,,,ma,,
 P4CZ15433,kan+tha ri/,kanthālin ?,,,,,,,,ma,,
 P4CZ15566,bskal pa bzang po'i rdo rje/,subhagavajra,,,,,,,,ma,,
-P2548,shes rab go cha/,prajñāvarman,,,800,999,,,P4CZ15493,ma,,"P4255,P8205,P1KG8854,P8263,P8209,P8228"
+P2548,shes rab go cha/,prajñāvarman,,,800,999,,,only for the author,ma,,"P4255,P8205,P1KG8854,P8263,P8209,P8228"
 P1300,snyan grags bzang po/,yaśobhadra,,,1300,1399,,,,ma,,
 P4CZ16785,ngang tshul bzang po/,śīlabhadra,,,,,,,,ma,,
 P4CZ15349,blo gros bzang po/,matibhadra,,,,,,,,ma,,
@@ -316,7 +316,7 @@ P4CZ15424,d+ha ma d+hu ma/,dharmadhūma,,,,,,,,ma,,
 P4CZ15205,brgya byin sdong po/,indraṇāla,,,,,,,,ma,,
 P4CZ15422,ka ma ri/,karmāra,,,800,999,,,,ma,,
 P4CZ15421,g+ha d+ha ri/,guḍarī ?,,,,,,,,ma,,
-P4CZ10509,blo gros bkra,Mātṛceṭa,,,,,"has a whole litany of other name, P0ER0003 is a duplicate (?)",,,ma,,
+P4CZ10509,blo gros bkra,Mātṛceṭa,,,,,,,"has a whole litany of other name, P0ER0003 is a duplicate (?)",ma,,
 P4CZ15577,bA ling A tsar+ya/,"bāliṅācarya,balyācārya",,,,,,,,ma,,
 P4CZ15118,nor bzang /,maṇibhadrā,,,,,,,,ma,,
 P4CZ15420,a tsin+ta/,acinta,,,,,,,,ma,,
@@ -355,7 +355,7 @@ P5263,hUM ka ra/,"vajrahūṁkāra,hūṁkāra",,,1200,1299,,,,"ma,pa",,P7743
 P7599,tsan+d+ra go mi/,candragomi,,,600,699,,,,"ma,pa",,
 P7868,sangs rgyas gsang ba/,"buddhaguhya,buddhagupta",,,750,810,,,,"ma,pa",,"P4257,P4CZ10539,P4CZ15455"
 P9849,bI NA pa/,vināpāda,,,,,,,,"ma,pa",,
-P4CZ15493,pra dz+nya war ma/,prajñāvarma,,,800,899,,,duplicate of P2548 ?,"ma,pa",,"P8175,P8205,P4CZ10511,P753"
+P4CZ15493,pra dz+nya war ma/,prajñāvarma,,,800,899,,,the translator,"ma,pa",,"P8175,P8205,P4CZ10511,P753"
 P7648,"ma NI ka shrI dz+nyA na/,lo tsA'i ming can ma ni shrI dz+nya na/,'bri gung lo tsA ba ma ni ka shrI dz+nya na/",māṇikaśrījñāna ?,,,1000,1099,,,"dates to check, BDRC also had 13th. c","ma,pa",,"P1025,P753"
 P4CZ10575,jam dpal ye shes/,majuśrījñāna ?,,,1000,1099,,,RR: 14th-15th c.,"ma,pa",,"P3731,P3816,P3088"
 P4CZ10574,A nan+da badz+ra/,ānandavajra,,,1200,1299,,,,"ma,pa",,
@@ -418,7 +418,7 @@ P1050,sa dbang bzang po/,,,,1100,1299,,,,"ma,pa",,
 P3299,nag po pa/,kṛṣṇa,,,,,,,,"ma,pa",,"P3458,P3890,P2614"
 P4CZ15153,jigs byed lha/,bhairavadeva,,,1000,1099,,,,"ma,pa",,P4243
 P4CZ15286,li la badz+ra/,līlavajra,,,1000,1099,,,,"ma,pa",,
-P1051,"lak+Shi mi ka ra/,dpal mo","lakṣmīkara,Lakṣmīṅkarā,Lakṣmī",,,1100,1199,,,,"ma,pa",,P1046
+P1051,"lak+Shi mi ka ra/,dpal mo","lakṣmīkara,Lakṣmīṅkarā,Lakṣmī",,,1100,1199,,,this should probably be split into (at least) two between lakṣmīkara (male) and Lakṣmīṅkarā (female(s)),"ma,pa",,P1046
 P9948,sher 'byung sbas pa/,prajñākaragupta,,,,,,,,"ma,pa",,
 P4CZ15260,mar me mdzad bzang po/,dīpaṁkarabhadra,,,900,999,,,duplicate of P3379 ?,"ma,pa",,P3731
 P4CZ10561,ba ren+dra ru tsi/,bharentraruce ?,,,1200,1299,,,,"ma,pa",,"P4CZ10557,P2551"
@@ -433,7 +433,7 @@ P4CZ15509,shAn+ta ka ra/,"śāntakara,Śānta",,,,,,,here we may conflate two pe
 P4CZ15172,a b+hi sang ka ta/,abhisaṅkata ?,,,,,,,,"ma,pa",,P5169
 P6161,zhi ba lha/,śāntideva,,,,,,,,"ma,pa",,
 P1KG3490,ku mA ra shrI b+ha dra/,kumāraśrībhadra,,,1000,1099,,,,"ma,pa",,"P2168,P1242"
-P4CZ15517,gang+ga d+ha ra/,gaṅgādhara,,,,,,,,"ma,pa",,P753
+P4CZ15517,gang+ga d+ha ra/,"gaṅgādhara,gaṅgādharā ?",,,,,,,"same as the Dakini ? (Maitripa's wife, Gaṅgādharā)","ma,pa",,P753
 P8166,"vimalasri b+ha dra,bi ma la shrI,dri med dpal bzang po,kha che'i paN+Di ta dri med dpal bzang po",vimalaśrībhadra,,,,,,,DM: later period,"ma,pa",,"P1052,P3980"
 P4CZ16758,tsan+d+ra ha ri/,candrahari,,,1100,1199,,,,"ma,pa",,P4CZ10524
 P8141,sa man+ta shrI/,samantaśrī,,,,,,,,"ma,pa",,P3146
