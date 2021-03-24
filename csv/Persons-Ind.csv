@@ -1,4 +1,4 @@
-,names_tib,names_skt,reviewer,birth year,floruit_not_before,floruit_not_after,death_year,period,notes,roles,can be confused with,worked with
+ID,names_tib,names_skt,reviewer,birth year,floruit_not_before,floruit_not_after,death_year,period,notes,roles,can be confused with,worked with
 "for records in the BDRC database, indicate it here (ex: P123), for duplicates, indicate all IDs, for records not in the BDRC database, create an ID starting with P1TMP (ex: P1TMP123)",coma separated list of names in Tibetan,"coma-separated list of Sanskrit names, in IAST",,when known,,,,Earlier (E) or Later (L),,"ma = main author, pa = pandita, tr = translator",,computed automatically
 P4CZ15477,slob dpon grags pa'i bshes gnyen/,yaśomitra,,,,,,,,ma,,
 P4CZ15453,slob dpon gzugs bzang /,surūpa,,,,,,,,ma,,
@@ -35,7 +35,7 @@ P8206,tse lu/,celu-pa,,,,,,,,ma,,P3709
 P4CZ10537,slob dpon zab pa'i rdo rje/,gambhīravajra,,,,,,,,ma,,
 P4CZ15231,slob dpon li ka ri'i zhabs/,likari ?,,,900,999,,,,ma,,
 P4CZ15146,slob dpon blo bzang ngang tshul/,sumatiśīla,,,600,799,,,,ma,,
-P4CZ10536,slob dpon pad+ma badz+ra/,padmavajra,,,,,,,,ma,,
+P4CZ10536,slob dpon pad+ma badz+ra/,padmavajra,,,,,,,the BDRC record also lists devacandra as his name... is that so??,ma,,
 P4CZ15387,rnal 'byor ma tsi to/,sahajayoginī cintā ?,,,,,,,,ma,,
 P4CZ15145,slob dpon dpal nyin mo mdzad/,*divākaravajra,,,,,,,,ma,,
 P1KG3464,dza gat+ta tA lar gnas pa/,jagaddalanivāsin ?,,,700,799,,,,ma,,
@@ -96,7 +96,7 @@ P4CZ15098,mkhas pa chen po legs pa'i grags pa/,sādhukīrti,,,,,,,,ma,,
 P4111,kha che zla ba mngon dga',,,,,,,,,ma,,
 P3236,tsi lu paN+Di ta/,celuka ?,,,,,,,,ma,,
 P4CZ15170,paN+Di ta brtson 'grus dpal bshes gnyen/,vīryaśrīmitra,,,,,,,,ma,,
-P8398,'jam dpal bshes gnyen/,mañjuśrīmitra,,,600,699,,,,ma,,
+P8398,jam dpal bshes gnyen/,mañjuśrīmitra,,,600,699,,,,ma,,
 P3453,gser gling pa chos kyi grags pa/,dharmakīrti,,,900,999,,,circa 8th-9th c.,ma,,
 P4CZ15084,dus zhabs pa chen po 'jam pa'i rdo rje/,Kālacakrapāda ? mañjuvajra ?,,,,,,,are these two different persons?,ma,,
 P4CZ15506,dge slong ma zla mdzes/,,,,,,,,,ma,,
@@ -105,7 +105,7 @@ P4CZ73591,shAkya'i dge slong paN+Di ta gnas brtan chen po stobs bcu dpal bshes g
 P3455,slob dpon dpa' bo rdo rje/,vīravajra,,,900,999,,,,ma,,
 P4CZ15082,rigs ldan pad+ma dkar po/,puṇḍarīka,,,,,,,,ma,,
 P4CZ15419,paM ka la/,paṅkaja ?,,,,,,,,ma,,
-P4CZ15637,'phags pa rnam grol sde/,vimuktisena,,,,,,,,ma,,
+P4CZ15637,phags pa rnam grol sde/,vimuktisena,,,,,,,,ma,,
 P4CZ15504,snyan ngag mkhan shrI badz+ra de wa/,śrīvajradeva,,,1300,1399,,,"RR: 14th c., same name as P4237 but different date s?",ma,,
 P0RK1376,shAkya rak+shi ta/,śākyarakṣita,,,,,,,,ma,,
 P3216,ma ti pa/,sthiramati ?,,,,,,,,ma,,
@@ -136,7 +136,7 @@ P4CZ15438,slob dpon saM mu dra/,samudra,,,,,,,,ma,,
 P4CZ15305,slob dpon ke ra li pa/,keralī,,,,,,,,ma,,
 P4CZ15414,slob dpon tso ra g+hi/,cauraṅgin,,,,,,,,ma,,
 P4CZ15219,slob dpon su dza+nya na shrI bha dra/,Sujayaśrībhadra,,,900,1099,,,,ma,,
-P7136,'jigs med dpal/,abhayaśrī,,,,,,,,ma,,
+P7136,jigs med dpal/,abhayaśrī,,,,,,,,ma,,
 P4CZ10516,slob dpon sangs rgyas bskyangs/,buddhapālita,,,,,,,,ma,,
 P4CZ16767,slob dpon mdzes bkod/,sundaravyūha,,,,,,,,ma,,
 P4CZ15437,slob dpon ni la kha+ta/,nīlakaṇṭha,,,,,,,,ma,,
@@ -156,7 +156,7 @@ P1300,snyan grags bzang po/,yaśobhadra,,,1300,1399,,,,ma,,
 P4CZ16785,slob dpon ngang tshul bzang po/,śīlabhadra,,,,,,,,ma,,
 P4CZ15349,slob dpon blo gros bzang po/,matibhadra,,,,,,,,ma,,
 P4CZ15458,shud+hi pra b+ha/,śuddhiprabha,,,800,999,,,,ma,,
-P4CZ15106,'jam dpal mi'i dbang po grags pa/,narendrakīrti,,,,,,,,ma,,
+P4CZ15106,jam dpal mi'i dbang po grags pa/,narendrakīrti,,,,,,,,ma,,
 P4CZ15432,rnal 'byor ma me kha li/,mātṛkā kaṅkālamekhalā ?,,,,,,,,ma,,
 P7374,dga' ba'i lha/,"Śrīharṣadeva,Harṣadeva",,,,,,,DM: 600-647,ma,,
 P4CZ16871,slob dpon na bi d+harma/,navidharma,,,,,,,,ma,,
@@ -253,7 +253,7 @@ P4CZ10543,ma hA su kha ta badz+ra/,mahāsukhatavajra ?,,,,,,,,ma,,
 P5344,slob dpon slob dpon pradz+nyA sa mu dra/,prajñāsamudra,,,,,,,,ma,,
 P4CZ15281,slob dpon bi ma la gar+ba/,vimalagarbha,,,700,899,,,,ma,,
 P4CZ10566,shAkya srung ba/,śākyarakṣita,,,,,,,,ma,,
-P7413,'chi med seng+ge,amarasiṁha,,,,,,,,ma,,
+P7413,chi med seng+ge,amarasiṁha,,,,,,,,ma,,
 P4CZ10542,dge slong ma dpal mo/,lakṣmī bhaṭṭārikā ?,,,,,,,,ma,,
 P4CZ16818,khyad par bshes gnyen/,"Viśeṣamitra,subhamnimitra?",,,700,899,,,,ma,,
 P8190,slob dpon zla ba'i 'od/,candraprabha,,,,,,,,ma,,
@@ -575,7 +575,7 @@ P4CZ15151,paN+Di ta k+She la ka ga na/,kṣemegagana ?,,,1000,1099,,,,pa,,P8168
 P4CZ15284,a tsar+ya bi na ya tsan+dra/,vinayacandra,,,1000,1099,,,,pa,,P3890
 P4CZ54055,shrI many+dzu bha dra/,Mañjuśrībhadra,,,,,,,,pa,,P4CZ16819
 P4CZ10565,mkhan po pUr+Na kIrti/,puṇyakīrti,,,,,,,DM: Evidently a teacher of Śākyaprabha,pa,,"P3285,P4180"
-P2252,'bri gung lo tsA ba ma Ni ka shrI/,"Maṇikaśrī,Maṇikaśrījñāna",,1289,,,1363,,duplicate of P7648 ?,pa,,
+P2252,bri gung lo tsA ba ma Ni ka shrI/,"Maṇikaśrī,Maṇikaśrījñāna",,1289,,,1363,,duplicate of P7648 ?,pa,,
 P4CZ15089,paN+Di ta chen po wA gi shwa ra gup+ta pa/,vāgīśvaraguptapada,,,1000,1099,,,,pa,,"P3146,P1581,P1582,P3814"
 P4CZ16901,sman pa ra gu nA tha/,ragunātha,,,1600,1699,,,,pa,,P2947
 P4CZ15087,paN+Di ta bi shwa shrI/,viśvaśrī,,,1000,1099,,,,pa,,P8129
@@ -618,19 +618,18 @@ P856,zhwa lu lo tsA ba chos skyong bzang po/,Dharmapālabhadra,,1441,,,1527,,,"p
 P4CZ15232,paN+Di ta nag po chen po ro 'dzin/,,,,1000,1099,,,,"pa,tr",,P00EGS1017627
 P4CZ15169,rnal 'byor pa pradz+nyA shrI dz+nyA na kirti/,prajñāśrījñānakīrti ?,,,,,,,,"pa,tr",,
 P4CZ15099,paN+Di ta bi nA ya shrI mi tra/,vinayaśrīmitra,,,1200,1299,,,,"pa,tr",,P4101
-P3458,'gos lo tsA ba khug pa lhas brtsas/,,,,1000,1099,,,duplicate of P4CZ10531 ? RR: early 11th,"pa,tr",,"P4CZ15179,P4CZ10529,P4CZ15147,P4CZ10531,P8892,P7048,P8161,P8215,P5782,P8241,P8224,P8195,P3302,P8151,P4CZ10545,P3299"
+P3458,gos lo tsA ba khug pa lhas brtsas/,,,,1000,1099,,,duplicate of P4CZ10531 ? RR: early 11th,"pa,tr",,"P4CZ15179,P4CZ10529,P4CZ15147,P4CZ10531,P8892,P7048,P8161,P8215,P5782,P8241,P8224,P8195,P3302,P8151,P4CZ10545,P3299"
 P4CZ15464,paN+Di ta ku mA ra ka la sha,,,,800,899,,,,"pa,tr",,
 P4CZ15137,mkhan po gzhon nu bum pa/,kumārakalasa,,,1100,1199,,,"duplicate of P8215 ? looks so, if not some attributions should be checked","pa,tr",,"P5197,P8216,P2554"
 P5568,zhwa lu lo chen rin chen bzang po/,,,,,,1563,,,"pa,tr",,"P8171,P8093,P753"
 P4257,paN+Di ta many+dzu shrI wa rma/,mañjuśrīvarma,,,1000,1099,,,RR: 9th c. ? unclear,"pa,tr",,"P8213,P3890,P7868,P2551"
 P4CZ15390,bla ma d+ha ri shrI dz+nyA na/,dhiriśrījñāna ?,,,1000,1099,,,,"pa,tr",,"P4CZ10557,P2554"
-P1242,rma lo tsA ba dge ba'i blo gros/,,,,,,1089,,RR: 1044-1089,"pa,tr",,"P3379,P1KG3490,P4CZ15090,P8216,P4CZ10517,P4CZ15362,P3378"
 P2551,rngog blo ldan shes rab/,,,1059,,,1109,,,"pa,tr",,"P4CZ15246,P8165,P8893,P8246,P4CZ10561,P4CZ16840,P8225,P4920,P4CZ15266,P3890,P8226,P4CZ16848,P4257,P4CZ16749,P4CZ15496,P4CZ15136"
 P8250,rnal 'byor bsod snyoms pa pra dz+nyA na kIrti/,prajāśrījānakīrti ?,,,,,,,,"pa,tr",,
 P1448,o rgyan pa rin chen dpal/,,,,1229,1230,1309,,RR: 11th c. ?,"pa,tr",,"P4CZ16877,P4CZ15229"
 P5931,slob dpon zla ba grags pa/,,,,,,,,,"pa,tr",,
 P7847,dge ba'i dbang po/,Kṣemendra,,,1000,1099,,,,,,
-P8220,lo tsA ba de ba tsan+dra/,devacandra,,,,,,,RR: 8th c.,,,"P8209,P8217"
+P8220,"lo tsA ba de ba tsan+dra/,lha'i zla ba",devacandra,,,,,,,RR: 8th c.,,,"P8209,P8217"
 P8266,zhu chen gyi lo tsA ba dharma tA shI la/,Dharmatāśīla,,,,,,,RR: 8th c.,,,"P4CZ16819,P753,P8209,P8222,P7641,P8205,P1KG8854,P0RK8,P8273,P8280,P8228,P3939"
 P4CZ15592,paN+Di ta shA ri pu tra/,Śāriputra,,,800,899,,,,,,
 P3388,slob dpon dad byed go cha/,sradhakaravarma,,,1000,1099,,,,,,"P3890,P8216,P753"
@@ -655,7 +654,7 @@ P10180,mi nyag pra dz+nyA dzwa la/,,,,1100,1199,,,,,,
 P4CZ15447,slob dpon b+ha bi lha/,bhabideva ?,,,,,,,,,,
 P8251,dza+nyA na shrI/,jñānaśrī,,,,,,,,,,
 P4CZ15601,lo tsA ba pad+ma ru tshe/,Padmaruci ?,,,1300,1499,,,,,,
-P4CZ15303,'phags pamaung+gal gyi bu/,,,,,,,,,,,
+P4CZ15303,phags pamaung+gal gyi bu/,,,,,,,,,,,
 P4CZ15587,bal pa'i mkhan po mu ti ta shrI dz+nya na/,mutitaśrījñāna,,,1100,1199,,,duplicate of P4CZ16738 ?,,,
 P4CZ15599,paN+Di ta pur+Na badz+ra/,pūrṇavajra,,,1500,1599,,,,,,
 P4CZ15602,slob dpon dz+nyA na dza ya/,jñānajaya,,,,,,,,,,
@@ -695,7 +694,7 @@ P0TMP018,"klu'i blo, klu yi blo, klu'i blo gros,klu sgrub snying po ?","Nāgamat
 P0TMP019,rgya gar gyi mkhan po A lang+ka ka la sha,Alaṅkakalaśa,,,,,,,,,,
 P0TMP020,bal po'i dge bsnyen su'o 'di ta,Suḥodīta,,,,,,,,,,
 P0TMP021,rgyan pa,*Vibhūṣita,,,,,,,,,,
-P0TMP022,blo gros seng ge ,,1345?,,,1390,,,,,,
+P0TMP022,blo gros seng ge,,1345?,,,1390,,,,,,
 P0TMP023,,Kāca,,,,,,,,,,
 P0TMP024,bal po'i mkhan po su ma ti tsan+d+ra,sumaticandra,,,,,same as P42 ?,,,,,
 P0TMP025,lo tsA ba shrI pradz+nyA dz+nyA na kI rti,Prajñājñānakīrti,,,,,,,,,,
@@ -779,3 +778,6 @@ P8212,rtsangs de wendra raksita/,devendrarakṣita,,700,799,,,,,,,
 P0TMP092,paN+Di ta A nan+da shrI,Ānandaśrī,,,,,"Sinhalese, translator of the Theravadin texts",,,,,
 P0TMP093,bka' bcu su b+hag shre yang+h+wa dza,Subhagaśreyadhvaja,,,,,Chinese ?,,,,,
 P0TMP094,bka' bcu d+h+yA nA riSh+DaM byAs,Dhyānāriṣṭavyāsa,,,,,Chinese ?,,,,,
+P0TMP095,zhu ba'i lots+tsha ba ban de pa ba tong,?,,,,,Chinese ?,,,,,
+P0TMP096,rgya'i lo ts+tsha ba ban de tong A tsar+ya,Tong Ācārya,,,,,Chinese,,,,,
+P0TMP097,rgya gar gyi mkhan po A tsar+ya dz+nyA na shrI gub ta,Jñānaśrīgupta,,,,,,,,,,
