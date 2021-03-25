@@ -460,7 +460,7 @@ P1520,paN chen rat+na raksi ta/,ratnarakṣita,,,1100,1199,,,,"ma,pa,tr",,P5897
 P5013,lo chen bai ro tsa na/,Vairocana,,,700,799,,,RR: 8th/9th,"ma,pa,tr",,"P8203,P8217,P3JT5599,P4956"
 P2956,paN+Di ta krsNa pa/,kṛṣnapaṇḍita,,,1000,1099,,,,"ma,pa,tr",,"P3890,P3456"
 P8893,paN+Di ta sumati kirti/,sumatikīrtī,,,1200,1299,,,,"ma,pa,tr",,"P4CZ10533,P3814,P2553,P2551,P2614,P4266"
-P10154,o rgyan gyi paN+Di ta shes rab gsang ba/,"prajñāśrīgupta,Prajñāguhya",,,900,1099,,,,"ma,pa,tr",,
+P10154,o rgyan gyi paN+Di ta shes rab gsang ba/,"prajñāśrīgupta,Prajñāguhya",,,900,1099,,,duplicate of P4CZ10538 ?,"ma,pa,tr",,
 P4CZ16819,slob dpon shAkya 'od/,śākyaprabha,,,700,799,,,,"ma,pa,tr",,"P4CZ16770,P4CZ54055,P8222,P8205,P8266,P0RK8,P1KG8854,P8209,P8265"
 P4CZ10541,paN+Di ta zla ba gzhon nu/,candrakumāra,,,,,,,RR: 8th c.,"ma,pa,tr",,P2554
 P8252,kha che'i paNDita a nan+ta/,ānanda,,,1000,1099,,,,"ma,pa,tr",,"P3143,P4266"
@@ -491,7 +491,7 @@ P4CZ15278,mkhan po dpal phyogs dbang dga' byed/,Digīśanandana,,,1200,1299,,,,p
 P4CZ15471,mkhan po kA la tsa kra/,kālacakra,,,600,799,,,,pa,,
 P3261,slob dpon rgyal ba'i rgyal mtshan/,jayankara ?,,,1200,1299,,,,pa,,P2636
 P9840,rgya gar gyi mkhan po dzA ran+da na/,jārandana,,,900,999,,,,pa,,
-P4CZ10538,mkhan po chen po pradz+nyA shrI gub+ta/,prajñāśrīgupta ?,,,,,,,,pa,,P4CZ10539
+P4CZ10538,mkhan po chen po pradz+nyA shrI gub+ta/,prajñāśrīgupta ?,,,,,,,duplicate of P10154 ?,pa,,P4CZ10539
 P4CZ15167,bal po lo tsA ba dze ta ha du shan+ti b+ha dra/,śāntibhadra ?,,,1300,1399,,,,pa,,P4307
 P8161,mkhan po dzi na wa ra/,jinavara,,,,,,,,pa,,P3458
 P3396,dzi na mi tra/,jinamitra,,,,,,,,pa,,P8205
@@ -782,3 +782,5 @@ P0TMP095,zhu ba'i lots+tsha ba ban de pa ba tong,?,,,,,Chinese ?,,,,,
 P0TMP096,rgya'i lo ts+tsha ba ban de tong A tsar+ya,Tong Ācārya,,,,,Chinese,,,,,
 P0TMP097,rgya gar gyi mkhan po A tsar+ya dz+nyA na shrI gub ta,Jñānaśrīgupta,,,,,,,,,,
 P8145,rgya gar gyi mkhan po gzhan la phan pa mtha' yas,,,,,,,,,,,
+P0TMP098,rgya gar gyi mkhan po dzi na bar,Jinapara,,,,,same as P8161 ?,,,,,
+P0TMP099,paN+Di ta a tu la dA sa badzra,"Atuladāsavajra, Atulyadāsa",,,,,,,,,,
