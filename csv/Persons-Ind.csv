@@ -381,7 +381,7 @@ P00KG02663,slob dpon ta thA ga ta rak+Shi ta/,Tathāgatarakṣita,,,1000,1099,,,
 P3870,mkhan chen rat+na A ka ra/,ratnākara ?,,,1400,1499,,,,"ma,pa",,P6453
 P4CZ15081,dpal ye shes/,śrījñāna,,,,,,,,"ma,pa",,P4CZ10557
 P8175,ye shes snying po/,jñānagarbha,,,800,899,,,,"ma,pa",,"P4CZ10511,P4260,P4CZ15493,P8205,P8183"
-P8151,ga ya dha ra/,gayādhara,,,1000,1099,,,,"ma,pa",,"P3458,P3285,P3458 = bdr:P4CZ10531"
+P8151,ga ya dha ra/,gayādhara,,,1000,1099,,,duplicate of P3302 ?,"ma,pa",,"P3458,P3285,P3458 = bdr:P4CZ10531"
 P3217,dar pana A tsar+ya/,"dharpacacargya,darpaṇācārya,Durpaṇācārya",,,1000,1199,,,,"ma,pa",,"P1061,P5820"
 P8226,kha che'i paN+Di ta ma hA dz+nyA na/,mahājñana ?,,,,,,,,"ma,pa",,"P3709,P4418,P2551,P4CZ15648,P4417"
 P4CZ15523,paN+Di ta pra b+ha ka ra/,prabhākara,,,900,999,,,,"ma,pa",,P753
@@ -521,7 +521,7 @@ P4CZ15307,paN+Di ta U to pa ti/,utopati,,,1000,1099,,,,pa,,P3088
 P4CZ15501,mkhan po b+ho d+hi tsan+dra/,bodhicandra,,,1100,1199,,,,pa,,P1025
 P8198,devendradeva/,devendradeva,,,,,,,,pa,,
 P4CZ16749,mi mnyam khol po/,,,,1100,1199,,,,pa,,P2551
-P3302,slob dpon ga ya d+ha ra/,gayadhara ?,,,,,,,,pa,,"P3458,P3285,P4CZ15445,P8129"
+P3302,slob dpon ga ya d+ha ra/,gayadhara ?,,,,,,,duplicate of P8151 ?,pa,,"P3458,P3285,P4CZ15445,P8129"
 P4CZ10581,paN+Di ta bim+pa/,vimala ?,,,,,,,,pa,,
 P4CZ15306,mkhan po radz+nyA tra shrI be de ba/,prajñāśrīdeva,,,900,999,,,,pa,,P4CZ15290
 P4CZ15522,paN+Di ta pu ru Shot+ta ma/,puruṣottama,,,1200,1299,,,,pa,,
@@ -638,7 +638,7 @@ P4CZ16780,mkhan po many+dzu shrI gar+b+ha/,majuśrīgarbha,,,,,,,,,,"P8205,P1KG8
 P4013,grub chen sangs rgyas mgon po/,"buddhanātha,Buddhaguptanātha",,,1530,1610,,,,,,P1428
 P8193,karma badzra/,karmavajra,,,,,,,,,,P4418
 P8222,dz+nyA na sid+dhi/,jñānasiddhi,,,,,,,,,,"P4CZ16819,P753,P8209,P8205,P8266,P1KG8854,P8280,P8228"
-P8241,pradz+nyA ka ra/,prajñākara,,,,,,,,,,P3458
+P8241,pradz+nyA ka ra/,prajñākara,,,,,,,P0RK156 is a duplicate ?,,,P3458
 P0TMP002,phags ma nor rgyun ma,,,,,,,,,,,
 P0TMP003,dge slong dga' byed snyan pa,Nandipriya,,,,,,,,,,
 P0TMP004,"bram ze dA ri dra pa, dA ri dra pa rgya mtsho'i sde",Dāridrapa,,,,,,,,,,
@@ -781,3 +781,4 @@ P0TMP094,bka' bcu d+h+yA nA riSh+DaM byAs,Dhyānāriṣṭavyāsa,,,,,Chinese ?,
 P0TMP095,zhu ba'i lots+tsha ba ban de pa ba tong,?,,,,,Chinese ?,,,,,
 P0TMP096,rgya'i lo ts+tsha ba ban de tong A tsar+ya,Tong Ācārya,,,,,Chinese,,,,,
 P0TMP097,rgya gar gyi mkhan po A tsar+ya dz+nyA na shrI gub ta,Jñānaśrīgupta,,,,,,,,,,
+P8145,rgya gar gyi mkhan po gzhan la phan pa mtha' yas,,,,,,,,,,,
