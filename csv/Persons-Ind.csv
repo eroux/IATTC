@@ -381,7 +381,7 @@ P00KG02663,slob dpon ta thA ga ta rak+Shi ta/,Tathāgatarakṣita,,,1000,1099,,,
 P3870,mkhan chen rat+na A ka ra/,ratnākara ?,,,1400,1499,,,,"ma,pa",,P6453
 P4CZ15081,dpal ye shes/,śrījñāna,,,,,,,,"ma,pa",,P4CZ10557
 P8175,ye shes snying po/,jñānagarbha,,,800,899,,,,"ma,pa",,"P4CZ10511,P4260,P4CZ15493,P8205,P8183"
-P8151,ga ya dha ra/,gayādhara,,,1000,1099,,,duplicate of P3302 ?,"ma,pa",,"P3458,P3285,P3458 = bdr:P4CZ10531"
+P8151,ga ya dha ra/,"gayādhara, Kāyastha Gayādhara",,,1000,1099,,,duplicate of P3302 ?,"ma,pa",,"P3458,P3285,P3458 = bdr:P4CZ10531"
 P3217,dar pana A tsar+ya/,"dharpacacargya,darpaṇācārya,Durpaṇācārya",,,1000,1199,,,,"ma,pa",,"P1061,P5820"
 P8226,kha che'i paN+Di ta ma hA dz+nyA na/,mahājñana ?,,,,,,,,"ma,pa",,"P3709,P4418,P2551,P4CZ15648,P4417"
 P4CZ15523,paN+Di ta pra b+ha ka ra/,prabhākara,,,900,999,,,,"ma,pa",,P753
@@ -521,7 +521,7 @@ P4CZ15307,paN+Di ta U to pa ti/,utopati,,,1000,1099,,,,pa,,P3088
 P4CZ15501,mkhan po b+ho d+hi tsan+dra/,bodhicandra,,,1100,1199,,,,pa,,P1025
 P8198,devendradeva/,devendradeva,,,,,,,,pa,,
 P4CZ16749,mi mnyam khol po/,,,,1100,1199,,,,pa,,P2551
-P3302,slob dpon ga ya d+ha ra/,gayadhara ?,,,,,,,duplicate of P8151 ?,pa,,"P3458,P3285,P4CZ15445,P8129"
+P3302,slob dpon ga ya d+ha ra/,gayadhara ?,,,,,,,duplicate of P8151 ? Rigpa wiki gives 994-1043 for one of these,pa,,"P3458,P3285,P4CZ15445,P8129"
 P4CZ10581,paN+Di ta bim+pa/,vimala ?,,,,,,,,pa,,
 P4CZ15306,mkhan po radz+nyA tra shrI be de ba/,prajñāśrīdeva,,,900,999,,,,pa,,P4CZ15290
 P4CZ15522,paN+Di ta pu ru Shot+ta ma/,puruṣottama,,,1200,1299,,,,pa,,
@@ -539,7 +539,7 @@ P3963,rgyal ba bzang po/,,,,1300,1399,,,,pa,,
 P4CZ15567,mkhan po rdi ro Sh+k+ri dz+nyA na/,dhiroṣkrijñāna ?,,,1200,1299,,,,pa,,P4CZ15565
 P8245,bud d+ha ka ra wa rman/,buddhakaravarman ?,,,,,,,,pa,,"P3890,P1760"
 P7132,wa la tsandra/,"balacandra,valacandra ?",,,,,,,,pa,,P7604
-P4CZ15105,rdo rje 'chang nyi ma'i dbang po'i 'od zer/,,,,1200,1299,,,,pa,,P1025
+P4CZ15105,rdo rje 'chang nyi ma'i dbang po'i 'od zer/,"Revendra,",,,1200,1299,,,duplicate of P3202 ?,pa,,P1025
 P4CZ15213,paN+Di ta sA d+hU kIrti/,sādhukīrti ?,,,1200,1299,,,,pa,,P4101
 P4CZ16873,a tsar+ya d+harma shrI war ma/,dharmaśrīvarma,,,1000,1099,,,,pa,,
 P4CZ10545,slob dpon bud+d+hA ka ra badz+ra/,buddhākaravajra,,,,,,,,pa,,"P3458,P8129"
@@ -586,7 +586,7 @@ P4CZ16848,paN+Di ta skal ldan rgyal po/,bhayarāja,,,1000,1099,,,,pa,,"P5651,P25
 P4CZ15072,slob dponkriSh+Na badz+ra/,kṛṣṇavajra,,,,,,,,pa,,
 P4CZ15603,slob dpon sti ra ma ti/,stiramatisa ?,,,,,,,,pa,,
 P4CZ16849,paN+Di ta ku mA ra shrI/,kumāraśrī,,,1000,1099,,,,pa,,
-P3202,re wen+dra pra bha wa/,revendraprabha ?,,,1100,1199,,,,pa,,
+P3202,re wen+dra pra bha wa/,revendraprabha ?,,,1100,1199,,,duplicate of P4CZ15105 ?,pa,,
 P4CZ16842,bud+d+ha b+ha dra/,buddhabhadra,,,900,999,,,,pa,,P753
 P00KG07267,mkhan po sarba dz+nyA de ba/,sarvajñādeva,,,800,899,,,,pa,,"P20,P4CZ10511,P4256,P8213,P8211,P8182,P4259,P8249,P8212,P2JM5"
 P3203,niska laM ka de ba/,niṣkalaṁkadeva,,,1100,1199,,,,pa,,P3939
@@ -784,3 +784,7 @@ P0TMP097,rgya gar gyi mkhan po A tsar+ya dz+nyA na shrI gub ta,Jñānaśrīgupta
 P8145,rgya gar gyi mkhan po gzhan la phan pa mtha' yas,,,,,,,,,,,
 P0TMP098,rgya gar gyi mkhan po dzi na bar,Jinapara,,,,,same as P8161 ?,,,,,
 P0TMP099,paN+Di ta a tu la dA sa badzra,"Atuladāsavajra, Atulyadāsa",,,,,,,,,,
+P0TMP100,rgya gar gyi mkhan po su dza na shrI dz+nyA na,Sujanaśrījñāna,,,,,,,,,,
+P7582,rgya gar gyi mkhan po ni rgA Na shrI,Nirvāṇaśrī,,1550,1650,,Tibetan version of the name should be double checked with the original,,,,,
+P8174,dpal nA ro ba'i slob ma kha che'i baN+Dita A ka ra sid+d+hi,Ākarasiddhi,,,,,,,,,,
+P0TMP101,rgya gar gyi mkhan po wa la tsan+d+ra gu ru chen po,"Valacandra,Baladandra ?",,,,,,,,,,
