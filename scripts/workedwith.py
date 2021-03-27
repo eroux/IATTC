@@ -52,8 +52,8 @@ def addToPersonFile(fnamesrc, fnamedst, res, seenpersons):
         for row in reader:
             pid = row[0]
             if pid in res['perperson']:
-                workedwith = ','.join(list(res['perperson'][pid]))
-                row.insert(10,workedwith)
+                workedwith = ','.join(sorted(list(res['perperson'][pid])))
+                row.insert(13,workedwith)
             rows.append(row)
     with open(fnamedst, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile, quoting=csv.QUOTE_MINIMAL)
