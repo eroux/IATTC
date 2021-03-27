@@ -1,4 +1,4 @@
-ID,title,role,identification,review,indicated value,identification 2,note,sources
+ID,title,role,identification,reviewer,indicated value,ambiguity,note,sources
 "in Derge (D), Narthang (N) or Pecing (P)",The main title in Tibetan,"possible values:
 - author
 - translator
@@ -17,7 +17,7 @@ ID,title,role,identification,review,indicated value,identification 2,note,source
 - translationplace
 - revisionplace
 
-Important note: translator2 is not just another translator who worked with the first translator, it's someone who reworked the translation at a later date, and thus didn't work with the initial translator","the ID of the identified person in the ""Persons"" sheet (this column is what Bruno did)",,The name as indicated in the colophon,this is something the librarians did some time ago,,"possible values are IDs from the source spreadsheet, ""colophon"" or ""karchak"""
+Important note: translator2 is not just another translator who worked with the first translator, it's someone who reworked the translation at a later date, and thus didn't work with the initial translator","the ID of the identified person in the ""Persons"" sheet (this column is what Bruno did)",,The name as indicated in the colophon,add X in this column if the data is ambiguous,,"possible values are IDs from the source spreadsheet, ""colophon"" or ""karchak"""
 D100,phags pa sangs rgyas thams cad kyi yul la 'jug pa'i ye shes snang ba'i rgyan ces bya ba theg pa chen po'i mdo,translatorPandita,P8228,,rgya gar gyi mkhan po su ren dra bo d+hi,,,
 D100,phags pa sangs rgyas thams cad kyi yul la 'jug pa'i ye shes snang ba'i rgyan ces bya ba theg pa chen po'i mdo,translator,P8205,,zhu chen gyi lots+tsha ba ban de ye shes sde,,,
 D1003,phags ma rig sngags kyi rgyal mo chen mo rgyal ba can zhes bya ba,translatorPandita,P8209,,rgya gar gyi mkhan po dzi na mi tra,,,
@@ -527,7 +527,7 @@ D359a,phags pa dum bu zhe gnyis pa zhes bya ba'i mdo,translatorPandita,P0TMP094,
 D36,byams pa bsgom pa'i mdo,translator,P2147,,lo tsA ba shAkya'i dge slong nyi ma rgyal mtshan dpal bzang po,,,
 D36,byams pa bsgom pa'i mdo,translatorPandita,P0TMP092,,paN+Di ta chen po A ran+da shrI,,,
 D36,byams pa bsgom pa'i mdo,translationplace,G257,,gtsug lag khang chen po dpal thar pa gling du bsgyur cing zhus te gtan la phab pa'o,,,
-D360,jam dpal ye shes sems dpa'i don dam pa'i mtshan yang dag par brjod pa,translator,P2085,,sgra bsgyur gyi lo tsA ba dge slong blo gros brtan pa,P1052,,
+D360,jam dpal ye shes sems dpa'i don dam pa'i mtshan yang dag par brjod pa,translator,P2085,to check,sgra bsgyur gyi lo tsA ba dge slong blo gros brtan pa,,,
 D360,jam dpal ye shes sems dpa'i don dam pa'i mtshan yang dag par brjod pa,translationplace,-,,bsam gtan gling gi dben gnas,,,
 D361,dbang mdor bstan pa,translatorPandita,P8094,,kha che'i paN+Di ta so ma nA tha,,,
 D361,dbang mdor bstan pa,translator,P2553,,bod kyi lo tsA ba 'bro dge slong shes rab grags pa,,,
@@ -539,7 +539,7 @@ D362,mchog gi dang po'i sangs rgyas las phyung ba rgyud kyi rgyal po dpal dus ky
 D363,dpal dus kyi 'khor lo'i rgyud phyi ma rgyud kyi snying po zhes bya ba,translator,P6524,to check,shAkya'i dge slong gnyen chung d+harma grags,,,
 D364,dpal dus kyi 'khor lo zhes bya ba'i rgyud kyi snying po,translatorPandita,P8128,,rgya gar gyi mkhan po shrI b+ha dra bo d+hi,,,
 D364,dpal dus kyi 'khor lo zhes bya ba'i rgyud kyi snying po,translator,P8129,,bod kyi lots+tsha ba gyi jo ban+de zla ba'i 'od zer,,,
-D365,dbang gi rab tu byed pa,translatorPandita,P8141,,rgya gar gyi paN+Di ta mkhas pa chen po sa man+ta shrI,P8094,,
+D365,dbang gi rab tu byed pa,translatorPandita,P8141,,rgya gar gyi paN+Di ta mkhas pa chen po sa man+ta shrI,,,
 D365,dbang gi rab tu byed pa,translator,P3146,,lots+tsha ba dge slong chos rab,,,
 D367,rtog pa thams cad 'dus pa zhes bya ba sangs rgyas thams cad dang mnyam par sbyor ba mkha' 'gro sgyu ma bde ba'i mchog gi rgyud phyi ma'i phyi ma,translatorPandita,P4849,,rgya gar gyi mkhan po smri ti dz+nyA na kIrti,,,
 D367,rtog pa thams cad 'dus pa zhes bya ba sangs rgyas thams cad dang mnyam par sbyor ba mkha' 'gro sgyu ma bde ba'i mchog gi rgyud phyi ma'i phyi ma,revisor,P3476,,yon bdag bod kyi mkhan po gzhon nu grags pa,,,
@@ -556,7 +556,7 @@ D37,bslab pa lnga'i phan yon gyi mdo,translationplace,G257,,gtsug lag khang chen
 D370,rgyud kyi rgyal po chen po dpal rdo rje mkha' 'gro zhes bya ba,translatorPandita,P8151,to check,rgya gar gyi paN+Di ta chen po ga ya d+ha ra,,,
 D370,rgyud kyi rgyal po chen po dpal rdo rje mkha' 'gro zhes bya ba,translator,P3458,,bod kyi zhu chen gyi lots+tsha ba 'gos lhas btsas,,,
 D371,rdo rje mkha' 'gro zhes bya ba'i rgyud phyi ma,translatorPandita,P8253,,rgya gar gyi mkhan po chen po mchog gi dbang phyug,,,
-D371,rdo rje mkha' 'gro zhes bya ba'i rgyud phyi ma,translator,P4243,,bod kyi dge slong shAkya brtson 'grus,P3285,,
+D371,rdo rje mkha' 'gro zhes bya ba'i rgyud phyi ma,translator,P4243,,bod kyi dge slong shAkya brtson 'grus,,,
 D371,rdo rje mkha' 'gro zhes bya ba'i rgyud phyi ma,translationplace,-,,grom pa ru lag rgyang phu'i lha ri mo'i mgul gyi dben gnas su bsgyur ba'o,,,
 D372,dpal mkha' 'gro rgya mtsho rnal 'byor ma'i rgyud kyi rgyal po chen po zhes bya ba,translatorPandita,P8144,,dpal rdo rje phag mo'i zhabs kyi chu skyes kyi rdul la reg pa shAkya'i sras po rgyal ba'i sde,,,
 D372,dpal mkha' 'gro rgya mtsho rnal 'byor ma'i rgyud kyi rgyal po chen po zhes bya ba,translator,P8143,,bod kyi lo ts+tsha ba shAkya'i dge slong d+harma yon tan,,,
@@ -576,7 +576,7 @@ D379,dur khrod bdag mos gsol pa,translator,P8129,,lots+tsha ba gyi jo zla ba 'od
 D38,ri'i kun dga' bo'i mdo,translator,P2147,,lo tsA ba shAkya'i dge slong nyi ma rgyal mtshan dpal bzang po,,,
 D38,ri'i kun dga' bo'i mdo,translatorPandita,P0TMP092,,paN+Di ta A nan+da shrI,,,
 D38,ri'i kun dga' bo'i mdo,translationplace,G257,,gtsug lag khang chen po dpal thar pa gling du bsgyur cing zhus te gtan la phab pa'o,,,
-D380,rig pa 'dzin pa rdo rje rnal 'byor ma'i sgrub thabs zhes bya ba,translatorPandita,P7878,,rgya gar gyi mkhan po mkhas pa chen po dza ya se na,P7878,,
+D380,rig pa 'dzin pa rdo rje rnal 'byor ma'i sgrub thabs zhes bya ba,translatorPandita,P7878,,rgya gar gyi mkhan po mkhas pa chen po dza ya se na,,,
 D380,rig pa 'dzin pa rdo rje rnal 'byor ma'i sgrub thabs zhes bya ba,translator,P8143,,lots+tsha ba btsun pa d+harma yon tan,,,
 D381,yang dag par sbyor ba zhes bya ba'i rgyud chen po,translatorPandita,P8151,,rgyud kyi rgyal po 'di ni paN+Di ta gA ya d+ha ra,,,
 D381,yang dag par sbyor ba zhes bya ba'i rgyud chen po,translator,P3285,,bdag nyid chen po 'brog mi shAkya ye shes,,,
@@ -584,7 +584,7 @@ D381,yang dag par sbyor ba zhes bya ba'i rgyud chen po,revisor,P155,,thams cad m
 D382,rgyud kyi rgyal po chen po dpal yang dag par sbyor ba'i thig le zhes bya ba,translatorPandita,P8151,,rgya gar gyi mkhan po kA yas+tha pa ga ya d+ha ra,,,
 D382,rgyud kyi rgyal po chen po dpal yang dag par sbyor ba'i thig le zhes bya ba,translator,P3285,,bod kyi lots+tsha ba dge slong shAkya ye shes,,,
 D382,rgyud kyi rgyal po chen po dpal yang dag par sbyor ba'i thig le zhes bya ba,revisor,P3285,,slad nas kyang rgya gar gyi rgyud bzhi dang /_dge slong shAkya ye shes,,,
-D383,dpal gsang ba rdo rje rgyud kyi rgyal po,translatorPandita,P8152,,paN+Di ta rat+na badzra,P5006,,
+D383,dpal gsang ba rdo rje rgyud kyi rgyal po,translatorPandita,P8152,to check,paN+Di ta rat+na badzra,,,
 D383,dpal gsang ba rdo rje rgyud kyi rgyal po,translator,P3285,,lots+tsha ba dge slong shAkya ye shes,,,
 D384,dpal gsang ba thams cad gcod pa'i rgyud kyi rgyal po,translatorPandita,P8151,,paN+Di ta ga ye d+ha ra,,,
 D384,dpal gsang ba thams cad gcod pa'i rgyud kyi rgyal po,translator,P3285,,lots+tsha ba dge slong shAkya ye shes,,,
@@ -603,7 +603,7 @@ D39,klu'i rgyal po dga' bo nyer dga' 'dul ba'i mdo,translatorPandita,P0TMP092,,p
 D39,klu'i rgyal po dga' bo nyer dga' 'dul ba'i mdo,translationplace,G257,,gtsug lag khang chen po dpal thar pa gling du bsgyur cing zhus te gtan la phab pa'o,,,
 D390,dpal dam tshig chen po'i rgyud kyi rgyal po zhes bya ba,translatorPandita,P8151,,rgya gar gyi mkhan po ga ya d+ha ra,,,
 D390,dpal dam tshig chen po'i rgyud kyi rgyal po zhes bya ba,translator,P3285,,lo ts+tsha ba dge slong shAkya ye shes,,,
-D391,dpal stobs po che'i rgyud kyi rgyal po zhes bya ba,translatorPandita,P8151,to check,paN+Di ta ga ya d+ha ra,P3302,,
+D391,dpal stobs po che'i rgyud kyi rgyal po zhes bya ba,translatorPandita,P8151,to check,paN+Di ta ga ya d+ha ra,,,
 D391,dpal stobs po che'i rgyud kyi rgyal po zhes bya ba,translator,P3285,,lo ts+tsha ba dge slong shAkya ye shes,,,
 D392,dpal ye shes gsang ba'i rgyud kyi rgyal po,translatorPandita,P8153,,rnal 'byor ma tsan+d+ra mA la,,,
 D392,dpal ye shes gsang ba'i rgyud kyi rgyal po,translator,P3285,,lots+tsha ba dge slong shAkya ye shes,,,
@@ -662,10 +662,10 @@ D418,rdo rje snying pos gsol ba,translator,P3285,,bod kyi lo ts+tsha ba dge slon
 D418,rdo rje snying pos gsol ba,revisor,P318,,lo ts+tsha ba gzhon nu dpal,,,
 D419,phags pa mkha' 'gro ma rdo rje gur zhes bya ba'i rgyud kyi rgyal po chen po'i brtag pa,translatorPandita,P8151,to check,rgya gar gyi mkhan po ga ya d+ha ra,,,
 D419,phags pa mkha' 'gro ma rdo rje gur zhes bya ba'i rgyud kyi rgyal po chen po'i brtag pa,translator,P3285,,lo ts+tsha ba dge slong shAkya ye shes,,,
-D420,dpal phyag rgya chen po'i thig le zhes bya ba rnal 'byor ma chen mo'i rgyud kyi rgyal po'i mnga' bdag,translatorPandita,P8159,,rgya gar gyi slob dpon rnal 'byor gyi dbang phyug chen po dpal shes rab gsang ba,P10154,,
+D420,dpal phyag rgya chen po'i thig le zhes bya ba rnal 'byor ma chen mo'i rgyud kyi rgyal po'i mnga' bdag,translatorPandita,P8159,,rgya gar gyi slob dpon rnal 'byor gyi dbang phyug chen po dpal shes rab gsang ba,,,
 D420,dpal phyag rgya chen po'i thig le zhes bya ba rnal 'byor ma chen mo'i rgyud kyi rgyal po'i mnga' bdag,translator,P1359,,ka ma chos kyi ye shes,,,
 D420,dpal phyag rgya chen po'i thig le zhes bya ba rnal 'byor ma chen mo'i rgyud kyi rgyal po'i mnga' bdag,translator,P8160,,phyug mtshams dgra bcom,,,
-D421,dpal ye shes snying po zhes bya ba rnal 'byor ma chen mo'i rgyud kyi rgyal po'i rgyal po,translatorPandita,P8159,,rgya gar gyi mkhan po dpal shes rab gsang ba,P10154,,
+D421,dpal ye shes snying po zhes bya ba rnal 'byor ma chen mo'i rgyud kyi rgyal po'i rgyal po,translatorPandita,P8159,,rgya gar gyi mkhan po dpal shes rab gsang ba,,,
 D422,dpal ye shes thig le rnal 'byor ma'i rgyud kyi rgyal po chen po mchog tu rmad du byung ba zhes bya ba,translatorPandita,P4CZ10538,,rgya gar gyi mkhan po chen po shrI pradz+nyA gup+ta,,,
 D422,dpal ye shes thig le rnal 'byor ma'i rgyud kyi rgyal po chen po mchog tu rmad du byung ba zhes bya ba,translationplace,-,,dpal sa skya'i dben gnas,,,
 D423,dpal de kho na nyid kyi sgron ma zhes bya ba rnal 'byor chen mo'i rgyud kyi rgyal po,translatorPandita,P4CZ10538,,rgya gar gyi mkhan po chen po pradz+nyA shrI gub+ta,,,
