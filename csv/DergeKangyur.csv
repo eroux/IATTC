@@ -16,8 +16,14 @@ ID,title,role,identification,reviewer,indicated value,ambiguity,note,sources
 - revisor3pandita
 - translationplace
 - revisionplace
+- reciter
 
 Important note: translator2 is not just another translator who worked with the first translator, it's someone who reworked the translation at a later date, and thus didn't work with the initial translator","the ID of the identified person in the ""Persons"" sheet (this column is what Bruno did)",,The name as indicated in the colophon,add X in this column if the data is ambiguous,,"possible values are IDs from the source spreadsheet, ""colophon"" or ""karchak"""
+D1,dul ba gzhi,translator,P4259,,lo tsA ba ban de dpal gyi lhun po,,,
+D1,dul ba gzhi,translatorPandita,P8211,,rgya gar gyi mkhan po bi d+yA ka ra pra b+ha,,,
+D1,dul ba gzhi,translatorPandita,P8249,,kha che'i mkhan po d+ha rmA ka ra,,,
+D1,dul ba gzhi,translator,P8182,,zhu chen gyi lo ts+tsha ba ban de dpal brtsegs,,,
+D1,dul ba gzhi,translatorPandita,P00KG07267,,kha che'i mkhan po sa rba dz+nyA de ba,,,
 D100,phags pa sangs rgyas thams cad kyi yul la 'jug pa'i ye shes snang ba'i rgyan ces bya ba theg pa chen po'i mdo,translatorPandita,P8228,,rgya gar gyi mkhan po su ren dra bo d+hi,,,
 D100,phags pa sangs rgyas thams cad kyi yul la 'jug pa'i ye shes snang ba'i rgyan ces bya ba theg pa chen po'i mdo,translator,P8205,,zhu chen gyi lots+tsha ba ban de ye shes sde,,,
 D1003,phags ma rig sngags kyi rgyal mo chen mo rgyal ba can zhes bya ba,translatorPandita,P8209,,rgya gar gyi mkhan po dzi na mi tra,,,
@@ -569,7 +575,7 @@ D374,dpal khrag 'thung mngon par 'byung ba zhes bya ba,translator,P8148,,bod kyi
 D375,rnal 'byor ma'i kun tu spyod pa,translator,P3458,,zhu chen gyi lo ts+tsha ba 'gos lha btsas,,,
 D376,rnal 'byor ma bzhi'i kha sbyor gyi rgyud ces bya ba,translator,P8148,,bod kyi lots+tsha ba la chings yon tan 'bar,,,
 D376,rnal 'byor ma bzhi'i kha sbyor gyi rgyud ces bya ba,revisor,?,to check,slad kyis de nyid kyi tshe paN+Di ta,,,
-D377,phag mo mngon par brjod pa bshad pa'i rgyud phyi ma las/_phag mo mngon par byang chub pa zhes bya ba,translatorPandita,P4308,,rgya gar gyi mkhan po dz+nyA nA ka ra,,,
+D377,phag mo mngon par brjod pa bshad pa'i rgyud phyi ma las/_phag mo mngon par byang chub pa zhes bya ba,translatorPandita,P4CZ15245,,rgya gar gyi mkhan po dz+nyA nA ka ra,,,
 D377,phag mo mngon par brjod pa bshad pa'i rgyud phyi ma las/_phag mo mngon par byang chub pa zhes bya ba,translator,P8149,,zhu chen gyi lo ts+tsha ba khu ston dngos grub,,,
 D379,dur khrod bdag mos gsol pa,translatorPandita,P8151,to check,paN+Di ta ga ya d+ha ra,,,
 D379,dur khrod bdag mos gsol pa,translator,P8129,,lots+tsha ba gyi jo zla ba 'od zer,,,
@@ -762,7 +768,7 @@ D467,de bzhin gshegs pa thams cad kyi sku gsung thugs gshin rje gshed nag po zhe
 D467,de bzhin gshegs pa thams cad kyi sku gsung thugs gshin rje gshed nag po zhes bya ba'i rgyud,translator,P3456,,bod kyi lots+tsha ba dge slong tshul khrims rgyal ba,,,
 D467,de bzhin gshegs pa thams cad kyi sku gsung thugs gshin rje gshed nag po zhes bya ba'i rgyud,revisor,P2614,,lots+tsha ba dge slong dar ma grags,,,
 D467,de bzhin gshegs pa thams cad kyi sku gsung thugs gshin rje gshed nag po zhes bya ba'i rgyud,revisor2,P3143,,dge slong rdo rje grags,,,
-D468,dpal rdo rje 'jigs byed chen po'i rgyud ces bya ba,author,???,to check,bla ma dam pa'i dkyil 'khor chen po'i slob dpon dpal lA li ta badzra,,,
+D468,dpal rdo rje 'jigs byed chen po'i rgyud ces bya ba,reciter,P4CZ15088,,bla ma dam pa'i dkyil 'khor chen po'i slob dpon dpal lA li ta badzra,,,
 D468,dpal rdo rje 'jigs byed chen po'i rgyud ces bya ba,translatorPandita,P3174,,rgya gar gyi paN+Di ta mchog gi dngos grub brnyes pa bA ro phyag rdum,,,
 D468,dpal rdo rje 'jigs byed chen po'i rgyud ces bya ba,translator,P3143,,bod kyi lots+tsha ba dge slong rdo rje grags,,,
 D47,phags pa de bzhin gshegs pa'i gsang ba bsam gyis mi khyab pa bstan pa zhes bya ba theg pa chen po'i mdo,translatorPandita,P8209,,rgya gar gyi mkhan po dzi na mi tra,,,
