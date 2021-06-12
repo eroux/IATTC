@@ -65,7 +65,7 @@ P4CZ15164,slob dpon kong ka sbyin/,Koṅkadatta,,,,,,,,,,ma,,
 P4CZ10550,kha che dngul gyi bum pa/,rūpyakalaśa,,,,,,,,,,ma,,
 P4CZ15297,A tsar+yA dzi mu Da pA tA la/,jīmūtapaṭala,,,800,999,,,,,,ma,,
 P3374,"sgra gcan 'dzin bzang po/,sgra gcan 'dzin dpal bzang po",Rāhulaśrībhadra,,,,,,,,,,ma,,
-P2CN574,rgyal po in+dra bo d+hi/,"indrabodhi,Indrabhūti",,,,,,,P4CZ366357 is a duplicate ?,,,ma,,
+P2CN574,rgyal po in+dra bo d+hi/,"indrabodhi,Indrabhūti",,,,,,,,,,ma,,
 P3289,grub chen garbha ri pa/,garvaripāda ?,,,,,,,,,,ma,,
 P4CZ15272,slob dpon dpe med pa'i rdo rje/,anupamavajra,,,800,999,,,,,,ma,,
 P4CZ15163,slob dpon ku mA ra b+ho d+hi/,kumārabodhi,,,,,,,,,,ma,,
@@ -87,7 +87,7 @@ P4CZ15184,slob dpon blo bzang snying po/,sumatigarbha,,,900,999,,,,,,ma,,
 P4CZ15075,dge ba'i mgon po/,śubhanātha,,,1100,1199,,,,,,ma,,
 P4CZ10530,slob dpon pad+ma'i myu gu rdo rje/,padmāṅkuravajra,,,,,,,,,,ma,,
 P4CZ10554,bram ze tha ga na pa/,*thagana,OA,,,,,,,,,ma,,
-P7752,grub chen la wa pa/,Kambalapāda,,,,,,,P0ER0007 is a duplicate,OK,Tibskript,ma,,
+P7752,grub chen la wa pa/,Kambalapāda,,,,,,,,OK,Tibskript,ma,,
 P7401,slob dpon 'phags pa lha/,"karnaripa,Āryadeva,Kāṇadeva?",,,200,299,,,,,,ma,,
 P4CZ15292,slob dpon go Sh+ka badz+ra/,ghoṣavajra,,,900,1099,,,,,,ma,,
 P4CZ15074,grub chen sna tshogs dmar po/,citrāruṇa,,,,,,,,,,ma,,
@@ -183,7 +183,7 @@ P4CZ15114,slob dpon skal ldan grags pa/,bhavyakīrti,,,,,,,,,,ma,,
 P4CZ15138,bram ze b+h+ri ka ra/,bhriṁkara,,,,,,,,,,ma,,
 P4CZ10544,slob dpon sgrol ma can gyi sde/,tārasena,OA,,,,,,tāriṇīsena is not attested; wrong reconstruction in Otani etc- consulted Haru,,,ma,,
 P4CZ10568,grub chen dze ta ri/,"jetāri,Jitāri,Guhyajitāri",,,,,,,same as Jitāri (940-980) in Princeton?,,,ma,,
-P7217,kha che rin chen rdo rje/,ratnavajraśrī,,,1200,1299,,,duplicate of P8152 / P5006,,,ma,,
+P7217,kha che rin chen rdo rje/,ratnavajraśrī,,,1200,1299,,,not duplicate of P5006 according to BDRC staff,,,ma,,
 P4CZ15440,grub chen ki ra pa la/,kilapāda ?,,,,,,,,,,ma,,
 P3291,grub chen a la la ba dz+ra/,ahovajra ?,,,,,,,,,,ma,,
 P0TMP029,shAkya thub pa/,Śākyamuni,,,,,,,"in BDRC's database this is the Buddha... but in the case of the author of the texts in the Tengyur, it's kind of weird",,,ma,,
@@ -335,7 +335,7 @@ P4CZ15200,slob dpon me d+he ni/,medivī,,,,,,,,,,ma,,
 P4CZ15115,slob dpon lha sbas/,devagupta,,,,,,,,,,ma,,
 P4CZ15358,slob dpon sangs rgyas ye shes zhabs/,buddhajñāna,,,,,,,duplicate of P9963 ?,,,ma,,
 P4CZ15126,paN+Di ta pradz+nyA b+ha dra/,prajābhadra,,,1000,1099,,,,,,"ma,pa",,P3088
-P7878,rgyal ba'i sde/,jayasena,,,1000,1099,,,,,,"ma,pa",,"P8143,P10183"
+P7878,rgyal ba'i sde/,jayasena,,,1000,1099,,,,,,"ma,pa",,"P10183,P10183"
 P7641,ka ma la shI la/,Kamalaśīla,,713,,,763,,Princeton has ca. 740-795,,,"ma,pa",,"P4238,P4CZ16847,P4402,P8266"
 P9951,slob dpon 'dul ba'i lha/,vinītadeva vinayadeva ?,,,,,,,,,,"ma,pa",,P3890
 P3085,paN chen nA ro pa/,Nāropa,MH,1012-1016,,,1100,,,OK,Princeton,"ma,pa",,P2636
@@ -368,7 +368,7 @@ P4CZ15076,slob dpon a sho ka shrI/,aśoka,,,,,,,,,,"ma,pa",,P4374
 P4CZ10579,slob dpon lhan cig skyes pa'i rol pa/,sahajalalita,,,,,,,,,,"ma,pa",,P1448
 P4CZ15160,ni Sh+ka ling+ka,nikaliṅka,,,1100,1199,,,,,,"ma,pa",,P3939
 P4CZ10578,za hor gyi mkhas pa btsun mo can/,devākaracandra,,,,,,,,,,"ma,pa",,"P4243,P4CZ15290,P4180,P753"
-P5006,paN+Di ta rin chen rdo rje/,ratnavajra,,,,,,,"duplicate of P8152 / P5006, perhaps P0RK80 ?",,,"ma,pa",,P3285
+P5006,paN+Di ta rin chen rdo rje/,ratnavajra,,,,,,,"not duplicate of P7217 according to BDRC staff, perhaps P0RK80 ?",,,"ma,pa",,P3285
 P3378,chos skyong /,dharmapāla,,,1150,1250,,,"teacher of P1056, dates from this information",,,"ma,pa",,P1242
 P8265,pan+Di ta rat+na rak+Shi ta/,ratnarakṣita,,,1200,1299,,,,,,"ma,pa",,"P7648,P1025,P4CZ16819,P5897,P3374"
 P5659,mkhan chen zhi ba 'tsho/,"śāntirakṣita,śāntirakṣita ?",,,700,799,,,,,,"ma,pa",,P4CZ16791
@@ -574,7 +574,6 @@ P4CZ16901,sman pa ra gu nA tha/,ragunātha,,,1600,1699,,,,,,pa,,P2947
 P4CZ15087,paN+Di ta bi shwa shrI/,viśvaśrī,,,1000,1099,,,,,,pa,,P8129
 P8191,paN+Di ta badz+ra sha rM kha la ru dra/,vajraśrīkhalarudra ?,,,,,,,,,,pa,,"P2JM5,P2554,P4007"
 P4CZ15097,paN+Di ta jo bo ri pa jo bo ri pa/,,,,1100,1199,,,,,,pa,,P8156
-P8144,shAkya'i sras po rgyal ba'i sde/,,,,,,,,,,,pa,,"P4CZ15110,P8143"
 P4CZ16848,paN+Di ta skal ldan rgyal po/,bhayarāja,,,1000,1099,,,,,,pa,,"P5651,P2551"
 P4CZ15072,slob dponkriSh+Na badz+ra/,kṛṣṇavajra,,,,,,,,,,pa,,
 P4CZ15603,slob dpon sti ra ma ti/,stiramatisa ?,,,,,,,"duplicate of P10023 ? ""Tantric"" Stiramati",,,pa,,
@@ -641,7 +640,6 @@ P0TMP110,paN+Di ta mkhas pa chen po a mo g+ha badzra,Amoghavajra,,704,,,774,,Ind
 P4CZ10552,slob dpon dpal sgra gcan gsang ba/,rāhuguptavajra,,,900,999,,,,,,,,
 P4CZ10562,slob dpon chen po snang ba mtha' yas rdo rje/,*Amitābhavajra,,,,,,,,,,,,
 P0TMP007,rnal 'byor gyi dbang phyug dpal gyi zhabs,"Śrī,Śrīpāda?",,,,,,,,,,,,
-P8152,paN+DI ta rat+na badz+ra/,ratnavajra,Tocheck,,,,,,duplicate of P7217 / P5006,,,,,P3285
 P0TMP008,paN+Di ta bim pa,*vimpa?,,,,,,,,,,,,P4417
 P10180,mi nyag pra dz+nyA dzwa la/,,,,1100,1199,,,,,,,,P8205
 P4CZ15447,slob dpon b+ha bi lha/,bhabideva ?,,,,,,,,,,,,
@@ -704,7 +702,7 @@ P4CZ16898,lo tsA ba tsan+dra/,Candra,,,,,,,,,,,,"P8209,P0TMP090"
 P0TMP042,dge bsnyen kun sbyin,"*Sarvadatta,*Sarvada",,,,,,,,,,,,
 P0TMP044,rgya gar gyi mkhan po a b+hi yug ta,"Abhiyuta,Abhiyugata?",,,,,,,same as P4CZ15574 ?,,,,,
 P8946,ngag gi dbang phyug grags pa/,Vāgīśvarakīrti,MH,,,,,,same person as the author named Suvāgīśvarakīrti (ER: I'm going to need a little bit more than that to modify the BDRC database),X,Tibskript/PANDiT/Princeton,,,P1582
-P7148,kha che ye shes rdo rje/,jñānavajra,,,1000,1099,,,duplicate of P7148,,,,,"P4105,P4CZ15564,P2553"
+P7148,kha che ye shes rdo rje/,jñānavajra,,,1000,1099,,,,,,,,"P4105,P4CZ15564,P2553"
 P0TMP045,slob dpon pra b+hA ka ra kI rti,Prabhākarakīrti,,,,,,,duplicate of P4CZ15523 ?,,,,,
 P0TMP046,byang chub mchog,*Bodhivara,,,,,,,,,,,,
 P8LS13717,rdo rje rnon po,*Vajratīkṣṇa,,,,,,,,,,,,
@@ -962,4 +960,4 @@ P0TMP264,,Maheśvara,MH,,,,,,dila:A005401 ?,X,Tibskript/PANDiT,,,
 P0TMP265,,Avadhūtasiddha,MH,,800,999,,,,OK,PANDiT,,,
 P0TMP266,,Bhāskarakaṇṭha,MH,,1600,1799,,,,OK,Tibskript/PANDiT,,,
 P0TMP267,,"Vijñānabhikṣu, Vijñāneśvara",MH,,1500,1699,,,,OK,PANDiT,,,
-P0TMP268,rgya gar gyi mkhan po chen po rgyal ba mchog,Varadarāja,,,,,,,same as P0TMP194,,,,,
+P0TMP268,rgya gar gyi mkhan po chen po rgyal ba mchog,Varadarāja,,,,,,,same as P0TMP194 ?,,,,,

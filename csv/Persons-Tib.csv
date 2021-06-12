@@ -1,5 +1,5 @@
 "For records in the BDRC database, indicate it here (ex: P123), for duplicates, indicate all IDs, for records not in the BDRC database, create an ID starting with P1TMP (ex: P1TMP123)",names_tib,names_skt,reviewer,birth year,floruit not before,floruit not after,death_year,period,notes,status,source,roles,can be confused with,worked with
-"for records in the BDRC database, indicate it here (ex: P123), for duplicates, indicate all IDs, for records not in the BDRC database, create an ID starting with P1TMP (ex: P1TMP123)","coma separated list of names in Tibetan, prefilled witht the primary name in the BDRC database","coma-separated list of Sanskrit names, in IAST. BDRC has very sparse data of this kind and this has been prefilled with some strings from Otani and Tibskrit",,when known,,,,Earlier (E) or Later (L),,"write OK if identification+dating is certain; write X if the person is ambiguous and if the data is uncertain; further details should be writted under ""notes""",,"ma = main author, pa = pandita, tr = translator",,computed automatically
+"for records in the BDRC database, indicate it here (ex: P123), for duplicates, indicate all IDs, for records not in the BDRC database, create an ID starting with P1TMP (ex: P1TMP123)","coma separated list of names in Tibetan, prefilled witht the primary name in the BDRC database","comma-separated list of Sanskrit names, in IAST. BDRC has very sparse data of this kind and this has been prefilled with some strings from Otani and Tibskrit",,when known,,,,Earlier (E) or Later (L),,"write OK if identification+dating is certain; write X if the person is ambiguous and if the data is uncertain; further details should be writted under ""notes""",,"ma = main author, pa = pandita, tr = translator",,computed automatically
 P8205,sna nam btsun pa ye shes sde/,,,,700,799,,,,,,"ma,tr",,"P8209,P2548,P8182,P4CZ16819,P5011,P8209,P0TMP106,P3214,P4CZ16780,P10180,P8269,P4CZ15493,P8222,P4CZ10518,P8261,P8266,P8267,P8228,P8246,P4CZ15644,P8175,P8268,P4260,P1KG8854,P8210,P8217"
 P2085,dpang lo tsA ba blo gros brtan pa/,,,1276,,,1342,,DM: Blo brtan III,,,"ma,tr","P4832,P1052","P4CZ15585,P1518,P3939,-"
 P8182,ska ba dpal brtsegs/,,,,800,899,,,,,,"ma,tr",,"P4259,P8175,P4CZ16854,P8209,P8260,P8211,P8228,P1KG8854,P8213,P4258,P00KG07267,P3214,P4255"
@@ -38,7 +38,7 @@ P2922,lo chen thugs rje dpal ba/,,,,1300,1399,,,,,,tr,,
 P4CZ10539,ban+de rin chen rgyal mtshan/,,,,1300,1399,,,,,,tr,,"P4CZ10538,P4CZ15077,P7868"
 P4283,lo tsA ba dge slong rig pa gzhon nu/,,,,1000,1099,,,,,,tr,,"P8194,P8171"
 P2921,lo chen nam mkha' bzang po/,,,,1300,1399,,,,,,tr,,"P4CZ16866,P2388"
-P3285,brog mi lo tsA ba shAkya ye shes/,,,,992,993,,,,,,tr,,"P3302,P8153,P5006,P4CZ10528,P8151,P8152,P4CZ10565"
+P3285,brog mi lo tsA ba shAkya ye shes/,,,,992,993,,,,,,tr,,"P3302,P8153,P5006,P4CZ10528,P8151,P5006,P4CZ10565"
 P8203,glan dar ma blo gros/,,,,1000,1099,,,,,,tr,,"P2CZ7929,P4CZ15308,P5013,P00KG02663,P0TMP102,P4CZ15088,P3214"
 P4CZ15361,bro lo tsA ba dar ma b+hi/,dharmabhi?,,,1100,1199,,,,,,tr,,
 P3816,rong zom paN+Di ta/,Dharmabhadra,,1042,,,1136,,RR: 1012-1088,,,tr,,"P4CZ15287,P4CZ10575"
@@ -81,16 +81,16 @@ P4CZ16747,lo tsA ba dpal 'byor snying po/,,,,800,899,,,,,,tr,,P8210
 P5897,zhang lo tsA ba grub pa dpal/,,,1237,,,,,,,,tr,,"P1520,P1GS14003,P8265"
 P1560,kre bo lo tsA ba shes rab dpal ba/,,,,1000,1099,,,,,,tr,,P4004
 P4239,lo tsA ba 'bro dge bsnyen shes rab brtsn 'grus/,,,,1000,1099,,,,,,tr,,P4CZ15254
-P4CZ15525,bal po lo tsA ba ma hA pa la/,mahāpāla ?,NB,,,,,,"NB: Same as Bal po Ma hā pa na (*Mahāpāna?)? If so, Tibskrit: Newar, Later Spread.",X,,tr,,
+P4CZ15525,bal po lo tsA ba ma hA pa la/,mahāpāla ?,NB,,,,,L?,"NB: Same as Bal po Ma hā pa na (*Mahāpāna?)? If so, Tibskrit: Newar, Later Spread.",X,,tr,,
 P3980,shud ge lo tsA ba grags pa rgyal mtshan/,,,,1200,1299,,,,,,tr,"P3281,P10MS19659,P2637,P2637","P8166,P4CZ15085"
-P4CZ15439,paN+Di ta rat+na pha la/,"ratnapāla ?, Ratnaphala ?",RC,,,,,,"unlikely to be P753, i.e. Rin chen bzang po, in my opinion, but there are very few clues about who this is; bka' 'gyur colophones all support the spelling Ratnaphala (RC)",X,,tr,,
+P4CZ15439,paN+Di ta rat+na pha la/,"ratnapāla ?, Ratnaphala ?",RC,,,,,,"RC: unlikely to be P753, i.e. Rin chen bzang po, in my opinion, but there are very few clues about who this is; bka' 'gyur colophones all support the spelling Ratnaphala",X,,tr,,
 P7137,tsa mi lo tsA ba smon grub shes rab/,,NB,,1050,1150,,,"NB: = P5169, see Tibskrit, s.v. Abhayadatta (Mi 'jigs pa sbyin pa): ""We may conclude from this that the complete name of Rtsa mi is Rtsa mi Sangs rgyas grags pa smon grub shes rab (note the Mi nyag Smon grub shes rab who worked with Abhayadatta on several translations)."" Perhaps he flourished between the 11th and 12th cent., see Dowman, Masters of Mahāmudrā, p. 386: ""We can guess that sMon grub shes rab was born about 1060, had visited India before 1090 and lived a long life into the twelfth century. Tsa mi Sangs rgyas grags pa was a well known Sanskritist and a translator of the Kālacakra-tantra; sMon grub shes rab may have been one of his initiatory names.""",X !!,,tr,,P4004
 P4CZ16874,lo tsA ba dge slong dbyig gi rin chen/,,,,1000,1099,,,,,,tr,,
 P993,byams gling paN chen bsod nams rnam rgyal/,,,1401,,,1475,,,,,tr,,
 P208,khrims khang lo tsA ba bsod nams rgya mtsho/,,,1424,,,1482,,,,,tr,,P207
 P4CZ15216,lo tsA ba 'jam dpal sgeg pa'i rdo rje/,,,,1300,1399,,,,,,tr,,P4CZ15217
 P4529,lo tsA ba tshul khrims gzhon nu/,,,,1300,1399,,,,,,tr,,
-P1760,lo tsA ba dbang phyug rgyal mtshan/,,NB,,1250,1350,,,"NB: According to BUDA, father and teacher of Sho rGyal sras legs pa (P7625), aka Shwa ban rGyal sras legs ldan (1290–1365 [1366 Tibskrit; cf. also van der Kuijp, ""Chos 'byung rin po che'i gter mdzod,"" p. 135: ""(?1264-1341)""]). Therefore, he presumably flourished between the 13th and 14th cent. (= Cha gan Dbang phyug rgyal mtshan (fl. ca. 1300)?) He is said to have collaborated with P8245 (Buddhākaravarman, who translated the 'Phags ma sgrol ma'i sgrub thabs [D 3689] together with Chos kyi shes rab [P3890]), but he rather seems to have collaborated with Suvidyākaravarman (probably different from Buddhākaravarman), with whom he translated the Ngan song thams cad yongs su sbyong ba gzi brjid kyi rgyal po brtag pa snang ba'i rgyan [D 2627]. Probably the page dedicated to P8245 on BUDA has to be corrected.",X,,tr,,P8245
+P1760,lo tsA ba dbang phyug rgyal mtshan/,,NB,,1250,1350,,,"NB: According to BUDA, father and teacher of Sho rGyal sras legs pa (P7625), aka Shwa ban rGyal sras legs ldan (1290–1365 [1366 Tibskrit; cf. also van der Kuijp, ""Chos 'byung rin po che'i gter mdzod,"" p. 135: ""(?1264-1341)""]). Therefore, he presumably flourished between the 13th and 14th cent. (= Cha gan Dbang phyug rgyal mtshan (fl. ca. 1300)?) He is said to have collaborated with P8245 (Buddhākaravarman, who translated the 'Phags ma sgrol ma'i sgrub thabs [D 3689] together with Chos kyi shes rab [P3890]), but he rather seems to have collaborated with Suvidyākaravarman (probably different from Buddhākaravarman), with whom he translated the Ngan song thams cad yongs su sbyong ba gzi brjid kyi rgyal po brtag pa snang ba'i rgyan [D 2627]. Probably the page dedicated to P8245 on BUDA has to be corrected.",X !!,,tr,,P8245
 P4CZ15565,brog mi lo tsA ba jo sras/,,,,1200,1299,,,,,,tr,,P4CZ15567
 P8221,gos chos 'grub/,,,,800,899,,,,,,tr,,
 P5197,sman lung pa shAkya 'od/,,,,1200,1299,,,RR: 11th c.,,,tr,,P4CZ15137
@@ -113,12 +113,11 @@ P4CZ15573,slob dpon snang mdzad myu gu/,*Rocāṅchura,RC,,,,,,"Probably Indian,
 P1428,jo nang rje btsun tA ra nA tha/,Tāranātha,,1575,,,1634,,,,,tr,,"P4013,P7582"
 P3849,steng pa lo tsA ba tshul khrims 'byung gnas/,,,1107,,,1190,,,,,tr,,P1KG3465
 P4CZ15112,lo tsA ba sbal rdo rje rgyal po/,,,,1100,1199,,,,,,tr,,"P1GS147817,P4CZ15113"
-P4CZ10522,khe'u brgad yon tan dpal/,,RC,,1000,1199,,,,OK,almogi2021 : 123–4 n. a7,tr,,P4CZ10518
+P4CZ10522,khe'u brgad yon tan dpal/,,RC,,1000,1199,,,RC: Settled in Almogi2021,OK,almogi2021 : 123–4 n. a7,tr,,P4CZ10518
 P4CZ15220,rtses thang lo tsA ba gzhon nu dpal/,,,,1400,1499,,,ER: duplicate of P318 ?,,,tr,,
-P4CZ15111,gu Na shrI/,guṇaśrī,RC,,,,,L,"Translator of Durjayacandra's pañjikā on Cakrasaṃvara, so he can be no earlier than the mid 11th C.; maybe the same as P4CZ15107? although I have no reason to support this apart from the Tibetanised form of the name. (RC)",X,,tr,,P4CZ15107
+P4CZ15111,gu Na shrI/,guṇaśrī,RC,,,,,L,"RC: Translator of Durjayacandra's pañjikā on Cakrasaṃvara, so he can be no earlier than the mid 11th C.; may be the same as P4CZ15107? although I have no reason to support this apart from the Tibetanised form of the name.",X,,tr,,P4CZ15107
 P6453,pa tshab lo tsA ba tshul khrims rgyal mtshan/,,,,1000,1099,,,,,,tr,,"P8246,P1GS147817,P4004,P4CZ15533,P8174,P43,P3870,P8200,P3214,P6450,P4CZ15509"
 P4276,lo tsA ba rab mchog dpal bzang /,,,,1300,1399,,,,,,tr,,
-P4CZ15110,lo tsA ba chos kyi yon tan/,,,,1000,1099,,,,,,tr,,P8144
 P318,gos lo tsA ba gzhon nu dpal/,,,1392,,,1481,,,,,tr,,P207
 P4CZ15243,lo tsA ba khu mdo sde 'bar/,,,,1000,1099,,,,,,tr,,"P5651,P4CZ15242"
 P4CZ10524,zhu chen gyi lo tsA ba ting 'dzin bzang po/,,,,1000,1099,,,,,,tr,,"P4CZ16760,P4CZ15090,P4CZ16758"
@@ -158,7 +157,7 @@ P4404,sa skya bla chen kun dga' rgyal mtshan/,,,,1300,1399,,,,,,tr,,"P1518,P8200
 P856,zhwa lu lo tsA ba chos skyong bzang po/,"dharmabhadra, Dharmapālabhadra",,1441,,,1527,,,,,tr,,"P0TMP075,P0TMP074,-"
 P4401,zhu chen gyi lo tsA ba dga' rdor/,,,,1000,1099,,,,,,tr,,P8225
 P8142,lha rin po che/,,NB,,,,,,"RR: 11th-12th c. NB: Martin, Biographical References (Tibetological): Part One (Ming mdzod), no. 1871: b. about late 11th.",X,,tr,,P8213
-P8275,lo tsA ba pra dz+nyA sing ha/,,RC,,,,,,"BDRC website's 'notes' associate him with Tōh 199 (work translated from Chinese), but Tōh 199 is linked with in this spreadsheet with P2139. Old BDRC website associates this person with a translation of a text by Jñānapāda (from Sanskrit): Tōh 3905. BUDA associates him with Tōh 3906, although colophons don't attest the involvement of anybody by this name. The latter appears to be some kind of glitch",X !!,,tr,,
+P8275,lo tsA ba pra dz+nyA sing ha/,"*Prajñāsiṃha, perhaps Prajñāsiddha",RC,,830,,,,"RC: BDRC website's 'notes' associate him with Tōh 199 (work translated from Chinese), but Tōh 199 is linked in this spreadsheet with P2139. Old BDRC website associates this person with a translation of a text by Jñānapāda (from Sanskrit), Tōh 3905. This is probably the person in question. BUDA associates him with Tōh 3906, although colophon doesn't attest the involvement of anybody by this name. The latter appears to be some kind of glitch. The translator of Tōh 3905 is mysterious.",X !!,,tr,,P0TMP078
 P1048,gro mgon chos rgyal 'phags pa/,,,1235,,,1280,,,,,tr,,
 P4209,lo tsA ba bsod nams rgyal ba/,,,,1000,1099,,,,,,tr,,"P8093,P4CZ15273"
 P4402,zha ma lo tsA ba ston pa seng+ge rgyal po/,,,,1000,1099,,,,,,tr,,"P8893,P7641,P8397,P1581"
@@ -183,19 +182,19 @@ P3731,ba ri lo tsA ba rin chen grags/,dharmakīrti,,1040,,,1112,,,,,tr,,"P8232,P
 P2557,rgyal ba'i 'byung gnas/,,,1004,,,1064,,,,,tr,,P3379
 P1359,kam kam lo tsA ba chos kyi ye shes/,,,,1000,1099,,,,,,tr,,"P8159,P8160,P4CZ15078"
 P4CZ15445,lo tsA ba rba ye shes bzang po/,,,,1100,1199,,,,,,tr,,P3302
-P8149,lo tsA ba khu ston dngos grub/,,RC,,1000,1099,,,"worked with Jñānākara (11th C) on a number of translations (see @wenta2018); worked with Atiśa on Cittaviśuddhiprakaraṇa (P 5208) and D 3778; worked revised by Nag tsho lo tsA ba (1011‑1064), so must be earlier or at the same time; not certain if the translator of the Sūnyatāsaptatī is him or not; may be the same as P3464, who lived at the same time and is said to be a translator, also treated as such in TibSkrit, but rather uncertain—haven't seen an alternative name given for him; Ngag dbang kun dga' bsod nams, in one of his works, refers to ""yar lung lo tsA ba khu ston dngos grub 'byung gnas"" (folio number unknown); don't see the relationship with the people mentioned in the ""worked with"" column; ",X !!,,tr,,"P4CZ10525,P4308"
+P8149,lo tsA ba khu ston dngos grub/,,RC,,1000,1099,,,"RC: worked with Jñānākara (11th C) on a number of translations (see @wenta2018); worked with Atiśa on Cittaviśuddhiprakaraṇa (P 5208) and D 3778; worked revised by Nag tsho lo tsA ba (1011‑1064), so must be earlier or at the same time; not certain if the translator of the Sūnyatāsaptatī is him or not; may be the same as P3464, who lived at the same time and is said to be a translator, also treated as such in TibSkrit, but rather uncertain—haven't seen an alternative name given for him; Ngag dbang kun dga' bsod nams, in one of his works, refers to ""yar lung lo tsA ba khu ston dngos grub 'byung gnas"" (folio number unknown); don't see the relationship with the people mentioned in the ""worked with"" column; ",X !!,,tr,,"P4CZ10525,P4308"
 P4180,lo tsA ba bsod nams rgyal mtshan/,,,,1000,1099,,,,,,tr,,"P4CZ10535,P4CZ15359,P4CZ10578,P8248,P4CZ10565"
 P1578,rngog byang chub 'byung gnas/,,,,1000,1099,,,,,,tr,,
 P4CZ15444,gnubs lo tsA ba tshul khrims shes rab/,,,,1100,1199,,,,,,tr,,P8192
 P4181,se lo tsA ba/,,,,1000,1099,,,,,,tr,,
 P8148,lo tsA ba chings yon tan 'bar/,,,,1000,1099,,,,,RR: 11th c.,tr,,"P4CZ15203,P8147,P8181,P7582"
-P4CZ16883,lo tsA ba mkha' 'gro rdo rje/,,RC,,1300,1399,,,"TibSkrit cites gangs can mkhas grub, p. 214",OK,,tr,,P4CZ16881
+P4CZ16883,lo tsA ba mkha' 'gro rdo rje/,,RC,,1300,1399,,,"RC: TibSkrit cites gangs can mkhas grub, p. 214",OK,,tr,,P4CZ16881
 P1798,chos grags/,,,,1000,1099,,,,,,tr,,P2CZ7929
 P4CZ15225,lo tsA ba khu rnal 'byor/,,,,1100,1199,,,,,,tr,,P3214
 P4CZ15575,grags pa byang chub/,,NB,,1200,1299,,,NB: floruit 13th c. since he worked with Gautamabhadra (P4CZ15161),OK,"BUDA, Tibskrit",tr,,P4CZ15161
 P4CZ10573,lo tsA ba le'u ston rgya nag,,RC,,1027,,,L,"Edited a translation done by Somanātha (11th Kashmiri paṇḍita who executed his own translations). Somanātha arrived in Tibet in 1027 (accord to Tresury of Lives pages on Kālacakra), so le'u ston rgya nag must have been active some time after that.",X,,editor,,
 P4CZ15078,lo tsA ba phyug brtsams dbang phyug rgya mtsho/,,,,1000,1199,,,,,,,,P1359
-P3221,"gar lo tsA ba chos kyi bzang po/,mgar chos kyi bzang po/",,RC,,,,,,"Probably different from P3939 (i.e. dpyal chos kyi bzang po); translated a large number of works by *Jabariba in Nepal with Devapūṛṇamati; quite a few of those works are associated with P3939, which is probably a mistake. ",X,,tr,P3939,P8176
+P3221,"gar lo tsA ba chos kyi bzang po/,mgar chos kyi bzang po/",,RC,,,,,,"RC: He is different from P3939 (i.e. dpyal chos kyi bzang po); translated a large number of works by *Jabariba in Nepal with Devapūṛṇamati; quite a few of those works are associated with P3939, which is probably a mistake. ",X !!,,tr,P3939,P8176
 P6944,rgya lo tsA ba rdo rje bzang po/,,NB,,,,,,NB: rGya lo tsā ba rDo rje bzang po (of Jumla) was a gter ston active in the 11th c. ca. (Smith 2001: 238); the translator of the rDo rje slob dpon gyi bya ba kun las btus pa [D 3305] is rather a Blo gros rgyal mtshan dpal bzang po.,X !!,,,,
 P461,sa lo kun dga' bsod nams/,,,1485,,,1533,,,,,,,
 P4CZ15304,lo tsA ba phyug 'tshams dbang phyug rgyal po/,,,,1000,1199,,,,,,,,
@@ -208,16 +207,15 @@ P8218,khon klu'i dbang po/,Nāgendra Rakṣita,,,700,799,,,disciple of Padmasamb
 P8277,rgya mtsho'i sde/,,,,1400,1499,,,,,RR: 15 c.,,,
 P4263,lo tsA ba dge ba dpal/,,,,800,900,,,,,,,,P8219
 P4274,ra byid lo tsA ba/,,,,1000,1099,,,,,,,,P8208
-P8143,d+harma yon tan/,,NB,,,,,,NB: = (Sum pa) lo tsā ba Dar ma yon tan (P10183) = Lo tsā ba Chos kyi yon tan (P4CZ15110)? They all worked with one rGyal ba'i sde/Jayasena (P7878 = P8144?).,X !!,,,,"P7878,P8144"
 P8242,rdo rje sems ma/,,RC,,1000,1099,,,Paṇḍita who worked with the translator in a charnel ground in Kashmir. Can be given 11th C date if dating for 'gar shes rab 'byung gnas is accurate.,OK,,pa,,P8243
 P0RK8,dpal ldan chos skyong /,,NB,,,,,,"NB: not enough info to establish who he is. If based only on whom he is said to have worked with, perhaps 700–799.",X,,,,"P8209,P4CZ16819,P8266"
-P4CZ15616,lo tsA ba phur bu 'od/,,RC,,1000,1099,,,RC: BDRC cites ming mdzod as giving 11th C date. Worked with mi myam rdo rje (given as Atayavajra in colophon; probably Atulyavajra). TibSkrit (erroneously?) gives this paṇḍita's name as Amoghavajra (i.e. P8224). mi mnyam rdo rje is likely to be an 11th C student of Maitripāda.,OK !!,BUDA,tr,,P8224
+P4CZ15616,lo tsA ba phur bu 'od/,,RC,,1000,1099,,,"RC: BDRC cites ming mdzod as giving 11th C date. Worked with mi myam rdo rje (given as Atayavajra in colophon; probably Atulyavajra). TibSkrit (erroneously?) gives this paṇḍita's name as Amoghavajra (i.e. P8224). mi mnyam rdo rje is likely to be an 11th C student of Maitripāda, hence the dating for this translator.",OK !!,BUDA,tr,,P8224
 P8263,legs kyi sde/,,NB,,800,999,,,NB: he appears to have translated only the dGe ba'i rtsa ba yongs su 'dzin pa zhes bya ba theg pa chen po'i mdo [D101] with Prajñāvarman (fl. 800–999).,OK,BUDA,,,P2548
 P8253,mchog gi dbang phyug,,RC,,1000,1199,,,"RC: Not a translator but a paṇḍita. Only worked with Shākya brtson 'grus, whose dates are 11th–12th C according to Tibskrit. The latter is frequently also cited in colophons as working with one Rgyal ba mchog, possibly the same person Mchog gi dbang phyug. There is no BDRC entry for Rgyal ba mchog, and none of his works are linked to Mchog gi dbang phyug",OK,Tibskrit,tr,,P4243
 P8178,"chos kyi dbang phyug grags pa/,nga mar pa chos kyi dbang phyug grags pa/",,NB,,,,,,"NB: = Mar pa Chos kyi dbang phyug grags pa who tr. D758 and D434 with Atuladāsavajra/Atulyadāsa, and D470 revised by Karmaśrī and Nyi ma rgyal mtshan?",X,,,,"P0TMP099,P8LS15063"
-P8243,gar shes rab 'byung gnas/,,RC,,1050,1150,,,"RC: Tentative dating based on Tibskrit, where a Mgar shes rab rdo rje mentioned in Mkhas grub rim byon is given a mid 11th C birthdate. If the translator was indeed active in Kashmir as the colophon of his text would have us believe, he probably wasn't active much later than this.",OK,Tibskrit,tr,,P8242
+P8243,gar shes rab 'byung gnas/,,RC,,1050,1150,,,"RC: Tentative dating based on Tibskrit, where a Mgar shes rab rdo rje ismentioned in Mkhas grub rim byon is given a mid 11th C birthdate. If the translator was indeed active in Kashmir as the colophon of his text would have us believe, he probably wasn't active much later than this.",OK,Tibskrit,tr,,P8242
 P8146,rgyus smon lam grags/,,NB,,1050,1150,,,NB: RRaine: 11th–12th cent. Tibskrit: He died in magical combat with Rwa Lo (P3143: 1016–1128/98),OK,"RRaine, Tibskrit",,,P8145
-P8269,rma dgon gling /,,RC,,750,850,,,"Assumes the same flourit as ye she sde, Danaśīla, and Jinamitra. Described in colophon as 'ye ge pa' (scribe). Perhaps he worked later than these three, but there is no evidence to suggest that. His role in the production of the translation is unclear.",OK,,tr (possibly scribe),,P8205
+P8269,rma dgon gling /,,RC,,750,850,,,"RC: Assumes the same flourit as ye she sde, Danaśīla, and Jinamitra. Described in colophon as 'yi ge pa' (scribe). Perhaps he worked later than these three, but there is no evidence to suggest that. His role in the production of the translation is unclear. Name also found in list of early translators.",OK,,tr (possibly scribe),,P8205
 P1256,sgro lo tsA ba rin chen sde/,,NB,,700,799,,,NB: probably = 'Bro Rin chen sde (late 8th cent.),OK,"Tibskrit, BUDA",,,P5011
 P8239,kyu ra lo tsA ba tshul khrims 'od zer/,,RC,,,,,,"RC: Appears to have only translated Tōh 681. I can find no further information that what's given in the colophon for this translator and Somaśrībhavya, the paṇḍita with whom he worked.",X,,tr,,P8238
 P8160,phyug mtshams dgra bcom/,,NB,,1000?,1099?,,,"NB: Tibskrit: ""Probably the translator Phyug mtshams Dgra bcom is identical to Phyug mtshams Dbang phyug rgyal po"" (P4CZ15304) = Phyug(s) '/mtshams Dbang phyug rgya mtsho (see Tibskrit, s.v. Abhiṣekaratnāloka)? He collaborated with P1359 (fl. 1000–1099).",X,,,,"P1359,P8159"
@@ -249,7 +247,7 @@ P4CZ15597,slob dpon rta mchog zhabs/,Paramāśva,RC,,,,,,RC: Indian. A Mahāsidd
 P3130,dpal 'phrog byed bzang po/,,,,1300,1399,,,,,,,,
 P4CZ10508,slob dpon bde byed bdag po/,Śaṅkarasvāmin,RC,,,900,,,"RC: Indian. As the author of Tōh 1112, see Schneider2015. Possibly the same author as the Nyāyapraveśa (Tōh 4208), attributed in the Tibetan tradition to Dignāga. On this text see Tachikawa1971. Said (according to TibSkrit in a colophon) to be the brother of mTho btsun grub rje (P4CZ10507).",OK,Schneider2015,ma,P6126,P4CZ10507
 P3457,lha bla ma byang chub 'od/,,,,1000,1099,,,,,,,,
-P3927,rig pa'i khu byug che ba/,*Vidyākolila,,,,,,,"According to the colophon of Peking no. 4872, he is the translator of this work by Dad byed go cha rin chen (probably Śraddhākaravarman). BDRC Dpe bsdur ma page mistakenly gives author as Vibhūticandra. No clear indication of a 'che ba' in the translator's name. The biographical works linked to this person are about an Indian paṇḍita who is not described as coming to Tibet or translating anything. Perhaps the colophon is corrupt and originally said that the text was translated by Śraddhākaravarman and Rin chen bzang po, and that Rig pa'i khu byug is the author. I have no proof of this. As it stands, this person is a complete mystery.",X,,?,,
+P3927,rig pa'i khu byug che ba/,*Vidyākolila,RC,,,,,,"According to the colophon of Peking no. 4872, he is the translator of this work by Dad byed go cha rin chen (probably Śraddhākaravarman). BDRC Dpe bsdur ma page mistakenly gives author as Vibhūticandra. No clear indication of a 'che ba' in the translator's name. The biographical works linked to this person are about an Indian paṇḍita who is not described as coming to Tibet or translating anything. Perhaps the colophon is corrupt and originally said that the text was translated by Śraddhākaravarman and Rin chen bzang po, and that Rig pa'i khu byug is the author. I have no proof of this. As it stands, this person is a complete mystery.",X !!,,?,,
 P4278,ras chung rdo rje grags pa/,,,1085,,,1161,,,,,,,
 P153,lo tsA ba blo gros dpal bzang /,,,1299,,,1354,,,,RR for death date,,P8LS15063,
 P39,mkhas grub khyung po rnal 'byor/,,,,978,990,1127,,,,,,,
@@ -259,7 +257,7 @@ P4921,lo chen skyabs mchog dpal/,,,,1300,1399,,,,,,,,
 P4CZ15607,paN+Di ta 'phra ras/,*Sūkṣmadīrgha,NB,,,,,L,"NB: BUDA: = Phra la ring ba. Almogi 1997: 80, n. 228: Phra la ring mo/'Phra la ras. Tibskrit: ""In list of Later Spread (Phyi dar) period pundits in Tibet contained in Zhu chen, Bstan 'gyur dkar chag, p. 161, line 8."" ""According to Mtshan tho, he was in Tibet in the 10th century. It is said that he did grong 'jug on a corpse of a boy in Gtsang rong, and became the Rdzogs chen pa Rong pa Chos bzang (i.e., Rong zom pa).""",OK,,,,
 P2146,slob dpon byams pa mgon/,,,,1200,1299,,,,,,,,
 P7418,lo tsA ba ldi ri chos grags/,,NB,,1100,,,,1199,OK,"BUDA, Tibskrit",,,
-P4CZ15596,slob dpon 'gar pa ri pa/,,RC,,,,,,RC: Same as P3289,!!,,ma,,
+P3289,slob dpon 'gar pa ri pa/,*Garbharipa,RC,,900,,,,"RC: Indian. Wrote on the Hevajratantra, so post 10th C.",X,,ma,,
 P5312,sing ga la pa chos kyi nyin byed/,,,,1300,1399,,,,,,,,
 P8337,pad+ma 'i thod phreng /,,RC,,,,,,"RC: Indian? Given as paṇḍita of Peking 4716, bDud rtsi thigs pa; authorship of this work attributred to 'mtsho skyes rdo rje'. Translator is Jñānakumāra, hence probably not the Saroruhavajra who wrote works on the Hevajratantra. I suspect both author and translator are supposed to be Padmasambhava. TibSkrit says this is a work on the Nāmasaṅgīti, cites an anecdote in Sapaṇ's sDom gsum (Rhoton 2002: 206). But this anecdote is clearly referring to the Amṛtakaṇikā by Raviśrījñāna. Peking 4716 doesn't appear to have anything to do with Nāmasaṅgīti. It appears to begin a section of the bsTan 'gyur with works on the rNying ma tantras. Paṇḍita attribution not found in 5th Dalai Lama's catalogue. See email from Orna for more details",!!,,pa,P4956,P6525
 P7135,dpa' bo 'od gsal/,"*Vīraprabhāsvara,*Vīraprakāśa",NB,,1100?,1199?,,,"NB: Tibetan Histories: circa 1100? Tibskrit: ""Kapstein in Linrothe, Holy Madness, pp. 52 53. Two generations intervened between him and Abhayadattaśrī.""",X,,,,
@@ -280,7 +278,7 @@ P2CZ8011,thang sde snod gsum pa/,,,602,,,664,,ER: Chinese,,,,,
 P4CZ15617,rong gling lo tsA ba rdo rje dbang phyug,,RC,,1000,1099,,,"RC: Student of Abhayākaragupta, lived in 11th century according to mtshan mtho",OK,TibSkrit,tr,,P4004
 P4CZ15131,slob dpon byang chub rdo rje/,*Bodhivajra,NB,,,,,,NB: author of D 1463?,X,,,,
 P4CZ15629,ma ga d+ha'i yul du byung ba'i dge bsnyen nyi ma/,,RC,,1384,1468,,,"RC: Indian. Wrote a Praise of Vanaratna, which Vanaratna himself helped translate into Tibetan. No known other works. So the person can be assigned flourit based on the dates of Vanaratna. Blue Annels refers to a 'mi'i nyi ma' who praised Vanaratna, apparently from Koliṅga. Maybe these people are the same. ",OK,TibSkrit,ma,,P207
-P8565,rab 'byor zla ba/,Subhūticandra,NB,,1060,1140,,,"NB: van der Kuijp, ""On the Vicissitudes of Subhūticandra’s Kāmadhenu Commentary on the Amarakoṣa in Tibet"": ca. 1050–ca. 1110.",OK,deokar2014: 60,ma,,
+P8565,rab 'byor zla ba/,Subhūticandra,NB,,1060,1140,,,"NB: dates given in deokar2014: 60. van der Kuijp, ""On the Vicissitudes of Subhūticandra’s Kāmadhenu Commentary on the Amarakoṣa in Tibet"": ca. 1050–ca. 1110.",OK,deokar2014: 60,ma,,
 P0RK737,shes rab bsod nams/,,RC,,1100,1199,,,RC: Translator of a single sādhana; early 12th century birth date given in Gangs can mkhas grub,OK,TibSkrit,tr,,
 P1242,rma dge ba'i blo gros,,,1044,,,1089,,,,RR: 1044-1089,,,"P4CZ15362,P3379,P4CZ15090,P8219,P3378,P8216,P753,P1KG3490,P0TMPT009,P4CZ15186,P4CZ10517"
 P0TMPT004,bsod nams mos pa,,RC,,,,,,"RC: Can find hardly any information on this person or his collaborator. He worked as a revisor on two early translation. He too, therefore, could be from the early period, but I see no evidence to confirm this.",X,,tr,,P0TMP039
@@ -288,8 +286,7 @@ P0TMPT005,btsun pa rgya mtsho,,NB,,,,,,"NB: Tibskrit: revised D 2727, tr. by Van
 P0TMPT007,zhu chen gyi lo tsA ba ban+de rnam par mi rtog pa,,,,700,799,,,,,,,,P0TMP080
 P3389,rngog lo chung legs pa'i shes rab,,,,900,999,,,,,,,,
 P956,chos smra ba bstan pa'i nyin byed,,,1700,,,1744,,,,,,,
-P0TMPT008,rnal 'byor rgyud la mkhas pa zha lu pa ye shes rgya mtsho,,NB,,,,,,"NB: Tibskrit: revised D 482, tr. by Rin chen bzang po or Rma Dge blo (Dge ba'i blo gros). RRaine: 10th–11th c.",,,,,
-P0TMPT009,nam mkha',,RC,,,,,,"same as P4260? RC: From the looks of it, P4260 (Nam mkha' skyong) worked extensively on the Prajñāpāramitā sūtras, so I think it is very reasonable to assume that this is him. Other possibilities (gNubs nam mkha'i snying po or Dran pa nam mkha') seem much less likely. I have deleted that he worked with P1242. Colophon says the text was revised by many people, including these two: I think that increases the chances that they did not work together. ER: ok, replacing with P4260",X,,,,
+P4422,rnal 'byor rgyud la mkhas pa zha lu pa ye shes rgya mtsho,,NB,,1400,1499,,,"Tibskrit: revised D 482, tr. by Rin chen bzang po or Rma Dge blo (Dge ba'i blo gros).",OK,"BUDA, Tibskrit",,,
 P0TMPT010,lo tsA ba dge tshul nam mkha' rdo rje,,,,1300,1399,,,,,RR,,,
 P1245,pu hrangs lo tsA ba,,,,1000,1099,,,P0RK500 is possibly a duplicate?,,,,,
 P4237,she'u badzra de ba,vajradeva,,,1000,1099,,,,,,,,
