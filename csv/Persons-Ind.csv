@@ -85,7 +85,7 @@ P6119,slob dpon dbyig gnyen/,vasubandhu,SN,,350,430,,,,OK,delenau2006,ma,,
 P4CZ15293,mi bskyod rdo rje/,vajrākṣobhya,,,900,1099,,,,,,ma,,
 P4CZ15184,slob dpon blo bzang snying po/,sumatigarbha,,,900,999,,,,,,ma,,
 P4CZ15075,dge ba'i mgon po/,śubhanātha,,,1100,1199,,,,,,ma,,
-P4CZ10530,slob dpon pad+ma'i myu gu rdo rje/,padmāṅkuravajra,,,,,,,,,,ma,,
+P4CZ10530,slob dpon pad+ma'i myu gu rdo rje/,"*padmāṅkuravajra,*Padmāṅchuravajra",,,,,,,,,,ma,,
 P4CZ10554,bram ze tha ga na pa/,*thagana,OA,,,,,,,,,ma,,
 P7752,grub chen la wa pa/,Kambalapāda,,,,,,,,OK,Tibskript,ma,,
 P7401,slob dpon 'phags pa lha/,"karnaripa,Āryadeva,Kāṇadeva?",,,200,299,,,,,,ma,,
@@ -437,7 +437,7 @@ P8187,karnasri/,karnaśrī ?,,,,,,,,,,"ma,pa",,P4CZ10557
 P8271,kumararaksita/,kumārasena ?,,,,,,,,,,"ma,pa",,
 P4957,shanti garbha/,"Śāntigarbha,Śāntagarbha",,,,,,,,,,"ma,pa",,P20
 P4CZ15533,byang chub sems dpa' dA na shrI/,"mālava, dānaśrījñāna",,,1000,1099,,,,,,"ma,pa",,"P6453,P4004"
-P8213,slob dpon bIr+ya sing+ha pra b+ha/,"vīryakarasiṁha,vīryasiṁha",,,800,899,,,,,,"ma,pa",,"P4257,P4259,P8182,P8260,P8142,P8218,P8182,P00KG07267,P4255"
+P8213,slob dpon bIr+ya sing+ha pra b+ha/,"vīdyakarasiṁha,vīryasiṁha,vīdyakarasiṁhabrabha",,,800,899,,,,,,"ma,pa",,"P4257,P4259,P8182,P8260,P8142,P8218,P8182,P00KG07267,P4255"
 P4CZ10528,rgya gar gyi mkhan po pradz+nyA in+d+ra ru tsi/,prajñendraruci ?,,,,,,,,,,"ma,pa",,P3285
 P8211,slob dpon bid+yA ka ra pra b+hA/,vidyākaraprabha,,,800,899,,,,,,"ma,pa",,"P4259,P8182,P8212,P4256,P8182,P2JM5,P4258,P00KG07267,P8249,P8574,P4255"
 P8232,"Phyag na rdo rje, Phyag rdor, rGya gar phyag na",Vajrapāṇi,MH,1017,,1199,,,P0RK1231 is potentially a duplicate ?,OK,Tibskript,"ma,pa",,"P4CZ10557,P3456,P3890,P3074,P3731,P4308,P4CZ15140,P6524"
@@ -466,7 +466,7 @@ P7603,las kyi rdo rje/,karmavajra,,,,,,,"RR: circa 11th-12th c., duplicate of P8
 P4956,slob dpon pad+ma 'byung gnas/,padmasambhava,,,700,799,,,,,,"ma,pa,tr",,"P00EGS1017620,P5013"
 P4849,paN chen smri ti dz+nyA na/,Smṛtijñānakīrti,,892,,,,,,,,"ma,pa,tr",,
 P8210,mkhan po dA na shI la/,dānaśīla,,,800,899,,,,,,"ma,pa,tr",P3214,"P8209,P4CZ15493,P1KG8854,P4CZ16747,P8182,P8205"
-P00EGS1016642,slob dpon rin chen 'byung gnas zhi ba/,ratnākaraśānti,MH,,1000,1099,,,,OK,Princeton,"ma,pa,tr",,
+P00EGS1016642,slob dpon rin chen 'byung gnas zhi ba/,"ratnākaraśānti,Śāntipa",MH,,1000,1099,,,,OK,Princeton,"ma,pa,tr",,
 P4CZ15211,paN+Di ta chen po d+harma badz+ra/,dharmavajra,,,800,899,,,"can be confused with P4CZ15108, P4CZ15211 is a duplicate of one of these?",,,pa,,"P4CZ15212,-"
 P4CZ15369,bIr+ya gu ba su tra/,vīryaguptaputra ?,,,1000,1099,,,,,,pa,,P4418
 P4CZ10535,rgya gar gyi mkhan po shrI badz+ra bo d+hi/,śrīvajrabodhi,,,,,,,,,,pa,,"P4180,P8129,P4531"
@@ -484,7 +484,7 @@ P4CZ15496,pan+Di ta dpal go mi 'chi med/,"śrīgomiamar ?,Amaragomin",,,1000,109
 P4CZ15472,mkhan po su b+ha dra/,subhadra,,,1000,1099,,,,,,pa,,P3890
 P4CZ15278,mkhan po dpal phyogs dbang dga' byed/,Digīśanandana,,,1200,1299,,,,,,pa,,P4CZ10533
 P4CZ15471,mkhan po kA la tsa kra/,kālacakra,,,600,799,,,,,,pa,,
-P3261,slob dpon rgyal ba'i rgyal mtshan/,jayankara ?,,,1200,1299,,,,,,pa,,P2636
+P3261,slob dpon rgyal ba'i rgyal mtshan/,jayankara ?,,,1200,1299,,,duplicate of P4CZ16830,,,pa,,P2636
 P4CZ10538,mkhan po chen po pradz+nyA shrI gub+ta/,prajñāśrīgupta ?,,,,,,,duplicate of P10154 and P8159 ?,,,pa,,P4CZ10539
 P4CZ15167,bal po lo tsA ba dze ta ha du shan+ti b+ha dra/,śāntibhadra ?,,,1300,1399,,,,,,pa,,P4307
 P8161,mkhan po dzi na wa ra/,jinavara,,,,,,,same as P8161 ?,,,pa,,"P4243,P3458"
@@ -506,7 +506,7 @@ P4CZ15507,shar phyogs b+hM ga la'i nyi ma 'byung gnas zla ba/,sūryākaracandra,
 P8397,bA su d+ha ra/,"vāsudhara,Vasudharārakṣita,Sudanarakṣita",,,,,,,,,,pa,,P4402
 P4CZ15638,paN+Di ta D+hi ra pA la/,"Dhirapāla,trilakSa sthirapAla ?",,,1000,1099,,,,,,pa,,P2551
 P3891,paN+Di ta su ba dz+ra/,suvajra,,,,,,,,,,pa,,P3890
-P4CZ16830,paN+Di ta dza ya ka ra/,jayakara,,,1200,1299,,,,,,pa,,P4CZ10533
+P4CZ16830,paN+Di ta dza ya ka ra/,jayakara,,,1200,1299,,,duplicate P3261,,,pa,,P4CZ10533
 P8176,paN+Di ta de wa puN+ye ma ti/,"devapūrṇamati,devapuṇyamati ?",,,1000,1099,,,,,,pa,,"P3221,P3939,P4237"
 P3239,na len+dra pa/,,,,1000,1099,,,,,,pa,,P4266
 P4CZ15080,A tsar+ya du lo pa/,dulopa ?,,,1000,1099,,,,,,pa,,P3890
@@ -514,7 +514,7 @@ P4CZ15307,paN+Di ta U to pa ti/,utopati,,,1000,1099,,,,,,pa,,P3088
 P4CZ15501,mkhan po b+ho d+hi tsan+dra/,bodhicandra,,,1100,1199,,,,,,pa,,P1025
 P8198,devendradeva/,devendradeva,,,,,,,,,,pa,,
 P4CZ16749,mi mnyam khol po/,,,,1100,1199,,,,,,pa,,P2551
-P3302,slob dpon ga ya d+ha ra/,gayadhara ?,,,,,,,duplicate of P8151 ? Rigpa wiki gives 994-1043 for one of these,,,pa,,"P3458,P8129,P3285,P4CZ15445"
+P3302,slob dpon ga ya d+ha ra/,gayadhara ?,,994,,,1043,,duplicate of P8151 ? Rigpa wiki gives 994-1043 for one of these,,,pa,,"P3458,P8129,P3285,P4CZ15445"
 P4CZ10581,paN+Di ta bim+pa/,vimala ?,,,,,,,,,,pa,,
 P4CZ15306,mkhan po radz+nyA tra shrI be de ba/,prajñāśrīdeva,,,900,999,,,,,,pa,,P4CZ15290
 P4CZ15522,paN+Di ta pu ru Shot+ta ma/,puruṣottama,,,1200,1299,,,,,,pa,,
@@ -537,10 +537,10 @@ P4CZ15213,paN+Di ta sA d+hU kIrti/,sādhukīrti ?,,,1200,1299,,,,,,pa,,P4101
 P4CZ16873,a tsar+ya d+harma shrI war ma/,dharmaśrīvarma,,,1000,1099,,,,,,pa,,
 P4CZ10545,slob dpon bud+d+hA ka ra badz+ra/,buddhākaravajra,,,,,,,,,,pa,,"P3458,P8129"
 P4CZ15574,pan+Di ta a b+hi yuk+ta de ba shrI mi tra/,"abhiyuktakadevaśrī, abhiyuktaka tāraśrīmitra",,,1000,1099,,,,,,pa,,"P3890,P10183"
-P9962,paN+Di ta dze ta kar+Na/,"jaitakarṇa,Jetakarṇa ?",,,1200,1299,,,DM: This Indian (or Newar) pundit worked together with Thar pa Lo tsā ba Nyi ma rgyal mtshan (teacher of Bu ston),,,pa,,P2147
+P9962,paN+Di ta dze ta kar+Na/,"jaitakarṇa,Jetakarṇa",,,1200,1299,,,DM: This Indian (or Newar) pundit worked together with Thar pa Lo tsā ba Nyi ma rgyal mtshan (teacher of Bu ston),,,pa,,P2147
 P4CZ16770,mkhan po dzi ta shrI b+ha dra/,ajitaśrībhadra ?,,,1000,1099,,,,,,pa,,"P2554,P4CZ16819"
 P1KG8854,shI len+dra bo d+hi/,śīlendrabodhi,,,800,899,,,,,,pa,,"P4CZ16780,P8266,P8267,P8182,P5013,P8209,P8222,P8228,P4CZ10518,P2548,P8182,P3458,P8205,P4CZ16819,P8210,P3214"
-P4CZ15246,paN+Di ta chen po ti la ka ka la sha,"tilakakalaśa,Bindukalaśa ?",,,1000,1099,,,,,,pa,,"P5651,P2551"
+P4CZ15246,paN+Di ta chen po ti la ka ka la sha,"tilakakalaśa,Bindukalaśa ?",,,1000,1099,,,P0TMP270,,,pa,,"P5651,P2551"
 P42,paN+Di ta su ma ti/,Sumati,,,900,999,,,,,,pa,,P2554
 P4CZ15136,kha che'i slob dpon bi na ya ka,Vinayaka,,,1000,1099,,,,,,pa,,"P4266,P2551"
 P8219,mkhan po bi shud+d+ha sing ha/,viśuddhasiṃha,,,800,899,,,,,,pa,,"P4CZ16854,P4263,P8212,P8182,P00KG07267,P1242,P4255"
@@ -588,7 +588,7 @@ P4CZ15090,dpal rab po zhi ba/,"śrīsubhūtiśānti,Subhūtiśrīśānti",,,1000
 P4CZ15208,mkhan po gu len dra gup+ta/,gulendragupta,,,,,,,,,,pa,,P4261
 P4CZ10529,rgya gar gyi mkhan po chen po dpal ldan zla ba/,śrīcandra,,,,,,,,,,pa,,P3458
 P4CZ15644,li'i mkhan po su ren trA ka ra pra b+ha/,surendrākaraprabha ?,,,800,899,,,,,,pa,,"P4260,P5011,P8205"
-P4CZ15449,A tsar+ya u pa d+ha shrI badz+ra shI la/,upadhaśrīvajraśrīla,,,900,999,,,,,,pa,,P4104
+P4CZ15449,A tsar+ya u pa d+ha shrI badz+ra shI la/,upadhaśrīvajraśīla,,,900,999,,,,,,pa,,P4104
 P4CZ15532,paN+Di ta shAkya rak+Shi ta/,śākyarakṣita,,,1000,1099,,,,,,pa,,
 P4CZ16840,paN+Dita shrI ra tha/,"śrīratha,manoratha",,,1000,1099,,,,,,pa,,"P4266,P2551"
 P4CZ15229,mkhan po shrI na ren+dra b+ha dra/,śrīnarendrabhadra,,,1300,1399,,,,,,pa,,P1448
@@ -961,4 +961,9 @@ P0TMP265,,Avadhūtasiddha,MH,,800,999,,,,OK,PANDiT,,,
 P0TMP266,,Bhāskarakaṇṭha,MH,,1600,1799,,,,OK,Tibskript/PANDiT,,,
 P0TMP267,,"Vijñānabhikṣu, Vijñāneśvara",MH,,1500,1699,,,,OK,PANDiT,,,
 P0TMP268,rgya gar gyi mkhan po chen po rgyal ba mchog,Varadarāja,,,,,,,same as P0TMP194 ?,,,,,
-P0TMP269,bi b+ha ka ra,Vibhākara,,,,,,,,,,,,
+P0TMP269,bi b+ha ka ra,Vibhākara,,,,,,,same as P4CZ15246 ?,,,,,
+P0TMP270,ti la ka,Tilaka,,,,,,,,,,,,
+P0TMP271,slob dpon bai d+ya pA da,"Vīryapāda?,Vaidyapāda",,,,,,,,,,,,
+P0TMP272,rdo rje gsang ba,*Vajraguhya,,,,,,,,,,,,
+P0TMP273,slob dpon chen po bram ze ba ra ma ti,Varamati,,,,,,,,,,,,
+P9952,bram ze shang ka ra nanda,sankarananda,,,,,,,,,,,,

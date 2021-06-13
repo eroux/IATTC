@@ -156,7 +156,7 @@ P4CZ15290,lo tsA ba cog gru shes rab bla ma/,,,,1000,1099,,,,,,tr,,"P4CZ15306,P8
 P4404,sa skya bla chen kun dga' rgyal mtshan/,,,,1300,1399,,,,,,tr,,"P1518,P8200"
 P856,zhwa lu lo tsA ba chos skyong bzang po/,"dharmabhadra, Dharmapālabhadra",,1441,,,1527,,,,,tr,,"P0TMP075,P0TMP074,-"
 P4401,zhu chen gyi lo tsA ba dga' rdor/,,,,1000,1099,,,,,,tr,,P8225
-P8142,lha rin po che/,,NB,,,,,,"RR: 11th-12th c. NB: Martin, Biographical References (Tibetological): Part One (Ming mdzod), no. 1871: b. about late 11th.",X,,tr,,P8213
+P8142,lha rin po che/,,NB,,1100,1199,,,"RR: 11th-12th c. NB: Martin, Biographical References (Tibetological): Part One (Ming mdzod), no. 1871: b. about late 11th.",OK,,tr,,P8213
 P8275,lo tsA ba pra dz+nyA sing ha/,"*Prajñāsiṃha, perhaps Prajñāsiddha",RC,,830,,,,"RC: BDRC website's 'notes' associate him with Tōh 199 (work translated from Chinese), but Tōh 199 is linked in this spreadsheet with P2139. Old BDRC website associates this person with a translation of a text by Jñānapāda (from Sanskrit), Tōh 3905. This is probably the person in question. BUDA associates him with Tōh 3906, although colophon doesn't attest the involvement of anybody by this name. The latter appears to be some kind of glitch. The translator of Tōh 3905 is mysterious.",X !!,,tr,,P0TMP078
 P1048,gro mgon chos rgyal 'phags pa/,,,1235,,,1280,,,,,tr,,
 P4209,lo tsA ba bsod nams rgyal ba/,,,,1000,1099,,,,,,tr,,"P8093,P4CZ15273"
@@ -194,7 +194,7 @@ P4CZ15575,grags pa byang chub/,,NB,,1200,1299,,,NB: floruit 13th c. since he wor
 P4CZ10573,lo tsA ba le'u ston rgya nag,,RC,,1027,,,L,"Edited a translation done by Somanātha (11th Kashmiri paṇḍita who executed his own translations). Somanātha arrived in Tibet in 1027 (accord to Tresury of Lives pages on Kālacakra), so le'u ston rgya nag must have been active some time after that.",X,,editor,,
 P4CZ15078,lo tsA ba phyug brtsams dbang phyug rgya mtsho/,,,,1000,1199,,,,,,,,P1359
 P3221,"gar lo tsA ba chos kyi bzang po/,mgar chos kyi bzang po/",,RC,,,,,,"RC: He is different from P3939 (i.e. dpyal chos kyi bzang po); translated a large number of works by *Jabariba in Nepal with Devapūṛṇamati; quite a few of those works are associated with P3939, which is probably a mistake. ",X !!,,tr,P3939,P8176
-P6944,rgya lo tsA ba rdo rje bzang po/,,NB,,,,,,NB: rGya lo tsā ba rDo rje bzang po (of Jumla) was a gter ston active in the 11th c. ca. (Smith 2001: 238); the translator of the rDo rje slob dpon gyi bya ba kun las btus pa [D 3305] is rather a Blo gros rgyal mtshan dpal bzang po.,X !!,,,,
+P6944,rgya lo tsA ba rdo rje bzang po/,,NB,,1000?,1099?,,,"NB: rGya lo tsā ba rDo rje bzang po (of Jumla) was a gter ston active in the 11th c. ca. (Smith 2001: 238); the translator of the rDo rje slob dpon gyi bya ba kun las btus pa [D 3305] is rather a Blo gros rgyal mtshan dpal bzang po. The latter may also have been active in the 11th c. ca., given that he is said to have translated D 3305 with “bi kra ma shI la’i paN+Di ta chen po many+dzu shrI” (P8246), whose disciple “lo tsA ba lce dga’ ba’i dpal” (P4CZ15497) is dated 1000–1099 in BUDA.",X !!,,,,
 P461,sa lo kun dga' bsod nams/,,,1485,,,1533,,,,,,,
 P4CZ15304,lo tsA ba phyug 'tshams dbang phyug rgyal po/,,,,1000,1199,,,,,,,,
 P3827,myang ting 'dzin bzang po/,,,,800,899,,,,,,,,
@@ -237,7 +237,7 @@ P4848,khro phu 'od zer 'byung gnas/,,NB,,,,,,NB: = Khro phu Lo tsā ba Byams pa 
 P4CZ16815,dgra bcom pa chos skyob/,Dharmatrāta,RC,,,,,,RC: Indian. Compiler of Udānavarga (Tōh. 4099). Sanskrit name given as Dharmatrāta. Approximately three important such figures are identified by modern scholars. The two most important flourised in the 2nd century and 4th century respectively.,X,Pinceton Dictionary,ma,,
 P3086,pham mthing pa gcen 'jigs med grags pa/,,,,1000,1099,,,,,,,,
 P4015,ra ti gupta/,,,,1400,1499,,,,,,,,
-P4CZ16870,slob dpon dbang pos byin/,*Indradatta,NB,,,,,,"NB: Tibskrit: ""Tāranātha made use of his historical work called Buddhapurāṇa in 1,200 verses."", NB: *Indradatta (dBang po[s] [s]byin)",X,,,,
+P4CZ16870,slob dpon dbang pos byin/,*Indradatta,NB,,,,,,"NB: Indian. Tibskrit: ""Tāranātha made use of his historical work called Buddhapurāṇa in 1,200 verses."", NB: *Indradatta (dBang po[s] [s]byin)",X,,,,
 P1KG10638,jam dbyangs kha che paN+Di ta/,,,,1300,1399,,,,,,,,
 P4095,sde dge rgyal po bstan pa tshe ring /,,,1678,,,1738,,,,,,,
 P940,brug chen 06 mi pham dbang po/,,,1641,,,1717,,,,,,,
