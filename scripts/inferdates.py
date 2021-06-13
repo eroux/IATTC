@@ -30,9 +30,9 @@ def add_cluster(p1, p2, cltype, textref):
             'p1': p1,
             'p2': p2,
             'cltype': cltype,
-            'textrefs': []
+            'textrefs': set()
         }
-    CLUSTERS[key]["textrefs"].append(textref)
+    CLUSTERS[key]["textrefs"].add(textref)
 
 def add_clusters(textevents, textref):
     # first simple clusters: people participating in the same event:
@@ -79,7 +79,7 @@ def clustersFromFile(fname):
             event = ROLEEVENTS[role]
             if textid != previoustextid:
                 # got all the information about an event, add clusters
-                add_clusters(textevents, textid)
+                add_clusters(textevents, previoustextid)
                 textevents = {}
                 previoustextid = textid
             if event not in textevents:
@@ -144,10 +144,10 @@ def check_dates_compatible(p1, p1dates, p2, p2dates, cltype, textrefs):
     p2notafter = p2dates['dy'] if p2dates['dy'] is not None else p2dates['flna']
     # in all cases, p1notbefore must be before p2notafter:
     if p1notbefore is not None and p2notafter is not None and p1notbefore >= p2notafter:
-        print("error: %s (%d-...) cannot have worked with %s (...-%d) on %s" % (p1, p1notbefore, p2, p2notafter, ','.join(textrefs)))
+        print("error: %s (%d-...) cannot have worked %s %s (...-%d) on %s" % (p1, p1notbefore, "with" if cltype == "sync" else "before", p2, p2notafter, ','.join(textrefs)))
         return False
     # if not in the "before" type, p1notafter must be after p2notbefore:
-    if p2notbefore is not None and p1notafter is not None and p2notbefore >= p1notafter:
+    if cltype != "before" and p2notbefore is not None and p1notafter is not None and p2notbefore >= p1notafter:
         print("error: %s (...-%d) cannot have worked with %s (%d-...) on %s" % (p1, p1notafter, p2, p2notbefore, ','.join(textrefs)))
         return False
     return True
