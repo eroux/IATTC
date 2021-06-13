@@ -29,15 +29,15 @@ def getFromFile(fname):
 def main():
     getFromFile("../csv/DergeTengyur.csv")
     getFromFile("../csv/DergeKangyur.csv")
-    for name, nameinfo in NAMESTOPERSONS.items():
-        if len(nameinfo.keys()) > 1:
-            print(name)
-            for personid, textidlist in nameinfo.items():
-                print("    "+personid+"  in  "+",".join(textidlist))
-    # for name, nameinfo in PERSONSTONAMES.items():
+    # for name, nameinfo in NAMESTOPERSONS.items():
     #     if len(nameinfo.keys()) > 1:
     #         print(name)
     #         for personid, textidlist in nameinfo.items():
     #             print("    "+personid+"  in  "+",".join(textidlist))
+    for name, nameinfo in PERSONSTONAMES.items():
+        if len(nameinfo.keys()) > 1:
+            print(name)
+            for personid, textidlist in nameinfo.items():
+                print("    "+personid+"  in  "+",".join(textidlist))
 
 main()
