@@ -342,7 +342,7 @@ P3085,paN chen nA ro pa/,Nāropa,MH,1012-1016,,,1100,1002-,,,OK,Princeton,"ma,pa
 P8209,kha che'i slob dpon dzi na mi tra/,jinamitra,,,800,899,,,,,,,"ma,pa",,"P8183,P2548,P8182,P4CZ16898,P4CZ16819,P8220,P00KG07267,P3214,P0RK8,P4CZ15493,P8222,P8205,P8261,P8266,P8228,P8246,P8182,P8268,P0TMP090,P1KG8854,P8210,P8217"
 P4CZ15101,mkhas pa dpe med bsrungs/,anupamarakṣita,,,1000,1099,,,,,,,"ma,pa",,P10183
 P4CZ15234,paN+Di ta bde chen rdo rje/,mahāsukhatāvajra,,,,,,,,,,,"ma,pa",,
-P4CZ15258,slob dpon rab tu dga' ba'i 'byung gnas go cha/,pramuditākaravarman,,,900,1099,,,,,,,"ma,pa",P4CZ15493,P753
+P4CZ15258,slob dpon rab tu dga' ba'i 'byung gnas go cha/,Prajñākaravarman,,,900,1099,,,,,,,"ma,pa",P4CZ15493,P753
 P4CZ15366,paN+Di ta zla ba bzang po/,bhadracandra,,,1300,1399,,,,,,,"ma,pa",,P7604
 P4CZ10559,mkhan po kun tu bzang po/,Samantabhadra,MH,,,,,1011-1064,,,X,Tibskrit,"ma,pa",,P3456
 P4CZ16760,bram ze'i btsun pa rab 'byor dbyangs/,dhārmikasubhūtighoṣa,,,1100,1199,,,,,,,"ma,pa",,P4CZ10524
@@ -378,7 +378,7 @@ P00KG02663,slob dpon ta thA ga ta rak+Shi ta/,Tathāgatarakṣita,,,1000,1099,,,
 P3870,mkhan chen rat+na A ka ra/,ratnākara ?,,,1400,1499,,,,,,,"ma,pa",,P6453
 P4CZ15081,dpal ye shes/,śrījñāna,,,,,,,,,,,"ma,pa",,P4CZ10557
 P8175,ye shes snying po/,jñānagarbha,,,800,899,,,,"Indian, different from P4255 (Tibetan)",,,"ma,pa",,"P8183,P8182,P4260,P4CZ15493,P4CZ16847,P8182,P8205,P8249"
-P3302,"ga ya dha ra/, slob dpon ga ya d+ha ra/","gayādhara, Kāyastha Gayādhara",,,1000,1099,,,,duplicate of P3302 ?,,,"ma,pa",,"P3458,P8129,P3285"
+P3302,"ga ya dha ra/, slob dpon ga ya d+ha ra/","gayādhara, Kāyastha Gayādhara",,994,,,1043,,,,,,"ma,pa",,"P3458,P8129,P3285"
 P3217,dar pana A tsar+ya/,"dharpacacargya,darpaṇācārya,Durpaṇācārya",,,1000,1199,,,,,,,"ma,pa",,"P5820,P1061"
 P8226,kha che'i paN+Di ta ma hA dz+nyA na/,mahājñana ?,,,,,,900-1399,,,,,"ma,pa",,"P4420,P2551,P3709,P4418,P4417,P4CZ15648"
 P4CZ15523,paN+Di ta pra b+ha ka ra/,prabhākara,,,900,999,,,,,,,"ma,pa",,"P753,P1448"
@@ -445,7 +445,7 @@ P7602,lo kA shrI/,lokaśrī ?,,,1000,1099,,,,,,,"ma,pa,tr",,
 P4CZ15079,slob dpon longs spyod rdo rje/,sambhogavajra,,,,,,,,,,,"ma,pa,tr",,
 P3379,slob dpon mar med mdzad bzang po/,Atiśa Dīpaṃkaraśrījñāna,MH,982,,,1054,,,,OK,Princeton,"ma,pa,tr",P3379,"P3731,P4420,P2554,P4CZ15171,P3456,P3143,P2557,P8216,P753,P4104,P1242"
 P8094,paN+Di ta so ma nA tha/,somanātha,,,1000,1099,,,,RR: Dawa Gonpo,,,"ma,pa,tr",,"P155,P2553"
-P2CZ7929,"paN+Di ta bai ro tsa na ra Sha/, bai ro tsa na rak+Shi ta/","vairocanavajra, vairocanarakṣita",,,1100,1199,,,,"RR: circa 11th c., duplicate of P2CZ7929 ?",,,"ma,pa,tr",,"P3731,P8203,P1798"
+P2CZ7929,"paN+Di ta bai ro tsa na ra Sha/, bai ro tsa na rak+Shi ta/","vairocanavajra, vairocanarakṣita",,,1050,1150,,,,"RR: circa 11th c., duplicate of P2CZ7929 ?",,,"ma,pa,tr",,"P3731,P8203,P1798"
 P3214,paN chen dA na shI la/,dānaśīla,,,1100,1199,,,,,,,"ma,pa,tr",P8210,"P4CZ15225,P6453,P8182,P8268,P8209,P4CZ10518,P1KG8854,P8209,P0TMP106,P8205,P8261,P2138,P8203"
 P4CZ15083,grub chen d+A ri ka pa/,dārikapāda ?,,,,,,,,,,,"ma,pa,tr",,
 P8224,rdo rje gdan pa chung ba/,amoghavajra,,,900,1099,,,,"RR: circa 11th-12th c., DM: circa 11th c., duplicate of P10295 in BDRC ?",,,"ma,pa,tr",,"P4CZ10557,P4CZ15290,P4CZ15616,P3458,P3731"
@@ -966,3 +966,13 @@ P8165,rgya gar gyi mkhan po a du la d+ha sa,"Atulyadāsa?,atuladasavajra?",,,,,,
 P1GS88474,dpal pradz+nyA rak+Shi ta,Prajñārakṣita,,,,,,,,,,,,,
 P1GS147817,mi 'jigs pa sbyin pa dpal,abhayadatta,,,,,,1000-1199,,,,,,,
 P0TMP274,,Sāramati,MH,,300,499,,,,,OK,Tibskrit/PANDiT,,,
+P0TMP275,rgya gar gyi mkhan po shAkya pra bha,Śākyaprabha,,,,,,,,different from P4CZ16819,,,,,
+P0TMP276,,Kamalaguhya,,,950,1099,,,,maybe the same as P8093 but uncertain,,,,,P4153
+P0TMP277,rgya gar kyi mkhan po dpal tsha ya A na n+da,Jayānanda,,,1200,1299,,,,different from P4CZ15242,,,,,
+P0TMP278,slob dpon chen po zla ba bzang po grags pa'i dpal,sucandrabhadra,,,,,,,,different from P4CZ15457,,,,,
+P0TMP279,rgya gar gyi mkhan po mu ti ta shrI dz+nyA na,Muditaśrījñāna,,,,,,,,different from P4CZ15568,,,,,
+P0TMP280,slob dpon ye shes byin,,,,,,,,,different from P7148,,,,,
+P0TMP281,slob dpon ye shes rdo rje,,,,,,,,,"different from P7641, possibly P1243",,,,,
+P0TMP282,rgya gar gyi mkhan po ka mA la shrI,Kamalaśrī,,,1000,1099,,,,different from P8213,,,,,
+P0TMP283,paN+Di ta bid+yA ka ra sing ha,Vidyākarasiṃha,,,1000,1099,,,,,,,,,
+P0TMP284,rab tu dga’ ba’i ’byung gnas go cha,*Pramuditākaravarman,,,,,,,,different from P4CZ15258 who shouldn't have this name,,,,,
