@@ -1,9 +1,11 @@
 "For records in the BDRC database, indicate it here (ex: P123), for duplicates, indicate all IDs, for records not in the BDRC database, create an ID starting with P1TMP (ex: P1TMP123)",names_tib,names_skt,reviewer,birth year,floruit not before,floruit not after,death_year,inferred_floruit,period,notes,status,source,roles,can be confused with,worked with
 "for records in the BDRC database, indicate it here (ex: P123), for duplicates, indicate all IDs, for records not in the BDRC database, create an ID starting with P1TMP (ex: P1TMP123)","coma separated list of names in Tibetan, prefilled witht the primary name in the BDRC database","comma-separated list of Sanskrit names, in IAST. BDRC has very sparse data of this kind and this has been prefilled with some strings from Otani and Tibskrit",,when known,,,,,Earlier (E) or Later (L),,"write OK if identification+dating is certain; write X if the person is ambiguous and if the data is uncertain; further details should be writted under ""notes""",,"ma = main author, pa = pandita, tr = translator",,computed automatically
-P8205,sna nam btsun pa ye shes sde/,,,,700,799,,,,,,,"ma,tr",,"P8209,P2548,P8182,P4CZ16819,P5011,P8209,P0TMP106,P3214,P4CZ16780,P10180,P8269,P4CZ15493,P8222,P4CZ10518,P8261,P8266,P8267,P8228,P8246,P4CZ15644,P8175,P8268,P4260,P1KG8854,P8210,P8217"
+P2636,mar pa lo tsA ba chos kyi blo gros/,,,,1002,1100,,,,"NB: BUDA: 1002/1012–1097/1100. Ducher, Building a Tradition (2017), p. 302: 1000–1081; 1012–1097; 1024–1107 (she favours the “early tradition”).",,,"pa,tr",,"P44,P4CZ15245,P3261,P2551,P3085,P3822,P4255"
+P2551,rngog blo ldan shes rab/,,,1059,,,1109,,,,,,"pa,tr",,"P8165,P4CZ16749,P8226,P2636,P4CZ16848,P4920,P4CZ15638,P3890,P4CZ15136,P4257,P4CZ15496,P4CZ15266,P8246,P8225,P0TMP020,P4CZ15246,P8893,P4CZ16840,P4CZ10561"
+P8205,sna nam btsun pa ye shes sde/,,,,750,849,,,,RC: cf Treasury of Lives,,,"ma,tr",,"P8209,P2548,P8182,P4CZ16819,P5011,P8209,P0TMP106,P3214,P4CZ16780,P10180,P8269,P4CZ15493,P8222,P4CZ10518,P8261,P8266,P8267,P8228,P8246,P4CZ15644,P8175,P8268,P4260,P1KG8854,P8210,P8217"
 P2085,dpang lo tsA ba blo gros brtan pa/,,,1276,,,1342,,,DM: Blo brtan III,,,"ma,tr","P4832,P1052","P4CZ15585,P1518,P3939,-"
 P8182,ska ba dpal brtsegs/,,,,800,899,,,,,,,"ma,tr",,"P4259,P8175,P4CZ16854,P8209,P8260,P8211,P8228,P1KG8854,P8213,P4258,P00KG07267,P3214,P4255"
-P753,lo chen rin chen bzang po/,,,958,,,1055,,,,,,"ma,tr",,"P8194,P4CZ15517,P8171,P7257,P5568,P5654,P4CZ15523,P4CZ15493,P8216,P8222,P4CZ16842,P4CZ15254,P4CZ15258,P8266,P4CZ10517,P4CZ15568,P7648,P3388,P8280,P3379,P00KG02663,P4CZ10578,P4CZ16821,P1242,P8093"
+P753,lo chen rin chen bzang po/,,,958,,,1055,,,,,,"ma,tr",,"P8194,P4CZ15517,P8171,P7257,P5568,P5654,P4CZ15523,P4CZ15493,P8216,P8222,P4CZ16842,P4CZ15254,P4CZ15258,P8266,P4CZ10517,P4CZ15568,P7648,P3388,P8280,P3379,P00KG02663,P4CZ10577,P4CZ16821,P1242,P8093"
 P5169,tsa mi sangs rgyas grags pa/,,NB,,1000,1099,,,,"NB: = P7137, so 11th–12th cent.?. ER: I don't think there's enough evidence to say that P7137 and P5169 are the same...",X !!,,"ma,tr",,P4004
 P7743,gnub nam mkha'i snying po/,,,,700,799,,,,,,,"ma,tr",,P5263
 P4CZ15401,"slob dpon skye med bde chen/,bal po A su",*Ajātasukha?,NB,,1000,1099,,,,NB: aka Bal po A su (*Ajātasukha?); Newar; disciple of Vajrapāṇi and Śāntibhadra.,OK,Tibskrit,"ma,tr",,
@@ -13,7 +15,7 @@ P10185,dpal mchog dang po'i rdo rje/,,,,1100,1199,,,,,,,tr,,P8218
 P2637,yar lung lo tsA ba grags pa rgyal mtshan/,,,1242,,,1346,,,"a lot of homonyms here... P3980 is the correct one? Also warning, P10MS19659 is probably the correct one",,,tr,"P3980,P3281,P10MS19659,P2637","P4CZ15100,P5782,-,P4CZ10553,P4CZ15085"
 P10MS19659,lo tsA ba grags pa rgyal mtshan/,,,1352,,,1405,,,,,,,"P3980,P3281,P2637,P2637",
 P4CZ10557,rma lo tsA ba rma ban chos 'bar/,,,1044,,,1089,,,,,,tr,,"P8232,P8224,P4CZ15390,P4CZ15179,P8187,P4CZ15371,P4CZ10561,P8251,P4CZ15081,P4CZ15227,P7753,P00KG01611,P4CZ15226"
-P4241,shes rab ye shes/,,,,1000,1099,,,,,,,tr,P6473,"P4CZ10577,P4CZ15122"
+P4241,shes rab ye shes/,,,,1000,1099,,,,,,,tr,P6473,"P4CZ10577,P4CZ10577"
 P4374,a zha rgya gar brtsegs pa/,,,,1000,1099,,,,,,,tr,,P4CZ15076
 P4CZ15585,lo tsA ba chos grags dpal bzang /,,RC,,1300,1399,,,,"duplicate of P2251 (this can be determined by association with blo gros brtan pa, etc.), often more sponsor than translator, but he was considered a co-translator for at least some texts; Stearns estimates dates 1283 - 1363, BDRC slightly later",OK,"Cyrus Sterns, Treasury of Lives",tr,,P2085
 P00EGS1017627,lo tsA ba gyi ljang dbu dkar/,,,,1000,1099,,,,,,,tr,,P4CZ15232
@@ -23,7 +25,7 @@ P4CZ15499,lo tsa ba phes pa dpal/,,,,1100,1199,,,,,,,tr,,P1518
 P10183,lo tsA ba dar ma yon tan/,,,,1100,1199,,,,RR; b. 1100?,,,tr,,"P4CZ15574,P4CZ15101,P7878"
 P3088,mal lo tsA ba blo gros grags pa/,,,,1000,1099,,,,,,,tr,,"P4CZ15307,P4CZ15126,P7599,P4CZ10575"
 P4CZ15124,lo tsa ba tho gar dge mdzes/,,,,1200,1299,,,,,,,tr,,"P4CZ15123,P8208"
-P2614,gnyan lo tsA ba dar ma grags/,,,,1000,1099,,,,RR: 1076- ?,,,tr,,"P3850,P4CZ10577,P489,P4004,P8893,P3299,P4CZ15122,P4CZ15270"
+P2614,gnyan lo tsA ba dar ma grags/,,,,1000,1099,,,,RR: 1076- ?,,,tr,,"P3850,P4CZ10577,P489,P4004,P8893,P3299,P4CZ10577,P4CZ15270"
 P3281,kun spangs grags pa rgyal mtshan/,,,,1200,1299,,,,a lot of homonyms here... ,,,tr,"P3980,P10MS19659,P2637,P2637",P4CZ15085
 P1CZ1218,lo ts+tsha ba 'jam dbyangs ral gri/,,,,1400,1499,,,,,,,tr,,
 P4240,lo tsA ba shes rab 'od zer/,,,,1000,1099,,,,,,,tr,,P8267
@@ -31,7 +33,7 @@ P4CZ15123,lo tsA ba nyi ma rdo rje/,,,,1100,1199,,,,,,,tr,,"P4CZ15124,P0TMP036,P
 P4264,lo tsA ba rgyal ba shes rab/,,,,800,899,,,,,,,tr,,
 P4CZ15497,lo tsA ba lce dga' ba'i dpal/,,,,1000,1099,,,,,,,tr,,P8246
 P4261,lo tsA ba dran pa nam mkha',,,,700,799,,,,,,,tr,,"P4CZ15208,P7166"
-P3814,mar pa do ba chos kyi dbang phyug,,,1042,,,1136,,,,,,tr,,"P3087,P8893,P8128,P0TMP016,P3144,P4CZ15089"
+P3814,mar pa do ba chos kyi dbang phyug,,,1042,,,1136,,,,,,tr,,"P3087,P8893,P8128,P8226,P3144,P4CZ15089"
 P4262,lo tsA ba khyung grags/,,,,1000,1099,,,,,,,tr,,"P5654,P8181"
 P4153,lha ye shes rgyal mtshan/,,,,1000,1099,,,,,,,tr,,P8093
 P2922,lo chen thugs rje dpal ba/,,,,1300,1399,,,,,,,tr,,
@@ -39,7 +41,7 @@ P4CZ10539,ban+de rin chen rgyal mtshan/,,,,1300,1399,,,,,,,tr,,"P4CZ10538,P4CZ15
 P4283,lo tsA ba dge slong rig pa gzhon nu/,,,,1000,1099,,,,,,,tr,,"P8194,P8171"
 P2921,lo chen nam mkha' bzang po/,,,,1300,1399,,,,,,,tr,,"P4CZ16866,P2388"
 P3285,brog mi lo tsA ba shAkya ye shes/,,,992,,,1043,,,,,,tr,,"P3302,P8153,P5006,P4CZ10528,P3302,P5006,P4CZ10565"
-P8203,glan dar ma blo gros/,,,,1000,1099,,,,,,,tr,,"P2CZ7929,P2CZ7929,P5013,P00KG02663,P0TMP102,P4CZ15088,P3214"
+P8203,glan dar ma blo gros/,,,,1050,1199,,,,RC: cf. Tibskrit,,,tr,,"P2CZ7929,P2CZ7929,P5013,P00KG02663,P0TMP102,P4CZ15088,P3214"
 P4CZ15361,bro lo tsA ba dar ma b+hi/,dharmabhi?,,,1100,1199,,,,,,,tr,,
 P3816,rong zom paN+Di ta/,Dharmabhadra,,1042,,,1136,,,RR: 1012-1088,,,tr,,"P4CZ15287,P4CZ10575"
 P4260,lo tsA ba nam mkha' skyong /,,,,800,899,,,,,,,tr,,"P8205,P5011,P4CZ15644,P8175"
@@ -62,7 +64,7 @@ P4CZ16804,lo tsA ba lce bkra shis/,,,,1000,1099,,,,,,,tr,,P4CZ16805
 P6532,gnyal gyi lo tsA ba mi mnyam bzang po/,,,,1100,1199,,,,,,,tr,,P00EGS1017688
 P4440,chag lo tsA ba dge slong dgra bcom/,,,1153,,,1216,,,,,,tr,,P1518
 P4267,legs pa'i blo gros/,,,,1200,1299,,,,,,,tr,,"P6525,P8574"
-P4243,shAkya brtson 'grus/,,,,1000,1099,,,,,,,tr,,"P44,P8161,P4CZ10578,P4CZ15153,P7048,P8253"
+P4243,shAkya brtson 'grus/,,,,1000,1099,,,,,,,tr,,"P44,P8161,P4CZ10577,P4CZ15153,P7048,P8253"
 P3890,shel dkar lo tsA ba chos kyi shes rab/,,,,1000,1099,,,,,,,tr,,"P8232,P3388,P4257,P00EGS1017688,P4CZ15179,P4CZ15574,P8245,P4CZ15472,P2551,P3299,P4CZ15284,P4CZ15080,P3891,P2956,P4CZ15511,P4CZ15465,P9951"
 P2147,thar pa lo tsA ba nyi ma rgyal mtshan/,,,,1200,1299,,,,,,,tr,,"P0TMP092,P9962,P4CZ15161"
 P8156,khe'u gang 'khor lo grags/,,,,1100,1199,,,,,,,tr,,"P4CZ15097,P4004"
@@ -101,10 +103,10 @@ P4CZ15564,rngog lo tsA ba bud+d+ha pA la/,buddhapāla,,,1000,1099,,,,,,,tr,,P714
 P5724,ye shes dpal/,,,,1200,1299,,,,,,,tr,,
 P4418,lo tsA ba tshul khrims gzhon nu/,,,,1000,1099,,,,RR: 11th-12th c.,,,tr,,"P8193,P4CZ15369,P8226,P8246,P7603"
 P4309,ye shes sems dpa',,,,1300,1399,,,,,,,tr,,
-P4417,lo tsA ba gzhon nu 'od/,,,,1300,1399,,,,,,,tr,,"P8226,P0TMP008,P0TMP016"
+P4417,lo tsA ba gzhon nu 'od/,,,,1300,1399,,,,,,,tr,,"P8226,P0TMP008,P8226"
 P4528,lo tsA ba langs ban+de tshul khrims brtsegs/,,,,1000,1099,,,,,,,tr,,P4CZ15492
 P4CZ16898,lo tsA ba tsan+dra/,candra ?,,,800,899,,,,,,,tr,,"P8209,P0TMP090"
-P4527,tshul khrims bkra shis/,,,,1200,1299,,,,,,,tr,,P4CZ15254
+P4527,tshul khrims bkra shis/,,,,,,,,L,,,,tr,,P4CZ15254
 P4CZ15212,lo tsA ba dar ma rin chen/,,,,800,899,,,,,,,tr,,"P4CZ15211,-"
 P3074,mtshur ston dbang gi rdo rje/,,,,1000,1099,,,,,,,tr,,P8232
 P20,A tsA rya rin chen mchog,,,,1300,1399,,,,,,,tr,P2JM5,"P00KG07267,P4957"
@@ -116,7 +118,7 @@ P4CZ15112,lo tsA ba sbal rdo rje rgyal po/,,,,1100,1199,,,,,,,tr,,"P1GS147817,P4
 P4CZ10522,khe'u brgad yon tan dpal/,,RC,,1000,1199,,,,RC: Settled in Almogi2021,OK,almogi2021 : 123–4 n. a7,tr,,P4CZ10518
 P4CZ15220,rtses thang lo tsA ba gzhon nu dpal/,,,,1400,1499,,,,ER: duplicate of P318 ?,,,tr,,
 P4CZ15111,gu Na shrI/,guṇaśrī,RC,,,,,,L,"RC: Translator of Durjayacandra's pañjikā on Cakrasaṃvara, so he can be no earlier than the mid 11th C.; may be the same as P4CZ15107? although I have no reason to support this apart from the Tibetanised form of the name.",X,,tr,,P4CZ15107
-P6453,pa tshab lo tsA ba tshul khrims rgyal mtshan/,,,,1000,1099,,,,,,,tr,,"P8246,P1GS147817,P4004,P4CZ15533,P8174,P43,P3870,P8200,P3214,P6450,P4CZ15509"
+P6453,pa tshab lo tsA ba tshul khrims rgyal mtshan/,,,,1100,1199,,,,RC: see Tibskrit,,,tr,,"P8246,P1GS147817,P4004,P4CZ15533,P8174,P43,P3870,P8200,P3214,P6450,P4CZ15509"
 P4276,lo tsA ba rab mchog dpal bzang /,,,,1300,1399,,,,,,,tr,,
 P318,gos lo tsA ba gzhon nu dpal/,,,1392,,,1481,,,,,,tr,,P207
 P4CZ15243,lo tsA ba khu mdo sde 'bar/,,,,1000,1099,,,,,,,tr,,"P5651,P4CZ15242"
@@ -141,7 +143,7 @@ P4259,lo tsA ba dpal gyi lhun po/,,,,800,899,,,,RR: early 9th c.,,,tr,,"P8211,P8
 P1053,mang mkhar lo tsA ba mchog ldan legs pa'i blo gros/,,,,1200,1299,,,,,,,tr,,
 P4CZ10564,lo tsA ba sna nam rdo rle bla ma/,,NB,,700,799,,,,"NB: Disc. of Padmasambhava; Tibskrit, s.v. Lang gro Lo tsā ba Dkon mchog 'byung gnas: ""note that Sna nam Rdo rje bdud 'joms is the only other one said to have been a minister of Khri srong lde btsan."" Note that the name is wrongly spelled ""sna nam rdo *rle*"" (instead of rje) in the ""names_tib"" column and in BUDA.",OK,"BUDA, Tibskrit",tr,,P4CZ15273
 P3146,rwa chos rab/,,,,1000,1099,,,,,,,tr,,"P8141,P4CZ15089"
-P4149,lha zhi ba 'od/,,,,1000,1099,,,,,,,tr,,"P8172,P4CZ15241,P4CZ15235"
+P4149,lha zhi ba 'od/,,,,1050,1149,,,,,,,tr,,"P8172,P4CZ15241,P4CZ15235"
 P4CZ15173,chos 'khor lo tsA ba 'jam dpal ye shes/,,,,1300,1399,,,,,,,tr,,P207
 P4101,ldan ma lo tsA ba tshul khrims seng+ge,,,,1200,1299,,,,,,,tr,,"P4CZ15213,P4CZ15099"
 P4255,lo tsA ba ye shes snying po/,Jñānagarbha,,,800,899,,,,"Tibetan, different from P8175 (Indian)",,,tr,,"P2636,P8211,P8249,P8182,P8219,P8213,P2548,P8217"
@@ -152,22 +154,22 @@ P2168,lo tsA ba bkra shis rgyal mtshan/,,,,1000,1099,,,,,,,tr,,"P4CZ15457,P1KG34
 P4CZ16847,lo tsA ba dharma A lo ka,dharmāloka ?,,,700,799,,,,,,,tr,,"P7641,P8175"
 P5820,zhe sdang rdo rje/,,,,1000,1099,,,,,,,tr,,P3217
 P8168,lo tsA ba mang 'or byang chub shes rab/,,,,1000,1099,,,,,,,tr,,"P4CZ15137,P4CZ15151,P8169,P3144"
-P4CZ15290,lo tsA ba cog gru shes rab bla ma/,,,,1000,1099,,,,,,,tr,,"P4CZ15306,P8224,P4CZ15469,P4CZ10578"
+P4CZ15290,lo tsA ba cog gru shes rab bla ma/,,,,1000,1099,,,,,,,tr,,"P4CZ15306,P8224,P4CZ15469,P4CZ10577"
 P4404,sa skya bla chen kun dga' rgyal mtshan/,,,,1300,1399,,,,,,,tr,,"P1518,P8200"
 P856,zhwa lu lo tsA ba chos skyong bzang po/,"dharmabhadra, Dharmapālabhadra",,1441,,,1527,,,,,,tr,,"P0TMP075,P0TMP074,-"
 P4401,zhu chen gyi lo tsA ba dga' rdor/,,,,1000,1099,,,,,,,tr,,P8225
 P8142,lha rin po che/,,NB,,1100,1199,,,,"RR: 11th-12th c. NB: Martin, Biographical References (Tibetological): Part One (Ming mdzod), no. 1871: b. about late 11th.",OK,,tr,,P8213
 P8275,lo tsA ba pra dz+nyA sing ha/,"*Prajñāsiṃha, perhaps Prajñāsiddha",RC,,830,,,,,"RC: BDRC website's 'notes' associate him with Tōh 199 (work translated from Chinese), but Tōh 199 is linked in this spreadsheet with P2139. Old BDRC website associates this person with a translation of a text by Jñānapāda (from Sanskrit), Tōh 3905. This is probably the person in question. BUDA associates him with Tōh 3906, although colophon doesn't attest the involvement of anybody by this name. The latter appears to be some kind of glitch. The translator of Tōh 3905 is mysterious.",X !!,,tr,,P0TMP078
 P1048,gro mgon chos rgyal 'phags pa/,,,1235,,,1280,,,,,,tr,,
-P4209,lo tsA ba bsod nams rgyal ba/,,,,1000,1099,,,,,,,tr,,"P8093,P4CZ15273"
-P4402,zha ma lo tsA ba ston pa seng+ge rgyal po/,,,,1000,1099,,,,,,,tr,,"P8893,P7641,P8397,P1581"
+P4209,lo tsA ba bsod nams rgyal ba/,,,,1000,1099,,,,"RC: P4209 (bsod nams rgyal ba) is given as mid 11th C date in Gangs can mkhas grub. Otherwise obscure. Perhaps he is in fact bsod nams rgyal mtshan, but no further evidence for this.",,,tr,,"P8093,P4CZ15273"
+P4402,zha ma lo tsA ba ston pa seng+ge rgyal po/,,,,1000,1199,,,,"RC: Certainly active in 12thc, but so far see little evidence for a solid date.",,,tr,,"P8893,P7641,P8397,P1581"
 P1025,chag lo tsA ba chos rje dpal/,,,1197,,,1264,,,,,"RR: 1197-1263/4, DM 1197-1265",tr,,"P7648,P00EGS1017688,P4CZ15105,P8265,P2098,P4CZ15242,P4CZ15501"
 P4CZ15648,sgra bsgyur gyi lo tsA ba seng+ge rgyal mtshan/,,,,900,1099,,,,,,,tr,,P8226
 P4CZ15406,lo tsA ba lo btsun chung /,,,,1000,1099,,,,,,,tr,,P4CZ15405
 P4CZ15515,lo tsA ba pu rangs bsod nams blo gros/,,,,1300,1399,,,,,,,tr,,
 P1159,dpyal lo tsA ba kun dga' grags pa/,,NB,,1100?,1199?,,1000-1099,,"NB: should he be the Kun dga' grags who translated the Dbu ma la 'jug pa'i 'grel bshad [D 3870] together with the Kashmiri Jayānanda (12th c.) (as stated in P1159), then he may not bear the epithet dPyal. Notice that the Kasmiri Jayānanda (12th c.) is said to be different from the (East) Indian Jayānanda (first half of 13th c.) who translated astrological texts (Svarodaya, etc.) (van der Kuijp 1993: 194–195). Correct texts and floruit of P4CZ15242.",X !!,,tr,,P4CZ15242
 P2138,g.yag sde lo tsA ba bsod nams seng+ge,,,,1200,1299,,,,,,,tr,,P3214
-P7604,lo tsA ba glan dar ma tshul khrims/,,,,1400,1499,,,,,,,tr,,"P7132,P4CZ15366,P2CZ7929,P8184"
+P7604,lo tsA ba glan dar ma tshul khrims/,,,,1350,1449,,,,RC: cf. Tibskrit,,,tr,,"P7132,P4CZ15366,P2CZ7929,P8184"
 P4530,lo tsA ba tshul khrims yon tan/,,,,1000,1099,,,,,,,tr,,P8171
 P4336,lo tsA ba dge slong g.yung drun g'od/,,,,1000,1099,,,,,,,tr,,P4CZ15481
 P4CZ10570,lo tsA ba skyob pa dpal bzang po/,,,,1400,1499,,,,,,,tr,,
@@ -181,8 +183,8 @@ P3731,ba ri lo tsA ba rin chen grags/,dharmakīrti,,1040,,,1112,,,,,,tr,,"P8232,
 P2557,rgyal ba'i 'byung gnas/,,,1004,,,1064,,,,,,tr,,P3379
 P1359,kam kam lo tsA ba chos kyi ye shes/,,,,1000,1099,,,,,,,tr,,"P8159,P8160,P4CZ15078"
 P4CZ15445,lo tsA ba rba ye shes bzang po/,,,,1100,1199,,,,,,,tr,,P3302
-P8149,lo tsA ba khu ston dngos grub/,,RC,,1000,1099,,,,"RC: worked with Jñānākara (11th C) on a number of translations (see @wenta2018); worked with Atiśa on Cittaviśuddhiprakaraṇa (P 5208) and D 3778; worked revised by Nag tsho lo tsA ba (1011‑1064), so must be earlier or at the same time; not certain if the translator of the Sūnyatāsaptatī is him or not; may be the same as P3464, who lived at the same time and is said to be a translator, also treated as such in TibSkrit, but rather uncertain—haven't seen an alternative name given for him; Ngag dbang kun dga' bsod nams, in one of his works, refers to ""yar lung lo tsA ba khu ston dngos grub 'byung gnas"" (folio number unknown); don't see the relationship with the people mentioned in the ""worked with"" column; ",X !!,,tr,,"P4CZ10525,P4308"
-P4180,lo tsA ba bsod nams rgyal mtshan/,,,,1000,1099,,,,,,,tr,,"P4CZ10535,P4CZ15359,P4CZ10578,P8248,P4CZ10565"
+P8149,lo tsA ba khu ston dngos grub/,,RC,,1000,1099,,,,"RC: worked with Jñānākara (11th C) on a number of translations (see @wenta2018); worked with Atiśa on Cittaviśuddhiprakaraṇa (P 5208) and D 3778; worked revised by Nag tsho lo tsA ba (1011‑1064), so must be earlier or at the same time; not certain if the translator of the Sūnyatāsaptatī is him or not; may be the same as P3464, who lived at the same time and is said to be a translator, also treated as such in TibSkrit, but rather uncertain—haven't seen an alternative name given for him; Ngag dbang kun dga' bsod nams, in one of his works, refers to ""yar lung lo tsA ba khu ston dngos grub 'byung gnas"" (folio number unknown); don't see the relationship with the people mentioned in the ""worked with"" column; ",X !!,,tr,,"P4CZ15371,P4308"
+P4180,lo tsA ba bsod nams rgyal mtshan/,,,,1000,1099,,,,,,,tr,,"P4CZ10535,P4CZ15359,P4CZ10577,P8248,P4CZ10565"
 P1578,rngog byang chub 'byung gnas/,,,,1000,1099,,,,,,,tr,,
 P4CZ15444,gnubs lo tsA ba tshul khrims shes rab/,,,,1100,1199,,,,,,,tr,P4007,P8192
 P4181,se lo tsA ba/,,,,1000,1099,,,,,,,tr,,
