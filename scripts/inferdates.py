@@ -149,7 +149,7 @@ def check_dates_compatible(p1, p1dates, p2, p2dates, cltype, textrefs):
     p2notafter = p2dates['dy'] if p2dates['dy'] is not None else p2dates['flna']
     # in all cases, p1notbefore must be before p2notafter:
     if p1notbefore is not None and p2notafter is not None and p1notbefore >= p2notafter:
-        #print("error: %s (%d-...) cannot have worked %s %s (...-%d) on %s" % (p1, p1notbefore, "with" if cltype == "sync" else "before", p2, p2notafter, ','.join(textrefs)))
+        print("error: %s (%d-...) cannot have worked %s %s (...-%d) on %s" % (p1, p1notbefore, "with" if cltype == "sync" else "before", p2, p2notafter, ','.join(textrefs)))
         PROBLEMATIC[p1] = True
         PROBLEMATIC[p2] = True
         return False
@@ -157,7 +157,7 @@ def check_dates_compatible(p1, p1dates, p2, p2dates, cltype, textrefs):
     if cltype != "before" and p2notbefore is not None and p1notafter is not None and p2notbefore >= p1notafter:
         PROBLEMATIC[p1] = True
         PROBLEMATIC[p2] = True
-        #print("error: %s (...-%d) cannot have worked with %s (%d-...) on %s" % (p1, p1notafter, p2, p2notbefore, ','.join(textrefs)))
+        print("error: %s (...-%d) cannot have worked with %s (%d-...) on %s" % (p1, p1notafter, p2, p2notbefore, ','.join(textrefs)))
         return False
     return True
 
