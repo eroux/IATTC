@@ -238,7 +238,7 @@ def write_dates(infname, outfname):
                 if toprint == "-":
                     toprint = ""
                 if d1 is not None and d2 is not None and d2-d1 > 250:
-                    print("inferred dates for %s are too wide" % rid)
+                    print("inferred dates for %s are too wide : %d-%d" % (rid, d1, d2))
             rows.append([rid, toprint])
     with open(outfname, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile, quoting=csv.QUOTE_MINIMAL)

@@ -38,7 +38,7 @@ P3814,mar pa do ba chos kyi dbang phyug,,,1042,,,1136,,,,,,tr,,"P3087,P8893,P812
 P4262,lo tsA ba khyung grags/,,,,1000,1099,,,,,,,tr,,"P5654,P8181"
 P4153,lha ye shes rgyal mtshan/,,,,1000,1099,,,,,,,tr,,P8093
 P2922,lo chen thugs rje dpal ba/,,,,1300,1399,,,,,,,tr,,
-P4CZ10539,ban+de rin chen rgyal mtshan/,,,,1300,1399,,,,,,,tr,,"P4CZ10538,P4CZ15077,P7868"
+P4CZ10539,ban+de rin chen rgyal mtshan/,,NB,,1000,1099,,,,NB: pinned to Kāśmīri *Prajñāśrīgupta (P10154).,,,tr,,"P4CZ10538,P4CZ15077,P7868"
 P4283,lo tsA ba dge slong rig pa gzhon nu/,,,,1000,1099,,,,,,,tr,,"P8194,P8171"
 P2921,lo chen nam mkha' bzang po/,,,,1300,1399,,,,,,,tr,,"P4CZ16866,P2388"
 P3285,brog mi lo tsA ba shAkya ye shes/,,,993,,,1074/1077,,,RC: Dates according to TibSkrit,,,tr,,"P3302,P8153,P5006,P4CZ10528,P3302,P5006,P4CZ10565"
@@ -52,9 +52,9 @@ P4007,khro phu lo tsA ba byams pa dpal/,,,1173,,,1236,,,,,,tr,P4CZ15444,"P4CZ150
 P2JM5,rma thog rin chen/,,,,700,899,,,,,,,tr,P20,"P4CZ15279,P8191,P00KG07267,P8211"
 P2947,dar pa lo tsA ba ngag dbang phun tshogs lhun grub/,,,,1600,1699,,,,,,,tr,,P4CZ16901
 P3709,zangs dkar lo tsA ba 'phags pa shes rab/,,,,1000,1099,,,,,,,tr,,"P7230,P2554,P8573,P8206,P1KG3490,P4CZ15186,P2JM77,P8226,P8225"
-P4335,g.yung drung snying po/,,,,1300,1399,,,,,,,tr,,P10154
+P4335,g.yung drung snying po/,,NB,,1000,1099,,,,NB: pinned to his only association *Prajñāśrīgupta (P10154).,,,tr,,P10154
 P4CZ15141,lo tsA ba zhang zhung /,,RC,,1000,,,,,"Translated a work by Advayavajra, so no earlier than the 11th C.; worked with the Nepalese Jñānavajra (may or may not be the same as the Kashimir)",X,,tr,,P4CZ15139
-P4420,lo tsa ba gzhon nu mchog,,NB,,1050,1150,,,,"NB: Mahājana being Sajjana’s (fl. second half of 11th cent.) son, change his and gZhon nu ’od’s fl. to 11th–12th cent.",,,tr,,"P8226,P8225,P3379"
+P4420,lo tsa ba gzhon nu mchog,,NB,,1050,1150,,,,NB: pinned to P8226.,,,tr,,"P8226,P8225,P3379"
 P4114,ong po lo tsA ba/,,,,1000,1099,,,,,,,tr,,P4CZ15405
 P4CZ15140,lo tsA ba ba reg thos pa dga',,,,1100,1199,,,,,,,tr,,P8232
 P4CZ15188,lo tsA ba gnyan bsod nams/,,,,1100,1199,,,,,,,tr,,
@@ -104,7 +104,7 @@ P4CZ15564,rngog lo tsA ba bud+d+ha pA la/,buddhapāla,,,1000,1099,,,,,,,tr,,P714
 P5724,ye shes dpal/,,,,1200,1299,,,,,,,tr,,
 P4418,lo tsA ba tshul khrims gzhon nu/,,,,1000,1099,,,,RR: 11th-12th c.,,,tr,,"P8193,P4CZ15369,P8226,P8246,P7603"
 P4309,ye shes sems dpa',,,,1300,1399,,,,,,,tr,,
-P4417,lo tsA ba gzhon nu 'od/,,,,1300,1399,,,,,,,tr,,"P8226,P0TMP008,P8226"
+P4417,lo tsA ba gzhon nu 'od/,,NB,,1050,1150,,,,NB: pinned to P8226.,,,tr,,"P8226,P0TMP008,P8226"
 P4528,lo tsA ba langs ban+de tshul khrims brtsegs/,,,,1000,1099,,,,,,,tr,,P4CZ15492
 P4CZ16898,lo tsA ba tsan+dra/,candra ?,,,800,899,,,,,,,tr,,"P8209,P0TMP090"
 P4527,tshul khrims bkra shis/,,,,,,,,L,,,,tr,,P4CZ15254
