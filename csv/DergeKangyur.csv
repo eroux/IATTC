@@ -1,4 +1,4 @@
-ID,title,role,identification,reviewer,indicated value,ambiguity,note,sources
+,title,role,identification,reviewer,indicated value,ambiguity,note,sources
 "in Derge (D), Narthang (N) or Pecing (P)",The main title in Tibetan,"possible values:
 - author
 - translator
@@ -101,8 +101,8 @@ D112,phags pa snying rje pad ma dkar po zhes bya ba theg pa chen po'i mdo,transl
 D112,phags pa snying rje pad ma dkar po zhes bya ba theg pa chen po'i mdo,translatorPandita,P4CZ15493,,pradz+nyA barma,,,
 D112,phags pa snying rje pad ma dkar po zhes bya ba theg pa chen po'i mdo,translator,P8205,,zhus chen gyi lots+tsha ba ban de ye shes sde,,,
 D113,dam pa'i chos pad ma dkar po zhes bya ba theg pa chen po'i mdo,translatorPandita,P8209,,rgya gar gyi mkhan po dzi na mi tra,,,
-D113,dam pa'i chos pad ma dkar po zhes bya ba theg pa chen po'i mdo,translatorPandita,P1KG8854,,shI len dra bo d+hi,,,
-D113,dam pa'i chos pad ma dkar po zhes bya ba theg pa chen po'i mdo,translator,P8205,,zhu chen gyi lots+tsha ba _ban de ye shes sde,,,
+D113,dam pa'i chos pad ma dkar po zhes bya ba theg pa chen po'i mdo,translatorPandita,P8228,,rgya gar gyi mkhan po su ren dra bo dhi,,,
+D113,dam pa'i chos pad ma dkar po zhes bya ba theg pa chen po'i mdo,translator,P8205,,zhu chen gyi lo ts+tsha ba ban de sna nam ye shes sdes,,,
 D114,phags pa chos thams cad kyi yon tan bkod pa'i rgyal po zhes bya ba theg pa chen po'i mdo,translatorPandita,P4CZ15493,,rgya gar gyi mkhan po pradz+nyA bar ma,,,
 D114,phags pa chos thams cad kyi yon tan bkod pa'i rgyal po zhes bya ba theg pa chen po'i mdo,translatorPandita,P8228,,su ren dra bo d+hi,,,
 D114,phags pa chos thams cad kyi yon tan bkod pa'i rgyal po zhes bya ba theg pa chen po'i mdo,translator,P8205,,zhu chen gyi lo ts+tsha ba __ban de ye shes sde,,,
@@ -1110,8 +1110,8 @@ D693,phags pa spyan ras gzigs dbang phyug zhal bcu gcig pa zhes bya ba'i gzungs,
 D693,phags pa spyan ras gzigs dbang phyug zhal bcu gcig pa zhes bya ba'i gzungs,translator,P8205,,zhu chen gyi lots+tsha ba ban+de ye shes sde,,,
 D694,phags pa zhal bcu gcig pa'i rig sngags kyi snying po zhes bya ba'i gzungs,translator,P8221,,ban+de chos grub,,,
 D699,phags pa kun tu bzang po zhes bya ba'i gzungs,translatorPandita,P8209,,rgya gar gyi mkhan po dzi na mi tra,,,
-D699,phags pa kun tu bzang po zhes bya ba'i gzungs,translatorPandita,P3214,,dA na shI la,,,
-D699,phags pa kun tu bzang po zhes bya ba'i gzungs,translator,P8205,,zhu chen gyi lots+tsha ba ban+de ye shes sde,,,
+D699,phags pa kun tu bzang po zhes bya ba'i gzungs,translatorPandita,P8210,,dA na shI la,,,
+f,phags pa kun tu bzang po zhes bya ba'i gzungs,translator,P8205,,zhu chen gyi lots+tsha ba ban+de ye shes sde,,,
 D70,phags pa lag bzangs kyis zhus pa zhes bya ba theg pa chen po'i mdo,translatorPandita,P8210,,rgya gar gyi mkhan po dA na shrI la,,,
 D70,phags pa lag bzangs kyis zhus pa zhes bya ba theg pa chen po'i mdo,translatorPandita,P8209,,dzi na mi tra,,,
 D70,phags pa lag bzangs kyis zhus pa zhes bya ba theg pa chen po'i mdo,translator,P8205,,zhu chen gyi lo ts+tsha ba ban de ye shes sde,,,
@@ -1342,7 +1342,8 @@ D92,phags pa lha mo dpal phreng gi seng ge'i sgra zhes bya ba theg pa chen po'i 
 D92,phags pa lha mo dpal phreng gi seng ge'i sgra zhes bya ba theg pa chen po'i mdo,translator,P8205,,zhu chen gyi lots+tsha ba ban de ye shes sde,,,
 D922,phags pa gtsug gi nor bu zhes bya ba'i gzungs,translatorPandita,P1KG8854,,rgya gar gyi mkhan po shI len+d+ra bo d+hi,,,
 D922,phags pa gtsug gi nor bu zhes bya ba'i gzungs,translator,P8205,,zhu chen gyi lots+tsha ba ban+de ye shes sde,,,
-D923,phags pa rgyal mtshan gyi rtse mo'i dpung rgyan ces bya ba'i gzungs,translatorPandita,P3214,,rgya gar gyi mkhan po dzi na mi tra/_dA na shI la,,,
+D923,phags pa rgyal mtshan gyi rtse mo'i dpung rgyan ces bya ba'i gzungs,translatorPandita,P8209,,rgya gar gyi mkhan po dzi na mi tra/,,,
+D923,phags pa rgyal mtshan gyi rtse mo'i dpung rgyan ces bya ba'i gzungs,translatorPandita2,P8210,,dA na shI la,,,
 D923,phags pa rgyal mtshan gyi rtse mo'i dpung rgyan ces bya ba'i gzungs,translator,P8205,,zhu chen gyi lots+tsha ba ban+de ye shes sde,,,
 D924,phags pa gser can zhes bya ba'i gzungs,translatorPandita,P8210,,rgya gar gyi mkhan po dzi na mi tra/_dA na shI la,,,
 D924,phags pa gser can zhes bya ba'i gzungs,translator,P8205,,zhu chen gyi lots+tsha ba ban+de ye shes sde,,,
