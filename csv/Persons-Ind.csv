@@ -1,4 +1,4 @@
-6fdsasdf,names_tib,names_skt,reviewer,birth year,floruit_not_before,floruit_not_after,death_year,inferred_floruit,period,notes,status,source,roles,can be confused with,worked with
+,names_tib,names_skt,reviewer,birth year,floruit_not_before,floruit_not_after,death_year,inferred_floruit,period,notes,status,source,roles,can be confused with,worked with
 "for records in the BDRC database, indicate it here (ex: P123), for duplicates, indicate all IDs, for records not in the BDRC database, create an ID starting with P1TMP (ex: P1TMP123)",coma separated list of names in Tibetan,"coma-separated list of Sanskrit names, in IAST",,when known,,,,,Earlier (E) or Later (L),,"write OK if identification+dating is certain; write X if the person is ambiguous and if the data is uncertain; further details should be written under ""notes""",,"ma = main author, pa = pandita, tr = translator",,computed automatically
 P2948,paN+Di ta go ku la nA tha mi shra,Gokulanāthamiśra,NB,,1600,1699,,,,,,,,,
 P4CZ15477,slob dpon grags pa'i bshes gnyen/,Yaśomitra,MH,,550,600,,,,,OK,Princeton,ma,,
@@ -14,7 +14,7 @@ P4CZ10532,slob dpon chen po kA ma d+he nu pa/,Kāmadhenu,,,,,,,,,,,ma,,
 P9842,grub chen ma hi pa/,mahiman,,,,,,,,,,,ma,,
 P3833,paN+Di ta 'jam dpal grags pa/,"mañjuśrīkīrti,Mañjukīrti,Mañjughoṣakīrti ?",,,,,,,,duplicates : P0RK946 and P4CZ15106 ?,,,ma,,
 P1523,bla chen dgongs pa rab gsal/,,,953,,,1035,,,,,,ma,,
-P4CZ15210,slob dpon hum mdzad rdo rje/,hūṁkāravajra,,,,,,,,,,,ma,,
+P4CZ15210,slob dpon hum mdzad rdo rje/,hūṃkaravajra,,,,,,,,,,,ma,,
 P4024,grub chen te lo pa/,"tailipāda,tailika",,988,,,1069,,,,,,ma,,
 P4CZ15125,slob dpon zhi gnas lha/,śamatadeva,,,,,,,,Newari,,,ma,,
 P4CZ15149,slob dpon ka lA ka pa/,kālakapāda,,,,,,,,,,,ma,,
@@ -50,7 +50,7 @@ P4CZ15252,slob dpon bi sho mi tra/,viśvāmitra,,,800,999,,,,,,,ma,,
 P4CZ15276,slob dpon dpal sbyin/,śrīdatta,,,,,,,,,,,ma,,
 P3264,slob dpon nyi ma 'od/,,,,1100,1199,,,,,,,ma,,
 P3240,slob dpon 'jam dpal grags pa/,mañjukīrti,,,,,,,,,,,ma,,
-P4CZ15360,bla ma sdom pa bzang po/,saṁvarabhadra,,,1100,1199,,,,,,,ma,,
+P4CZ15360,bla ma sdom pa bzang po/,saṃvarabhadra,NB,,950?,1050?,,"NB: disciple of Dārika (P4CZ15083) and teacher of *Adhīśa (P3379, 982–1054) (Almogi, “Shes rab grags,” § 3.).",,,,,ma,,
 P4CZ15251,slob dpon rab tu zhi ba'i ye shes/,,,,800,999,,,,,,,ma,,
 P4CZ15142,slob dpon sprin gyi bzhon pa'i lha/,,,,,,,,,,,,ma,,
 P4CZ15166,shrI u ma pa ti dat+ta/,śrīumapatidatta ?,,,,,,,,,,,ma,,
@@ -72,7 +72,7 @@ P4CZ15272,slob dpon dpe med pa'i rdo rje/,anupamavajra,,,800,999,,,,,,,ma,,
 P4CZ15163,slob dpon ku mA ra b+ho d+hi/,kumārabodhi,,,,,,,,,,,ma,,
 P4CZ15296,dpal rdo rje'i blo/,vajrabuddhi,,,800,999,,,,,,,ma,,
 P4CZ15187,slob dpon chos kyi zhabs/,dharmapāda,,,,,,,,,,,ma,,
-P4CZ10577,dpal ting nge 'dzin rdo rje zhabs/,"śūnyatāsamādhi, śūnyatāvajra, devākaracandra, divākaracandra",NB,,1050,1150,,1000-1099,,"NB: Lo Bue, “The Role of Newar scholars” (1997), p. 635–636: accompanied to Bodhgayā by Varendraruci = Ha mu dkar po (fl. late 11th cent.) = Puṇyākarabhadra.",,,ma,,"P2614,P4241"
+P4CZ10577,dpal ting nge 'dzin rdo rje zhabs/,"śūnyatāsamādhi, śūnyatāvajra, devākaracandra, divākaracandra",NB,,1000,1099,,1000-1099,,"NB: Lo Bue, “The Role of Newar scholars” (1997), p. 635–636: accompanied to Bodhgayā by Varendraruci = Ha mu dkar po (fl. late 11th cent.) = Puṇyākarabhadra.",,,ma,,"P2614,P4241"
 P4CZ15608,slob dpon gsang ba byin/,guhyadatta,,,,,,,,,,,ma,,
 P4CZ15295,slob dpon rnyog med rdo rje/,niṣkalaṅkavajra,,,900,1099,,,,,,,ma,,
 P4CZ10576,dpal dkon mchog 'byung gnas/,ratnākara,,,,,,,,,,,ma,,
@@ -183,7 +183,7 @@ P4CZ15223,rol pa'i sbas pa/,lalitagupta,,,900,999,,,,,,,ma,,
 P4CZ15114,slob dpon skal ldan grags pa/,bhavyakīrti,,,,,,,,,,,ma,,
 P4CZ15138,bram ze b+h+ri ka ra/,bhriṁkara,,,,,,,,,,,ma,,
 P4CZ10544,slob dpon sgrol ma can gyi sde/,tārasena,OA,,,,,,,tāriṇīsena is not attested; wrong reconstruction in Otani etc- consulted Haru,,,ma,,
-P4CZ10568,grub chen dze ta ri/,"jetāri,Jitāri,Guhyajitāri",,,,,,1200-1299,,same as Jitāri (940-980) in Princeton?,,,ma,,
+P4CZ10568,grub chen dze ta ri/,"jetāri,Jitāri,Guhyajitāri",,,,,,1200-1299,,"same as Jitāri (940-980) in Princeton? OA: 1200-1299 seems too late, unless there were more than one. Some of his works were translated second half of 11 first half of 12 century. need further investigation",,,ma,,
 P7217,kha che rin chen rdo rje/,ratnavajraśrī,,,950,1049,,,,not duplicate of P5006 according to BDRC staff,,,ma,,
 P4CZ15440,grub chen ki ra pa la/,kilapāda ?,,,,,,,,,,,ma,,
 P3291,grub chen a la la ba dz+ra/,ahovajra ?,,,,,,,,,,,ma,,
@@ -242,7 +242,7 @@ P9949,slob dpon dza mA ri/,"jamāri,yamāri ?",,,,,,,,,,,ma,,
 P3277,grub chen sha ba ri pa/,"śābaripāda,Śabari,Śavari",,,,,,,,,,,ma,,
 P4CZ15175,paN+Di ta rdza ga ta A nan+na dzI ba b+ha dra/,jagadānandajīvabhadra,,,1300,1399,,,,,,,ma,,
 P1KG3495,dge ba'i lha/,kalyāṇadeva,,,,,,,,,,,ma,,
-P5540,rin chen dpal/,ratnaśīla ?,,,,,,,,,,,ma,,
+P5540,rin chen dpal/,Ratnaśrī = Ratnaśīla ?,,,,,,,,,,,ma,,
 P4CZ16900,mkhan po dga' ba'i grags pa/,nandakīrti,,,,,,,,,,,ma,,
 P4CZ15174,slob dpon dge ba'i go cha/,kalyāṇavarman smṛtijñānakīrti ?,,,,,,,,,,,ma,,
 P7875,bram ze mchog sred/,vararucipāda,,,,,,,,,,,ma,,
@@ -259,7 +259,7 @@ P8190,slob dpon zla ba'i 'od/,candraprabha,,,,,,,,,,,ma,,
 P4CZ15508,slob dpon pu dza badz+ra/,pūjāvajra,,,,,,,,,,,ma,,
 P4CZ16823,slob dpon kal+yA na mi tra/,kalyāṇamitra/Śubhamitra,,,,,,,,RC: I can find no clear independent evidence for his dates,,,ma,,
 P4CZ15291,slob dpon nyin mor byed pa'i grags pa/,divākarakīrti,,,900,1099,,,,,,,ma,,
-P4CZ15182,grub chen ku ku ri pa/,kukkuripāda,,,1000,1099,,,,,,,ma,,
+P4CZ15182,grub chen ku ku ri pa/,kukkuripāda,,,,,,,,RC: Removed 11th c. date because of a lack of evidence,,,ma,,
 P4CZ15073,slob dpon lha'i brtul zhugs/,devavrata,,,,,,,,,,,ma,,
 P6160,grub chen sa ra ha/,saraha,,,,,,,,,,,ma,,
 P7297,Seng ge bzang po,Haribhadra,MH,,8th cent.,10th cent.,,,,,OK,Princeton/PANDiT,ma,,
@@ -340,12 +340,12 @@ P7641,ka ma la shI la/,Kamalaśīla,,713,,,763,,,Princeton has ca. 740-795,,,"ma
 P9951,slob dpon 'dul ba'i lha/,vinītadeva vinayadeva ?,,,,,,1000-1099,,,,,"ma,pa",,P3890
 P3085,paN chen nA ro pa/,Nāropa,MH/OA,,956,1100,,,,,OK,Princeton/OA: changed fl. acc. to Isaacson & Sferra 2019,"ma,pa",,P2636
 P8209,kha che'i slob dpon dzi na mi tra/,Jinamitra,,,700,950,,,,"RC: Dates are uncertain, but, according to TibSkrit, there are a number of views regarding them",,,"ma,pa",,"P8183,P2548,P8182,P4CZ16898,P4CZ16819,P8220,P00KG07267,P3214,P0RK8,P4CZ15493,P8222,P8205,P8261,P8266,P8228,P8246,P8182,P8268,P0TMP090,P1KG8854,P8210,P8217"
-P4CZ15101,mkhas pa dpe med bsrungs/,anupamarakṣita,,,1000,1099,,,,,,,"ma,pa",,P10183
+P4CZ15101,mkhas pa dpe med bsrungs/,anupamarakṣita,,,950,1049,,,,"RC: According to Sferra 2000: 43, he is roughly contemporaneous with Naropā and therefore should date from the late 10th century to the early 11th century",,,"ma,pa",,P10183
 P4CZ15234,paN+Di ta bde chen rdo rje/,mahāsukhatāvajra,,,,,,,,,,,"ma,pa",,
 P4CZ15258,pradz+nyA ka ra warma/,Prajñākaravarman,,,900,1099,,,,,,,"ma,pa",P4CZ15493,P753
 P4CZ15366,paN+Di ta zla ba bzang po/,bhadracandra,,,1300,1399,,,,,,,"ma,pa",,P7604
 P4CZ10559,mkhan po kun tu bzang po/,Samantabhadra,MH,,,,,1011-1064,,,X,Tibskrit,"ma,pa",,P3456
-P4CZ16760,chos ldan rab 'byor dbyangs/,dhārmikasubhūtighoṣa,,,,,,,,"RC: He must be contemporary to or predate Atiśa (see TibSkrit). If attribution of D4179 is correct, then he was much earlier. ",,,"ma,pa",,P4CZ10524
+P4CZ16760,chos ldan rab 'byor dbyangs/,dhārmikasubhūtighoṣa,,,,,,,,"RC: He must be contemporary to or predate Atiśa (see TibSkrit). If attribution of D4179 is correct, then he was much earlier.",,,"ma,pa",,P4CZ10524
 P4CZ15279,slob dpon bzhad pa'i rdo rje/,vajrahāsa,,,700,799,,,,,,,"ma,pa",,P2JM5
 P4CZ15254,"slob dpon brtson 'grus bzang po/,rgya gar gyi mkhan po bid+yA b+ha dra",vīryabhadra,,,1000,1099,,,,,,,"ma,pa",,"P753,P4239"
 P4CZ15362,slob dpon shrI ba dz+ra kirti/,vajrakīrti,,,1000,1099,,,,RC: Only colab. appears to be P1242,,,"ma,pa",,P1242
@@ -356,7 +356,7 @@ P9849,grub chen wi na pa/,vināpāda,,,,,,,,,,,"ma,pa",,
 P4CZ15493,mkhan po pra dz+nya war ma/,prajñāvarman,NB,,750,850,,,,"the translator. NB: Roesler, “Narratives: Tibet” (2015), p. 517: late 8th–early 9th cent.",,,"ma,pa",P4CZ15258,"P4CZ16780,P8175,P8209,P753,P8182,P8205,P8210,P8228"
 P7648,lo tsA ba ma NI kha shrI dza+nyA na/,Maṇiśrījñāna,,,1200,1299,,,,"RC: Pin dates to chag lo tsa ba. Previous comment: dates to check, BDRC also had 13th. c",,,"ma,pa",,"P753,P3374,P1025,P8265"
 P4CZ10575,slob dpon 'jam dpal ye shes/,majuśrījñāna ?,,,1000,1099,,,,RR: 14th-15th c.,,,"ma,pa",,"P3731,P3088,P3816"
-P4CZ10574,shrI A nan+da badz+ra/,ānandavajra,,,1200,1299,,,,,,,"ma,pa",,
+P4CZ10574,shrI A nan+da badz+ra/,ānandavajra,,,,,,,,RC: Dates appear to be unknown.,,,"ma,pa",,
 P2949,ku ru kse tra paNDi ta bA la b+ha dra/,balaśrībhadra,,,1600,1699,,,,,,,"ma,pa",,
 P4CZ10553,mkhas pa rin chen dpal ye shes/,ratnaśrījñāna ?,,,,,,1242-1346,,,,,"ma,pa",,P2637
 P3244,kha che paN chen zla ba'i mgon po/,candramitra,,,1100,1199,,,,,,,"ma,pa",,P2553
@@ -396,7 +396,7 @@ P4CZ15457,slob dpon mi ti ta ko Sha/,muditakoṣa,,,700,899,,,,,,,"ma,pa",,"P216
 P4CZ15139,bal po a tsar+ya dz+nyA na bdz+ra/,Jñāvajra,,,,,,1000-,,,,,"ma,pa",,P4CZ15141
 P4CZ15465,A tsar+ya mu nI dra b+ha dra/,munīndrabhadra,,,1000,1099,,,,,,,"ma,pa",,P3890
 P3822,su ma ti kIr ti/,sumatikīrti,,,1000,1099,,,,,,,"ma,pa",,P2636
-P44,mnga' bdag mai tri pa/,"maitrīpa,Maitripāda,Maitrīgupta",NB,,1000,1099,,,,"DM: 11th. c., Wikipedia: 1007-1085, in BDRC's database, merged with P0TMP068, all attributions should be differenciated. NB: Maitripāda (P44) = Avadhūtipa (P0TMP068) = Advayavajra (P8147) = Advayavajra (P8147)? On Advayavajra, see Isaacson & Sferra, “Indian Tantric Authors: Overview” (2019), p. 243ff.",,,"ma,pa",,"P4243,P3731,P2636"
+P44,mnga' bdag mai tri pa/,"maitrīpa,Maitripāda,Maitrīgupta",NB,,1000,1099,,,,"DM: 11th. c., Wikipedia: 1007-1085, in BDRC's database, merged with P0TMP068, all attributions should be differenciated. NB: Maitripāda (P44) = Avadhūtipa (P0TMP068) = Advayavajra (P8147)? On Advayavajra, see Isaacson & Sferra, “Indian Tantric Authors: Overview” (2019), p. 243ff.",,,"ma,pa",,"P4243,P3731,P2636"
 P9963,slob dpon sangs rgyas dpal ye shes/,buddhaśrījñāna,,,,,,1173-1236,,RR: circa 12th-13th c.,,,"ma,pa",,P4007
 P4CZ15113,mkhan po a b+ha ya badz+ra/,abhayavajra,,,1100,1199,,,,,,,"ma,pa",,P4CZ15112
 P4CZ15245,paN grub ye shes 'byung gnas sbas pa/,jñānākara,,,1000,1099,,,,see @wenta2018,,,"ma,pa",,P3456
@@ -445,7 +445,7 @@ P3379,slob dpon mar med mdzad bzang po/,Atiśa Dīpaṃkaraśrījñāna,MH,982,,
 P8094,paN+Di ta so ma nA tha/,somanātha,,,1000,1099,,,,RR: Dawa Gonpo,,,"ma,pa,tr",,"P155,P2553"
 P2CZ7929,"paN+Di ta bai ro tsa na ra Sha/, bai ro tsa na rak+Shi ta/","vairocanavajra, vairocanarakṣita",,,1050,1150,,,,"RR: circa 11th c., duplicate of P2CZ7929 ?",,,"ma,pa,tr",,"P3731,P8203,P1798"
 P3214,paN chen dA na shI la/,dānaśīla,NB,,1150,1250,,,,"RC: Note that TibSkrit's 'early 12th century' is probably a typo for 'early 13th century'; NB: Tibskrit: There is an early 9th century, as well as an early 12th century, person by this name. Obviously Banerji is conflating the identities of the 9th century person and the 12th/13th century one.",,,"ma,pa,tr",P8210,"P4CZ15225,P6453,P8182,P8268,P8209,P4CZ10518,P1KG8854,P8209,P0TMP106,P8205,P8261,P2138,P8203"
-P4CZ15083,grub chen d+A ri ka pa/,dārikapāda ?,,,,,,,,,,,"ma,pa,tr",,
+P4CZ15083,grub chen d+A ri ka pa/,dārikapāda ?,NB,,900?,999?,,,,"NB: teacher of Saṃvarabhadra (P4CZ15360) who was teacher of *Adhīśa (P3379) (Almogi, “Shes rab grags,” § 3.).",,,"ma,pa,tr",,
 P8224,rdo rje gdan pa chung ba/,amoghavajra,,,900,1099,,,,"RR: circa 11th-12th c., DM: circa 11th c., duplicate of P10295 in BDRC ?",,,"ma,pa,tr",,"P4CZ10557,P4CZ15290,P4CZ15616,P3458,P3731"
 P1520,paN chen rat+na raksi ta/,ratnarakṣita,,,1100,1199,,,,,,,"ma,pa,tr",P8265,P5897
 P5013,lo chen bai ro tsa na/,Vairocana,,,700,799,,,,RR: 8th/9th,,,"ma,pa,tr",,"P4CZ15624,P4956,P10718,P1KG8854,P4CZ16819,P8217,P8203"
@@ -454,7 +454,7 @@ P8893,paN+Di ta sumati kirti/,Sumatikīrti,,,1050,1149,,,,,,,"ma,pa,tr",,"P2614,
 P10154,o rgyan gyi paN+Di ta shes rab gsang ba/,"prajñāśrīgupta,Prajñāguhya",NB,,1000,1099,,,,"duplicate of P4CZ10538 and P8159? NB: disciple of 11th cent. Kāśmīri Ratnavajra (Szántó, “On Vāgīśvarakīrti’s Influence in Kashmir and among the Khmer” (2020), p. 181).",,,"ma,pa,tr",,P4335
 P4CZ16819,slob dpon shAkya 'od/,śākyaprabha,,,700,799,,,,,,,"ma,pa,tr",,"P8266,P0RK8,P4CZ16770,P5013,P8265,P8209,P8222,P1KG8854,P8205,P4CZ54055"
 P4CZ10541,paN+Di ta zla ba gzhon nu/,candrakumāra,,,,,,1000-1099,,RR: 8th c.,,,"ma,pa,tr",,P2554
-P8252,kha che'i paNDita a nan+ta/,ānanda,,,1000,1099,,,,,,,"ma,pa,tr",,"P3143,P4266"
+P8252,kha che'i paNDita a nan+ta/,ānanda,NB,,950,1050,,,,NB: pinned to Ma snang Grags ’byor shes rab who is pinned to Rin chen bzang po.,,,"ma,pa,tr",,"P3143,P4266"
 P00EGS1017688,paN+Di ta bi b+hu ti tsan+dra/,"vibhūticandra,bhūticandra",,,1100,1299,,,,"NB: Isaacson & Sferra, “Indian Tantric Authors: Overview” (2019), p. 251: ""active in northern India, Nepal, and Tibet between the 12th and the 13th centuries.""",,,"ma,pa,tr",,"P1061,P1025,P1582,P6532,P3890"
 P1243,pha dam pa sangs rgyas/,,,,1000,1099,,,,,,,"ma,pa,tr",,
 P4CZ15091,dpal bsod snyoms pa chen po/,Paiṇḍapātika,,,,,,,,the Brahmin,,,"ma,pa,tr",,
@@ -465,7 +465,7 @@ P8210,mkhan po dA na shI la/,dānaśīla,,,800,899,,,,,,,"ma,pa,tr",P3214,"P8209
 P00EGS1016642,slob dpon rin chen 'byung gnas zhi ba/,"ratnākaraśānti,Śāntipa",MH,,1000,1099,,,,,OK,Princeton,"ma,pa,tr",,
 P4CZ15211,paN+Di ta chen po d+harma badz+ra/,dharmavajra,,,800,899,,,,"can be confused with P4CZ15108, P4CZ15211 is a duplicate of one of these?",,,pa,,"P4CZ15212,-"
 P4CZ15369,bIr+ya gu ba su tra/,vīryaguptaputra ?,,,1000,1099,,,,,,,pa,,P4418
-P4CZ10535,rgya gar gyi mkhan po shrI badz+ra bo d+hi/,śrīvajrabodhi,,,,,,1000-1399,,,,,pa,,"P4180,P8129,P4531"
+P4CZ10535,rgya gar gyi mkhan po shrI badz+ra bo d+hi/,śrīvajrabodhi,NB,,1000,1099,,1000-1399,,,,,pa,,"P4180,P8129,P4531"
 P8208,kumaravajra/,kumāravajra,NB,,950,1050,,1000-1299,,"NB: Tibskrit: “Must have lived between end of 10th and first half of 11th century, since he was a contemporary of the kings Mahīpāla and Nayapāla.”",,,pa,,"P4CZ15124,P4CZ15123,P4274"
 P4CZ15100,paN+Di ta kIrti tsan+dra/,Kīrticandra,,,1250,1399,,,,,,,pa,,"-,P2637,P2637"
 P4CZ15365,paN+Di ta bud+d+ha shrI b+ha dra/,śrībuddhaśrībhadra,,,1200,1299,,,,Kashmiri,,,pa,,P4007
@@ -479,15 +479,15 @@ P4CZ15496,pan+Di ta dpal go mi 'chi med/,"śrīgomiamar ?,Amaragomin",,,1000,109
 P4CZ15472,mkhan po su b+ha dra/,subhadra,,,1000,1099,,,,,,,pa,,P3890
 P4CZ15278,mkhan po dpal phyogs dbang dga' byed/,Digīśanandana,,,1200,1299,,,,,,,pa,,P4CZ10533
 P4CZ15471,mkhan po kA la tsa kra/,kālacakra,NB,,1000,1099,,,,,,,pa,,
-P3261,slob dpon rgyal ba'i rgyal mtshan/,jayankara ?,,,1200,1299,,,,"according to BDRC staff: ""Looks like P4CZ16830 / P3261 are a different person. So we should keep for a moment. But in the outline, it has issues of selecting the person and I corrected them.""",,,pa,,P2636
+P3261,slob dpon rgyal ba'i rgyal mtshan/,jayankara ?,NB? OA,,1200,1299,,,,"according to BDRC staff: ""Looks like P4CZ16830 / P3261 are a different person. So we should keep for a moment. But in the outline, it has issues of selecting the person and I corrected them."" OA: I doubt that these are two persons, also the dates are problematic. I think that the Mar pa he worked with might be Mar pa do ba. I have one sentence on it in my forthcoming article, but further research might be needed here.",,,pa,,P2636
 P4CZ10538,mkhan po chen po pradz+nyA shrI gub+ta/,prajñāśrīgupta ?,,,,,,1300-1399,,duplicate of P10154 and P8159?,,,pa,,P4CZ10539
-P4CZ15167,bal po lo tsA ba dze ta ha du shan+ti b+ha dra/,śāntibhadra ?,NB,,1000,1099,,,,"NB: he tr. D3792 with ’Bro Seng dkar Shākya ’od (P2554, fl. 1000–1099).",,,pa,,P4307
+P4CZ15167,bal po lo tsA ba,,RC,,,,,,,RC: mysterious translator who worked with ye shes rdo rje (P4307) on D1580,,,pa,,P4307
 P8161,mkhan po dzi na wa ra/,jinavara,,,,,,1000-1099,,,,,pa,,"P4243,P3458"
 P4CZ15492,paN+Di ta dza yaM de wa/,jayadeva,,,1000,1099,,,,,,,pa,,P4528
 P4008,bud d+ha shrI/,buddhaśrī,,,,,,,,,,,pa,,
 P4CZ15165,paN+Di ta d+ha pa la ha'u/,dhapalahaḥu,NB,,1000,1099,,,,"NB: BUDA: Dha pa la ha’u (P4CZ15165) teacher of his only association Ba ri Rin chen grags (P3731, 1040–1112).",,,pa,,P3731
-P4CZ15273,mkhan po puN+ya kIrti/,puṇyakīrti,,,900,999,,,,Tibskrit: Evidently a teacher of Śākyaprabha.,,,pa,,"P4CZ10564,P4209"
-P4CZ15077,paN+Di ta badz+ra gu na b+ha dra/,Vajraguṇabhadra,,,1300,1399,,,,,,,pa,,P4CZ10539
+P4CZ15273,mkhan po puN+ya kIrti/,puṇyakīrti,,,1000,1100,,,,"RC: This person worked with bson nams rgyal mtshan (and bsod nams rgyal ba - possibly the same person) on two tantric texts. Based on that we assume the date of 11th C. According to TibSkrit, mkhas pa'i dga' ston also mentions a person with this name who is a teacher of Śākyaprabha.",,,pa,,"P4CZ10564,P4209"
+P4CZ15077,paN+Di ta badz+ra gu na b+ha dra/,Vajraguṇabhadra,,,1000,1099,,,,"RC: Dates pinned to his only colaborator, rin chen rgyal mtshan, P4CZ10539",,,pa,,P4CZ10539
 P4CZ15161,paN+Di ta go ta ma b+ha dra/,"Gautamabhadra,Gautamaśrī,Gautamaśrībhadra",,,1200,1299,,,,same as P3982 ?,,,pa,,"P4CZ15575,P2147"
 P4CZ16805,mkhan po mu ne tsan+d+ra/,munecandra?,,,1000,1099,,,,,,,pa,,P4CZ16804
 P4CZ15183,mkhan po a nI la badz+ra/,anīlavajra,,,1000,1099,,,,,,,pa,,
@@ -523,7 +523,7 @@ P4CZ16854,mkhan po shAkya seng ha/,śākyasimha ?,,,700,899,,,,,,,pa,,"P8219,P81
 P4CZ15107,mkhan po tA ra ka+l shu/,tarakalasu ?,,,,,,,,,,,pa,,P4CZ15111
 P3963,rgyal ba bzang po/,,,,1300,1399,,,,,,,pa,,
 P4CZ15567,mkhan po rdi ro Sh+k+ri dz+nyA na/,dhiroṣkrijñāna ?,,,1200,1299,,,,,,,pa,,P4CZ15565
-P8245,bud d+ha ka ra wa rman/,buddhakaravarman ?,,,,,,1000-1350,,,,,pa,,"P3890,P1760"
+P8245,bud d+ha ka ra wa rman/,buddhākaravarman ?,NB,,1000,1099,,1000-1350,,,,,pa,,"P3890,P1760"
 P7132,wa la tsandra/,"balacandra,valacandra ?",,,,,,1400-1499,,,,,pa,,P7604
 P4CZ15105,rdo rje 'chang nyi ma'i dbang po'i 'od zer/,"Revendra,",,,1200,1299,,,,duplicate of P3202 ?,,,pa,,P1025
 P4CZ15213,paN+Di ta sA d+hU kIrti/,sādhukīrti ?,,,1200,1299,,,,,,,pa,,P4101
@@ -563,7 +563,7 @@ P2252,bri gung lo tsA ba ma Ni ka shrI/,"Maṇikaśrī,Maṇikaśrījñāna",,12
 P4CZ15089,paN+Di ta chen po wA gi shwa ra gup+ta pa/,vāgīśvaraguptapada,,,1000,1099,,,,,,,pa,,"P1582,P3814,P1581,P3146"
 P4CZ16901,sman pa ra gu nA tha/,ragunātha,,,1600,1699,,,,,,,pa,,P2947
 P4CZ15087,paN+Di ta bi shwa shrI/,viśvaśrī,,,1000,1099,,,,,,,pa,,P8129
-P8191,paN+Di ta badz+ra sha rM kha la ru dra/,vajraśrīkhalarudra ?,,,,,,700-1236,,,,,pa,,"P2JM5,P2554,P4007"
+P8191,paN+Di ta badz+ra shrI kha la ru dra/,vajraśrīkhalarudra ?,,,1150,1250,,700-1236,,,,,pa,,"P2JM5,P2554,P4007"
 P4CZ15097,paN+Di ta jo bo ri pa jo bo ri pa/,,,,1100,1199,,,,,,,pa,,P8156
 P4CZ16848,paN+Di ta skal ldan rgyal po/,bhayarāja,,,1000,1099,,,,,,,pa,,"P5651,P2551"
 P4CZ15072,slob dponkriSh+Na badz+ra/,kṛṣṇavajra,,,,,,,,,,,pa,,
@@ -594,7 +594,7 @@ P4CZ15469,mkhan po de ba rA dza/,devarāja,,,1000,1099,,,,,,,pa,,P4CZ15290
 P4CZ15226,paN+Di ta rat+na d+ha ti/,ratnadhati ?,,,1000,1099,,,,,,,pa,,P4CZ10557
 P4CZ15359,paN+Di ta A nan+ta b+ha dra/,anandabhadra ?,,,1000,1099,,,,,,,pa,,P4180
 P4CZ15224,paN+Di ta mi dbang bzang po/,,,,1200,1299,,,,,,,pa,,
-P4CZ15235,paN+Di ta man tra kA la sha,"mantrakalaśa,mantrakālaśa ?",,,1050,1149,,,,,,,"pa,tr",,P4149
+P4CZ15235,paN+Di ta man tra kA la sha,mantrakalaśa,,,1100,1200,,,,,,,"pa,tr",,P4149
 P4CZ10556,lo tsA ba d+harma tsan+d+ra/,dharmacandra,,,800,999,,,,,,,"pa,tr",,
 P856,zhwa lu lo tsA ba chos skyong bzang po/,Dharmapālabhadra,,1441,,,1527,,,,,,"pa,tr",,"P0TMP075,P0TMP074,-"
 P4CZ15232,paN+Di ta nag po chen po ro 'dzin/,,,,1000,1099,,,,,,,"pa,tr",,P00EGS1017627
@@ -729,7 +729,7 @@ P0TMP082,slob dpon rgyan bzang po,*Subhūṣita,,,,,,,,,,,,,
 P8LS68061,wen tshegs/,,,,,,,,,,,,,,
 P0ER0030,seng ge zhabs 'bring pa/,Haribhaṭṭa,MH,,400,500,,,,,OK,Tibskrit,,,
 P1050,sa dbang bzang po,Mahīndrabhadra,,,,,,1200-1299,,,,,,,"P1052,-"
-P0TMP084,phags pa dpa' bo,"Āryaśūra,Śūra",MH,,100,199,,,,,OK,Princeton,,,
+P0TMP084,phags pa dpa' bo,"Āryaśūra,Śūra",MH,,100,199,,,,"NB: Tibskrit: Hahn, NBSL, pp. 36 40, identifies three different Āryaśūras. Āryaśūra I, the author of Jātakamālā, is dated to early or mid 4th century. Āryaśūra II, author of Pāramitāsamāsa, is 7th or 8th century. Āryaśūra III, author of Subhāṣitaratnakaraṇḍakakathā, is probably 10th century or so. In Tibetan tradition, Āryaśūra or Śūra is generally treated as just another name for Aśvaghoṣa (and even Mātṛceta/Maticitra as well, although here there is some discussion in the sources) and even further as a name for (the 7th century) Vāgbhaṭa (sometimes the latter is given over 20 names!). Winternitz (II 265) places Āryaśūra in the 4th century, a few centuries after Aśvaghoṣa.",OK,Princeton,,,
 P0ER0003,Mātṛceṭa,Mātṛceṭa,MH,,200,299,,,,"has a whole litany of other name, here to break up P44 if necessary",sould be rechecked?,Princeton,,,
 P0TMP085,rgya'i lo tsA ba thang saM tsang,,,,,,,,,Chinese,,,,,
 P0TMP086,rgya'i dge bshes sing gyang jus,,,,,,,,,Chinese,,,,,
@@ -752,7 +752,6 @@ P0TMP099,paN+Di ta a tu la dA sa badzra,"Atuladāsavajra, Atulyadāsa",,,,,,,,,,
 P8172,rgya gar gyi mkhan po su dza na shrI dz+nyA na,Sujanaśrījñāna,,,,,,1000-1099,,,,,,,P4149
 P7582,rgya gar gyi mkhan po ni rgA Na shrI,Nirvāṇaśrī,,,1550,1650,,,,ER: Tibetan version of the name should be double checked with the original,,,,,"P4013,P1428,P8148"
 P8174,dpal nA ro ba'i slob ma kha che'i baN+Dita A ka ra sid+d+hi,Ākarasiddhi,,,,,,1000-1099,,,,,,,P6453
-P8196,bod kyi lo ts+tsha ba ban+de dza ya rak+Shi ta,Jayarakṣita,,,,,,,,,,,,,P4957
 P0TMP102,rgya gar gyi mkhan po u la sha ma rak+Shi ta,Ulaśamarakṣita,,,,,,1000-1099,,,,,,,P8203
 P0TMP103,dge slong A nan+da mang+ga laM,Ānandamaṅgala,,,,,,,,,,,,,
 P8237,rgya gar gyi mkhan po bu N+ya saM b+ha wa,Punyasambhava,,,,,,1000-1099,,,,,,,"P5651,P8129"
@@ -959,7 +958,7 @@ P0TMP275,rgya gar gyi mkhan po shAkya pra bha,Śākyaprabha,,,,,,,,different fro
 P0TMP276,,Kamalaguhya,,,950,1099,,,,maybe the same as P8093 but uncertain,,,,,P4153
 P0TMP277,rgya gar kyi mkhan po dpal tsha ya A na n+da,Jayānanda,,,1200,1299,,,,different from P4CZ15242,,,,,
 P0TMP278,slob dpon chen po zla ba bzang po grags pa'i dpal,sucandrabhadra,,,,,,,,different from P4CZ15457,,,,,
-P0TMP280,slob dpon ye shes byin,Jñānadatta,,,,,,,,same as P4CZ15568 ? different from P7148. RC: I see no reason to suspect that he is the same as P4CZ15568.,,,,,
+P0TMP280,slob dpon ye shes byin,Jñānadatta,,,,,,,,same as P4CZ15568? different from P7148. RC: I see no reason to suspect that he is the same as P4CZ15568.,,,,,
 P0TMP281,slob dpon ye shes rdo rje,,,,,,,,,"different from P7148, possibly P1243",,,,,
 P0TMP282,rgya gar gyi mkhan po ka mA la shrI,Kamalaśrī,,,1000,1099,,,,different from P8213,,,,,
 P0TMP283,paN+Di ta bid+yA ka ra sing ha,Vidyākarasiṃha,,,1000,1099,,,,,,,,,
@@ -969,3 +968,7 @@ POTMP286,rgyal po'i sras dpal 'jigs med lha,Abhayadeva,RC,,,,,,,,,,,,
 POTMP287,paN+Di ta many+dzu shrI warma,Mañjuśrīvarman,NB,,1000,1099,,,,"RC: A paṇḍita with this name worked with Blo ldan shes rab. He is evidently different than the earlier translator P4257. NB: Pinned to Blo ldan shes rab (P2551, 1059–1109), Ratnakīrti (P8181, 1000–1099), and 11th c. Vidyākarasiṃha (P0TMP283).",,,,,
 POTMP288,rgya gar gyi mkhan po nA ga rak+Shi ta,Nāgarakṣita,,,,,,,,different from P8218. RC: A paṇḍita who worked with sum pa lo tsA ba,,,,,
 POTMP289,,Vimalamitra,,,500,650,,,,"different from P5011, commentator of the Abhidharma(pra)dīpa (not translated in Tibetan)",,,,,
+POTMP290,paN+Di ta chen po ba ni shrI ,Vaniśrī/Pāṇiśrī?,RC,,1000,1099,,,,"RC: Only collaboration appears to be with  'chings yon tab 'bar, and on this we can establish an aproximate flourit",,,,,
+POTMP291,rgya gar gyi mkhan po dA na shI la ,Dānaśīla,RC,,1000,1099,,,,"RC: Paṇḍita on D1180, possibly also D1268. He is also possibly the author of D3927",,,,,
+POTMP292,rgya gar gyi paN+Di ta su shrI sh'nti ,Suśrīśānti/Śubhaśrīśānti,RC,,1100,1199,,,,"RC: Worked with Khro phu lo tsa ba (P4007) on D2127. sDe colophon suggests the name suśrīśānti, snar thang and pe cing suggest subhaśrīśānti, i.e. probably śubhaśrīśānti.",,,,P4CZ15090,
+P0TMP293,rgya gar gyi mkhan po bid+yA kar sing+ha,Vidyākarasiṃha,RC,,1100,1199,,,,"RC: A Vidyākarasiṃha who worked with one Lha rin po che (P8142). May be the same as either P8213 or P8182, but no evidence at present.",,,,,
