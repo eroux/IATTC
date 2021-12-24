@@ -21,7 +21,7 @@ P4CZ15149,slob dpon ka lA ka pa/,kālakapāda,,,,,,,,,,,,ma,,,,
 P4CZ15475,dge bsnyen ma snyan grags dge ma/,yośobhadrā,,,,,,,,,,,,ma,,,,
 P4CZ15451,paN+Dita bzang po sbyin pa/,bhadradatta,,,900,1099,,,,,,,,ma,,,,
 P4CZ15560,sgra rig smra ba'i dbang phyug,brahman guru,,,,,,,,,,,,ma,,,,
-P9843,grub chen d+harma pa/,dharmapāla,,,,,,,,,,,,ma,,,,
+P9843,grub chen d+harma pa/,dharmapa,,,,,,,,,,,,ma,,,,
 P7313,shes rab 'byung gnas blo gros/,Prajñākaramati,MH,950,,,1030,,,,,OK,Princeton,ma,,,,
 P4CZ15257,slob dpon rgyal bas byin/,jinadatta,,,900,1099,,,,,,,,ma,,,,
 P4CZ15148,slob dpon dpag med rdo rje/,amitavajra,,,,,,,,,,,,ma,,,,
@@ -98,7 +98,7 @@ P4111,kha che zla ba mngon dga',,,,,,,,,,,,,ma,,,,
 P3236,tsi lu paN+Di ta/,celuka ?,,,,,,,,,,,,ma,,,,
 P4CZ15170,paN+Di ta brtson 'grus dpal bshes gnyen/,vīryaśrīmitra,,,,,,,,,,,,ma,,,,
 P8398,jam dpal bshes gnyen/,mañjuśrīmitra,,,600,699,,,,,,,,ma,,,,
-P3453,gser gling pa chos kyi grags pa/,dharmakīrti,,,900,999,,,,circa 8th-9th c.,,,,ma,,,,
+P3453,gser gling pa chos kyi grags pa/,dharmakīrti 02 / dharmakīrti of suvarṇadvīpa / dharmakīrti  of kedah,,,900,999,,,,circa 8th-9th c.,,,,ma,,,,
 P4CZ15084,dus zhabs pa chen po 'jam pa'i rdo rje/,Kālacakrapāda ? mañjuvajra ?,OA: dates,,1000,1100,,,,are these two different persons?,,,,ma,,,,
 P4CZ15506,dge slong ma zla mdzes/,Sucandrā,,,,,,,,,,,,ma,,,,
 P1KG3392,daM Sh+TA se na/,,,,700,799,,,,,,,,ma,,,,
@@ -356,7 +356,7 @@ P9849,grub chen wi na pa/,vināpāda,,,,,,,,,,,,"ma,pa",,,,
 P4CZ15493,mkhan po pra dz+nya war ma/,prajñāvarman,NB,,750,850,,,,"the translator. NB: Roesler, “Narratives: Tibet” (2015), p. 517: late 8th–early 9th cent.",,,,"ma,pa",,P4CZ15258,,"P4CZ16780,P8175,P8209,P753,P8182,P8205,P8210,P8228"
 P7648,lo tsA ba ma NI kha shrI dza+nyA na/,Maṇiśrījñāna,,,1200,1299,,,,"RC: Pin dates to chag lo tsa ba. Previous comment: dates to check, BDRC also had 13th. c",,,,"ma,pa",,,,"P753,P3374,P1025,P8265"
 P4CZ10575,slob dpon 'jam dpal ye shes/,majuśrījñāna ?,,,1000,1099,,,,RR: 14th-15th c.,,,,"ma,pa",,,,"P3731,P3088,P3816"
-P4CZ10574,shrI A nan+da badz+ra/,ānandavajra,,,,,,,,RC: Dates appear to be unknown.,,,,"ma,pa",,,,
+P4CZ10574,shrI A nan+da badz+ra/,ānandavajra,,,,,,,,"RC: Dates appear to be unknown. OA: in BUDA is given as teacher of Rong zom, but isdated 13th cent, which is impossible. Either of the two is wrong.",,,,"ma,pa",,,,
 P2949,ku ru kse tra paNDi ta bA la b+ha dra/,balaśrībhadra,,,1600,1699,,,,,,,,"ma,pa",,,,
 P4CZ10553,mkhas pa rin chen dpal ye shes/,ratnaśrījñāna ?,,,,,,1242-1346,,,,,,"ma,pa",,,,P2637
 P4CZ15186,kha che dz+nyA na shrI b+ha dra/,jñānaśrībhadra,,,1000,1099,,,,,,,,"ma,pa",,,,"P1242,P8179,P3709,P4277"
@@ -595,21 +595,22 @@ P4CZ15359,paN+Di ta A nan+ta b+ha dra/,anandabhadra ?,,,1000,1099,,,,,,,,pa,,,,P
 P4CZ15224,paN+Di ta mi dbang bzang po/,,,,1200,1299,,,,,,,,pa,,,,
 P4CZ15235,paN+Di ta man tra kA la sha,mantrakalaśa,,,1100,1200,,,,,,,,"pa,tr",,,,P4149
 P4CZ10556,lo tsA ba d+harma tsan+d+ra/,dharmacandra,,,800,999,,,,,,,,"pa,tr",,,,
-P856,zhwa lu lo tsA ba chos skyong bzang po/,Dharmapālabhadra,,1441,,,1527,,,,,,,"pa,tr",,,,"P0AT0075,P0AT0074,-"
 P4CZ15232,paN+Di ta nag po chen po ro 'dzin/,,,,1000,1099,,,,,,,,"pa,tr",,,,P00EGS1017627
 P4CZ15169,rnal 'byor pa pradz+nyA shrI dz+nyA na kirti/,prajñāśrījñānakīrti ?,,,,,,,,,,,,"pa,tr",,,,
 P4CZ15099,paN+Di ta bi nA ya shrI mi tra/,vinayaśrīmitra,,,1200,1299,,,,,,,,"pa,tr",,,,P4101
 P4CZ15464,paN+Di ta ku mA ra ka la sha,,,,800,899,,,,,,,,"pa,tr",,,,
 P4CZ15137,mkhan po gzhon nu bum pa/,kumārakalasa,NB,,1000,1099,,,,NB: Tibskrit: “He would seem to belong to 11th century.”,,,,"pa,tr",,,,"P5197,P8216,P2554"
 P5568,zhwa lu lo chen rin chen bzang po/,,,,,,1563,900-,,,,,,"pa,tr",,,,"P8171,P8093,P753"
-P4257,paN+Di ta many+dzu shrI wa rma/,mañjuśrīvarman,,,750,850,,,,RC: Pinned to Buddhaguhya. RR: 9th c. ? unclear,,,,"pa,tr",,,,"P8213,P3890,P2551,P7868"
+P4257,paN+Di ta many+dzu shrI wa rma/,mañjuśrīvarman,,,1050,1150,,,,"– Early Vidyākarasiṃha (P8213, fl. 700–899) and Tibetan Mañjuśrīvarman (P4CZ15455, fl. 700–899) (including text by Ratnakīrti (11th cent.), but obviously wrong ascription in the colophon). Same early Vidyākarasiṃha(prabha) (P8213) worked with dPal brtsegs. Same early Tibetan (dBa’/dBas/dPa’) Mañjuśrīvarman (P4CZ15455) worked with Buddhaguhya (for the time being: early Buddhaguhya vs. late Buddhagupta).
+– Vīryasiṃha who authored D4460 (Jātakamālāpañjikā) ≠ early Vidyākarasiṃha who tr. D4150 (Jātakamālā) with Tibetan Mañjuśrīvarman? Create new ID for Vīryasiṃha (P0AT0294).
+– Late Indian Mañjuśrīvarman (P4257, fl. 1050–1150; delete P0AT0287) who worked with Blo ldan shes rab (1059–1109).
+– Late Vidyākarasiṃha/ Vidyākarasiddha/Bodhikārasiṃha (P0AT0293, fl. 1100–1199; delete P0AT0283 also from BUDA (Elie)) who worked with Kukkurāja and lHa rin po che (fl. 1100–1199).",,,,"pa,tr",,,,"P8213,P3890,P2551,P7868"
 P4CZ15390,bla ma d+ha ri shrI dz+nyA na/,dhiriśrījñāna ?,,,1000,1099,,,,,,,,"pa,tr",,,,"P2554,P4CZ10557"
 P8250,rnal 'byor bsod snyoms pa pra dz+nyA na kIrti/,prajñākīrti ?,,,,,,,,,,,,"pa,tr",,,,
 P1448,o rgyan pa rin chen dpal/,,,,1229,1230,1309,,,RR: 11th c. ?,,,,"pa,tr",,,,"P4CZ16877,P4CZ15523,P4CZ10579,P4CZ15514,P4CZ15229"
 P5931,slob dpon zla ba grags pa/,,,,,,,,,,,,,"pa,tr",,,,
 P7847,dge ba'i dbang po/,Kṣemendra,MH,,900,1099,,,,BDRC has 1000-1099 for Floruit,,OK,Tibskrit,,,,,
 P8220,"lo tsA ba de ba tsan+dra/,lha'i zla ba",devacandra,,,,,,700-899,,RR: 8th c.,,,,,,,,"P8209,P8218,P8217"
-P8266,zhu chen gyi lo tsA ba dharma tA shI la/,Dharmatāśīla,,,,,,700-1199,,RR: 8th c.,,,,,,,,"P8280,P0RK8,P3939,P8209,P8222,P753,P1KG8854,P7641,P8205,P4CZ16819,P8228,P8273"
 P4CZ15592,paN+Di ta shA ri pu tra/,Śāriputra,,,800,899,,,,,,,,,,,,
 P3388,slob dpon dad byed go cha/,Śraddhākaravarman,,,1000,1099,,,,,,,,,,,,"P8171,P8216,P753,P3890,P8093,P7257"
 P8261,rgya gar gyi mkhan po mu ni warma,munivarman,,,,,,700-1199,,,,,,,,,,"P8209,P3214,P8205"
@@ -662,7 +663,7 @@ P0AT0013,tri sa ra ha,Trisarahapa,,,,,,,,,,,,,,,,
 P0AT0014,paN+Di ta sa ma ya shrI dz+nyA na,Samayaśrījñāna,,,,,,,,,,,,,,,,
 P0AT0015,bcom ldan 'das yum rdo rje mkha' 'gro ma,Vajraḍākinī,,,,,,,,same as P0RK919?,,,,,,,,
 P8225,slob dpon gzhan la phan pa/,parahitabhadra,NB,,1000,1099,,1000-1399,,"NB: pinned to Sajjana (P4920) and rNgog (P2551). Kano, ""Exegeses"" (2016), p. 7, n. 33: ""Parahitabhadra taught rNgog Buddhist logic and epistemology, and together with him and Sajjana jointly revised the translation of the Mahāyānasūtrālaṃkāra (D 4020; P 5521).""",,,,,,,,"P4420,P4105,P4401,P2551,P3709,P4920"
-P0AT0017,blon po'i rigs shin tu dga' ba'i paN+Di ta,Supriya,,,,,,,,,,,,,,,,
+P0AT0017,blon po'i rigs shin tu dga' ba'i paN+Di ta,*Supriya,,,,,,,,OA: I added an * to Supriya (juggested by DM); elsewhere Surata; needed to be looked at more closely,,,,,,,,
 P0AT0018,"klu'i blo, klu yi blo, klu'i blo gros,klu sgrub snying po ?","Nāgamati,Nāgabuddhi,Nāgabodhi",,,,,,,,,,,,,,,,
 P0AT0020,bal po'i dge bsnyen su'o 'di ta,Suḥodīta,,,,,,1059-1109,,,,,,,,,,P2551
 P0AT0021,rgyan pa,*Vibhūṣita,,,,,,,,,,,,,,,,
@@ -773,7 +774,7 @@ P8268,bud d+ha pra b+ha,Buddhaprabha,,,,,,700-1199,,,,,,,,,,"P8209,P3214,P8205"
 P8LS15063,blo gros dpal/,Śrīmati,,,,,,,,,,,,,,P153,,P8178
 P8147,"gnyis med rdo rje,gnyis su med pa'i rdo rje",Advayavajra,,,,,,,,ER: here to possibly break P44 into different records if necessary,,,,,,,,
 P0AT0112,rgya nag chen po'i lha btsun chos kyi rin chen,,,1271,,,1323,,,"Chinese, dates from Tibskrit, several possibilities",,,,,,,,
-P0AT0113,dpal ldan chos skyong,Śrī Dharmapāla,,530,,,561,,,Indian logician,,,Tibskrit,,,,,
+P0AT0113,chos skyong,Dharmapāla,,530,,,561,,,Indian logician; No works translated to Tibetan. Four works translated to Chinese.,,,Tibskrit,,,,,
 P6242,slob dpon yon tan 'od/,guṇaprabha,MH,,400,699,,,,,,OK,Princeton,,,,,
 P0ER0002,,"Buddhaghoṣa, Buddhaghosa",MH,,370,450,,,,P0ER0014 (who wrote texts kept in Pali) seems to be a duplicate ? or maybe not...,,OK,Princeton,,,,,
 P0ER0004,,Davuldeṇa Jñāneśvara Mahāsthavira,MH,,,,,,,,,X,Tibskrit,,,,,
@@ -960,14 +961,19 @@ P0AT0278,slob dpon chen po zla ba bzang po grags pa'i dpal,sucandrabhadra,,,,,,,
 P0AT0280,slob dpon ye shes byin,Jñānadatta,,,,,,,,same as P4CZ15568? different from P7148. RC: I see no reason to suspect that he is the same as P4CZ15568.,,,,,,,,
 P0AT0281,slob dpon ye shes rdo rje,,,,,,,,,"different from P7148, possibly P1243",,,,,,,,
 P0AT0282,rgya gar gyi mkhan po ka mA la shrI,Kamalaśrī,,,1000,1099,,,,different from P8213,,,,,,,,
-P0AT0283,paN+Di ta bid+yA ka ra sing ha,Vidyākarasiṃha,,,1000,1099,,,,,,,,,,,,
+P0AT0283,paN+Di ta bid+yA ka ra sing ha,Vidyākarasiṃha,,,1000,1099,,,,Delete and merge with P0AT0293.,,,,,,,,
 P0AT0284,rab tu dga’ ba’i ’byung gnas go cha,*Pramuditākaravarman,,,,,,,,different from P4CZ15258 who shouldn't have this name,,,,,,,,
 P0AT0285,rgya gar gyi mkhan po pra b+hA kar shrI mi tra,Prabhākaraśrīmitra,,,,,,,,no reason to think he's the same as P4CZ15523,,,,,,,,P753
 P0AT0286,rgyal po'i sras dpal 'jigs med lha,Abhayadeva,RC,,,,,,,,,,,,,,,
-P0AT0287,paN+Di ta many+dzu shrI warma,Mañjuśrīvarman,NB,,1000,1099,,,,"RC: A paṇḍita with this name worked with Blo ldan shes rab. He is evidently different than the earlier translator P4257. NB: Pinned to Blo ldan shes rab (P2551, 1059–1109), Ratnakīrti (P8181, 1000–1099), and 11th c. Vidyākarasiṃha (P0AT0283).",,,,,,,,
+P0AT0287,paN+Di ta many+dzu shrI warma,Mañjuśrīvarman,NB,,1000,1099,,,,"Delete, keep P4257.",,,,,,,,
 P0AT0288,rgya gar gyi mkhan po nA ga rak+Shi ta,Nāgarakṣita,,,,,,,,different from P8218. RC: A paṇḍita who worked with sum pa lo tsA ba,,,,,,,,
 P0AT0289,,Vimalamitra,,,500,650,,,,"different from P5011, commentator of the Abhidharma(pra)dīpa (not translated in Tibetan)",,,,,,,,
 P0AT0290,paN+Di ta chen po ba ni shrI ,Vaniśrī/Pāṇiśrī?,RC,,1000,1099,,,,"RC: Only collaboration appears to be with  'chings yon tab 'bar, and on this we can establish an aproximate flourit",,,,,,,,
 P0AT0291,rgya gar gyi mkhan po dA na shI la ,Dānaśīla,RC,,1000,1099,,,,"RC: Paṇḍita on D1180, possibly also D1268. He is also possibly the author of D3927",,,,,,,,
 P0AT0292,rgya gar gyi paN+Di ta su shrI sh'nti ,Suśrīśānti/Śubhaśrīśānti,RC,,1100,1199,,,,"RC: Worked with Khro phu lo tsa ba (P4007) on D2127. sDe colophon suggests the name suśrīśānti, snar thang and pe cing suggest subhaśrīśānti, i.e. probably śubhaśrīśānti.",,,,,,P4CZ15090,,
-P0AT0293,rgya gar gyi mkhan po bid+yA kar sing+ha,Vidyākarasiṃha,RC,,1100,1199,,,,"RC: A Vidyākarasiṃha who worked with one Lha rin po che (P8142). May be the same as either P8213 or P8182, but no evidence at present.",,,,,,,,
+P0AT0293,rgya gar gyi mkhan po bid+yA kar sing+ha,Vidyākarasiṃha,RC,,1100,1199,,,,"– Early Vidyākarasiṃha (P8213, fl. 700–899) and Tibetan Mañjuśrīvarman (P4CZ15455, fl. 700–899) (including text by Ratnakīrti (11th cent.), but obviously wrong ascription in the colophon). Same early Vidyākarasiṃha(prabha) (P8213) worked with dPal brtsegs. Same early Tibetan (dBa’/dBas/dPa’) Mañjuśrīvarman (P4CZ15455) worked with Buddhaguhya (for the time being: early Buddhaguhya vs. late Buddhagupta) .– Vīryasiṃha who authored D4460 (Jātakamālāpañjikā) ≠ early Vidyākarasiṃha who tr. D4150 (Jātakamālā) with Tibetan Mañjuśrīvarman? Create new ID for Vīryasiṃha (P0AT0294).
+– Late Indian Mañjuśrīvarman (P4257, fl. 1050–1150; delete P0AT0287) who worked with Blo ldan shes rab (1059–1109).– Late Vidyākarasiṃha/ Vidyākarasiddha/Bodhikārasiṃha (P0AT0293, fl. 1100–1199; delete P0AT0283 also from BUDA) who worked with Kukkurāja and lHa rin po che (fl. 1100–1199).",,,,,,,,
+P0AT0294,,Vīryasiṃha,,,,,,,,"Author of D4460 (Jātakamālāpañjikā). See Tibskrit, s.v. Vīryasiṃha (Dpa' bo seng ge, Dpa' seng).",,,,,,,,
+P0AT0295,gser gling rgyal po dpal ldan chos skyong,"Śrīdharmapāla, King of Suvarṇadvīpa",,,950,1050,,,,,,,,,,,Not to be confused with gser gling pa Chos kyi grags pa / Dharmakīrti II akd Dharmakīrti  of Kedah / Dharmakīrti of Suvarṇadvīpa.,
+P0AT0296,A nan da pradznyA,Ānandaprajñā,,,,,,,,,,,,,,,,
+P0AT0297,dhar+ma pA la,Dharmapāla,,,700,900,,,,"OA: only one occurrence of the name as a translaorPandita in the early period, could be an error",,,,,,,,
