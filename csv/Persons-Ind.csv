@@ -130,7 +130,7 @@ P4CZ16858,slob dpon dpal shes rab 'byung gnas sbas pa/,prajākaragupta,,,,,,,,,,
 P4CZ16834,slob dpon chos kyi tshong dpon/,dharmaśreṣṭhin ?,,,700,899,,,,,,,,ma,,,,
 P4CZ15415,slob dpon tsa ma ri pa/,carmaru ?,,,,,,,,,,,,ma,,,,
 P4CZ15548,slob dpon b+ha ba skan d+ha/,"bhāvaskandha,Bhavaskandhasya?",,,,,,,,,,,,ma,,,,
-P8335,mtsho skyes rdo rje/,saroruhavajra,,,,,,,,,,,,ma,,,,
+P8335,mtsho skyes rdo rje/,saroruhavajra / Padmavajra,OA,,850,899,,,,Gerloff 2020,,,,ma,,,,
 P4CZ16899,bram ze srba ha tI mrI ta dat+ta/,sarvahitāmṛtadatta,,,,,,,,,,,,ma,,,,
 P4CZ16850,slob dpon rgyal ba can/,jina,,,900,1099,,,,,,,,ma,,,,
 P4CZ15438,slob dpon saM mu dra/,samudra,,,,,,,,,,,,ma,,,,
@@ -300,7 +300,7 @@ P4CZ16888,slob dpon tsa na ka,cāṇakya,,,,,,,,,,,,ma,,,,
 P4CZ16755,ngo bo nyid med pa/,asvabhāva,,,,,,,,,,,,ma,,,,
 P4CZ16863,slob dpon rgyal po'i lha/,*Rājadeva,,,,,,,,,,,,ma,,,,
 P4CZ15425,slob dpon sA ga ra/,sāgara,,,,,,,,,,,,ma,,,,
-P6120,chos grags/,dharmakīrti,,,,,,,,RR: 11th-12th c. ?,,,,ma,,,,
+P6120,chos grags/,dharmakīrti,OA,,550,610,,,,other dates: 600-660,,,,ma,,,,
 P4CZ15423,slob dpon bAng+ga dza/,paṅkaja,,,,,,,,,,,,ma,,,,
 P4CZ15206,slob dpon rab dga' rdo rje/,pramuditāvajra,,,,,,,,,,,,ma,,,,
 P10022,kha che dri med sbas pa/,vimalagupta,,,,,,,,,,,,ma,,,,
@@ -367,7 +367,7 @@ P4CZ15076,slob dpon a sho ka shrI/,aśoka,,,,,,1000-1099,,,,,,"ma,pa",,,,P4374
 P4CZ10579,slob dpon lhan cig skyes pa'i rol pa/,sahajalalita,,,,,,1229-1309,,,,,,"ma,pa",,,,P1448
 P4CZ15160,ni Sh+ka ling+ka,nikaliṅka,,,1100,1199,,,,,,,,"ma,pa",,,,P3939
 P5006,paN+Di ta rin chen rdo rje/,ratnavajra,,,,,,992-1043,,"not duplicate of P7217 according to BDRC staff, perhaps P0RK80 ?",,,,"ma,pa",,,,P3285
-P3378,chos skyong /,dharmapāla,,,1150,1250,,,,"teacher of P1056, dates from this information",,,,"ma,pa",,,,P1242
+P3378,chos skyong /,dharmapāla,OA,,,1025,,,,"cannot be teacher of P1056 (Sa pan), should be taken out of this entry, perhaps create for this Chos skyong another entry? I also think the teacher of Atisa is probably the king P0AT0295. So I am not using this ID.",,,,"ma,pa",,,,P1242
 P8265,pan+Di ta rat+na rak+Shi ta/,ratnarakṣita,,,1200,1299,,,,,,,,"ma,pa",,,,"P7648,P1025,P4CZ16819,P5897,P3374"
 P5659,mkhan chen zhi ba 'tsho/,"śāntirakṣita,śāntarakṣita",,,700,799,,,,,,,,"ma,pa",,,,P4CZ16791
 P1059,kha che paNDi ta shrI ta tha ga ta b+ha dra/,tathāgatabhadra,,,1100,1299,,,,,,,,"ma,pa",,,,P3731
@@ -497,7 +497,7 @@ P3127,bal po ma ha bho dhi/,mahabodhi,,,1400,1499,,,,,,,,pa,,,,
 P4CZ15085,kha che'i paN+Di ta d+harma d+ha ra/,dharmadhara,,,1200,1299,,,,,,,,pa,,,,"P3281,P3980,P2637"
 P4CZ15507,shar phyogs b+haM ga la'i nyi ma 'byung gnas zla ba/,sūryākaracandra/Divākaracandra,,,1000,1099,,,,NB: b+hM —> b+haM? Also *Divākaracandra,,,,pa,,,,
 P8397,bA su d+ha ra/,"vāsudhara,Vasudharārakṣita,Sudanarakṣita",,,,,,1000-1099,,,,,,pa,,,,P4402
-P4CZ15638,paN+Di ta D+hi ra pA la/,"Dhirapāla,trilakSa sthirapAla ?",,,1000,1099,,,,,,,,pa,,,,P2551
+P4CZ15638,paN+Di ta D+hi ra pA la/,Dhirapāla / trilakṣa / sthirapāla,OA,,1000,1099,,,,,,,,pa,,,,P2551
 P3891,paN+Di ta su ba dz+ra/,suvajra,,,,,,1000-1099,,,,,,pa,,,,P3890
 P4CZ16830,paN+Di ta dza ya ka ra/,jayakara,,,1100,1199,,,,"according to BDRC staff: ""Looks like P4CZ16830 / P3261 are a different person. So we should keep for a moment. But in the outline, it has issues of selecting the person and I corrected them.""",,,,pa,,,,P4CZ10533
 P8176,paN+Di ta de wa puN+ye ma ti/,"devapūrṇamati,devapuṇyamati ?",,,1000,1099,,,,,,,,pa,,,,"P3221,P3939,P4237"
@@ -961,11 +961,9 @@ P0AT0278,slob dpon chen po zla ba bzang po grags pa'i dpal,sucandrabhadra,,,,,,,
 P0AT0280,slob dpon ye shes byin,Jñānadatta,,,,,,,,same as P4CZ15568? different from P7148. RC: I see no reason to suspect that he is the same as P4CZ15568.,,,,,,,,
 P0AT0281,slob dpon ye shes rdo rje,,,,,,,,,"different from P7148, possibly P1243",,,,,,,,
 P0AT0282,rgya gar gyi mkhan po ka mA la shrI,Kamalaśrī,,,1000,1099,,,,different from P8213,,,,,,,,
-P0AT0283,paN+Di ta bid+yA ka ra sing ha,Vidyākarasiṃha,,,1000,1099,,,,Delete and merge with P0AT0293.,,,,,,,,
 P0AT0284,rab tu dga’ ba’i ’byung gnas go cha,*Pramuditākaravarman,,,,,,,,different from P4CZ15258 who shouldn't have this name,,,,,,,,
 P0AT0285,rgya gar gyi mkhan po pra b+hA kar shrI mi tra,Prabhākaraśrīmitra,,,,,,,,no reason to think he's the same as P4CZ15523,,,,,,,,P753
 P0AT0286,rgyal po'i sras dpal 'jigs med lha,Abhayadeva,RC,,,,,,,,,,,,,,,
-P0AT0287,paN+Di ta many+dzu shrI warma,Mañjuśrīvarman,NB,,1000,1099,,,,"Delete, keep P4257.",,,,,,,,
 P0AT0288,rgya gar gyi mkhan po nA ga rak+Shi ta,Nāgarakṣita,,,,,,,,different from P8218. RC: A paṇḍita who worked with sum pa lo tsA ba,,,,,,,,
 P0AT0289,,Vimalamitra,,,500,650,,,,"different from P5011, commentator of the Abhidharma(pra)dīpa (not translated in Tibetan)",,,,,,,,
 P0AT0290,paN+Di ta chen po ba ni shrI ,Vaniśrī/Pāṇiśrī?,RC,,1000,1099,,,,"RC: Only collaboration appears to be with  'chings yon tab 'bar, and on this we can establish an aproximate flourit",,,,,,,,
@@ -976,4 +974,6 @@ P0AT0293,rgya gar gyi mkhan po bid+yA kar sing+ha,Vidyākarasiṃha,RC,,1100,119
 P0AT0294,,Vīryasiṃha,,,,,,,,"Author of D4460 (Jātakamālāpañjikā). See Tibskrit, s.v. Vīryasiṃha (Dpa' bo seng ge, Dpa' seng).",,,,,,,,
 P0AT0295,gser gling rgyal po dpal ldan chos skyong,"Śrīdharmapāla, King of Suvarṇadvīpa",,,950,1050,,,,,,,,,,,Not to be confused with gser gling pa Chos kyi grags pa / Dharmakīrti II akd Dharmakīrti  of Kedah / Dharmakīrti of Suvarṇadvīpa.,
 P0AT0296,A nan da pradznyA,Ānandaprajñā,,,,,,,,,,,,,,,,
-P0AT0297,dhar+ma pA la,Dharmapāla,,,700,900,,,,"OA: only one occurrence of the name as a translaorPandita in the early period, could be an error",,,,,,,,
+P0AT0297,dhar+ma pA la,Dharmapāla,OA,,700,900,,,,"OA: only one occurrence of the name as a translaorPandita in the early period, could be an error",,,,,,,,
+P0AT0298,slob dpon chos skyong,dharmapāla,OA,,1050,1099,,,,,,,,,,,,
+P0AT0299,slob dpon dharma kI rti,"dharmakīrti, tantric",OA,,,,,,,,,,,,,,,

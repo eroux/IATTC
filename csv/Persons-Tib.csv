@@ -14,7 +14,7 @@ P4CZ15401,"slob dpon skye med bde chen/,bal po A su",*Ajātasukha?,NB,,1000,1099
 P4CZ15368,lo tsA ba sgeg pa'i dpal/,,,,1200,1299,,,,,,,,tr,,,,
 P4CZ10533,snyel cor dge slong pradz+nyA kIrti/,Prajñākīrti,,,1100,1199,,,,duplicate of P2553 ?,,,,tr,,,,"P4CZ15278,P4CZ16830,P8893,P0AT0068"
 P10185,dpal mchog dang po'i rdo rje/,,,,1100,1199,,,,,,,,tr,,,,P8218
-P2637,yar lung lo tsA ba grags pa rgyal mtshan/,,,1242,,,1346,,,"a lot of homonyms here... P3980 is the correct one? Also warning, P10MS19659 is probably the correct one",,,,tr,,"P3980,P3281,P10MS19659,P2637",,"P4CZ15100,P5782,-,P4CZ10553,P4CZ15085"
+P2637,yar lung lo tsA ba grags pa rgyal mtshan/,,OA,1242,,,1346?,,,"a lot of homonyms here... P3980 is the correct one? Also warning, P10MS19659 is probably the correct one --- OA: added ? to death date",,,,tr,,"P3980,P3281,P10MS19659,P2637",,"P4CZ15100,P5782,-,P4CZ10553,P4CZ15085"
 P10MS19659,lo tsA ba grags pa rgyal mtshan/,,,1352,,,1405,,,,,,,,,"P3980,P3281,P2637,P2637",,
 P4CZ10557,rma lo tsA ba rma ban chos 'bar/,,,1044,,,1089,,,,,,,tr,,,,"P8232,P8224,P4CZ15390,P4CZ15179,P8187,P4CZ15371,P4CZ10561,P8251,P4CZ15081,P4CZ15227,P4CZ10561,P00KG01611,P4CZ15226"
 P4241,shes rab ye shes/,,NB,,1050,1150,,,,NB: pinned to his only association Śūnya[tā]samādhi[vajra] (P4CZ10577).,,,,tr,,P6473,,"P4CZ10577,P4CZ10577"
@@ -152,7 +152,7 @@ P4101,ldan ma lo tsA ba tshul khrims seng+ge,,,,1200,1299,,,,,,,,tr,,,,"P4CZ1521
 P4255,lo tsA ba ye shes snying po/,Jñānagarbha,,,800,899,,,,"Tibetan, different from P8175 (Indian)",,,,tr,,,,"P2636,P8211,P8249,P8182,P8219,P8213,P2548,P8217"
 P1056,sa skya paN+Di ta kun dga' rgyal mtshan/,,,1182,,,1251,,,,,,,tr,,,,"P1518,P8200"
 P4256,lo tsA ba bzang skyong /,,,,,,,,,RC: There appears to be no strong evidence for his dates.,,,,tr,,,,"P8249,P00KG07267,P8211,P7166"
-P4CZ15171,lo tsA ba khi ne tso/,,NB,,1000,1099,,,,"NB: only association appears to be Atiśa. Lo Bue, “The Role of Newar scholars” (1997), p. 635: he was taught the Vajravārāhī cycle by Varendraruci/Ha mu dkar po/Puṇyākarabhadra, who fl. late 11th cent. – BUDA: Ming mdzod: spyi lo’i dus rabs bcu gcig pa’i dus stod tsam du sku ’khrungs pa’i lo tsā ba zhig yin.",,,,tr,,,,P3379
+P4CZ15171,lo tsA ba khi ne tso/,,NB /OA,,1000,1099,,,,"NB: only association appears to be Atiśa. Lo Bue, “The Role of Newar scholars” (1997), p. 635: he was taught the Vajravārāhī cycle by Varendraruci/Ha mu dkar po/Puṇyākarabhadra, who fl. late 11th cent. – BUDA: Ming mdzod: spyi lo’i dus rabs bcu gcig pa’i dus stod tsam du sku ’khrungs pa’i lo tsā ba zhig yin. --- OA: Is *Khi* a mistake for *Khu*? ",,,,tr,,,,P3379
 P2168,lo tsA ba bkra shis rgyal mtshan/,,,,1000,1099,,,,,,,,tr,,,,"P4CZ15457,P1KG3490"
 P4CZ16847,lo tsA ba dharma A lo ka,dharmāloka ?,,,700,799,,,,,,,,tr,,,,"P7641,P8175"
 P5820,zhe sdang rdo rje/,,,,1000,1099,,,,,,,,tr,,,,P3217
@@ -228,7 +228,7 @@ P3181,mkhan chen seng+ge dpal/,,,,1300,1399,,,,,,,,,,,,
 P2JM492,smyo shul lung rtogs bstan pa'i rgyal mtshan/,,,1830,,,,,,,,,,,,,,
 P3476,dgyer sgom chen po gzhon nu grags pa/,,,1090,,,1171,,,,,,,,,,,
 P4258,lo tsA ba dpal 'byor/,,,,800,899,,,,,,,,,,,,"P8182,P8574,P8211"
-P8411,grub pa dpal bzang po/,,,,1300,1399,,,,,,,,,,,,
+P8411,grub pa dpal bzang po/,,OA,,1250,1350,,,,OA: changed dates 50 years earlier since mentioned in the Old N catalogue,,,,,,,,
 P2139,rong pa shes rab seng+ge,,,1251,,,1315,,,,,,,,,,,P0AT0095
 P4242,shes rab legs pa/,,,,1000,1099,,,,,,,,,,,,P8171
 P4275,rag shi tshul khrims 'byung gnas/,,,,900,999,,,,possible duplicate : P0RK1418,,,,,,,,P0AT0105
