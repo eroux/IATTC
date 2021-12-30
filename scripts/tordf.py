@@ -108,6 +108,96 @@ reg.parse("static.ttl", format="turtle")
 import_persons("../csv/Persons-Ind.csv", reg)
 import_persons("../csv/Persons-Tib.csv", reg)
 
+DTORKTS = {}
+with open('../csv/derge-rkts.csv',  newline='') as csvfile:
+    srcreader = csv.reader(csvfile, delimiter=',')
+    for row in srcreader:
+        DTORKTS[row[1]] = row[0]
+
+RKTSTOWAI = {}
+with open('../csv/abstract-rkts.csv',  newline='') as csvfile:
+    srcreader = csv.reader(csvfile, delimiter=',')
+    for row in srcreader:
+        if "?" in row[1]:
+            continue
+        RKTSTOWAI[row[1]] = row[0]
+
+ROLEMAPPING = {
+    "author": BDR.R0ER0019,
+    "translator": BDR.R0ER0026,
+    "pandita": BDR.R0ER0018,
+    "sponsor": BDR.R0ER0030,
+    "scribe": BDR.R0ER0031,
+    "translator2": BDR.R0ER0026, # missing 2
+    "pandita2": BDR.R0ER0018, # missing 2
+    "revisor": BDR.R0ER0023, # ?
+    "revisorpandita": BDR.R0ER0018, # ?
+    "revisionsponsor": BDR.R0ER0030, # ?
+    "revisor2": BDR.R0ER0023, # ?
+    "revisor2pandita": BDR.R0ER0018, # ?
+    "revisor3": BDR.R0ER0023, # ?
+    "revisor3pandita": BDR.R0ER0018, # ?
+    "requesterOfTranslation": BDR.R0ER0028,
+}
+
+ROLEEVENTS = {
+    "translator2": BDO.SecondTranslatedEvent,
+    "pandita2": BDO.SecondTranslatedEvent,
+    "revisor": BDO.RevisedEvent,
+    "revisorpandita": BDO.RevisedEvent,
+    "revisionsponsor": BDO.RevisedEvent,
+    "revisor2": BDO.SecondRevisedEvent,
+    "revisor2pandita": BDO.SecondRevisedEvent,
+    "revisor3": BDO.ThirdRevisedEvent,
+    "revisor3pandita": BDO.ThirdRevisedEvent,
+}
+
+def import_attributions(fname):
+    with open(fname,  newline='') as csvfile:
+        srcreader = csv.reader(csvfile, delimiter=',')
+        next(srcreader)
+        next(srcreader)
+        texti = 1
+        textevents = {}
+        previoustextid = None
+        for row in srcreader:
+            if not row[0].startswith("D") or row[0].startswith("Dx"):
+                continue
+            if not row[0] in DTORKTS:
+                print("%s not in rkts!" % row[0])
+                continue
+            rkts = DTORKTS[row[0]]
+            if row[2] not in ROLEMAPPING:
+                continue
+            if (not row[3].startswith("P")) or " " in row[3] or "?" in row[3]:
+                continue
+            if row[0] == previoustextid:
+                texti += 1
+            else:
+                previoustextid = row[0]
+                texti = 1
+                textevents = {}
+            role = ROLEMAPPING[row[2]]
+            eventtype = None if row[2] not in ROLEEVENTS else ROLEEVENTS[row[2]]
+            watiblname = "WA0R%s%04d" % (rkts[:1], int(rkts[1:]))
+            watib = BDR[watiblname]
+            waindlname = "WA0R%sI%04d" % (rkts[:1], int(rkts[1:]))
+            waind = BDR[waindlname]
+            if rkts in RKTSTOWAI:
+                waind = BDR[RKTSTOWAI[rkts]]
+            aac = BDR["AAC"+watiblname+("_%02d" % texti)]
+            reg.add((aac, BDO.role, role))
+            reg.add((aac, BDO.agent, BDR[row[3]]))
+            reg.add((watib, BDO.creator, aac))
+            if eventtype:
+                reg.add((aac, BDO.creationEventType, eventtype))
+            if role == BDR.R0ER0019:
+                reg.add((waind, BDO.creator, aac))
+
+
+import_attributions("../csv/DergeKangyur.csv")
+import_attributions("../csv/DergeTengyur.csv")
+
 reg.serialize("ATII.ttl", format="turtle")
 
 # curl -X PUT -H Content-Type:text/turtle -T ATII.ttl -G http://buda1.bdrc.io:13180/fuseki/corerw/data --data-urlencode 'graph=http://purl.bdrc.io/graph/ATII'
