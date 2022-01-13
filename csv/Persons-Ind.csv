@@ -1,5 +1,7 @@
 ,names_tib,names_skt,reviewer,birth year,floruit_not_before,floruit_not_after,death_year,inferred_floruit,period,internal notes,public notes,status,source,roles,may be the same as,can be confused with,not to be confused with,worked with
 "for records in the BDRC database, indicate it here (ex: P123), for duplicates, indicate all IDs, for records not in the BDRC database, create an ID starting with P0AT (ex: P0AT0123)",coma separated list of names in Tibetan,"coma-separated list of Sanskrit names, in IAST",,when known,,,,,Earlier (E) or Later (L),,,"write OK if identification+dating is certain; write X if the person is ambiguous and if the data is uncertain; further details should be written under ""notes""",,"ma = main author, pa = pandita, tr = translator",,,,computed automatically
+P8LS15190,rgya gar kyi mkhan po dzA ya shrI,Jayaśrī,NB,,1050?,1150?,,,,"NB: See Anālayo, Madhyama-āgama Studies (2012), pp. 323–324, n. 58: “[…] In the case of Śamathadeva's work, in the absence of any precise information Skilling 2005: 699 suggests the eleventh century to be a possible date for the translation, the work itself having been compiled ""at any time between the 5th century and the as yet unknown date of its Tibetan translation""; cf. also Mejor 1991: 64, who explains that ""it seems probable that the Indian translator, Jayaśrī,"" of Śamathadeva's work ""is the same as the Kashmirian logician Jayaśrī who lived in the second half of the eleventh century"".” See also Skilling, “Conjured Buddhas from the Arthavargīya to Nāgārjuna” (2020), p. 713: “We do not know when or where Śamathadeva worked, we do not know anything about Jayaśrī, or about the Khams pa translator. We do not know the dates of any of the three figures, but it is likely that the translation was done in the eleventh or twelfth centuries, during which Kashmir was a cen- tre for the study of Pramāña and Tantra and philosophy and aesthetics, and was an active centre of translation from Sanskrit into Tibetan.”",,,,,,,,
+P8279,rgya gar gyi mkhan po shAkya se na,śākyasena,NB,,700,899,,,,"NB: Appears to have worked on D12 alone, with Jñānasiddhi (P8222) and Tibetan Dharmatāśīla (P8266).",,,,,,,,
 P2948,paN+Di ta go ku la nA tha mi shra,Gokulanāthamiśra,NB,,1600,1699,,,,,,,,,,,,
 P4CZ15477,slob dpon grags pa'i bshes gnyen/,Yaśomitra,MH,,550,600,,,,,,OK,Princeton,ma,,,,
 P4CZ15453,slob dpon gzugs bzang /,Surūpa,,,,,,,,,,,,ma,,,,
@@ -16,7 +18,7 @@ P3833,paN+Di ta 'jam dpal grags pa/,"mañjuśrīkīrti,Mañjukīrti,Mañjughoṣ
 P1523,bla chen dgongs pa rab gsal/,,,953,,,1035,,,,,,,ma,,,,
 P4CZ15210,slob dpon hum mdzad rdo rje/,hūṃkaravajra,,,,,,,,,,,,ma,,,,
 P4024,grub chen te lo pa/,"tailipāda,tailika",,988,,,1069,,,,,,,ma,,,,
-P4CZ15125,slob dpon zhi gnas lha/,śamatadeva,,,,,,,,Newari,,,,ma,,,,
+P4CZ15125,slob dpon zhi gnas lha/,śamathadeva,,,,,,,,Newari,,,,ma,,,,
 P4CZ15149,slob dpon ka lA ka pa/,kālakapāda,,,,,,,,,,,,ma,,,,
 P4CZ15475,dge bsnyen ma snyan grags dge ma/,yośobhadrā,,,,,,,,,,,,ma,,,,
 P4CZ15451,paN+Dita bzang po sbyin pa/,bhadradatta,,,900,1099,,,,,,,,ma,,,,
@@ -339,7 +341,7 @@ P7878,rgyal ba'i sde/,jayasena,RC,,1100,1199,,,,RC: Only colab. appears to be wi
 P7641,ka ma la shI la/,Kamalaśīla,,713,,,763,,,Princeton has ca. 740-795,,,,"ma,pa",,,,"P4238,P4CZ16847,P4402,P8266"
 P9951,slob dpon 'dul ba'i lha/,vinītadeva vinayadeva ?,,,,,,1000-1099,,,,,,"ma,pa",,,,P3890
 P3085,paN chen nA ro pa/,Nāropa,MH/OA,,956,1100,,,,,,OK,Princeton/OA: changed fl. acc. to Isaacson & Sferra 2019,"ma,pa",,,,P2636
-P8209,kha che'i slob dpon dzi na mi tra/,Jinamitra,,,700,950,,,,"RC: Dates are uncertain, but, according to TibSkrit, there are a number of views regarding them",,,,"ma,pa",,,,"P8183,P2548,P8182,P4CZ16898,P4CZ16819,P8220,P00KG07267,P3214,P0RK8,P4CZ15493,P8222,P8205,P8261,P8266,P8228,P8246,P8182,P8268,P0AT0090,P1KG8854,P8210,P8217"
+P8209,kha che'i slob dpon dzi na mi tra/,Jinamitra,,,700,950,,,,"RC: Dates are uncertain, but, according to TibSkrit, there are a number of views regarding them.",,,,"ma,pa",,,,"P8183,P2548,P8182,P4CZ16898,P4CZ16819,P8220,P00KG07267,P3214,P0RK8,P4CZ15493,P8222,P8205,P8261,P8266,P8228,P8246,P8182,P8268,P0AT0090,P1KG8854,P8210,P8217"
 P4CZ15101,mkhas pa dpe med bsrungs/,anupamarakṣita,,,950,1049,,,,"RC: According to Sferra 2000: 43, he is roughly contemporaneous with Naropā and therefore should date from the late 10th century to the early 11th century",,,,"ma,pa",,,,P10183
 P4CZ15234,paN+Di ta bde chen rdo rje/,mahāsukhatāvajra,,,,,,,,,,,,"ma,pa",,,,
 P4CZ15258,pradz+nyA ka ra warma/,Prajñākaravarman,,,900,1099,,,,,,,,"ma,pa",,P4CZ15493,,P753
@@ -551,7 +553,7 @@ P4CZ15481,mkhas pa chen po bla ma ni na shi,ninaśi ?,,,1000,1099,,,,,,,,pa,,,,P
 P4CZ15287,slob dpon pa ra me shwa ra/,parameśvara,,,1000,1099,,,,,,,,pa,,,,"P3458,P3816"
 P3251,slob dpon chos kyi 'byung gnas/,dharmākara ?,,,1000,1199,,,,,,,,pa,,,,P8182
 P4CZ15371,"sa'i snying po/, k+Shi ti gar+b+hA/","Kṣitigarbha, Bhūmigarbha",,,1000,1099,,,,"DM: Traveling companion and disciple of Atiśa.  Eimer, Testimonia, pp. 13, 15, 21-22",,,,pa,,,,P4CZ10557
-P8280,subhasita/,Subhāṣita ?,,,,,,958-1055,,"DM: invited to Tibet by Khor re, son of Lha sde",,,,pa,,,,"P8222,P753,P8266"
+P8280,subhasita/,Subhāṣita,,,,,,958-1055,,"DM: invited to Tibet by Khor re, son of Lha sde",,,,pa,,,,"P8222,P753,P8266"
 P8171,mkhan po d+harma shrI b+hA dra/,dharmaśrībhadra,,,1000,1099,,,,,,,,pa,,,,"P3388,P4283,P8216,P753,P4242,P4530,P4CZ10517,P5568"
 P3144,bal po yam bu ba/,dīpaṁkararakṣita,NB,,1000,1099,,,,NB: Tibskrit.,,,,pa,,,,"P8168,P3814"
 P4CZ15151,paN+Di ta k+She la ka ga na/,kṣemegagana ?,,,1000,1099,,,,,,,,pa,,,,P8168
@@ -617,7 +619,7 @@ P8261,rgya gar gyi mkhan po mu ni warma,munivarman,,,,,,700-1199,,,,,,,,,,"P8209
 P4CZ16780,mkhan po many+dzu shrI gar+b+ha/,majuśrīgarbha,,,,,,700-899,,,,,,,,,,"P4CZ15493,P1KG8854,P8182,P8205,P8267"
 P4013,grub chen sangs rgyas mgon po/,"buddhanātha,Buddhaguptanātha",,,1530,1610,,,,,,,,,,,,"P1428,P7582"
 P8193,karma badzra/,karmavajra,,,,,,1000-1099,,duplicate of P7603?,,,,,,,,P4418
-P8222,dz+nyA na sid+dhi/,jñānasiddhi,,,,,,700-1055,,,,,,,,,,"P8280,P8209,P753,P1KG8854,P8205,P4CZ16819,P8266,P8228"
+P8222,dz+nyA na sid+dhi/,jñānasiddhi,NB,,700,899,,700-1055,,,,,,,,,,"P8280,P8209,P753,P1KG8854,P8205,P4CZ16819,P8266,P8228"
 P8241,pradz+nyA ka ra/,prajñākara,,,,,,1000-1099,,P0RK156 is a duplicate ?,,,,,,,,P3458
 P0AT0002,phags ma nor rgyun ma,vasudhara,,,,,,,,,,,,,,,,
 P0AT0003,dge slong dga' byed snyan pa,Nandipriya,,,,,,,,same as P7588 ?,,,,,,,,
@@ -766,10 +768,10 @@ P8153,zla ba'i phreng ba,Candramāla,,,,,,992-1043,,,,,,,,,,P3285
 P8169,rgya gar gyi mkhan po chen po tAk+Sha ka ga Na,Tākṣakagaṇa,,,,,,1000-1099,,,,,,,,,,P8168
 P8180,rgya gar gyi slob dpon a ba yug ti,"Avayukti,Avayukta?",,,,,,1400-1499,,,,,,,,,,P8179
 P8184,rgya gar gyi paN+Di ta wa la tsan+d+ra,"Valacandra,Baladandra ?",,,,,,1400-1499,,,,,,,,,,P7604
-P8227,paN+Dita chos kyi sde,Dharmasena,,,,,,1040-1399,,,,,,,,,,P3731
+P8227,paN+Dita chos kyi sde,Dharmasena,NB,,1050,1150,,1040-1399,,"NB: Pinned to Ba ri lo tsā ba (P3731, 1040–1112).",,,,,,,,P3731
 P8238,paN+Di ta chen po so ma shrI b+ha,Somaśrībhavya,,,,,,,,,,,,,,,,P8239
 P8240,rgya gar gyi mkhan po dzam b+ha la,Jambhala,,,,,,1040-1112,,,,,,,,,,P3731
-P8267,rgya gar gyi mkhan po bi dza ya shI la,Vijayaśīla,,,,,,700-1099,,,,,,,,,,"P1KG8854,P4CZ16780,P8205,P4240"
+P8267,rgya gar gyi mkhan po bi dza ya shI la,Vijayaśīla,NB,,700,899,,700-1099,,"NB: Pinned to Śilendrabodhi (P1KG8854, fl. 700–899) and Ye shes sde (P8205, 700–899)",,,,,,,,"P1KG8854,P4CZ16780,P8205,P4240"
 P8268,bud d+ha pra b+ha,Buddhaprabha,,,,,,700-1199,,,,,,,,,,"P8209,P3214,P8205"
 P8LS15063,blo gros dpal/,Śrīmati,,,,,,,,,,,,,,P153,,P8178
 P8147,"gnyis med rdo rje,gnyis su med pa'i rdo rje",Advayavajra,,,,,,,,ER: here to possibly break P44 into different records if necessary,,,,,,,,
@@ -977,3 +979,8 @@ P0AT0296,A nan da pradznyA,Ānandaprajñā,,,,,,,,,,,,,,,,
 P0AT0297,dhar+ma pA la,Dharmapāla,OA,,700,900,,,,"OA: only one occurrence of the name as a translaorPandita in the early period, could be an error",,,,,,,,
 P0AT0298,slob dpon chos skyong,dharmapāla,OA,,1050,1099,,,,,,,,,,,,
 P0AT0299,slob dpon dharma kI rti,dharmakīrti,OA,,,,,,,tantric,,,,,,,,
+P8346,bzhad pa'i rdo rje,hamsavajra,,,,,,,,,,,,,,,,
+P0AT0300,rgya gar gyi mkhan po A tsar+ya a nan+ta,acaryānanda?,,,,,,,,,,,,,,,,
+P0AT0301,bal yul gyi paN+Di ta dga' ba'i dpal,,,,,,,,,,,,,,,,,
+P8403,kha che'i paNDi ta chen po vi ma la sri,vimalasri,,,1200,1299,,,,,,,,,,,,
+P6951,pha khol,vagbhata,,,,,,,,,,,,,,,,

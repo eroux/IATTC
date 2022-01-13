@@ -30,8 +30,8 @@ P4CZ15124,lo tsa ba tho gar dge mdzes/,,NB,,1000,1099,,,,"NB: – first tr. of D
 P2614,gnyan lo tsA ba dar ma grags/,,,,1000,1099,,,,RR: 1076- ?,,,,tr,,,,"P3850,P4CZ10577,P489,P4004,P8893,P3299,P4CZ10577,P4CZ15270"
 P3281,kun spangs grags pa rgyal mtshan/,,,,1200,1299,,,,a lot of homonyms here... ,,,,tr,,"P3980,P10MS19659,P2637,P2637",,P4CZ15085
 P1CZ1218,lo ts+tsha ba 'jam dbyangs ral gri/,,,,1400,1499,,,,,,,,tr,,,,
-P4240,lo tsA ba shes rab 'od zer/,,,,1000,1099,,,,,,,,tr,,,,P8267
-P4CZ15123,lo tsA ba nyi ma rdo rje/,,NB,,1000,1099,,,,"NB: NB: – first tr. of D1430 is Kumāravajra (P8208, inf. fl. 1000–1299), said on BUDA to be teacher of the other two. Tibskrit: “Must have lived between end of 10th and first half of 11th century, since he was a contemporary of the kings Mahīpāla and Nayapāla.” —> change fl. 10th–11th cent. – Tibskrit, Tôh. no. 1428.: tr. by Dharmavajra and Rgya Brtson ’grus seng ge. Revised by Kumāravajra and Nyi ma’i rdo rje. Black Hat Tanjur, p. 446. Tr. by Rgya Brtson seng and Nyi ma rdo rje. – rGya brTson ’grus seng ge (P4104): Tibskrit: fl. early 11th cent., d. 1041. Almogi, Authenticity (2020), p. 137: b. 10th cent. —> change fl. 10th–11th cent. – Change fl. of Nyi ma rdo rje (P4CZ15123) and Tho gar dge mdzes (P4CZ15124) to 11th cent.",,,,tr,,,,"P4CZ15124,P0AT0036,P8208"
+P4240,lo tsA ba shes rab 'od zer/,,NB,,1050?,1150?,,,,"NB: See Anālayo, Madhyama-āgama Studies (2012), pp. 323–324, n. 58: “[…] In the case of Śamathadeva's work, in the absence of any precise information Skilling 2005: 699 suggests the eleventh century to be a possible date for the translation, the work itself having been compiled ""at any time between the 5th century and the as yet unknown date of its Tibetan translation""; cf. also Mejor 1991: 64, who explains that ""it seems probable that the Indian translator, Jayaśrī,"" of Śamathadeva's work ""is the same as the Kashmirian logician Jayaśrī who lived in the second half of the eleventh century"".” See also Skilling, “Conjured Buddhas from the Arthavargīya to Nāgārjuna” (2020), p. 713: “We do not know when or where Śamathadeva worked, we do not know anything about Jayaśrī, or about the Khams pa translator. We do not know the dates of any of the three figures, but it is likely that the translation was done in the eleventh or twelfth centuries, during which Kashmir was a cen- tre for the study of Pramāña and Tantra and philosophy and aesthetics, and was an active centre of translation from Sanskrit into Tibetan.”",,,,tr,,,,P8267
+P4CZ15123,lo tsA ba nyi ma rdo rje/,,NB,,1000,1099,,,,"NB: – first tr. of D1430 is Kumāravajra (P8208, inf. fl. 1000–1299), said on BUDA to be teacher of the other two. Tibskrit: “Must have lived between end of 10th and first half of 11th century, since he was a contemporary of the kings Mahīpāla and Nayapāla.” —> change fl. 10th–11th cent. – Tibskrit, Tôh. no. 1428.: tr. by Dharmavajra and Rgya Brtson ’grus seng ge. Revised by Kumāravajra and Nyi ma’i rdo rje. Black Hat Tanjur, p. 446. Tr. by Rgya Brtson seng and Nyi ma rdo rje. – rGya brTson ’grus seng ge (P4104): Tibskrit: fl. early 11th cent., d. 1041. Almogi, Authenticity (2020), p. 137: b. 10th cent. —> change fl. 10th–11th cent. – Change fl. of Nyi ma rdo rje (P4CZ15123) and Tho gar dge mdzes (P4CZ15124) to 11th cent.",,,,tr,,,,"P4CZ15124,P0AT0036,P8208"
 P4264,lo tsA ba rgyal ba shes rab/,,,,800,899,,,,,,,,tr,,,,
 P4CZ15497,lo tsA ba lce dga' ba'i dpal/,,,,1000,1099,,,,,,,,tr,,,,P8246
 P4261,lo tsA ba dran pa nam mkha',,,,700,799,,,,,,,,tr,,,,"P4CZ15208,P7166"
@@ -290,8 +290,12 @@ P0AT1007,zhu chen gyi lo tsA ba ban+de rnam par mi rtog pa,,,,700,799,,,,,,,,,,,
 P3389,rngog lo chung legs pa'i shes rab,,,,900,999,,,,,,,,,,,,
 P956,chos smra ba bstan pa'i nyin byed,,,1700,,,1744,,,,,,,,,,,
 P4422,rnal 'byor rgyud la mkhas pa zha lu pa ye shes rgya mtsho,,NB,,1400,1499,,,,"Tibskrit: revised D 482, tr. by Rin chen bzang po or Rma Dge blo (Dge ba'i blo gros).",,OK,"BUDA, Tibskrit",,,,,
-P0AT1010,lo tsA ba dge tshul nam mkha' rdo rje,,,,1300,1399,,,,,,,RR,,,,,
+P0AT1010,lo tsA ba dge tshul nam mkha' rdo rje,,NB,,1050,1150,,,,NB: Pinned to only association Dharmasena (P8227).,,,RR,,,,,
 P1245,pu hrangs lo tsA ba,,,,1050,1150,,,,"P0RK500 is possibly a duplicate? NB: on his floruit see Almogi, “Shes rab grags,” §2.",,,,,,,,
 P4237,she'u badzra de ba,vajradeva,,,1000,1099,,,,,,,,,,,,
 P0AT1011,bod kyi lo tsA ba klan chung,,,,,,,,,unlikely to be P7604,,,,,,,,
 P8266,zhu chen gyi lo tsA ba dharma tA shI la/,Dharmatāśīla,OA,,700,900,,,,OA: moved from Indian to Tibetan; there is apparently another Kashmiri named Dharmatāśīla who was Rin chen bzang po's teacher,,,,,,,,
+P0AT1012,lo tsA ba blo gros rgyal po,,OA,,,,,1200-1299,,,,,,,,,,
+P0AT1013,byang chub sems dpa' 'jam dpal rgyal po grags pa,,NB,,,,,,,,,,,,,,,
+P6944,rgya lo tsA ba rdo rje bzang po,,,,,,,,,,,,,,,,,
+P0AT1014,lo tsA ba dge slong grags 'byor shes rab,,NB,,,,,,,,,,,,,,,
