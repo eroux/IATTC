@@ -1,4 +1,4 @@
-ID,title,role,identification,reviewer,value in Derge colophon,ambiguity,note,sources
+F,title,role,identification,reviewer,value in Derge colophon,ambiguity,note,sources
 in Derge (D),The main title in Tibetan,"possible values:
 - author (A)
 - translator (Tr)
@@ -4629,7 +4629,7 @@ D3808,shes rab kyi pha rol tu phyin pa 'bum pa dang nyi khri lnga stong pa dang 
 D3809,shes rab kyi pha rol tu phyin ma bsdus pa'i tshig le'ur byas pa,author,P6126,,slob dpon phyogs kyi glang po,,,
 D3809,shes rab kyi pha rol tu phyin ma bsdus pa'i tshig le'ur byas pa,translatorPandita,P4CZ15246,,kha che'i paN+Di ta ti la ka ka la sha,,,
 D3809,shes rab kyi pha rol tu phyin ma bsdus pa'i tshig le'ur byas pa,translator,P2551,,lo tsA ba dge slong blo ldan shes rab,,,
-D3810,shes rab kyi pha rol tu phyin ma bsdus pa'i tshig le'ur byas pa'i rnam par 'grel pa,author,P1KG3461,,slob dpon bla ma dkon mchog gsum gyi 'bangs,,,
+D3810,shes rab kyi pha rol tu phyin ma bsdus pa'i tshig le'ur byas pa'i rnam par 'grel pa,author,P4906,,slob dpon bla ma dkon mchog gsum gyi 'bangs,,,
 D3810,shes rab kyi pha rol tu phyin ma bsdus pa'i tshig le'ur byas pa'i rnam par 'grel pa,translatorPandita,P4CZ15246,,kha che'i paN+Di ta thig le bum pa,,,
 D3810,shes rab kyi pha rol tu phyin ma bsdus pa'i tshig le'ur byas pa'i rnam par 'grel pa,translator,P2551,,lo tsA ba dge slong blo ldan shes rab,,,
 D3811,bcom ldan 'das ma'i man ngag gi rjes su 'brang ba zhes bya ba'i rnam par bshad pa,translatorPandita,P1KG3465,,rgya gar gyi mkhan po a lang+ka ka de ba,,,
@@ -5438,7 +5438,7 @@ D4093,chos mngon pa'i mdzod kyi 'grel bshad mtshan nyid kyi rjes su 'brang ba zh
 D4093,chos mngon pa'i mdzod kyi 'grel bshad mtshan nyid kyi rjes su 'brang ba zhes bya ba,translatorPandita,P5654,,rgya gar gyi mkhan po ka na ka warma,,,
 D4093,chos mngon pa'i mdzod kyi 'grel bshad mtshan nyid kyi rjes su 'brang ba zhes bya ba,translator,P5651,,bod kyi lo tsA ba pa tshab nyi ma grags,,,
 D4094,chos mngon pa'i mdzod kyi 'grel bshad nye bar mkho ba zhes bya ba,author,P4CZ15125,,dge slong zhi gnas lha,,,
-D4094,chos mngon pa'i mdzod kyi 'grel bshad nye bar mkho ba zhes bya ba,translatorPandita,P8267,,rgya gar kyi mkhan po dzA ya shrI,,,
+D4094,chos mngon pa'i mdzod kyi 'grel bshad nye bar mkho ba zhes bya ba,translatorPandita,P8LS15190,,rgya gar kyi mkhan po dzA ya shrI,,,
 D4094,chos mngon pa'i mdzod kyi 'grel bshad nye bar mkho ba zhes bya ba,translator,P4240,,bod kyi lo tsA ba khams pa dge slong shes rab 'od zer,,,
 D4094,chos mngon pa'i mdzod kyi 'grel bshad nye bar mkho ba zhes bya ba,translationplace,-,,kha che'i grong khyer chen po dpe med kyi dbus dza ra me'i gtsug lag khang gi byang phyogs kyi bsil khang,,,
 D4095,chos mngon pa'i 'grel pa gnad kyi sgron ma zhes bya ba,author,P6126,,slob dpon phyogs kyi glang po,,,

@@ -7,7 +7,7 @@ P4CZ15562,slob dpon mtho btsun tri pi Ta ka ma la/,Trivikramabhaṭṭa (erroneo
 P9950,paN+Di ta chos mchog,Dharmottara,,,,,,,,,,,,ma,,,,
 P6117,slob dpon thogs med/,Asaṅga,SN,,330,405,,,,,,OK,delenau2006,ma,,,,
 P4CZ15367,rgyal po zla ba'i snying po/,Candragarbha,,,,,,,,,,,,ma,,,,
-P4906,dkon mchog 'bangs/,Ratnadāsa,,,,,,,,,,,,ma,,,,
+P4906,dkon mchog 'bangs/,Ratnadāsa / Triratnadāsa,OA,,400?,499?,,,,OA: suggested dates as in Hartman 2017: 5th cent?; delete duplicate P1KG3461 - I am not sure about the source of the dates there: 8th cent. check!,,,,ma,,,,
 P4CZ15476,dge bsnyen ma grags sbyin ma/,,,,,,,,,,,,,ma,,,,
 P4CZ15452,A tsar+ya he ru ka bdz+ra/,Herukavajra,,,,,,,,,,,,ma,,,,
 P4CZ10532,slob dpon chen po kA ma d+he nu pa/,Kāmadhenu,,,,,,,,,,,,ma,,,,
@@ -59,7 +59,7 @@ P4CZ15180,dpal dam tshig rdo rje/,samayavajra,,,1000,1099,,,,,,,,ma,,,,
 P4CZ15274,slob dpon bsod snyoms pa 'od bsrungs gzhon nu/,kumārakāśyapa,OA,,800,999,,,,Kumārakāśyapa is probably OK - I deleted the ?,,,,ma,,,,
 P4CZ10571,grub chen rat+na tsan+dra/,ratnacandra,,,,,,,,,,,,ma,,,,
 P4CZ15189,slob dpon 'dul bas byin/,vinayadatta,,,,,,,,,,,,ma,,,,
-P1KG3461,dkon mchog gsum gyi 'bangs/,triratnadāsa,,,700,799,,,,,,,,ma,,,,
+P1KG3461,dkon mchog gsum gyi 'bangs/,triratnadāsa,OA,,700,799,,,,OA: This should be the same as P4906: Ratnadāsa - I replaced links accordingl<,,,,ma,,,,
 P4CZ10551,grub chen dzA lan d+ha ri pa/,jālandhara,,,,,,,,,,,,ma,,,,
 P4CZ15382,slob dpon dpa' bos byin/,viradatta,,,700,899,,,,,,,,ma,,,,
 P4CZ15164,slob dpon kong ka sbyin/,Koṅkadatta,,,,,,,,,,,,ma,,,,
@@ -378,14 +378,14 @@ P4CZ15081,dpal ye shes/,śrījñāna,,,,,,,,,,,,"ma,pa",,,,P4CZ10557
 P8175,ye shes snying po/,jñānagarbha,,,700,899,,,,"Indian, different from P4255 (Tibetan)",,,,"ma,pa",,,,"P8183,P8182,P4260,P4CZ15493,P4CZ16847,P8182,P8205,P8249"
 P3302,"ga ya dha ra/, slob dpon ga ya d+ha ra/","gayādhara, Kāyastha Gayādhara",,994,,,1043,,,"NB: Tibskrit: Stearns, Luminous Lives, p. 10 (says he died in 1103). Isaacson, “Marmopadeśa” (2008), p. 4: = Gaṅgādhara. Teacher of ’Brog mi. Invited to Tibet by ’Gos Khug pa lhas btsas (P3458, fl. 1000–1099; Tibskrit: last half of 11th cent.",,,,"ma,pa",,,,"P3458,P8129,P3285"
 P3217,"dar pana A tsar+ya/, gro ba'i me long","dharpacacargya,darpaṇācārya,Durpaṇācārya, Jagaddarpaṇa",NB,,1150,1250,,,,"NB: Szántó, “Ritual Texts: South Asia” (2015), p. 659: before 1305; Szántó, “A Sanskrit Fragment of Candragomin’s Praṇidhāna” (2017), p. 236: ca. 12th–13th cent.; Szántó, “Siddhas” (2019), p. 449: before mid-13th cent.",,,,"ma,pa",,,,"P5820,P1061"
-P8226,"rgya gar gyi mkhan po ma hA dza na, kha che'i paN+Di ta ma hA dz+nyA na/","*Mahājana, *Mahājñana?",NB,,1050,1150,,900-1399,,"NB: Kano, “Exegeses” (2016), p. 5: Kashmiri Sajjana (fl. second half of 11th cent.) is the grandson of Ratnavajra, and the father of Mahājana and Sūkṣmajana. OA: Mahājana should be the correct name (as far as I can see, Mahājñāna is a corruption often found in Tib literature).",,,,"ma,pa",,,,"P4420,P2551,P3709,P4418,P4417,P4CZ15648"
+P8226,"rgya gar gyi mkhan po ma hA dza na, kha che'i paN+Di ta ma hA dz+nyA na/","Mahājana, *Mahājñana?",NB,,1050,1150,,900-1399,,"NB: Kano, “Exegeses” (2016), p. 5: Kashmiri Sajjana (fl. second half of 11th cent.) is the grandson of Ratnavajra, and the father of Mahājana and Sūkṣmajana. OA: Mahājana should be the correct name (as far as I can see, Mahājñāna is a corruption often found in Tib literature).",,,,"ma,pa",,,,"P4420,P2551,P3709,P4418,P4417,P4CZ15648"
 P4CZ15523,paN+Di ta pra b+ha ka ra/,prabhākara,,,1200,1299,,,,RC: only known colab is with P1448,,,,"ma,pa",,,,"P753,P1448"
 P8249,mkhan po d+harma ka ra/,"dharmakara,Dharmākaramati",,,750,850,,,,may be two different persons ?,,,,"ma,pa",,,,"P4259,P8175,P8211,P8212,P4256,P8182,P00KG07267,P4255"
 P8248,slob dpon dpal ldan byang chub/,līlāvajra,,,,,,1000-1099,,,,,,"ma,pa",,,,"P3143,P4180"
 P207,paN+Di ta nags kyi rin chen/,vanaratna,,1384,,,1468,1468,,DM: 1384-1468,,,,"ma,pa",,,,"P318,P208,P4CZ15173,P3674"
 P4CZ15217,paN+Di ta saM g+ha ma shrI b+ha dra/,saṁgamaśrībhadra,,,1300,1399,,,,,,,,"ma,pa",,,,P4CZ15216
 P4CZ15410,rnal 'byor ma ka na ka pa/,"jñānagarbha,kanakhalā",,,,,,800-899,,,,,,"ma,pa",,,,P8183
-P4CZ10518,paN+Di ta rA dza shrI dz+nyA na mi tra/,śrījñānamitra,,,,,,1000-1199,,,,,,"ma,pa",,,,"P1KG8854,P3214,P8205,P4CZ10522"
+P4CZ10518,paN+Di ta rA dza shrI dz+nyA na mi tra/,śrījñānamitra,,,,,,1000-1199,,,I see that this ID was taken also for Thams cad mkhyen pa bshes gnyen = Sarvajñamitra - Is this confirmed?,,,"ma,pa",,,,"P1KG8854,P3214,P8205,P4CZ10522"
 P4CZ15568,mkhan po dza na rdA na/,Janārdana/Janardana,,,950,1050,,,,,,,,"ma,pa",,,,"P8216,P753"
 P8246,many+dzu shrI/,mañjuśrī,,,,,,700-1399,,,,,,"ma,pa",,,,"P6453,P8209,P2551,P4418,P8205,P3731,P4CZ15497"
 P7048,nyi ma sbas pa/,ravigupta,,,,,,1000-1099,,,,,,"ma,pa",,,,"P4243,P3458"
@@ -422,7 +422,7 @@ P8192,jagad mitrananda/,"jaganmitra,mitrānanda ?",,,,,,1100-1236,,RR: circa 12t
 P4CZ15088,slob dpon rol pa'i rdo rje/,lalitavajra,,,800,999,,,,,,,,"ma,pa",,,,P8203
 P4CZ10567,mkhas pa chen po tA ra shrI/,tāraśrī,,,,,,1042-1299,,,,,,"ma,pa",,,,
 P4CZ15509,shAn+ta ka ra/,"śāntakara,Śānta",,,,,,1000-1125,,here we may conflate two persons ?,,,,"ma,pa",,,,"P6453,P4004"
-P4CZ15172,slob dpon a b+hi sang ka ta/,abhisaṅkata ?,,,,,,,,,,,,"ma,pa",,,,P5169
+P4CZ15172,slob dpon a b+hi sang ka ta/,abhisaṅkata ? / Abhisaṅkaṭa?,OA,,,,,,,,,,,"ma,pa",,,,P5169
 P6161,rgyal sras zhi ba lha/,Śāntideva,MH,,700,799,,,,,,OK,Princeton,"ma,pa",,,,
 P1KG3490,ku mA ra shrI b+ha dra/,kumāraśrībhadra,,,1000,1099,,,,,,,,"ma,pa",,,,"P1242,P2168,P2554,P3709"
 P4CZ15517,paN+Di ta gang+ga d+ha ra/,"gaṅgādhara,gaṅgādharā ?",,,,,,958-1055,,"same as the Dakini ? (Maitripa's wife, Gaṅgādharā)",,,,"ma,pa",,,,P753
@@ -721,7 +721,7 @@ P0AT0075,rgya gar shar phyogs kyi dge slong d+ha rma dI bA ka ra,Dharmadivākara
 P0AT0076,phags ma Sgrol ma,Tārā,,,,,,,,,,,,,,,,
 P8228,lha dbang byang chub,surendrabodhi,,,800,899,,,,,,,,,,,,"P8182,P8209,P4CZ15493,P8222,P1KG8854,P2548,P8205,P8266"
 P0AT0078,rgya gar gyi mkhan po paN+Di ta kar+No pa ti,"Karṇapati,Karṇopati ?",,,,,,830-,,,,,,,,,,
-P0AT0079,rgya gar gyi mkhan po paN+Di ta lo ta,"Lota,Loṭa ?",,,,,,1000-1099,,,,,,,,,,P2554
+P0AT0079,rgya gar gyi mkhan po paN+Di ta lo ta,"Lota,Loṭa ?",OA,,,,,1000-1099,,OA: in P2021 Lo tra -  perhaps Loṭa better? (tr = ṭ)? but Lota/Lotra seems also possible,,,,,,,,P2554
 P0ER0006,Ye shes grags pa,Jñānayaśas,,,,,,,,,,,,,,,,
 P0AT0080,hwa shang zab mo,,RC,,700,799,,,,"Chinese, Tied to one rMa rnam par mi rtog pa, who was active during Khri srong lde'u btsan's reign (source TibSkrit).",,OK,Tibskrit,,,,,"P4960,P0AT1007"
 P7257,kha che'i mkhan po d+harma shrI/,dharmaśrī,,,,,,958-1099,,,,,,,,,,"P3388,P753"
@@ -966,14 +966,14 @@ P0AT0285,rgya gar gyi mkhan po pra b+hA kar shrI mi tra,Prabhākaraśrīmitra,,,
 P0AT0286,rgyal po'i sras dpal 'jigs med lha,Abhayadeva,RC,,,,,,,,,,,,,,,
 P0AT0288,rgya gar gyi mkhan po nA ga rak+Shi ta,Nāgarakṣita,,,,,,,,different from P8218. RC: A paṇḍita who worked with sum pa lo tsA ba,,,,,,,,
 P0AT0289,,Vimalamitra,,,500,650,,,,"different from P5011, commentator of the Abhidharma(pra)dīpa (not translated in Tibetan)",,,,,,,,
-P0AT0290,paN+Di ta chen po ba ni shrI ,Vaniśrī/Pāṇiśrī?,RC,,1000,1099,,,,"RC: Only collaboration appears to be with  'chings yon tab 'bar, and on this we can establish an aproximate flourit",,,,,,,,
+P0AT0290,paN+Di ta chen po ba ni shrI ,"Vaniśrī, Pāṇiśrī?",RC,,1000,1099,,,,"RC: Only collaboration appears to be with  'chings yon tab 'bar, and on this we can establish an aproximate flourit",,,,,,,,
 P0AT0291,rgya gar gyi mkhan po dA na shI la ,Dānaśīla,RC,,1000,1099,,,,"RC: Paṇḍita on D1180, possibly also D1268. He is also possibly the author of D3927",,,,,,,,
-P0AT0292,rgya gar gyi paN+Di ta su shrI sh'nti ,Suśrīśānti/Śubhaśrīśānti,RC,,1100,1199,,,,"RC: Worked with Khro phu lo tsa ba (P4007) on D2127. sDe colophon suggests the name suśrīśānti, snar thang and pe cing suggest subhaśrīśānti, i.e. probably śubhaśrīśānti.",,,,,,P4CZ15090,,
+P0AT0292,rgya gar gyi paN+Di ta su shrI sh'nti ,"Suśrīśānti, Śubhaśrīśānti",RC,,1100,1199,,,,"RC: Worked with Khro phu lo tsa ba (P4007) on D2127. sDe colophon suggests the name suśrīśānti, snar thang and pe cing suggest subhaśrīśānti, i.e. probably śubhaśrīśānti.",,,,,,P4CZ15090,,
 P0AT0293,rgya gar gyi mkhan po bid+yA kar sing+ha,Vidyākarasiṃha,RC,,1100,1199,,,,"– Early Vidyākarasiṃha (P8213, fl. 700–899) and Tibetan Mañjuśrīvarman (P4CZ15455, fl. 700–899) (including text by Ratnakīrti (11th cent.), but obviously wrong ascription in the colophon). Same early Vidyākarasiṃha(prabha) (P8213) worked with dPal brtsegs. Same early Tibetan (dBa’/dBas/dPa’) Mañjuśrīvarman (P4CZ15455) worked with Buddhaguhya (for the time being: early Buddhaguhya vs. late Buddhagupta) .– Vīryasiṃha who authored D4460 (Jātakamālāpañjikā) ≠ early Vidyākarasiṃha who tr. D4150 (Jātakamālā) with Tibetan Mañjuśrīvarman? Create new ID for Vīryasiṃha (P0AT0294).
 – Late Indian Mañjuśrīvarman (P4257, fl. 1050–1150; delete P0AT0287) who worked with Blo ldan shes rab (1059–1109).– Late Vidyākarasiṃha/ Vidyākarasiddha/Bodhikārasiṃha (P0AT0293, fl. 1100–1199; delete P0AT0283 also from BUDA) who worked with Kukkurāja and lHa rin po che (fl. 1100–1199).",,,,,,,,
 P0AT0294,,Vīryasiṃha,,,,,,,,"Author of D4460 (Jātakamālāpañjikā). See Tibskrit, s.v. Vīryasiṃha (Dpa' bo seng ge, Dpa' seng).",,,,,,,,
-P0AT0295,gser gling rgyal po dpal ldan chos skyong,"Śrīdharmapāla, King of Suvarṇadvīpa",,,950,1050,,,,,,,,,,,Not to be confused with gser gling pa Chos kyi grags pa / Dharmakīrti II akd Dharmakīrti  of Kedah / Dharmakīrti of Suvarṇadvīpa.,
+P0AT0295,gser gling rgyal po dpal ldan chos skyong,Śrīdharmapāla,,,950,1050,,,,King of Suvarṇadvīpa,,,,,,,Not to be confused with gser gling pa Chos kyi grags pa / Dharmakīrti II akd Dharmakīrti  of Kedah / Dharmakīrti of Suvarṇadvīpa.,
 P0AT0296,A nan da pradznyA,Ānandaprajñā,,,,,,,,,,,,,,,,
 P0AT0297,dhar+ma pA la,Dharmapāla,OA,,700,900,,,,"OA: only one occurrence of the name as a translaorPandita in the early period, could be an error",,,,,,,,
 P0AT0298,slob dpon chos skyong,dharmapāla,OA,,1050,1099,,,,,,,,,,,,
-P0AT0299,slob dpon dharma kI rti,"dharmakīrti, tantric",OA,,,,,,,,,,,,,,,
+P0AT0299,slob dpon dharma kI rti,dharmakīrti,OA,,,,,,,tantric,,,,,,,,

@@ -131,7 +131,7 @@ ROLEMAPPING = {
     "translator2": BDR.R0ER0026, # missing 2
     "pandita2": BDR.R0ER0018, # missing 2
     "revisor": BDR.R0ER0023, # ?
-    "revisorpandita": BDR.R0ER0018, # ?
+    "revisorPandita": BDR.R0ER0018, # ?
     "revisionsponsor": BDR.R0ER0030, # ?
     "revisor2": BDR.R0ER0023, # ?
     "revisor2pandita": BDR.R0ER0018, # ?
@@ -144,7 +144,7 @@ ROLEEVENTS = {
     "translator2": BDO.SecondTranslatedEvent,
     "pandita2": BDO.SecondTranslatedEvent,
     "revisor": BDO.RevisedEvent,
-    "revisorpandita": BDO.RevisedEvent,
+    "revisorPandita": BDO.RevisedEvent,
     "revisionsponsor": BDO.RevisedEvent,
     "revisor2": BDO.SecondRevisedEvent,
     "revisor2pandita": BDO.SecondRevisedEvent,
@@ -185,7 +185,8 @@ def import_attributions(fname):
             waind = BDR[waindlname]
             if rkts in RKTSTOWAI:
                 waind = BDR[RKTSTOWAI[rkts]]
-            aac = BDR["AAC"+watiblname+("_%02d" % texti)]
+            aac = BDR["CR"+watiblname+("_%02d" % texti)]
+            reg.add((aac, RDF.type, BDO.AgentAsCreator))
             reg.add((aac, BDO.role, role))
             reg.add((aac, BDO.agent, BDR[row[3]]))
             reg.add((watib, BDO.creator, aac))

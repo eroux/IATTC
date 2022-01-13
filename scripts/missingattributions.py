@@ -5,13 +5,23 @@ DTORKTS = {}
 with open('../csv/derge-rkts.csv',  newline='') as csvfile:
     srcreader = csv.reader(csvfile, delimiter=',')
     for row in srcreader:
-        RKTSTOD[row[0]] = row[1]
-        DTORKTS[row[1]] = row[0]
+        #RKTSTOD[row[0]] = row[1]
+        #DTORKTS[row[1]] = row[0]
+        pass
+
+with open('../csv/qnotind.csv',  newline='') as csvfile:
+    srcreader = csv.reader(csvfile, delimiter=',')
+    for row in srcreader:
+        RKTSTOD[row[1]] = row[0]
+        DTORKTS[row[0]] = row[1]
 
 RKTSATTR = {}
 with open('../csv/rkts-actors.csv',  newline='') as csvfile:
     srcreader = csv.reader(csvfile, delimiter=',')
     for row in srcreader:
+        if row[0] not in RKTSTOD:
+            print("not in Derge: "+row[0])
+            continue
         d = RKTSTOD[row[0]]
         if d not in RKTSATTR:
             RKTSATTR[d] = {}
