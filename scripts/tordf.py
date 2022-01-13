@@ -2,6 +2,7 @@ import csv
 import rdflib
 from rdflib.namespace import RDF, RDFS, SKOS, OWL, Namespace, NamespaceManager, XSD, URIRef
 from rdflib.term import Literal
+import re
 
 BF = Namespace("http://id.loc.gov/ontologies/bibframe/")
 BDR = Namespace("http://purl.bdrc.io/resource/")
@@ -161,20 +162,22 @@ def import_attributions(fname):
         textevents = {}
         previoustextid = None
         for row in srcreader:
-            if not row[0].startswith("D") or row[0].startswith("Dx"):
+            d = row[0]
+            if not d.startswith("D") or d.startswith("Dx"):
                 continue
-            if not row[0] in DTORKTS:
-                print("%s not in rkts!" % row[0])
+            d = re.sub("D0+", "D", d)
+            if not d in DTORKTS:
+                print("%s not in rkts!" % d)
                 continue
-            rkts = DTORKTS[row[0]]
+            rkts = DTORKTS[d]
             if row[2] not in ROLEMAPPING:
                 continue
             if (not row[3].startswith("P")) or " " in row[3] or "?" in row[3]:
                 continue
-            if row[0] == previoustextid:
+            if d == previoustextid:
                 texti += 1
             else:
-                previoustextid = row[0]
+                previoustextid = d
                 texti = 1
                 textevents = {}
             role = ROLEMAPPING[row[2]]
