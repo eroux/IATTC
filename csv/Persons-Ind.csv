@@ -444,7 +444,7 @@ P7602,lo kA shrI/,lokaśrī ?,,,1000,1099,,,,,,,,"ma,pa,tr",,,,
 P4CZ15079,slob dpon longs spyod rdo rje/,sambhogavajra,,,,,,,,,,,,"ma,pa,tr",,,,
 P3379,slob dpon mar med mdzad bzang po/,Atiśa Dīpaṃkaraśrījñāna,MH,982,,,1054,,,,,OK,Princeton,"ma,pa,tr",,P3379,,"P3731,P4420,P2554,P4CZ15171,P3456,P3143,P2557,P8216,P753,P4104,P1242"
 P3244,paN+Di ta so ma nA tha/,somanātha,,,1000,1099,,,,RR: Dawa Gonpo,,,,"ma,pa,tr",,,,"P155,P2553"
-P2CZ7929,"paN+Di ta bai ro tsa na ra Sha/, bai ro tsa na rak+Shi ta/","vairocanavajra, vairocanarakṣita",,,1050,1150,,,,"RR: circa 11th c., duplicate of P2CZ7929 ?",,,,"ma,pa,tr",,,,"P3731,P8203,P1798"
+P2CZ7929,"paN+Di ta bai ro tsa na ra Sha/, bai ro tsa na rak+Shi ta/","vairocanavajra, vairocanarakṣita",,,1050,1150,,,,"RR: circa 11th c., referred to as a bad+hU tI bai ro tsa na badzra ?",,,,"ma,pa,tr",,,,"P3731,P8203,P1798"
 P3214,paN chen dA na shI la/,dānaśīla,NB,,1150,1250,,,,"RC: Note that TibSkrit's 'early 12th century' is probably a typo for 'early 13th century'; NB: Tibskrit: There is an early 9th century, as well as an early 12th century, person by this name. Obviously Banerji is conflating the identities of the 9th century person and the 12th/13th century one.",,,,"ma,pa,tr",,P8210,,"P4CZ15225,P6453,P8182,P8268,P8209,P4CZ10518,P1KG8854,P8209,P0AT0106,P8205,P8261,P2138,P8203"
 P4CZ15083,grub chen d+A ri ka pa/,dārikapāda ?,NB,,900?,999?,,,,"NB: teacher of Saṃvarabhadra (P4CZ15360) who was teacher of *Adhīśa (P3379) (Almogi, “Shes rab grags,” § 3.).",,,,"ma,pa,tr",,,,
 P8224,rdo rje gdan pa chung ba/,amoghavajra,,,900,1099,,,,"RR: circa 11th-12th c., DM: circa 11th c., duplicate of P10295 in BDRC ?",,,,"ma,pa,tr",,,,"P4CZ10557,P4CZ15290,P4CZ15616,P3458,P3731"
@@ -624,13 +624,12 @@ P8241,pradz+nyA ka ra/,prajñākara,,,,,,1000-1099,,P0RK156 is a duplicate ?,,,,
 P0AT0002,phags ma nor rgyun ma,vasudhara,,,,,,,,,,,,,,,,
 P0AT0003,dge slong dga' byed snyan pa,Nandipriya,,,,,,,,same as P7588 ?,,,,,,,,
 P0AT0004,"bram ze dA ri dra pa, dA ri dra pa rgya mtsho'i sde",Dāridrapa,,,,,,,,same as P8277 ?,,,,,,,,
-P0AT0005,bal po'i paN+Di ta ma hA pa Na,Mahāpana,,,,,,,,same as P4CZ15525 ?,,,,,,,,
+P4CZ15525,bal po'i paN+Di ta ma hA pa Na,Mahāpana,,,,,,,,,,,,,,,,
 P0AT0006,sbyang dka' ba'i zla ba,*Durśodhanacandra,,,,,,,,,,,,,,,,
 P0AT0110,paN+Di ta mkhas pa chen po a mo g+ha badzra,Amoghavajra,,704,,,774,,,Indian in China,,,,,,,,
 P4CZ10552,slob dpon dpal sgra gcan gsang ba/,rāhuguptavajra,,,900,999,,,,,,,,,,,,
 P4CZ10562,slob dpon chen po snang ba mtha' yas rdo rje/,*Amitābhavajra,,,,,,,,,,,,,,,,
 P0AT0007,rnal 'byor gyi dbang phyug dpal gyi zhabs,"Śrī,Śrīpāda?",,,,,,,,,,,,,,,,
-P0AT0008,paN+Di ta bim pa,*vimpa?,,,,,,1300-1399,,,,,,,,,,P4417
 P10180,mi nyag pra dz+nyA dzwa la/,,,,1100,1199,,,,,,,,,,,,P8205
 P4CZ15447,slob dpon b+ha bi lha/,bhabideva ?,,,,,,,,,,,,,,,,
 P8251,dza+nyA na shrI/,jñānaśrī,,,,,,1044-1089,,,,,,,,,,P4CZ10557
@@ -981,6 +980,7 @@ P0AT0298,slob dpon chos skyong,dharmapāla,OA,,1050,1099,,,,,,,,,,,,
 P0AT0299,slob dpon dharma kI rti,dharmakīrti,OA,,,,,,,tantric,,,,,,,,
 P8346,bzhad pa'i rdo rje,hamsavajra,,,,,,,,,,,,,,,,
 P0AT0300,rgya gar gyi mkhan po A tsar+ya a nan+ta,acaryānanda?,,,,,,,,,,,,,,,,
-P0AT0301,bal yul gyi paN+Di ta dga' ba'i dpal,,,,,,,,,,,,,,,,,
+P0AT0301,bal yul gyi paN+Di ta dga' ba'i dpal,,,,,,,,,same as P8252 ?,,,,,,,,
 P8403,kha che'i paNDi ta chen po vi ma la sri,vimalasri,,,1200,1299,,,,,,,,,,,,
 P6951,pha khol,vagbhata,,,,,,,,,,,,,,,,
+,rgya nag chen po'i la'i btsun pa chos kyi rin chen,,,,,,,,,,,,,,,,,
