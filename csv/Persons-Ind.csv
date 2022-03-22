@@ -375,7 +375,7 @@ P489,paN chen 'bum phrag gsum pa byams pa chos grags/,,,1432,,,1504,,,,,,,"ma,pa
 P00KG02663,slob dpon ta thA ga ta rak+Shi ta/,Tathāgatarakṣita,,,1000,1099,,,,,,,,"ma,pa",,,,"P3731,P753,P8203"
 P3870,mkhan chen rat+na A ka ra/,ratnākara ?,,,1400,1499,,,,,,,,"ma,pa",,,,P6453
 P4CZ15081,dpal ye shes/,śrījñāna,,,,,,,,,,,,"ma,pa",,,,P4CZ10557
-P8175,ye shes snying po/,jñānagarbha,,,700,899,,,,"Indian, different from P4255 (Tibetan)",,,,"ma,pa",,,,"P8183,P8182,P4260,P4CZ15493,P4CZ16847,P8182,P8205,P8249"
+P8175,ye shes snying po/,jñānagarbha,RC,,700,899,,,,"Indian, different from P4255 (pre-10th century Tibetan translator), and two 11th century Jñānagarbhas","This ID is for the Indian author/paṇḍitas who were active before the 10th century. At present it is difficult to distinguish exactly how many Indian Jñānagarbhas were active during this period. Some attributions may also be false, such as that for D1282 (Ro sreg pa'i cho ga), which mentions the Hevajratantra and Vajrapañjara",,,"ma,pa",,,,"P8183,P8182,P4260,P4CZ15493,P4CZ16847,P8182,P8205,P8249"
 P3302,"ga ya dha ra/, slob dpon ga ya d+ha ra/","gayādhara, Kāyastha Gayādhara",,994 ???,,,1043 ???,,,"NB: Tibskrit: Stearns, Luminous Lives, p. 10 (says he died in 1103). Isaacson, “Marmopadeśa” (2008), p. 4: = Gaṅgādhara. Teacher of ’Brog mi. Invited to Tibet by ’Gos Khug pa lhas btsas (P3458, fl. 1000–1099; Tibskrit: last half of 11th cent.",,,,"ma,pa",,,,"P3458,P8129,P3285"
 P3217,"dar pana A tsar+ya/, gro ba'i me long","dharpacacargya,darpaṇācārya,Durpaṇācārya, Jagaddarpaṇa",NB,,1150,1250,,,,"NB: Szántó, “Ritual Texts: South Asia” (2015), p. 659: before 1305; Szántó, “A Sanskrit Fragment of Candragomin’s Praṇidhāna” (2017), p. 236: ca. 12th–13th cent.; Szántó, “Siddhas” (2019), p. 449: before mid-13th cent.",,,,"ma,pa",,,,"P5820,P1061"
 P8226,"rgya gar gyi mkhan po ma hA dza na, kha che'i paN+Di ta ma hA dz+nyA na/","Mahājana, err. *Mahājñana",NB,,1050,1150,,900-1399,,"NB: Kano, “Exegeses” (2016), p. 5: Kashmiri Sajjana (fl. second half of 11th cent.) is the grandson of Ratnavajra, and the father of Mahājana and Sūkṣmajana. OA: Mahājana should be the correct name (as far as I can see, Mahājñāna is a corruption often found in Tib literature).",,,,"ma,pa",,,,"P4420,P2551,P3709,P4418,P4417,P4CZ15648"
@@ -540,7 +540,6 @@ P9982,dza+nyna kir+ti/,"prajñāśrījānakīrti?,jñakirti?",,,,,,,,"DM: In lis
 P4CZ10549,mkhan po dI paM ka ra tsan+d+ra/,dīpaṁkaracandra,,,,,,,,,,,,pa,,,,P4CZ10548
 P2098,bal po paN+Di ta sa manta shrI/,samantaśrī,,,1100,1299,,,,,,,,pa,,,,"P1052,P1025"
 P4CZ15158,paN+Di ta A nan+da ka ra/,ānandakara,,,1100,1199,,,,,,,,pa,,,,P3939
-P8217,dz+nyA na gar b+ha/,jñānagarbha,,,,,,700-899,,,,,,pa,,,,"P5013,P8209,P8220,P8260,P8218,P8205,P4255"
 P4CZ15266,paN+Di ta n+ya ya na shrI/,nayanaśrī,,,1000,1099,,,,,,,,pa,,,,P2551
 P2821,chos kyi nyi ma/,,,,1300,1399,,,,,,,,pa,,,,
 P4CZ15241,mkhan po gu NA ka ra shrI b+ha dra/,guṇakara ?,,,1000,1099,,,,,,,,pa,,,,"P4149,P4277"
@@ -590,7 +589,7 @@ P4CZ15227,ti phu gsang sngags sdong po/,Tipupa ?,NB,,1050,1150,,,,"NB: Pinned to
 P4CZ15469,mkhan po de ba rA dza/,devarāja,,,1000,1099,,,,,,,,pa,,,,P4CZ15290
 P4CZ15226,paN+Di ta rat+na d+ha ti/,ratnadhati ?,,,1000,1099,,,,,,,,pa,,,,P4CZ10557
 P4CZ15359,paN+Di ta A nan+ta b+ha dra/,anandabhadra ?,,,1000,1099,,,,,,,,pa,,,,P4180
-P4CZ15224,paN+Di ta mi dbang bzang po/,,,,1200,1299,,,,,,,,pa,,,,
+P4CZ15224,paN+Di ta mi dbang bzang po/,*Narendrabhadra,,,1200,1299,,,,,,,,pa,,,,
 P4CZ15235,paN+Di ta man tra kA la sha,mantrakalaśa,,,1100,1200,,,,,,,,"pa,tr",,,,P4149
 P4CZ10556,lo tsA ba d+harma tsan+d+ra/,dharmacandra,,,800,999,,,,,,,,"pa,tr",,,,
 P4CZ15232,paN+Di ta nag po chen po ro 'dzin/,,,,1000,1099,,,,,,,,"pa,tr",,,,P00EGS1017627
@@ -949,7 +948,7 @@ P0AT0276,,Kamalaguhya,,,950,1099,,,,maybe the same as P8093 but uncertain,,,,,,,
 P0AT0277,rgya gar kyi mkhan po dpal tsha ya A na n+da,Jayānanda,,,1200,1299,,,,different from P4CZ15242,,,,,,,,
 P0AT0278,slob dpon chen po zla ba bzang po grags pa'i dpal,sucandrabhadra,,,,,,,,different from P4CZ15457,,,,,,,,
 P0AT0280,slob dpon ye shes byin,Jñānadatta,,,,,,,,same as P4CZ15568? different from P7148. RC: I see no reason to suspect that he is the same as P4CZ15568.,,,,,,,,
-P0AT0281,slob dpon ye shes rdo rje,,,,,,,,,"different from P7148, possibly P1243",,,,,,,,
+P0AT0281,slob dpon ye shes rdo rje,Jñānavajra,,,,,,,,"different from P7148, possibly P1243","Author of D2687 (rdo rje rnam par 'joms pa'i gzungs zhes bya ba'i rim par phye ba'i rgya cher 'grel ba gsal ba'i sgron me). Must be pre-10th century, given the translators who worked on this text",,,,,,,
 P0AT0282,rgya gar gyi mkhan po ka mA la shrI,Kamalaśrī,,,1000,1099,,,,different from P8213,,,,,,,,
 P0AT0284,rab tu dga’ ba’i ’byung gnas go cha,*Pramuditākaravarman,,,,,,,,different from P4CZ15258 who shouldn't have this name,,,,,,,,
 P0AT0285,rgya gar gyi mkhan po pra b+hA kar shrI mi tra,Prabhākaraśrīmitra,,,,,,,,no reason to think he's the same as P4CZ15523,,,,,,,,P753
@@ -990,3 +989,5 @@ P8192,rnal 'byor gyi dbang phyug chen po shrI dza ga ta mi tra A nan+da,Jagad Mi
 P0AT0317,byang chub sems dpa' phyag na rdo rje,Vajrapāṇi (Bodhisattva),OA,,990,1025,,,,OA: Isaacson & Sferra 2019 (BEB) -- to be sorted out! probably confused here with Phyag na rdo rje P8232,,,,,,,,
 P0AT0318,rab 'jigs rdo rje,*Pratibhayavajra,RC,,,1050,,,,RC: Author of a homavidhi translated by rin chen bzang po. No other known works.,,,,,,,,
 P0AT0319,rgya gar gyi mkhan po a nu pa mar k+Shi ta,Anupamarakṣita,RC,,1100,1199,,,,,"This is the paṇḍita who worked with Sum pa lo tsā ba dar ma yon tan (P10183) on D2045 (srung ba'i 'khor lo'i byin brlab dang phyir bzlog pa'i man ngag ces bya ba) by Śrīdhara. He cannot be identical with the famous author of the same name (P4CZ15101), whose dates (late 10th-early 11th century) are too early a collaboration with Sum pa lo tsā. Either the ascription in the colophon of D2045 is false, or this is a unique but obscure Anupamarakṣita.",,,,,,,
+P0AT0320,"ye shes snying po/, rgya gar gyi mkhan po dpal ye shes snying po",Jñānagarbha,RC,,1000,1099,,,,,This paṇḍita worked with Mar pa cho kyi blo gros on D0453.,,,,,,,
+P0AT0321,bal po paṇḍita,,RC,,1200,1299,,,,,"This ID is for a paṇḍita who worked with Chag lo tsā ba (P1025) on D4006	(byang chub kyi ltung ba bshags pa'i 'grel pa byang chub sems dpa'i bslab pa'i rim pa). It is unclear which Newar paṇḍita is intended: likely possibilities include the other paṇḍitas with whom Chag lo tsā ba worked, such as Maṇikaśrījñāna (P7648) or Ravīndra (P4CZ15105). ",,,,,,,
