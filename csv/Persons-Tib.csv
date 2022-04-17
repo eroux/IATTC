@@ -64,13 +64,13 @@ P10711,lo tsA ba spong zho gsal ba grags/,,NB,,1100,1199,,,,"NB: Disc. of Abhay�
 P4CZ16804,lo tsA ba lce bkra shis/,,,,1000,1099,,,,,,,,tr,,,,P4CZ16805
 P6532,gnyal gyi lo tsA ba mi mnyam bzang po/,,,,1100,1199,,,,,,,,tr,,,,P00EGS1017688
 P4440,chag lo tsA ba dge slong dgra bcom/,,,1153,,,1216,,,,,,,tr,,,,P1518
-P4267,legs pa'i blo gros/,,,,,,,,,"RC: Little appears to be known about this translator. Possibly from ancient period, if dpal brtsegs indeed revised his translation",,,,tr,,,,"P6525,P8574"
+P4267,legs pa'i blo gros/,,,,700,899,,,,"RC: Little appears to be known about this translator. Possibly from ancient period, if dpal brtsegs indeed revised his translation",,,,tr,,,,"P6525,P8574"
 P4243,shAkya brtson 'grus/,,,,1000,1099,,,,,,,,tr,,,,"P44,P8161,P4CZ10577,P4CZ15153,P7048,P8253"
 P3890,shel dkar lo tsA ba chos kyi shes rab/,,,,1000,1099,,,,,,,,tr,,,,"P8232,P3388,P4257,P00EGS1017688,P4CZ15179,P4CZ15574,P8245,P4CZ15472,P2551,P3299,P4CZ15284,P4CZ15080,P3891,P2956,P4CZ15511,P4CZ15465,P9951"
 P2147,thar pa lo tsA ba nyi ma rgyal mtshan/,,RC,,1270,1320,,,,RC: Flourit based on dates given in TibSkrit,,,,tr,,,,"P0AT0092,P9962,P4CZ15161"
 P8156,khe'u gang 'khor lo grags/,,,,1100,1199,,,,,,,,tr,,,,"P4CZ15097,P4004"
 P4308,lo tsA ba mtshur ston ye shes 'byung gnas/,Jñānākara,,,1000,1099,,,,,,,,tr,,,,"P8232,P8149"
-P4416,lo tsA ba ban+de gzhon nu shes rab/,,,,1000,1099,,,,,,,,tr,,,,
+P4416,lo tsA ba ban+de gzhon nu shes rab/,,,,1000,1099,,,,"OA: I must say that I am not sure about the equation of Pu rang lo chung with gZhon nu shes rab. As far as I could see (etexts in BUDA) the only mention is the story with Gayadhara (as reported by Stearns, Luminous Lives, p. 51 ff.), and there he is referred to as Pu rang lo tsa ba NOT Pu rang lo chung - if this is of any importance.",,,,tr,,,,
 P4307,lo tsA ba ye shes rdo rje/,,,,1100,1199,,,,"RC: Not sure on what basis these dates are given. As the translator of a few texts, this may be the same as P7148, the Newar/Kashmiri paṇḍita Jñānavajra. - OA: these should be two different persons, one Tib and the other Ind. see also my remarks in slack. If hope nothing speaks against it, I have changed the dates to 12th cent.",,,,tr,,P7148,,P4CZ15167
 P2388,lo chen byang chub rtse mo/,,,1303,,,1380,,,"NB: 1315–1379 in van der Kuijp, “A Note on the “Old” and the “New” Tibetan Translations of the Prasannapadā” (2020), p. 429 n. 43.",,,,tr,,,,"P4CZ16866,P2921"
 P8179,bla ban chos kyi brtson 'grus/,,,,1000,1099,,,,RC: TibSkrit attests 11th century activity. Possible duplicate of P4262 (khyung grags),,,,tr,,,,"P4CZ15137,P8180,P4CZ15186"
@@ -94,7 +94,7 @@ P208,khrims khang lo tsA ba bsod nams rgya mtsho/,,,1424,,,1482,,,"NB: aka Khrus
 P4CZ15216,lo tsA ba 'jam dpal sgeg pa'i rdo rje/,,,,1300,1399,,,,,,,,tr,,,,P4CZ15217
 P4529,lo tsA ba tshul khrims gzhon nu/,,,,1300,1399,,,,,,,,tr,,,,
 P1760,lo tsA ba dbang phyug rgyal mtshan/,,NB,,1250,1350,,,,"NB: According to BUDA, father and teacher of Sho rGyal sras legs pa (P7625), aka Shwa ban rGyal sras legs ldan (1290–1365 [1366 Tibskrit; cf. also van der Kuijp, ""Chos 'byung rin po che'i gter mdzod,"" p. 135: ""(?1264-1341)""]). Therefore, he presumably flourished between the 13th and 14th cent. (= Cha gan Dbang phyug rgyal mtshan (fl. ca. 1300)?) He is said to have collaborated with P8245 (Buddhākaravarman, who translated the 'Phags ma sgrol ma'i sgrub thabs [D 3689] together with Chos kyi shes rab [P3890]), but he rather seems to have collaborated with Suvidyākaravarman (probably different from Buddhākaravarman), with whom he translated the Ngan song thams cad yongs su sbyong ba gzi brjid kyi rgyal po brtag pa snang ba'i rgyan [D 2627]. Probably the page dedicated to P8245 on BUDA has to be corrected.",,X !!,,tr,,,,P8245
-P4CZ15565,brog mi lo tsA ba jo sras/,,,,1000,1099,,,,RC: According to TibSkrit—A Tibetan translator who worked together with Rgya gar Phyag na (b. 1017).,,,,tr,,,,P4CZ15567
+P4CZ15565,brog mi lo tsA ba jo sras/,,RC,,1000,1099,,,,RC: According to TibSkrit—A Tibetan translator who worked together with Rgya gar Phyag na (b. 1017).,,,,tr,,,,P4CZ15567
 P8221,gos chos 'grub/,,,,800,899,,,,,,,,tr,,,,
 P5197,sman lung pa shAkya 'od/,,,,1200,1299,,,,RR: 11th c.,,,,tr,,"P2554,P4CZ16819",,P4CZ15137
 P4832,snye thang lo tsA ba blo gros brtan pa/,,,,1450,1550,,,,dates from Verhagen,,,,tr,,"P2085,P1052",,
@@ -287,14 +287,14 @@ P3389,rngog lo chung legs pa'i shes rab,,,,900,999,,,,,,,,,,,,
 P956,chos smra ba bstan pa'i nyin byed,,,1700,,,1744,,,,,,,,,,,
 P4422,rnal 'byor rgyud la mkhas pa zha lu pa ye shes rgya mtsho,,NB,,1400,1499,,,,"Tibskrit: revised D 482, tr. by Rin chen bzang po or Rma Dge blo (Dge ba'i blo gros).",,OK,"BUDA, Tibskrit",,,,,
 P0AT1010,lo tsA ba dge tshul nam mkha' rdo rje,,NB,,1050,1150,,,,NB: Pinned to only association Dharmasena (P8227).,,,RR,,,,,
-P1245,pu hrangs lo chung shes rab grags / grags 'byor shes rab / grags mchog shes rab / pra dz+nyA kIr+ti/ snyel cor pra dz+nyA kIr+ti,,,,1050,1150,,,,"P0RK500 is possibly a duplicate? NB: on his floruit see Almogi, “Shes rab grags,” §2.",,,,,,,,
+P1245,pu rang lo chung / pu rangs lo chung / pu hrangs lo chung shes rab grags / grags 'byor shes rab / grags mchog shes rab / pra dz+nyA kIr+ti/ snyel cor pra dz+nyA kIr+ti,,,,1050,1150,,,,"P0RK500 is possibly a duplicate? NB: on his floruit see Almogi, “Shes rab grags,” §2.",,,,,,,,
 P4237,she'u badzra de ba,vajradeva,,,1000,1099,,,,,,,,,,,,
 P0AT1011,bod kyi lo tsA ba klan chung,,,,,,,,,unlikely to be P7604,,,,,,,,
 P8266,zhu chen gyi lo tsA ba dharma tA shI la/,Dharmatāśīla,OA,,700,899,,,,OA: moved from Indian to Tibetan; there is apparently another Kashmiri named Dharmatāśīla who was Rin chen bzang po's teacher,,,,,,,,
 P0AT1012,lo tsA ba blo gros rgyal po,,OA,,,,,1200-1299,,,,,,,,,,
 P0AT1013,byang chub sems dpa' 'jam dpal rgyal po grags pa,,NB,,,,,,,,,,,,,,,
 P6944,rgya lo tsA ba rdo rje bzang po,,,,,,,,,,,,,,,,,
-P0AT1014,Ma nang lo tsA ba dge slong grags 'byor shes rab / Ma nang lo chung,,NB / OA,,,,,,,"same as P4266 - OA: yes, now deleted",,,,,,,,
+P4266,Ma nang lo tsA ba dge slong grags 'byor shes rab / Ma nang lo chung,,NB / OA,,1000,1075,,,,"same as P4266 - OA: yes, now deleted",,,,,,,,
 P0AT1015,zhu chen gyi lo tsA ba dge slong blo gros snying po,,,,,,,,,,,,,,,,,
 P0AT1016,dpon chen po kun dga' gzhon nu,,,,1250,1300,,,,,,,,,,,,
 P1868,slob dpon chen po d+harma pa la rak+Shi ta'i sku skyabs,,,1268,,,1287,,,,,,,,,,,
