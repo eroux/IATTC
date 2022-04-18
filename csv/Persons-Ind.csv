@@ -380,7 +380,7 @@ P3217,"dar pana A tsar+ya/, gro ba'i me long","dharpacacargya,darpaṇācārya,D
 P8226,"rgya gar gyi mkhan po ma hA dza na, kha che'i paN+Di ta ma hA dz+nyA na/","Mahājana, err. *Mahājñana",NB,,1050,1150,,900-1399,,"NB: Kano, “Exegeses” (2016), p. 5: Kashmiri Sajjana (fl. second half of 11th cent.) is the grandson of Ratnavajra, and the father of Mahājana and Sūkṣmajana. OA: Mahājana should be the correct name (as far as I can see, Mahājñāna is a corruption often found in Tib literature).",,,,"ma,pa",,,,"P4420,P2551,P3709,P4418,P4417,P4CZ15648"
 P4CZ15523,paN+Di ta pra b+ha ka ra/,prabhākara,,,1200,1299,,,,RC: only known colab is with P1448,,,,"ma,pa",,,,"P753,P1448"
 P8249,mkhan po d+harma ka ra/,"dharmakara,Dharmākaramati",,,750,850,,,,may be two different persons ?,,,,"ma,pa",,,,"P4259,P8175,P8211,P8212,P4256,P8182,P00KG07267,P4255"
-P8248,slob dpon dpal ldan byang chub/,"Līlāvajra, Vilasavajra",,,700,799,,,,"P8248, P4CZ15286 & P4CZ15088 needed to be check against each other. Dates for Vilasavajra from Tribe 2016",,,,"ma,pa",,,,"P3143,P4180"
+P8248,sgeg pa'i rdo rje/,"Vilasavajra, Viśvarūpa",,,700,799,,,,"Dates for Vilasavajra from Tribe 2016, from Oddhyana. Sometimes reconstructed as Līlāvajra or Lalitavajra",,,,ma,,,,"P3143,P4180"
 P207,paN+Di ta nags kyi rin chen/,vanaratna,,1384,,,1468,1468,,DM: 1384-1468,,,,"ma,pa",,,,"P318,P208,P4CZ15173,P3674"
 P4CZ15217,paN+Di ta saM g+ha ma shrI b+ha dra/,saṁgamaśrībhadra,,,1300,1399,,,,,,,,"ma,pa",,,,P4CZ15216
 P4CZ15410,rnal 'byor ma ka na ka pa/,"jñānagarbha,kanakhalā",,,,,,800-899,,,,,,"ma,pa",,,,P8183
@@ -408,7 +408,7 @@ P5654,ka na ka warma/,kanakavarman,,,1000,1099,,,,,,,,"ma,pa",,,,"P5651,P4262,P7
 P1050,paN+Di ta sa dbang bzang po/,Mahīndrabhadra,,,1100,1299,,1200-1299,,,,,,"ma,pa",,,,
 P3299,shar phyogs nag po pa/,kṛṣṇa,,,,,,1000-1099,,,,,,"ma,pa",,P2956,,"P2614,P3890,P3458,P3456"
 P4CZ15153,rgyal sras dpal 'jigs byed lha/,bhairavadeva,NB,,1000,1099,,,,,,,,"ma,pa",,,,P4243
-P4CZ15286,paN+Di ta li la badz+ra/,Līlāvajra,,,1000,1099,,,,,,,,"ma,pa",,,,
+P4CZ15286,"paN+Di ta li la badz+ra/, rol pa'i rdo rje/, slob dpon rdo rje sgeg pa/",Līlāvajra,,,1000,1099,,,,"see Tribe 2016, disciple of Tilopa and Maitripa, master of Khyungpo Naljor",,,,"ma,pa",,,,
 P1051,mahA paN+Di ta lak+Shi mi ka ra/,"lakṣmīkara,Lakṣmī",NB,,1200,1299,,,,"this should probably be split into (at least) two between lakṣmīkara (male) and Lakṣmīṅkarā (female(s)). NB: worked with Shong ston rDo rje rgyal mtshan (P1046, b. 1235/1245–fl. 1299); female is P4CZ15386 (9th cent.).",,,,"ma,pa",,,,P1046
 P9948,sher 'byung sbas pa/,prajñākaragupta,,,,,,,,,,,,"ma,pa",,,,
 P4CZ15260,mar me mdzad bzang po/,dīpaṁkarabhadra,,,900,999,,,,,,,,"ma,pa",,P3379,,P3731
@@ -417,8 +417,8 @@ P8194,mkhan po pad+ma ka ra/,Padmākaravarman,,,950,1050,,,,RC: Dates mainly bas
 P5782,zla ba grags pa/,candrakīrtī I,MH,,600,650,,,,,,OK,Princeton,"ma,pa",,,,"P3458,P2637"
 P1GS14003,dri ma med pa'i grags pa/,vimalakīrti,,,,,,1237-,,,,,,"ma,pa",,,,P5897
 P4CZ15282,mkhan po bi dza ya shrI d+ha ra/,vijayaśrīdhāra,,,900,999,,,,,,,,"ma,pa",,,,
-P4CZ15282,jagad mitrananda/,"jaganmitra,mitrānanda ?",,,1150,1250,,1100-1236,,RR: circa 12th-13th c.,,,,"ma,pa",,,,"P4CZ15444,P4007"
-P4CZ15088,slob dpon rol pa'i rdo rje/,lalitavajra,,,800,999,,,,,,,,"ma,pa",,,,P8203
+P4CZ15282,,"jaganmitra,mitrānanda ?",,,1150,1250,,1100-1236,,RR: circa 12th-13th c.,,,,"ma,pa",,,,"P4CZ15444,P4007"
+P4CZ15088,slob dpon rol pa'i rdo rje/,Lalitavajra,,,800,899,,,,see Tribe 2016. Teacher of one of the Lilavajra,,,,"ma,pa",,,,P8203
 P4CZ10567,mkhas pa chen po tA ra shrI/,tāraśrī,,,,,,1042-1299,,,,,,"ma,pa",,,,
 P4CZ15509,shAn+ta ka ra/,"śāntakara,Śānta",,,,,,1000-1125,,here we may conflate two persons ?,,,,"ma,pa",,,,"P6453,P4004"
 P4CZ15172,slob dpon a b+hi sang ka ta/,abhisaṅkata ? / Abhisaṅkaṭa?,OA,,,,,,,,,,,"ma,pa",,,,P5169
@@ -561,7 +561,7 @@ P4CZ16901,sman pa ra gu nA tha/,ragunātha,,,1600,1699,,,,,,,,pa,,,,P2947
 P4CZ15087,paN+Di ta bi shwa shrI/,viśvaśrī,,,1000,1099,,,,,,,,pa,,,,P8129
 P8191,paN+Di ta badz+ra shrI kha la ru dra/,*Vajraśrīkhalarudra,,,1150,1250,,,,,Only appears to have with Khro phu lo tsA ba on D0476,,,pa,,,,"P2JM5,P2554,P4007"
 P4CZ15097,paN+Di ta jo bo ri pa jo bo ri pa/,,,,1100,1199,,,,,,,,pa,,,,P8156
-P4CZ16848,paN+Di ta skal ldan rgyal po/,bhayarāja,,,1000,1099,,,,,,,,pa,,,,"P5651,P2551"
+P4CZ16848,paN+Di ta skal ldan rgyal po/,bhavyarāja,,,1000,1099,,,,,,,,pa,,,,"P5651,P2551"
 P4CZ15072,slob dponkriSh+Na badz+ra/,kṛṣṇavajra,,,,,,,,,,,,pa,,,,
 P4CZ15603,slob dpon sti ra ma ti/,stiramatisa ?,,,,,,,,"duplicate of P10023 ? ""Tantric"" Stiramati",,,,pa,,,,
 P4CZ16849,paN+Di ta ku mA ra shrI/,kumāraśrī,,,1000,1099,,,,,,,,pa,,,,
@@ -997,3 +997,4 @@ P0AT0326,btsun pa dbyig gi bshes gnyen,Vasumitra (III),,,,,,,,,,,,,,,,
 P0AT0327,,Dharmatrāta (I),,,100,199,,,,,,,,,,,,
 P0AT0328,,Dharmatrāta (II),,,300,399,,,,,,,,,,,,
 P4CZ16815,dgra bcom pa chos skyob/,Dharmatrāta (III),RC,,350,500,,,,RC: Indian. Compiler of Udānavarga (Tōh. 4099). Sanskrit name given as Dharmatrāta. Kashmiri,,X,Pinceton Dictionary,ma,,,,
+P0AT0329,,Līlāvajra,,,850,899,,,,disciple of Lalitavajra,,,,,,,,
