@@ -1,5 +1,6 @@
 "for records in the BDRC database, indicate it here (ex: P123), for duplicates, indicate all IDs, for records not in the BDRC database, create an ID starting with P1TMP (ex: P1TMP123)",names_tib,names_skt,reviewer,birth year,floruit not before,floruit not after,death_year,inferred_floruit,period,internal notes,public notes,status,source,roles,may be the same as,can be confused with,not to be confused with,worked with
 "for records in the BDRC database, indicate it here (ex: P123), for duplicates, indicate all IDs, for records not in the BDRC database, create an ID starting with P1TMP (ex: P1TMP123)","coma separated list of names in Tibetan, prefilled witht the primary name in the BDRC database","comma-separated list of Sanskrit names, in IAST. BDRC has very sparse data of this kind and this has been prefilled with some strings from Otani and Tibskrit",,when known,,,,,Earlier (E) or Later (L),,,"write OK if identification+dating is certain; write X if the person is ambiguous and if the data is uncertain; further details should be writted under ""notes""",,"ma = main author, pa = pandita, tr = translator",,,,computed automatically
+P3870,mkhan chen rat+na A ka ra/,ratnākara ?,,,1400,1499,,,,,,,,"ma,pa",,,,P6453
 P8196,bod kyi lo ts+tsha ba ban+de dza ya rak+Shi ta,Jayarakṣita,NB,,700,899,,,,,,,,,,,,P4957
 P3458,gos lo tsA ba khug pa lhas btsas/,,,,1000,1099,,,,RR: early 11th,,,,"pa,tr",,,,"P8224,P3302,P8241,P4CZ15147,P4CZ15179,P5782,P4CZ15179,P4CZ15351,P8195,P3302,P7048,P8892,P8161,P8161,P4CZ15137,P3299,P4CZ15287,P4CZ10545,P4CZ10529,P1KG8854"
 P2636,mar pa lo tsA ba chos kyi blo gros/,,,,1002,1100,,,,"NB: BUDA: 1002/1012–1097/1100. Ducher, Building a Tradition (2017), p. 302: 1000–1081; 1012–1097; 1024–1107 (she favours the “early tradition”).",,,,"pa,tr",,,,"P44,P4CZ15245,P3261,P2551,P3085,P3822,P4255"
@@ -127,8 +128,8 @@ P4CZ10548,lo tsA ba lha btsan po mu ne rA dza/,*Munirāja?,NB,,,,,,,"NB: Tibskri
 P8216,lo tsA ba shAkya blo gros/,,NB,,1000,1099,,,,ER: not duplicate of P4CZ16874 according to BDRC librarians,,OK,almogi2020: 159,tr,,,,"P3388,P8171,P3379,P4CZ15137,P4CZ15090,P753,P1242,P0AT0097,P4CZ15568"
 P4CZ16791,lo tsA ba rnyi ba de ba g+ho Sha/,devaghoṣa ?,,,700,799,,,,,,,,tr,,,,P5659
 P4380,or ston chos 'byung /,,,,1300,1399,,,,,,,,tr,,,,
-P6473,shes rab ye shes/,,,,,,1352,1000-,,,,,,tr,,P4241,,P4CZ15179
-P3143,rwa lo tsA ba rdo rje grags/,,,1016,,,,-1099,,,,,,tr,,,,"P3174,P8248,P8252,P3379"
+P6473,shes rab ye shes/,,,,1250,,1352,,,,,,,tr,,P4241,,P4CZ15179
+P3143,rwa lo tsA ba rdo rje grags/,,,1016,,1120,,,,,,,,tr,,,,"P3174,P8248,P8252,P3379"
 P4213,bsod nams bzang po/,,,,1000,1099,,,,,,,,tr,,,,P4CZ15137
 P6525,gnyags lo tsA ba ye shes gzhon nu/,Jñānakumāra,,,700,799,,,,,,,,tr,,,,"P4267,P5011,P8574"
 P4540,tshogs chags chung ba/,,,,1100,1199,,,,,,,,tr,,,,P0AT0024
@@ -179,7 +180,7 @@ P4531,tshul dge rin chen/,,NB,,1000,1099,,,,"NB: only appears as translator of D
 P00EGS1017620,rlangs dpal gyi seng+ge,,,,700,799,,,,,,,,tr,,,,P4956
 P8129,gyi jo zla ba'i 'od zer/,,NB,,1000,1099,,,,"NB: collaborated, inter alia, with Gayādhara (P3302, 994–1043) on a number of occasions.",,,,tr,,,,"P4CZ10535,P3302,P4CZ15087,P8237,P8128,P3302,P4CZ10545"
 P2554,lo tsA ba 'bro seng dkar shAkya 'od/,,,,1000,1099,,,,,,,,tr,,"P4CZ16819,P5197",,"P4CZ15390,P4CZ15137,P42,P4CZ16770,P3379,P4CZ15179,P8191,P3709,P1KG3490,P1518,P0AT0079,P4CZ10541"
-P3731,ba ri lo tsA ba rin chen grags/,dharmakīrti,,1040,,,1112,,,,,,,tr,,,,"P8232,P8224,P44,P3379,P2CZ7929,P4CZ15260,P1046,P00KG02663,P4CZ15165,P8227,P4004,P4CZ10575,P8200,P8240,P8246,P1059"
+P3731,ba ri lo tsA ba rin chen grags/,Dharmakīrti,,1040,,,1112,,,,,,,tr,,,,"P8232,P8224,P44,P3379,P2CZ7929,P4CZ15260,P1046,P00KG02663,P4CZ15165,P8227,P4004,P4CZ10575,P8200,P8240,P8246,P1059"
 P2557,rgyal ba'i 'byung gnas/,,,1004,,,1064,,,,,,,tr,,,,P3379
 P1359,kam kam lo tsA ba chos kyi ye shes/,,,,1000,1099,,,,,,,,tr,,,,"P8159,P8160,P4CZ15078"
 P4CZ15445,lo tsA ba rba ye shes bzang po/,,,,1000,1099,,,,,,,,tr,,,,P3302
@@ -192,7 +193,7 @@ P4CZ16883,lo tsA ba mkha' 'gro rdo rje/,,RC,,1300,1399,,,,"RC: TibSkrit cites ga
 P1798,chos grags/,,NB,,1050,1150,,,,"NB: Tibskrit: lDing ri Chos grags (P1798) in a list of disciples of Abhayākaragupta (P4004, fl. 1000–d. 1125; BUDA: fl. 1000–1099; PANDiT: ca. 1109). Isaacson & Sferra, “Indian Tantric Authors: Overview” (2019), p. 249: fl. between very end of the 11th century and the third decade of the 12th century. Change the fl. of lDing ri Chos grags (P1798) to 11th–12th cent. Martin, Biographical References: Gangs can mkhas grub, no. 822: Born about mid-11th cent.",,,,tr,,,,P2CZ7929
 P4CZ15225,lo tsA ba khu rnal 'byor/,,,,1100,1199,,,,,,,,tr,,,,P3214
 P4CZ15575,grags pa byang chub/,,NB,,1200,1299,,,,NB: floruit 13th c. since he worked with Gautamabhadra (P4CZ15161),,OK,"BUDA, Tibskrit",tr,,,,P4CZ15161
-P4CZ10573,lo tsA ba le'u ston rgya nag,,RC,,1027,,,,L,"Edited a translation done by Somanātha (11th Kashmiri paṇḍita who executed his own translations). Somanātha arrived in Tibet in 1027 (accord to Tresury of Lives pages on Kālacakra), so le'u ston rgya nag must have been active some time after that.",,X,,editor,,,,
+P4CZ10573,lo tsA ba le'u ston rgya nag,,RC,,1027,,,,L,"Edited a translation done by Somanātha (11th Kashmiri paṇḍita who executed his own translations). Somanātha arrived in Tibet in 1027 (accord to Tresury of Lives pages on Kālacakra), so le'u ston rgya nag must have been active some time after that.  -- OA: I think the predicate ""lo tsa ba"" is to be deleted, unless he is mentioned elsewhere in this role. In the colophon of D1293 is NOT a reviser but he is the petitioner (nan gyis zhus pa). I have already changed it on the TG spreadsheet.",,X,,editor,,,,
 P4CZ15078,lo tsA ba phyug brtsams dbang phyug rgya mtsho/,,,,1000,1199,,,,,,,,,,,,P1359
 P3221,"gar lo tsA ba chos kyi bzang po/,mgar chos kyi bzang po/",,RC,,,,,1000-1099,,"RC: He is different from P3939 (i.e. dpyal chos kyi bzang po); translated a large number of works by *Jabariba in Nepal with Devapūṛṇamati; quite a few of those works are associated with P3939, which is probably a mistake. ",,X !!,,tr,,P3939,,P8176
 P461,sa lo kun dga' bsod nams/,,,1485,,,1533,,,,,,,,,,,
@@ -218,7 +219,7 @@ P8269,rma dgon gling /,,RC,,750,850,,,,"RC: Assumes the same flourit as ye she s
 P1256,sgro lo tsA ba rin chen sde/,,NB,,700,799,,,,NB: probably = 'Bro Rin chen sde (late 8th cent.),,OK,"Tibskrit, BUDA",,,,,P5011
 P8239,kyu ra lo tsA ba tshul khrims 'od zer/,,RC,,,,,,,"RC: Appears to have only translated Tōh 681. I can find no further information that what's given in the colophon for this translator and Somaśrībhavya, the paṇḍita with whom he worked.",,X,,tr,,,,P8238
 P8160,phyug mtshams dgra bcom/,,NB,,1000?,1099?,,1000-1099,,"NB: Tibskrit: ""Probably the translator Phyug mtshams Dgra bcom is identical to Phyug mtshams Dbang phyug rgyal po"" (P4CZ15304) = Phyug(s) '/mtshams Dbang phyug rgya mtsho (see Tibskrit, s.v. Abhiṣekaratnāloka)? He collaborated with P1359 (fl. 1000–1099).",,X,,,,,,"P1359,P8159"
-P8273,lo tsA ba rin chen 'tsho/,,RC,,,,,,E,"RC: Translated two sūtras, perhaps one more in a non-sDe dge bKa' 'gyur. Association with Chos nyi tshul khrims probably means he worked in the early period, but evidence is weak.",,X,,tr,,,,P8266
+P8273,lo tsA ba rin chen 'tsho/,,RC,,,,,,E,"RC: Translated a number of sūtras, perhaps one more in a non-sDe dge bKa' 'gyur. Association with Chos nyi tshul khrims and Śākyaprabha indicate he is an early period translator. Occasionally his name appears in Sanskrit–i.e., Ratnarakṣita. ",,X,,tr,,,,P8266
 P1493,dge slong bsod nams lhun grub/,,,,1600,1699,,,,,,,,,,,,
 P3181,mkhan chen seng+ge dpal/,,,,1300,1399,,,,,,,,,,,,
 P2JM492,smyo shul lung rtogs bstan pa'i rgyal mtshan/,,,1830,,,,,,,,,,,,,,
@@ -233,7 +234,6 @@ P1052,shong lo tsA ba blo gros brtan pa/,,,,1200,1299,,,,"Attributions are messe
 P1046,shong lo tsA ba rdo rje rgyal mtshan/,,OA,1235/1245?,1235,1299,,,,dates from Verhagen; OA: redress dates? According to TPNI: 1283‑1325; but makes litle sense since he is one of the main disciples of 'Phags pa (1235–1280),,,,,,,,"P3731,P1051,P8200"
 P4CZ15594,a tsar+ya dmar po/,,NB,,1000?,1099?,,,,"NB: often identified with Guhyaprajña/Prajñāguhya (gSang ba shes rab/Shes rab gsang ba), disciple of Kashmiri Ratnavajra in the early 11th c. (Tibskrit; Ruegg, ""Problems in the Transmission of Vajrayāna Buddhism"", in McKay 2003, vol. 2, p. 127), and sometimes with Gayadhara.",,X,,,,,,
 P7787,chos rgyal khri srong lde btsan/,,,742,,,800,,,,,,,,,,,
-P4848,khro phu 'od zer 'byung gnas/,,NB,,,,,,,NB: = Khro phu Lo tsā ba Byams pa dpal (1173 1225 or 1236?)?,,X,,,,,,
 P3086,pham mthing pa gcen 'jigs med grags pa/,,,,1000,1099,,,,,,,,,,,,
 P4015,ra ti gupta/,,,,1400,1499,,,,,,,,,,,,
 P4CZ16870,slob dpon dbang pos byin/,*Indradatta,NB,,,,,,,"NB: Indian. Tibskrit: ""Tāranātha made use of his historical work called Buddhapurāṇa in 1,200 verses."", NB: *Indradatta (dBang po[s] [s]byin)",,X,,,,,,
@@ -305,3 +305,5 @@ P8220,"lo tsA ba de ba tsan+dra/,lha'i zla ba",devacandra,,,,,,700-899,,RR: 8th 
 P1448,o rgyan pa rin chen dpal/,,,,1229,1230,1309,,,RR: 11th c. ?,,,,"pa,tr",,,,"P4CZ16877,P4CZ15523,P4CZ10579,P4CZ15514,P4CZ15229"
 P5013,lo chen bai ro tsa na/,Vairocana,,,700,899,,,,RR: 8th/9th,,,,"ma,pa,tr",,,,"P4CZ15624,P4956,P10718,P1KG8854,P4CZ16819,P8217,P8203"
 P0AT1019,bod kyi lo tsA ba dz+nyA na gar+b+ha,Jñānagarbha,RC,,1000,1099,,,,  ,"A translator given for D2541. Given the other colaborators on this work, the translator, if the colophon is accurate and the person exists, must date to the 11th century, but no other information is presently available.",,,,,,,
+P4CZ15601,pad+ma ru tshe,Padmaruci,,,1300,1499,,,,,,,,,,,,
+P0AT0332,lo tsA ba many+dzu shrI,Mañjuśrī,,,1400,1499,,,,"The Lo tsā ba, accompanied Vanaratna in Tibet in 1453 (DM)",,,,,,,,
