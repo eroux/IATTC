@@ -86,31 +86,6 @@ def clustersFromFile(fname):
                 textevents[event] = []
             textevents[event].append(personid)
 
-def datesFromFile(fname):
-    previoustextid = ""
-    textevents = {}
-    with open(fname, newline='') as csvfile:
-        reader = csv.reader(csvfile)
-        # skip first two lines:
-        next(reader)
-        next(reader)
-        for row in reader:
-            textid = row[0]
-            role = row[2]
-            personid = row[3]
-            if personid == "" or '?' in personid or "," in personid:
-                continue
-            if role not in ROLEEVENTS:
-                continue
-            event = ROLEEVENTS[role]
-            if textid != previoustextid:
-                # got all the information about an event, add clusters
-                add_clusters(textevents, textid)
-                textevents = {}
-                previoustextid = textid
-            if event not in textevents:
-                textevents[event] = []
-            textevents[event].append(personid)
 
 def get_int_date(s):
     if s == "":
