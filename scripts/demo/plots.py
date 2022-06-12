@@ -235,7 +235,7 @@ def add_missing_events():
             if hasauthorship and 'authorship' not in EVENTSBYTEXT[textid]:
                 EVENTSBYTEXT[textid]['authorship'] = 'unknown'
 
-def plot_events_by_date(sectionlist = ['all'], counttype="T", eventtypelist = ['all']):
+def plot_events_by_date(sectionlist, counttype, eventtypelist, name):
     eventsbydate = {}
     noinfocount = 0
     nodatecount = 0
@@ -279,14 +279,14 @@ def plot_events_by_date(sectionlist = ['all'], counttype="T", eventtypelist = ['
         x=df["date"], y=df["value"],
         xperiod="M300",
         xperiodalignment="middle",
-        name=",".join(sectionlist)+" - "+",".join(eventtypelist)+" - "+counttype
+        name=name
     ))
     fig.update_xaxes(showgrid=True, ticklabelmode="period", dtick="M600", tickformat="%Y")
     fig.update_layout(xaxis_range=[datetime.datetime(100, 10, 17),
                                datetime.datetime(1800, 11, 20)])
     return fig
 
-def plot_events_by_person(sectionlist = ['all'], counttype="T", eventtypelist = ['all']):
+def plot_events_by_person(sectionlist, counttype, eventtypelist, name):
     eventsbyperson = {"unknown": 0}
     for textid, textevents in EVENTSBYTEXT.items():
         if textid not in TEXTINFO:
@@ -318,11 +318,11 @@ def plot_events_by_person(sectionlist = ['all'], counttype="T", eventtypelist = 
         if p == "unknown":
             names.append("unknown")
         else:
-            name = PINFO[p]['name']
-            if name in DUPLICATENAMES:
-                names.append(name+" ("+p+")")
+            n = PINFO[p]['name']
+            if n in DUPLICATENAMES:
+                names.append(n+" ("+p+")")
             else:
-                names.append(name)        
+                names.append(n)        
     fig = go.Figure()
     df = pd.DataFrame(dict(
         name=names,
@@ -330,7 +330,7 @@ def plot_events_by_person(sectionlist = ['all'], counttype="T", eventtypelist = 
     ))
     fig.add_trace(go.Bar(
         x=df["name"], y=df["value"],
-        name=",".join(sectionlist)+" - "+",".join(eventtypelist)+" - "+counttype
+        name=name
     ))
     return fig
 
@@ -373,9 +373,10 @@ def plotjson():
     if "graphtype" in args:
         graphtype = args["graphtype"]
     sectionlist = ['all']
+    name = ""
     if "section" in args:
+        name += args["section"]
         sectionlist = args["section"].split(",")
-        print(sectionlist)
         toadd = []
         for s in sectionlist:
             if s in SECTION_MAPPING:
@@ -383,22 +384,24 @@ def plotjson():
         sectionlist += toadd
     else:
         print("section not in args!")
-    count = "T"
-    if "count" in args:
-        count = args["count"]
     eventtypelist = ["all"]
     if "eventtype" in args:
+        name += ", "+ args["eventtype"]
         eventtypelist = args["eventtype"].split(",")
         toadd = []
         for s in eventtypelist:
             if s in EVENTTYPE_MAPPING:
                 toadd += EVENTTYPE_MAPPING[s]
         eventtypelist += toadd
+    count = "T"
+    if "count" in args:
+        count = args["count"]
+    name += ", "+ count
     fig = None
     if graphtype == "byperson":
-        fig = plot_events_by_person(sectionlist, count, eventtypelist)
+        fig = plot_events_by_person(sectionlist, count, eventtypelist, name)
     else:
-        fig = plot_events_by_date(sectionlist, count, eventtypelist)
+        fig = plot_events_by_date(sectionlist, count, eventtypelist, name)
     return json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder) 
 
 @app.route('/', methods=['GET'])
