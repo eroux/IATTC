@@ -223,8 +223,10 @@ def add_missing_events():
             if hasauthorship and 'authorship' not in EVENTSBYTEXT[textid]:
                 EVENTSBYTEXT[textid]['authorship'] = 'unknown'
 
-def plot_events_by_date(sectionlist = ['all'], count="T", eventtypelist = ['all']):
+def plot_events_by_date(sectionlist = ['all'], counttype="T", eventtypelist = ['all']):
     eventsbydate = {}
+    noinfocount = 0
+    nodatecount = 0
     for textid, textevents in EVENTSBYTEXT.items():
         if textid not in TEXTINFO:
             # quite a bizarre case...
@@ -236,19 +238,22 @@ def plot_events_by_date(sectionlist = ['all'], count="T", eventtypelist = ['all'
                 continue
             if 'all' not in sectionlist and textinfo['section'] not in sectionlist:
                 continue
+            count = 1 if counttype == "T" else textinfo['nbpages']
             if eventinfo == "unknown":
-                # ?
+                noinfocount += count
                 continue
             year = mean_year(eventinfo['actors'])
             if year is None:
+                nodatecount += count
                 continue
             if year > 2000:
                 print("year > 2000", textid, eventinfo['actors'])
             date = "{1:0{0}d}-01-01".format(4 if year >= 0 else 5, year)
             if date not in eventsbydate:
                 eventsbydate[date] = 0
-            eventsbydate[date] += 1 if count == "T" else textinfo['nbpages']
-    #print(eventsbydate)
+            eventsbydate[date] += count
+    eventsbydate["0100-01-01"] = noinfocount
+    eventsbydate["0125-01-01"] = nodatecount
     dates = sorted(eventsbydate.keys())
     values = []
     for d in dates:
@@ -264,7 +269,7 @@ def plot_events_by_date(sectionlist = ['all'], count="T", eventtypelist = ['all'
         xperiodalignment="middle",
         name="Events per quarter of century"
     ))
-    fig.update_xaxes(showgrid=True, ticklabelmode="period")
+    fig.update_xaxes(showgrid=True, ticklabelmode="period", dtick="M600", tickformat="%Y")
     fig.update_layout(xaxis_range=[datetime.datetime(100, 10, 17),
                                datetime.datetime(1800, 11, 20)])
     return fig
@@ -290,9 +295,9 @@ def init():
     INIT = True
 
 SECTION_MAPPING = {
-    "mdo 'grel (general)": ["mdo 'grel (sher phyin)", "mdo 'grel (dbu ma)", "mdo 'grel (mdo)", "mdo 'grel (sems tsam)", "mdo 'grel (mngon pa)", "mdo 'grel ('dul ba)", "mdo 'grel (skyes rabs)", "mdo 'grel (spring yig)", "mdo 'grel (tshad ma)", "mdo 'grel (sgra mdo)", "mdo 'grel (gso rig)", "mdo 'grel (bzo rig)", "mdo 'grel (thun mong ba lugs kyi bstan bcos)", "mdo 'grel (bstan bcos sna tshogs)"],
+    "mdo 'grel (general)": ["mdo 'grel (sher phyin)", "mdo 'grel (dbu ma)", "mdo 'grel (mdo)", "mdo 'grel (sems tsam)", "mdo 'grel (mngon pa)", "mdo 'grel (skyes rabs)", "mdo 'grel (spring yig)", "mdo 'grel (tshad ma)", "mdo 'grel (sgra mdo)", "mdo 'grel (gso rig)", "mdo 'grel (bzo rig)", "mdo 'grel (thun mong ba lugs kyi bstan bcos)", "mdo 'grel (bstan bcos sna tshogs)"],
     "mdo (general)": ["'bum", "nyi khri", "khri brgyad", "khri pa", "brgyad stong", "sher phyin", "phal chen", "dkon brtsegs", "mdo sde"],
-    "rgyud (general)": ["rgyud", "rnying rgyud", "gzungs", "dus 'khor", "bstod tshogs"]
+    "rgyud (general)": ["rgyud", "rnying rgyud", "gzungs", "dus 'khor"]
 }
 
 EVENTTYPE_MAPPING = {
@@ -327,9 +332,6 @@ def plotjson():
             if s in EVENTTYPE_MAPPING:
                 toadd += EVENTTYPE_MAPPING[s]
         eventtypelist += toadd
-    print(sectionlist)
-    print(count)
-    print(eventtypelist)
     fig = plot_events_by_date(sectionlist, count, eventtypelist)
     return json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder) 
 
