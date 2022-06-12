@@ -12,8 +12,10 @@ app = Flask("plots", static_url_path='', static_folder='web/')
 CLUSTERS = {}
 EVENTSBYTEXT = {}
 DTOIGNORE = {}
-DATES = {}
+PINFO = {}
 TEXTINFO = {}
+NAMES = {}
+DUPLICATENAMES = {}
 
 ROLEEVENTS = {
     "author": "authorship",
@@ -109,12 +111,13 @@ def get_int_date(s):
     except:
         return None
 
-def datesFromFile(fnamesrc):
+def personInfoFromFile(fnamesrc, defaultorigin):
     with open(fnamesrc, newline='') as csvfile:
         rows = []
         reader = csv.reader(csvfile)
         next(reader)
         next(reader)
+        seennames = {}
         for row in reader:
             dates = {}
             dates['by'] = get_int_date(row[4])
@@ -127,14 +130,23 @@ def datesFromFile(fnamesrc):
             # notbefore max is for calculation with the "after" clusters
             dates['inflnbmax'] = -9999
             dates['inflnamin'] = 9999
-            DATES[row[0]] = dates
+            origin = row[9] if row[9] else defaultorigin
+            name = ""
+            if defaultorigin == "ind" and row[2]:
+                name = row[2].split(',')[0].strip().title()
+            else:
+                name = row[1].split(',')[0].strip(" /")
+            if name in seennames:
+                DUPLICATENAMES[name] = True
+            seennames[name] = True
+            PINFO[row[0]] = {"dates": dates, "origin": origin, "name": name}
 
 def infer_dates_cluster(cl):
     p1 = cl['p1']
     p2 = cl['p2']
     cltype = cl['cltype']
-    p1dates = DATES[p1]
-    p2dates = DATES[p2]
+    p1dates = PINFO[p1]['dates']
+    p2dates = PINFO[p2]['dates']
     p1notbefore = p1dates['by'] if p1dates['by'] is not None else p1dates['flnb']
     p2notbefore = p2dates['by'] if p2dates['by'] is not None else p2dates['flnb']
     p1notafter = p1dates['dy'] if p1dates['dy'] is not None else p1dates['flna']
@@ -157,14 +169,14 @@ def infer_dates_cluster(cl):
 def infer_dates():
     # start with sync clusters:
     for cluster in CLUSTERS.values():
-        if cluster['p1'] not in DATES or cluster['p2'] not in DATES:
+        if cluster['p1'] not in PINFO or cluster['p2'] not in PINFO:
             print("warning: %s or %s not in persons sheet" % (cluster['p1'], cluster['p2']))
             continue
         if cluster["cltype"] == "sync":
             infer_dates_cluster(cluster)
     # then the after types
     for cluster in CLUSTERS.values():
-        if cluster['p1'] not in DATES or cluster['p2'] not in DATES:
+        if cluster['p1'] not in PINFO or cluster['p2'] not in PINFO:
             print("warning: %s or %s not in persons sheet" % (cluster['p1'], cluster['p2']))
             continue
         if cluster["cltype"] == "after":
@@ -185,9 +197,9 @@ def intersection_years(plist):
     nb = -9999
     na = 9999
     for p in plist:
-        if not p in DATES:
+        if not p in PINFO:
             continue
-        dates = DATES[p]
+        dates = PINFO[p]['dates']
         if dates['by'] is not None:
             nb = max(nb, dates['by'] + 15)
         elif dates['flnb'] is not None:
@@ -267,11 +279,59 @@ def plot_events_by_date(sectionlist = ['all'], counttype="T", eventtypelist = ['
         x=df["date"], y=df["value"],
         xperiod="M300",
         xperiodalignment="middle",
-        name="Events per quarter of century"
+        name=",".join(sectionlist)+" - "+",".join(eventtypelist)+" - "+counttype
     ))
     fig.update_xaxes(showgrid=True, ticklabelmode="period", dtick="M600", tickformat="%Y")
     fig.update_layout(xaxis_range=[datetime.datetime(100, 10, 17),
                                datetime.datetime(1800, 11, 20)])
+    return fig
+
+def plot_events_by_person(sectionlist = ['all'], counttype="T", eventtypelist = ['all']):
+    eventsbyperson = {"unknown": 0}
+    for textid, textevents in EVENTSBYTEXT.items():
+        if textid not in TEXTINFO:
+            # quite a bizarre case...
+            print("textid not in textinfo: "+textid)
+            continue
+        textinfo = TEXTINFO[textid]
+        for eventtype, eventinfo in textevents.items():
+            if 'all' not in eventtypelist and eventtype not in eventtypelist:
+                continue
+            if 'all' not in sectionlist and textinfo['section'] not in sectionlist:
+                continue
+            count = 1 if counttype == "T" else textinfo['nbpages']
+            if eventinfo == "unknown":
+                eventsbyperson["unknown"] += count
+                continue
+            for p in eventinfo['actors']:
+                if p not in PINFO:
+                    continue
+                if p not in eventsbyperson:
+                    eventsbyperson[p] = 0
+                eventsbyperson[p] += count
+    # sort p by count descending
+    ps = sorted(eventsbyperson.keys(), key=lambda p: eventsbyperson[p], reverse=True)
+    values = []
+    names = []
+    for p in ps:
+        values.append(eventsbyperson[p])
+        if p == "unknown":
+            names.append("unknown")
+        else:
+            name = PINFO[p]['name']
+            if name in DUPLICATENAMES:
+                names.append(name+" ("+p+")")
+            else:
+                names.append(name)        
+    fig = go.Figure()
+    df = pd.DataFrame(dict(
+        name=names,
+        value=values
+    ))
+    fig.add_trace(go.Bar(
+        x=df["name"], y=df["value"],
+        name=",".join(sectionlist)+" - "+",".join(eventtypelist)+" - "+counttype
+    ))
     return fig
 
 # TODO:
@@ -288,8 +348,8 @@ def init():
     add_text_info()
     clustersFromFile("../../csv/DergeTengyur.csv")
     clustersFromFile("../../csv/DergeKangyur.csv")
-    datesFromFile("../../csv/Persons-Ind.csv")
-    datesFromFile("../../csv/Persons-Tib.csv")
+    personInfoFromFile("../../csv/Persons-Ind.csv", "ind")
+    personInfoFromFile("../../csv/Persons-Tib.csv", "tib")
     infer_dates()
     add_missing_events()
     INIT = True
@@ -309,7 +369,9 @@ EVENTTYPE_MAPPING = {
 def plotjson():
     init()
     args = request.args.to_dict()
-    print(args)
+    graphtype = "time"
+    if "graphtype" in args:
+        graphtype = args["graphtype"]
     sectionlist = ['all']
     if "section" in args:
         sectionlist = args["section"].split(",")
@@ -332,7 +394,11 @@ def plotjson():
             if s in EVENTTYPE_MAPPING:
                 toadd += EVENTTYPE_MAPPING[s]
         eventtypelist += toadd
-    fig = plot_events_by_date(sectionlist, count, eventtypelist)
+    fig = None
+    if graphtype == "byperson":
+        fig = plot_events_by_person(sectionlist, count, eventtypelist)
+    else:
+        fig = plot_events_by_date(sectionlist, count, eventtypelist)
     return json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder) 
 
 @app.route('/', methods=['GET'])
@@ -343,8 +409,8 @@ def main():
     add_text_info()
     clustersFromFile("../../csv/DergeTengyur.csv")
     clustersFromFile("../../csv/DergeKangyur.csv")
-    datesFromFile("../../csv/Persons-Ind.csv")
-    datesFromFile("../../csv/Persons-Tib.csv")
+    personInfoFromFile("../../csv/Persons-Ind.csv", "ind")
+    personInfoFromFile("../../csv/Persons-Tib.csv", "tib")
     infer_dates()
     add_missing_events()
     fig = plot_events_by_date()

@@ -19,9 +19,11 @@ function getSelectValues(selectid) {
   return result;
 }
 
-async function plot() {
+async function plot(mode="replace") {
   // get select values
   const data = {};
+  const graphtypes = getSelectValues("graphtypeselect")
+  data.graphtype = graphtypes.join(",")
   const sections = getSelectValues("sectionselect")
   data.section = sections.join(",")
   const events = getSelectValues("eventselect")
@@ -30,7 +32,8 @@ async function plot() {
   data.count = counttype.join(",")
   const response = await fetch('/plotjson?'+(new URLSearchParams(data)), {"method": "GET"});
   const res = await response.json();
-  Plotly.purge('chart')
+  if (mode != "add")
+    Plotly.purge('chart')
   Plotly.plot('chart', res, {});
 }
 
