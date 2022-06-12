@@ -85,7 +85,10 @@
     </div>
   </section>
 
-<select class="selectpicker" placeholder="Section">
+<section class="py-5 container">
+
+<select class="selectpicker" id="sectionselect" placeholder="Section">
+  <option value="all" selected="selected">all sections</option>
   <option>'dul ba</option>
   <option>mdo (general)</option>
   <option>rgyud (general)</option>
@@ -122,18 +125,24 @@
   <option>mdo 'grel (bstan bcos sna tshogs)</option>
 </select>
 
-<select class="selectpicker" placeholder="Event type">
+<select class="selectpicker" id="eventselect" placeholder="Event type">
+  <option selected="selected">translation</option>
   <option>authorship</option>
-  <option>translation</option>
   <option>revision</option>
+  <option>all</option>
 </select>
 
-<select class="selectpicker" placeholder="Count">
-  <option>nb. texts</option>
-  <option>nb. pages</option>
+<select class="selectpicker" id="countselect" placeholder="Count">
+  <option value="P" selected="selected">nb. pages</option>
+  <option value="T">nb. texts</option>
 </select>
+
+<button type="submit" id="original-button" class="btn btn-primary mb-3" onclick="plot()">Show data</button>
 
 <div id='chart' class='chart'></div>
+
+</section>
+</main>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

@@ -7,7 +7,7 @@ import json
 import plotly
 import plotly.express as px
 
-app = Flask("ATII demo", static_url_path='', static_folder='web/')
+app = Flask("plots", static_url_path='', static_folder='web/')
 
 CLUSTERS = {}
 EVENTSBYTEXT = {}
@@ -230,10 +230,11 @@ def plot_events_by_date(sectionlist = ['all'], count="T", eventtypelist = ['all'
             # quite a bizarre case...
             print("textid not in textinfo: "+textid)
             continue
+        textinfo = TEXTINFO[textid]
         for eventtype, eventinfo in textevents.items():
             if 'all' not in eventtypelist and eventtype not in eventtypelist:
                 continue
-            if 'all' not in sectionlist and TEXTINFO['section'] not in sectionlist:
+            if 'all' not in sectionlist and textinfo['section'] not in sectionlist:
                 continue
             if eventinfo == "unknown":
                 # ?
@@ -246,7 +247,7 @@ def plot_events_by_date(sectionlist = ['all'], count="T", eventtypelist = ['all'
             date = "{1:0{0}d}-01-01".format(4 if year >= 0 else 5, year)
             if date not in eventsbydate:
                 eventsbydate[date] = 0
-            eventsbydate[date] += 1 if count == "T" else TEXTINFO[textid]['nbpages']
+            eventsbydate[date] += 1 if count == "T" else textinfo['nbpages']
     #print(eventsbydate)
     dates = sorted(eventsbydate.keys())
     values = []
@@ -276,6 +277,7 @@ def plot_events_by_date(sectionlist = ['all'], count="T", eventtypelist = ['all'
 
 INIT = False
 def init():
+    global INIT
     if INIT:
         return
     add_text_info()
@@ -298,19 +300,22 @@ EVENTTYPE_MAPPING = {
     "revision": ["revision1", "revision2", "revision3"],
 }
 
-@app.route('/plotjson', methods=['POST'])
+@app.route('/plotjson', methods=['GET'])
 def plotjson():
     init()
-    args = request.args
+    args = request.args.to_dict()
+    print(args)
     sectionlist = ['all']
     if "section" in args:
         sectionlist = args["section"].split(",")
+        print(sectionlist)
         toadd = []
         for s in sectionlist:
             if s in SECTION_MAPPING:
                 toadd += SECTION_MAPPING[s]
         sectionlist += toadd
-    sectionlist = ['all']
+    else:
+        print("section not in args!")
     count = "T"
     if "count" in args:
         count = args["count"]
@@ -322,12 +327,15 @@ def plotjson():
             if s in EVENTTYPE_MAPPING:
                 toadd += EVENTTYPE_MAPPING[s]
         eventtypelist += toadd
+    print(sectionlist)
+    print(count)
+    print(eventtypelist)
     fig = plot_events_by_date(sectionlist, count, eventtypelist)
     return json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder) 
 
 @app.route('/', methods=['GET'])
 def default():
-    return api.send_static_file('demo.html')
+    return app.send_static_file('demo.html')
 
 def main():
     add_text_info()
@@ -345,5 +353,4 @@ if __name__ == '__main__':
     #api.run() 
     main()
 
-# run with FLASK_APP=plot flask run
-```
+# run with FLASK_APP=plots flask run
