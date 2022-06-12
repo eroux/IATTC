@@ -355,4 +355,5 @@ if __name__ == '__main__':
     #api.run() 
     main()
 
-# run with FLASK_APP=plots flask run
+# run with 
+# FLASK_APP=plots flask run -p 5001
