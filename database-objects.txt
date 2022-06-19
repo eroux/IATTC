@@ -51,11 +51,15 @@ person
     bn_id: str
     rkts_id: str
     source: source [1..n]
-    birth_year: str (edtf)
+    birth_year: str (edtf)         edtf is https://www.loc.gov/standards/datetime/
     death_year: str (edtf)
     floruit: str (edtf)
+    inferred_floruit: str (edtf)
     review: user [1..n]
     note: note [1..n]
+    possibly_identical_to: person [1..n]
+    not_to_be_confused_with: person [1..n]
+    known_to_have_worked_with: person [1..n]
 
 place
 	id: str
@@ -72,7 +76,6 @@ place
     long: float
     review: user [1..n]
     note: note [1..n]
-
 
 note
     id: str
