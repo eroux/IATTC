@@ -1,0 +1,88 @@
+work                            (each text)                            
+   id: str
+   main_title_bo_ewts: str
+   main_title_sa_iast: str
+   bdrc_id: str
+   bn_id: str
+   rkts_id: str
+
+source                          (primary and secondary sources, with Karchak separated)
+   id: str
+   title_bo_ewts: str
+   title_sa_ewts: str
+   title_sa_iast: str
+   title_en: str
+   root: source
+   sigla: str                   (also works for secondary sources, ex: "Orna2022")
+   section: str
+
+associated_entity               (basically a row in the DergeTengyur sheet)
+   id: str
+   type: person or place
+   of_work: work
+   role: str (from enum)
+   name_mention: name_mention [1..n]
+   identification: identification [1..n]
+   review: user [1..n]
+
+name_mention                    (the names, primarily in the colophons)
+    id: str
+	name: str
+	name_langtag: str
+	source: source [1..n]
+	review: user [1..n]
+
+identification                  (the identification with a person)
+    id: str
+    person: person
+    place: place (cannot have both a person and a place)
+    certainty: int (0 = very uncertain, 5 = very certain)
+    source: source [1..n]
+    review: user [1..n]
+
+person
+	id: str
+    main_name_bo_ewts: str
+    main_name_sa_ewts: str
+    name_name_zh_hant: str
+    name_en: str
+    origin: str (from enum)
+    bdrc_id: str
+    bn_id: str
+    rkts_id: str
+    source: source [1..n]
+    birth_year: str (edtf)
+    death_year: str (edtf)
+    floruit: str (edtf)
+    review: user [1..n]
+    note: note [1..n]
+
+place
+	id: str
+    main_name_bo_ewts: str
+    main_name_sa_ewts: str
+    name_name_zh_hant: str
+    name_en: str
+    origin: str (from enum)
+    bdrc_id: str
+    bn_id: str
+    rkts_id: str
+    source: source [1..n]
+    lat: float
+    long: float
+    review: user [1..n]
+    note: note [1..n]
+
+
+note
+    id: str
+    content_en: str
+    source: source
+    public: boolean
+    call_to_action: boolean 
+    user: user
+
+users
+   id: str
+   name_en: str
+   initials: str
