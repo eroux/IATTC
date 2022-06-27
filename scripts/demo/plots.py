@@ -416,7 +416,7 @@ if __name__ == '__main__':
     main()
     roles = {"total": set()}
     origins = {"total": set()}
-    new = set()
+    new = {"total": set()}
     for textid, textevents in EVENTSBYTEXT.items():
         if textid not in TEXTINFO:
             # quite a bizarre case...
@@ -431,6 +431,7 @@ if __name__ == '__main__':
                     continue
                 if eventtype not in roles:
                     roles[eventtype] = set()
+                    new[eventtype] = set()
                 roles[eventtype].add(p)
                 pinfo = PINFO[p]
                 if pinfo['origin'] not in origins:
@@ -439,11 +440,14 @@ if __name__ == '__main__':
                 origins["total"].add(p)
                 roles["total"].add(p)
                 if "AT" in p:
-                    new.add(p)
+                    new[eventtype].add(p)
     for role, ps in roles.items():
         print("%s: %d" % (role, len(ps)))
     for origin, ps in origins.items():
         print("%s: %d" % (origin, len(ps)))
+    for origin, ps in new.items():
+        print("%s: %d" % (origin, len(ps)))
+
 
 # run with 
 # FLASK_APP=plots flask run -p 5001
