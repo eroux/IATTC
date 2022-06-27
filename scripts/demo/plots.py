@@ -409,20 +409,41 @@ def default():
     return app.send_static_file('demo.html')
 
 def main():
-    add_text_info()
-    clustersFromFile("../../csv/DergeTengyur.csv")
-    clustersFromFile("../../csv/DergeKangyur.csv")
-    personInfoFromFile("../../csv/Persons-Ind.csv", "ind")
-    personInfoFromFile("../../csv/Persons-Tib.csv", "tib")
-    infer_dates()
-    add_missing_events()
-    fig = plot_events_by_date()
-    #fig.write_image("images/eventsbydate.png")
-    fig.show()
+    init()
 
 if __name__ == '__main__':
     #api.run() 
     main()
+    roles = {"total": set()}
+    origins = {"total": set()}
+    new = set()
+    for textid, textevents in EVENTSBYTEXT.items():
+        if textid not in TEXTINFO:
+            # quite a bizarre case...
+            print("textid not in textinfo: "+textid)
+            continue
+        textinfo = TEXTINFO[textid]
+        for eventtype, eventinfo in textevents.items():
+            if eventinfo == "unknown":
+                continue
+            for p in eventinfo['actors']:
+                if p not in PINFO:
+                    continue
+                if eventtype not in roles:
+                    roles[eventtype] = set()
+                roles[eventtype].add(p)
+                pinfo = PINFO[p]
+                if pinfo['origin'] not in origins:
+                    origins[pinfo['origin']] = set()
+                origins[pinfo['origin']].add(p)
+                origins["total"].add(p)
+                roles["total"].add(p)
+                if "AT" in p:
+                    new.add(p)
+    for role, ps in roles.items():
+        print("%s: %d" % (role, len(ps)))
+    for origin, ps in origins.items():
+        print("%s: %d" % (origin, len(ps)))
 
 # run with 
 # FLASK_APP=plots flask run -p 5001
