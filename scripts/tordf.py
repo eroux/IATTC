@@ -38,9 +38,19 @@ def import_persons(fname, reg):
         next(srcreader)
         next(srcreader)
         for row in srcreader:
-            if not row[0].startswith("P0AT"):
-                continue
             p = BDR[row[0]]
+            if not row[0].startswith("P0AT"):
+                # we add the Sanskrit names for records already on BDRC
+                if row[2] != "":
+                    i = 0
+                    for indn in row[2].split(","):
+                        i += 1
+                        indn = indn.strip()
+                        n = BDR["NM"+row[0]+"I"+str(i)]
+                        reg.add((n, RDFS.label, Literal(indn, lang="sa-x-iast")))
+                        reg.add((n, RDF.type, BDO.PersonPrimaryTitle))
+                        reg.add((p, BDO.personName, n))
+                continue
             reg.add((p, RDF.type, BDO.Person))
             reg.add((adm, ADM.adminAbout, p))
             if row[1] != "":
