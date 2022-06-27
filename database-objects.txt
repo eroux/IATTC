@@ -24,6 +24,8 @@ associated_entity               (basically a row in the DergeTengyur sheet)
    name_mention: name_mention [1..n]
    identification: identification [1..n]
    review: user [1..n]
+   note: note [1..n]
+   reliability: int (0 to 5), 0 is clear pseudepigraphy, 5 is clear attribution
 
 name_mention                    (the names, primarily in the colophons)
     id: str
@@ -31,6 +33,7 @@ name_mention                    (the names, primarily in the colophons)
 	name_langtag: str
 	source: source [1..n]
 	review: user [1..n]
+	note: note [1..n]
 
 identification                  (the identification with a person)
     id: str
@@ -39,6 +42,7 @@ identification                  (the identification with a person)
     certainty: int (0 = very uncertain, 5 = very certain)
     source: source [1..n]
     review: user [1..n]
+    note: note [1..n]
 
 person
 	id: str
