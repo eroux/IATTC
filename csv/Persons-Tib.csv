@@ -8,7 +8,7 @@ P8205,sna nam btsun pa ye shes sde/,,,,700,899,,,,RC: cf Treasury of Lives,,,,"m
 P2085,dpang lo tsA ba blo gros brtan pa/,,,1276,,,1342,,,DM: Blo brtan III,,,,"ma,tr",,"P4832,P1052",,"P4CZ15585,P1518,P3939,-"
 P8182,ska ba dpal brtsegs/,,,,700,899,,,,,,,,"ma,tr",,,,"P4259,P8175,P4CZ16854,P8209,P8260,P8211,P8228,P1KG8854,P8213,P4258,P00KG07267,P3214,P4255"
 P753,lo chen rin chen bzang po/,,,958,,,1055,,,,,,,"ma,tr",,,,"P8194,P4CZ15517,P8171,P7257,P5568,P5654,P4CZ15523,P4CZ15493,P8216,P8222,P4CZ16842,P4CZ15254,P4CZ15258,P8266,P4CZ10517,P4CZ15568,P7648,P3388,P8280,P3379,P00KG02663,P4CZ10577,P4CZ16821,P1242,P8093"
-P5169,tsa mi sangs rgyas grags pa/,,NB,,1000,1099,,,,"NB: = P7137, so 11th–12th cent.?. ER: I don't think there's enough evidence to say that P7137 and P5169 are the same...",,X !!,,"ma,tr",,,,P4004
+P5169,"tsa mi sangs rgyas grags pa/, mi nyag lo tsA ba/",Buddhakīrti,NB,,1000,1099,,,Tangut,"NB: = P7137, so 11th–12th cent.?. ER: I don't think there's enough evidence to say that P7137 and P5169 are the same... In our attributions we follow Tibskrit in identifying the author of D1376 with this person, but it's unclear if that's the case",,X !!,,"ma,tr",,,,P4004
 P7743,gnub nam mkha'i snying po/,,,,700,799,,,,,,,,"ma,tr",,,,P5263
 P4CZ15368,lo tsA ba sgeg pa'i dpal/,,,,1200,1299,,,,,,,,tr,,,,
 P4CZ10533,snyel cor dge slong pradz+nyA kIrti/,Prajñākīrti,,,1100,1199,,,,duplicate of P2553 ?,,,,tr,,,,"P4CZ15278,P4CZ16830,P8893,P0AT0068"
@@ -108,7 +108,6 @@ P4527,tshul khrims bkra shis/,,,,,,,,,Later translator,,,,tr,,,,P4CZ15254
 P4CZ15212,lo tsA ba dar ma rin chen/,,,,800,899,,,,,,,,tr,,,,"P4CZ15211,-"
 P3074,mtshur ston dbang gi rdo rje/,,,,1000,1099,,,,,,,,tr,,,,P8232
 P4277,lo tsA ba rab zhi bshes gnyen/,,,,1000,1099,,,,,,,,tr,,,,"P4CZ15241,P4CZ15186"
-P4CZ15573,slob dpon snang mdzad myu gu/,*Rocāṅchura,RC,,,,,,,"Probably Indian, not Tibetan. Dates unknown. Associated only with one text; translator not mentioned.",,X,Tibskrit,ma,,,,
 P1428,jo nang rje btsun tA ra nA tha/,Tāranātha,,1575,,,1634,,,,,,,tr,,,,"P4013,P7582"
 P3849,steng pa lo tsA ba tshul khrims 'byung gnas/,,,1107,,,1190,,,,,,,tr,,,,P1KG3465
 P4CZ15112,lo tsA ba sbal rdo rje rgyal po/,,,,1100,1199,,,,,,,,tr,,,,"P1GS147817,P4CZ15113"
@@ -226,7 +225,7 @@ P4242,shes rab legs pa/,,,,1000,1099,,,,,,,,,,,,P8171
 P4275,rag shi tshul khrims 'byung gnas/,,,,900,999,,,,possible duplicate : P0RK1418,,,,,,,,P0AT0105
 P0AT1001,slob dpon rgyal ba'i sras,,RC,,,,,,,"RC: Indian. Can't find this number on other sheets, but I see a 'rgyal ba'i sras' mentioned on the bsTan 'gyur page with a 'to check' indicated beside his name. If that's the person in question, the author of D4054 is postulated to be Sthiramati by Sakuma (https://tsukuba.repo.nii.ac.jp/record/54529/files/SP_45-212.pdf) and others. No information is available on the author of D4046. In any case, D4054 must have been composed between 5th–7th C, since Xuansang translated it.",,!!,,ma,,P4CZ16794,,
 P1052,shong lo tsA ba blo gros brtan pa/,,,,1200,1299,,,,"Attributions are messed up in our database. From RR and DM, DM: Younger brother of Shong Rdo rje rgyal mtshan, RR: 13th c. DM calls him Shong blo brtan II",,,,,,"P2085,P4832",,"P8166,P1050,P2098"
-P1046,shong lo tsA ba rdo rje rgyal mtshan/,,OA,1235/1245?,1235,1299,,,,dates from Verhagen; OA: redress dates? According to TPNI: 1283‑1325; but makes litle sense since he is one of the main disciples of 'Phags pa (1235–1280),,,,,,,,"P3731,P1051,P8200"
+P1046,shong lo tsA ba rdo rje rgyal mtshan/,Bhoṭa Paṇḍita,OA,1235/1245?,1235,1299,,,,"dates from Verhagen; OA: redress dates? According to TPNI: 1283‑1325; but makes litle sense since he is one of the main disciples of 'Phags pa (1235–1280). Name Bhoṭa Paṇḍita from D4338, see Tibskrit",,,,,,,,"P3731,P1051,P8200"
 P4CZ15594,a tsar+ya dmar po/,,NB,,1000?,1099?,,,,"NB: often identified with Guhyaprajña/Prajñāguhya (gSang ba shes rab/Shes rab gsang ba), disciple of Kashmiri Ratnavajra in the early 11th c. (Tibskrit; Ruegg, ""Problems in the Transmission of Vajrayāna Buddhism"", in McKay 2003, vol. 2, p. 127), and sometimes with Gayadhara.",,X,,,,,,
 P7787,chos rgyal khri srong lde btsan/,,,742,,,800,,,,,,,,,,,
 P3086,pham mthing pa gcen 'jigs med grags pa/,,,,1000,1099,,,,,,,,,,,,
@@ -235,8 +234,6 @@ P4CZ16870,slob dpon dbang pos byin/,*Indradatta,NB,,,,,,,"NB: Indian. Tibskrit: 
 P1KG10638,jam dbyangs kha che paN+Di ta/,,,,1300,1399,,,,,,,,,,,,
 P4095,sde dge rgyal po bstan pa tshe ring /,,,1678,,,1738,,,,,,,,,,,
 P940,brug chen 06 mi pham dbang po/,,,1641,,,1717,,,,,,,,,,,
-P4CZ15102,paN+Di ta rnam par rgyal ba dbang po'i zhabs/,*Vijayendra,NB,,,,,,,"NB: Tibskrit: probably same as *Vijayendrasena (Rnam par rgyal ba'i dbang po'i sde), Szanto, ""Antiquarian Enquiries"", p. 4, n. 15: a Newar scholar, to whom the Yogāmbarasādhanopāyikā (D 1619) of Amitavajra is attributed in the Tib. translation. Amitavajra could be his initiation name. Szanto 2012: 171: ""The text is signed by Amitavajra (less likely: Asitavajra), but the Tibetan attribution is to one *Vijayendrasena. If my observations about the palaeographical features of ms. A are correct, he must have lived earlier than the 11th century, but in any case earlier than the late 11th century (the date of ms. B).""",,X,,,,,,
-P4CZ15597,slob dpon rta mchog zhabs/,Paramāśva,RC,,,,,,,RC: Indian. A Mahāsiddha. Not enough evidence to estimate a date.,,X,,ma,,,,
 P3130,dpal 'phrog byed bzang po/,,,,1300,1399,,,,,,,,,,,,
 P3457,lha bla ma byang chub 'od/,,,,1000,1099,,,,,,,,,,,,
 P3927,rig pa'i khu byug che ba/,*Vidyākolila,RC,,,,,,,"According to the colophon of Peking no. 4872, he is the translator of this work by Dad byed go cha rin chen (probably Śraddhākaravarman). BDRC Dpe bsdur ma page mistakenly gives author as Vibhūticandra. No clear indication of a 'che ba' in the translator's name. The biographical works linked to this person are about an Indian paṇḍita who is not described as coming to Tibet or translating anything. Perhaps the colophon is corrupt and originally said that the text was translated by Śraddhākaravarman and Rin chen bzang po, and that Rig pa'i khu byug is the author. I have no proof of this. As it stands, this person is a complete mystery.",,X !!,,?,,,,
@@ -252,7 +249,6 @@ P8337,pad+ma 'i thod phreng /,,RC,,,,,,,"RC: Indian? Given as paṇḍita of Pek
 P7135,dpa' bo 'od gsal/,"*Vīraprabhāsvara, *Vīraprakāśa",NB,,1100?,1199?,,,,"NB: Tibetan Histories: circa 1100? Tibskrit: ""Kapstein in Linrothe, Holy Madness, pp. 52 53. Two generations intervened between him and Abhayadattaśrī.""",,X,,,,,,
 P3674,rgwa lo gzhon nu dpal/,,,,1100,1199,,,,,,,,,,,,P207
 P6866,btsun pa ston gzhon/,,,1224,,,,,,,,,,,,,,
-P4CZ16763,mkhan po shes rab thar pa/,*Prajñāmukti,RC,,1025,1064,,,,RC: Floruit is pinned to Tshul khrims rgyal ba. Wrote and helped translate a commentary on a text by Atiśa. Otherwise there doesn't appear to be much info on him.,,OK,,"ma, pa",,,,"P3456, P3379"
 P154,sgra tshad pa rin chen rnam rgyal/,,,1318,,,1388,,,,,,,,,,,
 P6515,yar klung pa seng+ge rgyal mtshan/,,,1345,,,1413,,,,,,,,,,,
 P003JR5071,slob dpon nyi ma'i seng+ge'i 'od/,"*Sūryasiṃhaprabha, *Sūryaprabhāsiṃha",NB,,800?,899?,,,,"NB: van Schaik, ""The Sweet Sage and the Four Yogas"", p. 61: ""9th c.?""",,X,,,,,,
@@ -278,7 +274,7 @@ P0AT1010,lo tsA ba dge tshul nam mkha' rdo rje,,NB,,1050,1150,,,,NB: Pinned to o
 P1245,pu rang lo chung / pu rangs lo chung / pu hrangs lo chung shes rab grags / grags 'byor shes rab / grags mchog shes rab / pra dz+nyA kIr+ti/ snyel cor pra dz+nyA kIr+ti,,,,1050,1150,,,,"P0RK500 is possibly a duplicate? NB: on his floruit see Almogi, “Shes rab grags,” §2.",,,,,,,,
 P4237,she'u badzra de ba,vajradeva,,,1000,1099,,,,,,,,,,,,
 P0AT1011,bod kyi lo tsA ba klan chung,,,,,,,,,unlikely to be P7604,,,,,,,,
-P8266,zhu chen gyi lo tsA ba dharma tA shI la/,Dharmatāśīla,OA,,700,899,,,,OA: moved from Indian to Tibetan; there is apparently another Kashmiri named Dharmatāśīla who was Rin chen bzang po's teacher,,,,,,,,
+P8266,zhu chen gyi lo tsA ba dharma tA shI la/,Dharmatāśīla,OA,,700,899,,,,OA: moved from Indian to Tibetan; there is apparently another Kashmiri named Dharmatāśīla who was Rin chen bzang po's teacher,,,,,,,P0AT0354,
 P0AT1012,lo tsA ba blo gros rgyal po,,OA,,,,,1200-1299,,,,,,,,,,
 P0AT1013,byang chub sems dpa' 'jam dpal rgyal po grags pa,,NB,,,,,,,,,,,,,,,
 P6944,rgya lo tsA ba rdo rje bzang po,,,,,,,,,,,,,,,,,
