@@ -50,7 +50,8 @@ def add_cluster(p1, p2, cltype, textref):
 
 def add_clusters(textevents, textref):
     # first simple clusters: people participating in the same event:
-    for persons in textevents.values():
+    for actorsinfos in textevents.values():
+        persons = actorsinfos['actors']
         for i in range(len(persons)):
             for j in range(i, len(persons)):
                 add_cluster(persons[i], persons[j], "sync", textref)
@@ -98,6 +99,8 @@ def clustersFromFile(fname):
             if eventtype not in textevents:
                 textevents[eventtype] = {'actors': []}
             textevents[eventtype]['actors'].append(personid)
+            if previoustextid == "":
+                previoustextid = textid
             if textid != previoustextid and previoustextid != "":
                 # got all the information about an event, add clusters
                 add_clusters(EVENTSBYTEXT[previoustextid], previoustextid)
@@ -412,11 +415,11 @@ def main():
     init()
 
 if __name__ == '__main__':
-    #api.run() 
-    main()
+    init()
     roles = {"total": set()}
     origins = {"total": set()}
     new = {"total": set()}
+    withdates = {"known": set(), "fl": set(), "infl": set()}
     for textid, textevents in EVENTSBYTEXT.items():
         if textid not in TEXTINFO:
             # quite a bizarre case...
@@ -441,11 +444,20 @@ if __name__ == '__main__':
                 roles["total"].add(p)
                 if "AT" in p:
                     new[eventtype].add(p)
+                    new["total"].add(p)
+                if pinfo["dates"]["by"] is not None or pinfo["dates"]["dy"] is not None:
+                    withdates["known"].add(p)
+                elif pinfo["dates"]["flnb"] is not None and pinfo["dates"]["flna"] is not None:
+                    withdates["fl"].add(p)
+                elif pinfo["dates"]["inflnb"] != 9999 and pinfo["dates"]["inflna"] != -9999:
+                    withdates["infl"].add(p)
     for role, ps in roles.items():
         print("%s: %d" % (role, len(ps)))
     for origin, ps in origins.items():
         print("%s: %d" % (origin, len(ps)))
     for origin, ps in new.items():
+        print("%s: %d" % (origin, len(ps)))
+    for origin, ps in withdates.items():
         print("%s: %d" % (origin, len(ps)))
 
 
