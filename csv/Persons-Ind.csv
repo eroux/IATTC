@@ -389,7 +389,7 @@ P4CZ15242,paN+Di ta dza ya a nan+ta/,Jayānanda,,,1000,1099,,,Kashmir,,,,,"ma,pa
 P1518,kha che paN chen shAkya shrI/,Śākyaśrībhadra,,1127,,,1225,,Kashmir,,,,,"ma,pa",,,,"P2085,P2554,P3939,P4007,P4440,P4404,P4CZ15499,P1056"
 P9946,lha dbang blo gros/,"*Devendramati, Devendrabuddhi?, XDevendrabhuddhi",,,,,,1000-1099,,,,,,"ma,pa",,,,P4266
 P5654,"ka na ka warma/, gser mdog/","Kanakavarman, Kiraṇākaravarman",,,1000,1099,,,,are Kanakavarman and Kiraṇākaravarman the same person? unclear,,,,"ma,pa",,,,"P5651,P4262,P753"
-P1050,paN+Di ta sa dbang bzang po/,Mahīndrabhadra,,,1100,1299,,1200-1299,,,,,,"ma,pa",,,,
+P1050,paN+Di ta sa dbang bzang po/,Mahīndrabhadra,,,1100,1299,,1200-1299,Newar,,,,,"ma,pa",,,,
 P3299,shar phyogs nag po pa/,"Kṛṣṇa, Kṛṣṇācārya, Kāṇhapa, Kāṇha",,,1000,1099,,1000-1099,,,,,,"ma,pa",,P2956,,"P2614,P3890,P3458,P3456"
 P4CZ15153,rgyal sras dpal 'jigs byed lha/,"*Bhairavadevi, *Bhairavadeva?",NB,,1000,1099,,,,,,,,"ma,pa",,,,P4243
 P4CZ15286,"paN+Di ta li la badz+ra/, rol pa'i rdo rje/, slob dpon rdo rje sgeg pa/","Līlāvajra, Līlavajrapāda?",,,1000,1099,,,,"see Tribe 2016, disciple of Tilopa and Maitripa, master of Khyungpo Naljor",,,,"ma,pa",,,,
@@ -580,7 +580,7 @@ P8241,"pradz+nyA ka ra/, *shes rab 'byung gnas/",Prajñākara,,,,,,1000-1099,,P0
 P0AT0002,phags ma nor rgyun ma/,Vasudharā,,,,,,,,,,,,,,,,
 P0AT0003,dge slong dga' byed snyan pa,Nandipriya,,,,,,,,same as P7588 ?,,,,,,,,
 P0AT0004,"bram ze dA ri dra pa, dA ri dra pa rgya mtsho'i sde",Dāridrapa,,,,,,,,same as P8277 ?,,,,,,,,
-P4CZ15525,bal po'i paN+Di ta ma hA pa Na,"Mahāpana, Mahāpāna?, Mahāpāṇa?, Mahāpaṇa?",,,,,,,Newar,,,,,,,,,
+P4CZ15525,bal po'i paN+Di ta ma hA pa Na,"Mahāpana, Mahāsena, Mahāpāna?, Mahāpāṇa?, Mahāpaṇa?",NB,,,,,,Newar,"NB: Same as Bal po Ma hā pa na (*Mahāpāna?)? If so, Tibskrit: Newar, Later Spread. aka Mahāsena",,X,,,,,,
 P0AT0110,paN+Di ta mkhas pa chen po a mo g+ha badzra,Amoghavajra,,704,,,774,,,Indian in China,,,,,,,,
 P4CZ10552,slob dpon dpal sgra gcan gsang ba/,"*Rāhulagupta, Rāhuguptavajra?",,,900,999,,,,,,,,,,,,
 P4CZ10562,slob dpon chen po snang ba mtha' yas rdo rje/,*Amitābhavajra,,,,,,,,,,,,,,,,
@@ -670,7 +670,6 @@ P7257,kha che'i mkhan po d+harma shrI/,Dharmaśrī,,,,,,958-1099,Kashmir,,,,,,,,
 P0AT0082,slob dpon rgyan bzang po,*Subhūṣita,,,,,,,,,,,,,,,,
 P8LS68061,wen tshegs/,,,,,,,,China,,,,,,,,,
 P0ER0030,seng ge zhabs 'bring pa/,Haribhaṭṭa,MH,,400,500,,,,,,OK,Tibskrit,,,,,
-P1050,sa dbang bzang po,Mahīndrabhadra,,,,,,1200-1299,Newar,,,,,,,,,"P1052,-"
 P0AT0084,phags pa dpa' bo,"Āryaśūra,Śūra",MH,,100,199,,,,"NB: Tibskrit: Hahn, NBSL, pp. 36 40, identifies three different Āryaśūras. Āryaśūra I, the author of Jātakamālā, is dated to early or mid 4th century. Āryaśūra II, author of Pāramitāsamāsa, is 7th or 8th century. Āryaśūra III, author of Subhāṣitaratnakaraṇḍakakathā, is probably 10th century or so. In Tibetan tradition, Āryaśūra or Śūra is generally treated as just another name for Aśvaghoṣa (and even Mātṛceta/Maticitra as well, although here there is some discussion in the sources) and even further as a name for (the 7th century) Vāgbhaṭa (sometimes the latter is given over 20 names!). Winternitz (II 265) places Āryaśūra in the 4th century, a few centuries after Aśvaghoṣa.",,OK,Princeton,,,,,
 P0ER0003,Mātṛceṭa,Mātṛceṭa,MH,,200,299,,,,"has a whole litany of other name, here to break up P44 if necessary",,sould be rechecked?,Princeton,,,,,
 P0AT0085,rgya'i lo tsA ba thang saM tsang,,,,,,,,China,Chinese,,,,,,,,
@@ -971,13 +970,11 @@ P0AT0341,slob dpon chen po pradz+nyA shrI,Prajñāśrī,RC,,,,,,,,"Author attrib
 P4CZ15131,slob dpon byang chub rdo rje/,*Bodhivajra,NB,,,,,,,NB: author of D 1463?,,X,,,,,,
 P0AT0342,bsnyen pa'i sgrol ba'i dbang phyug/,"Tāreśvara, Tārakeśvara?",,,,,,,,,disciple of Ting nge 'dzin bzang po (Samādhibhadra),,,,,,,
 P0AT0343,thar pa'i 'byung gnas sbas pa/,"Mokṣākaragupta, Śrīmokṣākaragupta",MH,,1050,1150,,,,,,OK,Tibskrit/PANDiT,ma,,,,
-P4CZ15525,bal po lo tsA ba ma hA pa la/,"Mahāpāla, Mahāsena",NB,,,,,,Newar,"NB: Same as Bal po Ma hā pa na (*Mahāpāna?)? If so, Tibskrit: Newar, Later Spread. aka Mahāsena",,X,,tr,,,,
 P4CZ15439,"paN+Di ta rat+na pha la/, *rin chen 'bras bu/","Ratnaphala, Ratnapāla?",RC,,,,,,,"RC: unlikely to be P753, i.e. Rin chen bzang po, in my opinion, but there are very few clues about who this is; bka' 'gyur colophones all support the spelling Ratnaphala",,X,,tr,,,,
 P4CZ10508,slob dpon bde byed bdag po/,Śaṅkarasvāmin,RC,,,900,,,,"RC: Indian. As the author of Tōh 1112, see Schneider2015. Possibly the same author as the Nyāyapraveśa (Tōh 4208), attributed in the Tibetan tradition to Dignāga. On this text see Tachikawa1971. Said (according to TibSkrit in a colophon) to be the brother of mTho btsun grub rje (P4CZ10507).",,OK,Schneider2015,ma,,P6126,,P4CZ10507
 P0RK998,sprul sku dga' rab rdo rje/,"*Prahevajra,*Pramodavajra,*Surativajra",RC,,,,,,,"RC: 'Indian'. I think this figure can be regarded as semi-historical, authorship attributions tentative",,OK,,ma,,,,
 P4CZ15607,paN+Di ta 'phra ras/,*Sūkṣmadīrgha,NB,,,,,,,"NB: BUDA: = Phra la ring ba. Almogi 1997: 80, n. 228: Phra la ring mo/'Phra la ras. Tibskrit: ""In list of Later Spread (Phyi dar) period pundits in Tibet contained in Zhu chen, Bstan 'gyur dkar chag, p. 161, line 8."" ""According to Mtshan tho, he was in Tibet in the 10th century. It is said that he did grong 'jug on a corpse of a boy in Gtsang rong, and became the Rdzogs chen pa Rong pa Chos bzang (i.e., Rong zom pa).""",,OK,,,,,,
 P4CZ15629,ma ga d+ha'i yul du byung ba'i dge bsnyen nyi ma/,,RC,,1384,1468,,,,"RC: Indian. Wrote a Praise of Vanaratna, which Vanaratna himself helped translate into Tibetan. No known other works. So the person can be assigned flourit based on the dates of Vanaratna. Blue Annels refers to a 'mi'i nyi ma' who praised Vanaratna, apparently from Koliṅga. Maybe these people are the same. ",,OK,TibSkrit,ma,,,,P207
-P0AT0343,thams cad mkhyen pa'i bshes gnyen/,"Sarvajñamitra, *Sarvajñāmitra?",,,700,775,,,Kashmir,,,OK,Tibskrit/PANDiT,ma,,,,
 P0AT0344,,"Kumārajīva, Kumāraśrī",,344,,,412,,Khotan,"Indian translator in China, Kumāraśrī is how the name Kumārajīva is represented in TIbetan history",,,,pa,,,,
 P0AT0345,*sangs rgyas bzang po/,Buddhabhadra (I),,,400,499,,,Newar,Worked on the Chinese translation of the Avataṃsaka from 418-421 CE,,,,,,,,
 P0AT0346,gnyis su med pa sbas pa/,Advayagupta,,,,,,,,,,,,,,,,
@@ -990,7 +987,6 @@ P0AT0351,,"Dharmadāsa, Dharmadāsasūri",,,500,599,,,,"The Cāndravyākaraṇav
 P0AT0352,,Dharmatāśīla,,,,,,,Kashmir,Rin chen bzang po's teacher,,,,,,,P8266,
 P0AT0354,d+ha'u ri/,"Dhūripa, Dhauri?, Dhaḥuripa?",,,,,,,,,,,,,,,,
 P0AT0355,slob dpon d+he ta na/,Dhetana,,,,,,,,,,,,,,,,
-P0AT0355,*nyin mor mdzad/,Divākara,,,613,688,,,,Indian translator in China,,,,,,,,
 P0AT0356,gnyis skyes srung ba/,"*Dvijapāla, *Dvijarakṣita?",,,,,,,,,,,,,,,,
 P0AT0357,slob dpon d+ha ma pa/,Dāmapa,,,,,,,,,,,,,,,,
 P0AT0358,,Dānadāsa,,,,,,,,,,,,,,,,
@@ -1028,4 +1024,6 @@ P0AT0385,za hor gyi mkhan po chen po shAnta de ba ,Śāntadeva,RC,,,,,,za hor,,"
 P0AT0386,mkhas pa chen po ta thA ga ta,*Tathāgata,RC,,,,,,,,"Somehow involved in the translation of D1971, *Vajrabhairavatantraṭippaṇī. Otherwise obscure. ",,,,,,,
 P0AT0387,sprul pa'i rnal 'byor pa,*Nirmāṇayogin,RC,,,,,,,,"Compiler of D2286, *Ḍākinyupadeśaśrotraparamparāpiḍācchedanāvavāda. sprul pa'i rnal 'byor likely an epithet rather than a name. Identity otherwise obscure.",,,,,,,
 P0AT0388,pad+ma 'byung gnas blo gros,Padmākaramati,RC,,,,,,,Author of a few sādahanas. Name attested in Sanskrit. May be identical with other Padmākaras.,,,,,,,,
-P0AT0388,grub thob kar+Na shrI,*Karṇaśrī,RC,,,,,,,,,,,,,,,
+P0AT0389,grub thob kar+Na shrI,*Karṇaśrī,RC,,,,,,,,,,,,,,,
+P0AT0390,thams cad mkhyen pa'i bshes gnyen/,"Sarvajñamitra, *Sarvajñāmitra?",,,700,775,,,Kashmir,,,OK,Tibskrit/PANDiT,ma,,,,
+P0AT0391,*nyin mor mdzad/,Divākara,,,613,688,,,,Indian translator in China,,,,,,,,
