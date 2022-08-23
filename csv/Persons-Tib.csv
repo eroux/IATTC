@@ -154,7 +154,7 @@ P4404,sa skya bla chen kun dga' rgyal mtshan/,,,,1300,1399,,,,,,,,tr,,,,"P1518,P
 P856,zhwa lu lo tsA ba chos skyong bzang po/,"Dharmabhadra, Dharmapālabhadra, Dharmaśrībhadra",,1441,,,1527,,,,,,,tr,,,,"P0AT0075,P0AT0074,-"
 P4401,zhu chen gyi lo tsA ba dga' rdor/,,,,1000,1099,,,,,,,,tr,,,,P8225
 P8142,lha rin po che/,,NB,,1100,1199,,,,"RR: 11th-12th c. NB: Martin, Biographical References (Tibetological): Part One (Ming mdzod), no. 1871: b. about late 11th.",,OK,,tr,,,,P8213
-P8275,lo tsA ba pra dz+nyA sing ha/,"*Prajñāsiṃha, *Prajñāsiddha?",RC,,830,,,,,"RC: BDRC website's 'notes' associate him with Tōh 199 (work translated from Chinese), but Tōh 199 is linked in this spreadsheet with P2139. Old BDRC website associates this person with a translation of a text by Jñānapāda (from Sanskrit), Tōh 3905. This is probably the person in question. BUDA associates him with Tōh 3906, although colophon doesn't attest the involvement of anybody by this name. The latter appears to be some kind of glitch. The translator of Tōh 3905 is mysterious.",,X !!,,tr,,,,P0AT0078
+P8275,lo tsA ba pra dz+nyA sing ha/,"*Prajñāsiṃha, *Prajñāsiddha?",RC: to check,,830,,,,,"RC: BDRC website's 'notes' associate him with Tōh 199 (work translated from Chinese), but Tōh 199 is linked in this spreadsheet with P2139. Old BDRC website associates this person with a translation of a text by Jñānapāda (from Sanskrit), Tōh 3905. This is probably the person in question. BUDA associates him with Tōh 3906, although colophon doesn't attest the involvement of anybody by this name. The latter appears to be some kind of glitch. The translator of Tōh 3905 is mysterious.",,X !!,,tr,,,,P0AT0078
 P1048,gro mgon chos rgyal 'phags pa/,,,1235,,,1280,,,,,,,tr,,,,
 P4209,lo tsA ba bsod nams rgyal ba/,,,,1000,1099,,,,"RC: P4209 (bsod nams rgyal ba) is given as mid 11th C date in Gangs can mkhas grub. Otherwise obscure. Perhaps he is in fact bsod nams rgyal mtshan, but no further evidence for this.",,,,tr,,,,"P8093,P4CZ15273"
 P4402,zha ma lo tsA ba ston pa seng+ge rgyal po/,,,,1000,1199,,,,"RC: Certainly active in 12thc, but so far see little evidence for a solid date.",,,,tr,,,,"P8893,P7641,P8397,P1581"
@@ -275,7 +275,6 @@ P0AT1011,bod kyi lo tsA ba klan chung,,,,,,,,,unlikely to be P7604,,,,,,,,
 P8266,zhu chen gyi lo tsA ba dharma tA shI la/,Dharmatāśīla,OA,,700,899,,,,OA:  there is apparently another Kashmiri named Dharmatāśīla who was Rin chen bzang po's teacher,,,,,,,P0AT0354,
 P0AT1012,lo tsA ba blo gros rgyal po,,OA,,,,,1200-1299,,,,,,,,,,
 P0AT1013,byang chub sems dpa' 'jam dpal rgyal po grags pa,,NB,,,,,,,,,,,,,,,
-P6944,rgya lo tsA ba rdo rje bzang po,,,,,,,,,,,,,,,,,
 P4266,Ma nang lo tsA ba dge slong grags 'byor shes rab / Ma nang lo chung,,NB / OA,,1000,1075,,,,,,,,,,,,
 P0AT1015,zhu chen gyi lo tsA ba dge slong blo gros snying po,,,,,,,,,,,,,,,,,
 P0AT1016,dpon chen po kun dga' gzhon nu,,,,1250,1300,,,,,,,,,,,,
@@ -295,3 +294,6 @@ P5788,thon mi sam+b+ho Ta/,,,,600,699,,,,,,,,ma,,,,
 P8260,ban de dpal dbyangs/,,,,,,,800-899,,,,,,ma,,,,"P8217,P8213,P8182"
 P5568,zhwa lu lo chen rin chen bzang po/,,,,,,1563,900-,,,,,,"pa,tr",,,,"P8171,P8093,P753"
 P1718,blo gros seng ge,,,1345?,,,1390,,,,,,,,,,,
+P0AT0392,dge slong badzra shrI,,RC,,,,,,,,"Revisor of D3305. According to the D-TK, he is a student of byang chub rtse mo (P2388, 1303-1380). Further research may clarify his identity.",,,,,,,
+P0AT0395,o ru lo tsA ba,,RC,,,,,,,,Revisor of D4085 (Ratnākaraśānti's Madhyamakopadeśa). Identity otherwise obscure.,,,,,,,
+P3JT12627,jam dpal gzhon nu,,RC,,1200,1299,,,,,"A 'jam dpal gzhon nu collaborated with Vibhūticandra on D4095 (chos mngon pa'i 'grel pa gnad kyi sgron ma zhes bya ba), and is also mentioned in certain colophons of D1509 (lU yi pa'i mngon par rtogs pa'i 'grel pa sdom pa 'byung ba zhes bya ba) (see Stearns, The Life and Tibetan Legacy of the Indian Mahāpaṇḍita Vibhūticandra, p. 162. This is possibly the same as the author of WA0XLB3524DE3F451 (bla ma brgyud pa'i lo rgyus la sogs jo bo rje'i chos skor zab mo rnams). Dan Martin has a note regarding this in his 2020 Tibetan Histories: A Bibliography.",,,,,,,
