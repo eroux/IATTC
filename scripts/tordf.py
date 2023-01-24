@@ -113,6 +113,8 @@ def import_persons(fname, reg):
                     reg.add((floruit, BDO.notAfter, Literal(year, datatype=XSD.gYear)))
                 except:
                     pass
+            if len(row) > 18 and row[19] == "F":
+                reg.add((p, BDO.personGender, BDR.GenderFemale))
 
 reg = rdflib.Graph()
 reg.parse("static.ttl", format="turtle")
