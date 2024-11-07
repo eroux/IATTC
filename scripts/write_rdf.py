@@ -10,6 +10,9 @@ from datetime import datetime
 import sys
 from pathlib import Path
 import os
+import pyewts
+
+EWTS_C = pyewts.pyewts()
 
 GIT_ROOT = "../../../tbrc-ttl/"
 if len(sys.argv) > 1:
@@ -64,7 +67,7 @@ def save_file(ds, main_lname):
     repo = get_repo(main_lname)
     filepathstr = GIT_ROOT+repo+GIT_REPO_SUFFIX+"/"+two+"/"+main_lname+".trig"
     print(os.path.abspath(filepathstr))
-    #ds.serialize(filepathstr, format="trig")
+    ds.serialize(filepathstr, format="trig")
 
 def get_random_id(length = 12):
     letters = string.ascii_uppercase + string.digits
@@ -72,6 +75,7 @@ def get_random_id(length = 12):
 
 NOW_LIT = Literal(datetime.now().isoformat(), datatype=XSD.dateTime)
 LGE = BDA["LG0BDS"+get_random_id()]
+LGE_CREATE = BDA["LG0BDS"+get_random_id()]
 
 def add_lge(g, adm):
     g.add((adm, ADM.logEntry, LGE))
@@ -95,24 +99,63 @@ def get_ds(e):
     ds = Dataset()
     if Path(filepathstr).is_file():
         ds.parse(filepathstr, format="trig", publicID=BDG[e])
+    else:
+        g = ds.graph(BDG[e])
+        g.add((BDR[e], RDF.type, BDO.Person))
+        adm = BDA[e]
+        g.add((adm, RDF.type, ADM.AdminData))
+        g.add((adm, ADM.adminAbout, BDR[e]))
+        g.add((adm, ADM.metadataLegal, BDA.LD_BDRC_CC0))
+        g.add((adm, ADM.status, BDA.StatusReleased))
+        g.add((adm, ADM.access, BDA.AccessOpen))
+        md5 = hashlib.md5(str.encode(e))
+        g.add((adm, ADM.graphId, BDG[e]))
+        g.add((adm, ADM.restrictedInChina, Literal(False)))
+        g.add((adm, ADM.logEntry, LGE_CREATE))
+        g.add((LGE_CREATE, RDF.type, ADM.InitialDataImport))
+        g.add((LGE_CREATE, ADM.logAgent, Literal("IATTC/scripts/write_rdf.py")))
+        g.add((LGE_CREATE, ADM.logMethod, BDA.BatchMethod))
+        g.add((LGE_CREATE, ADM.logDate, NOW_LIT))
     bind_prefixes(ds)
     return ds
 
 def get_graph_names(g, langtagstart):
     res = []
     for _, _, pl in g.triples((None, SKOS.prefLabel, None)):
-        if pl.language.startswith(langtagstart) or (langtagstart == "bo" and pl.language.endswith("ewts")):
+        if get_langtagstart(pl) == langtagstart:
             res.append(str(pl))
     for _, _, pl in g.triples((None, SKOS.altLabel, None)):
-        if pl.language.startswith(langtagstart) or (langtagstart == "bo" and pl.language.endswith("ewts")):
+        if get_langtagstart(pl) == langtagstart:
             res.append(str(pl))
     for _, _, pl in g.triples((None, RDFS.label, None)):
-        if (pl.language.startswith(langtagstart) or (langtagstart == "bo" and pl.language.endswith("ewts")) ) and str(pl) not in res:
+        if get_langtagstart(pl) == langtagstart and str(pl) not in res:
             res.append(str(pl))
     # we keep the first element first and sort the rest
     if len(res) > 2:
         res = [res[0]] + sorted(res[1:])
     return res
+
+def get_graph_note(g, e):
+    noteres = BDR["NT"+e+"_ATII1"]
+    for _, _, txt in g.triples((noteres, BDO.noteText, None)):
+        return str(txt)
+    return None
+
+def replace_note(g, e, note):
+    noteres = BDR["NT"+e+"_ATII1"]
+    if note:
+        g.remove((noteres, BDO.noteText, None))
+        g.add((noteres, RDF.type, BDO.Note))
+        g.add((noteres, BDO.noteText, Literal(note, lang="en")))
+    else:
+        g.remove((noteres, None, None))
+        g.remove((None, None, noteres))
+
+def add_base_note(g, e, note):
+    noteres = BDR["NT"+e+"_ATII0"]
+    g.remove((noteres, BDO.noteText, None))
+    g.add((noteres, RDF.type, BDO.Note))
+    g.add((noteres, BDO.noteText, Literal(note, lang="en")))
 
 EVTTYPEURITOKEY = {
     "http://purl.bdrc.io/ontology/core/PersonBirth": "PersonBirth",
@@ -126,20 +169,26 @@ def get_graph_events(g):
         evttype = g.value(evt, RDF.type)
         if str(evttype) in EVTTYPEURITOKEY:
             key = EVTTYPEURITOKEY[str(evttype)]
-            res[key] = evtwhen
+            res[key] = str(evtwhen)
     return res
+
+def get_langtagstart(l):
+    lt = l.language
+    if lt.endswith("ewts"):
+        return "bo"
+    return lt[:2]
 
 def replace_names(g, lname, langtagstart, langtag, nameslist):
     # first name as prefLabel, others as OtherName
     to_remove = []
     for s, _, pl in g.triples((None, SKOS.prefLabel, None)):
-        if pl.language.startswith(langtagstart) or (langtagstart == "bo" and pl.language.endswith("ewts")):
+        if get_langtagstart(pl) == langtagstart:
             to_remove.append((s, SKOS.prefLabel, pl))
     for s, _, pl in g.triples((None, SKOS.altLabel, None)):
-        if pl.language.startswith(langtagstart) or (langtagstart == "bo" and pl.language.endswith("ewts")):
+        if get_langtagstart(pl) == langtagstart:
             to_remove.append((s, SKOS.altLabel, pl))
     for n, _, pl in g.triples((None, RDFS.label, None)):
-        if pl.language.startswith(langtagstart) or (langtagstart == "bo" and pl.language.endswith("ewts")):
+        if get_langtagstart(pl) == langtagstart:
             for s2, p2, o2 in g.triples((n, None, None)):
                 to_remove.append((s2, p2, o2))
             for s2, p2, o2 in g.triples((None, None, n)):
@@ -148,9 +197,12 @@ def replace_names(g, lname, langtagstart, langtag, nameslist):
         g.remove(t)
     if not nameslist:
         return
-    g.add((BDR[lname], SKOS.prefLabel, Literal(nameslist.pop(0), lang=langtag)))
+    g.add((BDR[lname], SKOS.prefLabel, Literal(nameslist[0], lang=langtag)))
+    add_names(g, lname, langtag, nameslist[1:])
+
+def add_names(g, lname, langtag, nameslist):
     for i, name in enumerate(nameslist):
-        n = BDR["NM"+lname+"_ATII_"+langtag+str(i)]
+        n = BDR["NM"+lname+"_ATII_"+langtag[:2].upper()+str(i)]
         g.add((BDR[lname], BDO.personName, n))
         g.add((n, RDF.type, BDO.PersonOtherName))
         g.add((n, RDFS.label, Literal(name, lang=langtag)))
@@ -158,7 +210,7 @@ def replace_names(g, lname, langtagstart, langtag, nameslist):
 def replace_events(g, lname, events):
     to_remove = []
     for evt, _, evtwhen in g.triples((None, BDO.eventWhen, None)):
-        evttype = evt.value(evt, RDF.type)
+        evttype = g.value(evt, RDF.type)
         if str(evttype) in EVTTYPEURITOKEY:
             for s2, p2, o2 in g.triples((evt, None, None)):
                 to_remove.append((s2, p2, o2))
@@ -167,30 +219,43 @@ def replace_events(g, lname, events):
     for evtkey, when in events.items():
         evt = BDR["EV"+lname+"_ATII_"+evtkey[0]]
         g.add((BDR[lname], BDO.personEvent, evt))
-        g.add((evt, RDF.personEvent, BDO[evtkey]))
+        g.add((evt, BDO.personEvent, BDO[evtkey]))
         g.add((evt, BDO.eventWhen, Literal(when, datatype=EDTF.EDTF)))
 
+def add_ewts_shad(s):
+    sLen = len(s)
+    if sLen < 2:
+        return s
+    last = s[sLen-1]
+    finalidx = sLen-1
+    if (last == 'a' or last == 'i' or last == 'e' or last == 'o'):
+        last = s[sLen-2]
+        finalidx = sLen-1
+    if (sLen > 2 and last == 'g' and s[finalidx-1] == 'n'):
+        return s+" /"
+    if (last == 'g' or last == 'k' or (sLen == 3 and last == 'h' and s[finalidx-1] == 's') or (sLen > 3 and last == 'h' and s[finalidx-1] == 's' and s[finalidx-2] != 't')):
+        return s
+    if (last < 'A' or last > 'z' or (last > 'Z' and last < 'a')):  # string doesn't end with tibetan letter
+        return s
+    return s+"/"
 
-def get_diff(graph, row):
-    """
-    First get the graph data and row data both in the following form:
-    {
-       "sa_names": [...],
-       "bo_name": [...],
-       "birth": "...",
-       "death": "...",
-       "floruit": "..."
-    }
+def normalize_ewts(s):
+    return add_ewts_shad(EWTS_C.toWylie(EWTS_C.toUnicode(s)))
 
-    Then returns the diff in the form:
-
-    """
-    return
+def normalize_sskt(s):
+    if s.startswith("X"):
+        return "**"+s[1:].title()
+    else:
+        return s.title().replace("Ii", "II").replace("IIi", "III")
 
 def get_names(names_str, replaceX=False):
+    if not names_str:
+        return []
     res = [x.strip() for x in names_str.split(',')]
     if replaceX:
-        res = [x.replace("X", "**") for x in res]
+        res = [normalize_sskt(x) for x in res]
+    else:
+        res = [normalize_ewts(x) for x in res]
     if len(res) > 2:
         res = [res[0]] + sorted(res[1:])
     return res
@@ -198,7 +263,24 @@ def get_names(names_str, replaceX=False):
 def log_replacement(p, type, old, new):
     if "AT" in p:
         return
-    print(f"{p}: replacing {type} from {old} to {new}")
+    if not old:
+        print(f"{p}: add {type} {new}")
+    else:
+        print(f"{p}: replacing {type} from {old} to {new}")
+
+def normalize_date(s):
+    # Add '0' before 3 consecutive digits (but not 4)
+    s = re.sub(r'(?<!\d)(\d{3})(?!\d)', r'0\1', s)
+
+    # Transform x?/y? or x?/y into x/y?
+    s = re.sub(r'(\d)\?/(\d+)', r'\1/\2?', s)
+    s = s.replace("??", "?")
+
+    # Transform yy00/yy99? (with matching yy) into yyXX?
+    s = re.sub(r'(\d{2})00/\1?99(\??)', r'\1XX\2', s)
+
+    return s
+
 
 def import_persons(fname, reg):
     global adm
@@ -207,42 +289,64 @@ def import_persons(fname, reg):
         next(srcreader)
         next(srcreader)
         for row in srcreader:
+            if not row[0] or not row[0].startswith("P"):
+                continue
             ds = get_ds(row[0])
             g = ds.graph(BDG[row[0]])
             p = BDR[row[0]]
             sa_names = get_names(row[2], replaceX=True)
             bo_names = get_names(row[1])
-            print(bo_names)
             events = {}
             if row[4] != "":
-                events["PersonBirth"] = row[4].strip()
+                events["PersonBirth"] = normalize_date(row[4].strip())
             if row[7] != "":
-                events["PersonDeath"] = row[7].strip()
+                events["PersonDeath"] = normalize_date(row[7].strip())
             floruit = ""
             if row[5] != "":
-                floruit = row[5].strip()
+                floruit = row[5].strip()+"/"
             if row[6] != "":
-                floruit += "/"+row[6].strip()
+                if row[5] == "":
+                    floruit = "/"
+                floruit += row[6].strip()
+            if not floruit and row[4] == "" and row[7] == "" and row[0] in INFERRED:
+                floruit = INFERRED[row[0]].replace("-", "/")
             if floruit:
-                events["PersonFlourished"] = floruit
+                events["PersonFlourished"] = normalize_date(floruit)
+            graph_note = get_graph_note(g, row[0])
+            base_note = ""
+            if "AT" in row[0]:
+                base_note = "Record created by the Authors and Translators Identification Initiative (ATII) project in collaboration with the Khyentse Center at Universität Hamburg."
+            else:
+                base_note = "Information from this record was contributed by the Authors and Translators Identification Initiative (ATII) project in collaboration with the Khyentse Center at Universität Hamburg."
+            add_base_note(g, row[0], base_note)
+            graph_note = get_graph_note(g, row[0])
+            if row[11] != "" and row[11] != graph_note:
+                replace_note(g, row[0], "(From the ATII project) "+row[11])
+                needsWriting = True
             needsWriting = False
-            if sa_names != get_graph_names(g, "sa"):
+            sa_graph_names = get_graph_names(g, "sa")
+            if sa_names != sa_graph_names:
                 needsWriting = True
                 replace_names(g, row[0], "sa", "sa-x-iast", sa_names)
-                log_replacement(row[0], "Sanskrit names", get_graph_names(g, "sa"), sa_names)
-            if bo_names != get_graph_names(g, "bo"):
+                log_replacement(row[0], "Sanskrit names", sa_graph_names, sa_names)
+            bo_graph_names = get_graph_names(g, "bo")
+            if not all(e in bo_graph_names for e in bo_names):
                 needsWriting = True
-                replace_names(g, row[0], "bo", "bo-x-ewts", bo_names)
-                log_replacement(row[0], "Tibetan names", get_graph_names(g, "bo"), bo_names)
-            if events != get_graph_events(g):
+                new_names = list(set(bo_names) - set(bo_graph_names))
+                add_names(g, row[0], "bo-x-ewts", new_names)
+                log_replacement(row[0], "Tibetan names", [], new_names)
+            graph_events = get_graph_events(g)
+            if events != graph_events:
                 needsWriting = True
-                replace_names(g, row[0], "bo", "bo-x-ewts", bo_names)
-                log_replacement(row[0], "Events", get_graph_events(g), events)
+                replace_events(g, row[0], events)
+                log_replacement(row[0], "Events", graph_events, events)
             if needsWriting:
                 add_lge(g, BDA[row[0]])
                 save_file(ds, row[0])
-            #if len(row) > 18 and row[19] == "F":
-            #    reg.add((p, BDO.personGender, BDR.GenderFemale))
+            if len(row) > 18 and row[19] == "F":
+                g.add((p, BDO.personGender, BDR.GenderFemale))
+            else:
+                g.add((p, BDO.personGender, BDR.GenderMale))
 
 reg = rdflib.Graph()
 reg.parse("static.ttl", format="turtle")

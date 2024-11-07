@@ -29,6 +29,8 @@ NSM.bind("bf", BF)
 
 x = rdflib.term._toPythonMapping.pop(rdflib.XSD['gYear'])
 
+INFERRED = {}
+
 adm = BDA.ADATII
 
 def import_persons(fname, reg):
@@ -118,6 +120,18 @@ def import_persons(fname, reg):
 
 reg = rdflib.Graph()
 reg.parse("static.ttl", format="turtle")
+
+def add_infer(fname):
+    global INFERRED
+    with open(fname,  newline='') as csvfile:
+        srcreader = csv.reader(csvfile, delimiter=',')
+        for row in srcreader:
+            if row[1]:
+                INFERRED[row[0]] = row[1]
+
+add_infer('../csv/Persons-Ind-withinfer.csv')
+add_infer('../csv/Persons-Tib-withinfer.csv')
+
 import_persons("../csv/Persons-Ind.csv", reg)
 import_persons("../csv/Persons-Tib.csv", reg)
 
