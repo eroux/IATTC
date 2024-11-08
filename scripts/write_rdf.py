@@ -337,6 +337,8 @@ def import_persons(fname, reg):
             if not all(e in bo_graph_names for e in bo_names):
                 needsWriting = True
                 new_names = list(set(bo_names) - set(bo_graph_names))
+                if "AT" in row[0]:
+                    g.add((BDR[lname], SKOS.prefLabel, Literal(bo_names[0], lang=langtag)))
                 add_names(g, row[0], "bo-x-ewts", new_names)
                 log_replacement(row[0], "Tibetan names", [], new_names)
             graph_events = get_graph_events(g)
@@ -416,6 +418,33 @@ ROLEEVENTS = {
     "revisor3pandita": BDO.ThirdRevisedEvent,
 }
 
+def get_graph_attributions(g, wa):
+    res = []
+    aacs = []
+    for s, p, aac in g.triples((None, BDO.creator, None)):
+        aacs.append(aac)
+    aacs.sort(key=lambda x: str(x))
+    for aac in aacs:
+        res.append([g.value(aac, BDO.role), g.value(aac, BDO.agent), g.value(aac, creationEventType)])
+    return res
+
+def replace_attributions(g, wa, attrlist):
+    to_remove = []
+    for s, p, aac in g.triples((None, BDO.creator, None)):
+        to_remove.append((s, p, aac))
+        for _, p2, o2 in g.triples((aac, None, None)):
+            to_remove.append((aac, p2, o2))
+    for t in to_remove:
+        g.remove(t)
+    for i, attr in enumerate(attrlist):
+        aac = BDR["CR"+wa+"_ATII"+str(i)]
+        g.add((BDR[wa], BDO.creator, aac))
+        g.add((aac, RDF.type, BDO.AgentAsCreator))
+        g.add((aac, BDO.role, attribution[0]))
+        g.add((aac, BDO.agent, attribution[1]))
+        if attribution[2]:
+            g.add((aac, BDO.creationEventType, attribution[2]))
+
 def import_attributions(fname):
     res = {}
     with open(fname,  newline='') as csvfile:
@@ -439,34 +468,32 @@ def import_attributions(fname):
             if (not row[3].startswith("P")) or " " in row[3] or "?" in row[3]:
                 continue
             role = ROLEMAPPING[row[2]]
+            eventtype = None if row[2] not in ROLEEVENTS else ROLEEVENTS[row[2]]
             watiblname = "WA0R%s%04d" % (rkts[:1], int(rkts[1:]))
-            watib = BDR[watiblname]
-            waindlname = "WA0R%sI%04d" % (rkts[:1], int(rkts[1:]))
-            waind = BDR[waindlname]
-            if rkts in RKTSTOWAI:
-                waind = BDR[RKTSTOWAI[rkts]]
-            if watib not in res:
-                res[watib] = []
-            res[watib].append(row)
+            attrib = [role, BDR[row[3]], eventtype]
+            if watiblname not in res:
+                res[watiblname] = []
+            res[watiblname].append(attrib)
             if role == BDR.R0ER0019:
-                if waind not in res:
-                    res[waind] = []
-                res[waind].append(row)
-    for wa, warows in res.items():
+                waindlname = "WA0R%sI%04d" % (rkts[:1], int(rkts[1:]))
+                if rkts in RKTSTOWAI:
+                    waindlname = RKTSTOWAI[rkts]
+                if waindlname not in res:
+                    res[waindlname] = []
+                res[waindlname].append(attrib)
+    for wa, attribs in res.items():
         ds = get_ds(row[0])
         g = ds.graph(BDG[row[0]])
-        for i, row in enumerate(warows):
-            aac = BDR["CR"+wa+("_%02d" % i)]
-            role = ROLEMAPPING[row[2]]
-            eventtype = None if row[2] not in ROLEEVENTS else ROLEEVENTS[row[2]]
-            reg.add((aac, RDF.type, BDO.AgentAsCreator))
-            reg.add((aac, BDO.role, role))
-            reg.add((aac, BDO.agent, BDR[row[3]]))
-            reg.add((watib, BDO.creator, aac))
-            if eventtype:
-                reg.add((aac, BDO.creationEventType, eventtype))
-            if role == BDR.R0ER0019:
-                reg.add((waind, BDO.creator, aac))
+        graph_attribs = get_graph_attributions(g, wa)
+        if graph_attribs != attribs:
+            replace_attributions(g, wa, attribs)
+            if needsWriting:
+                base_note = "Attribution information contributed by the Authors and Translators Identification Initiative (ATII) project in collaboration with the Khyentse Center at Universität Hamburg."
+                add_base_note(g, wa, base_note)
+                add_lge(g, BDA[wa])
+                save_file(ds, wa)
+            else:
+                print("no change in "+row[0])
 
 
 import_attributions("../csv/DergeKangyur.csv")
