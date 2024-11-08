@@ -216,10 +216,14 @@ def replace_events(g, lname, events):
                 to_remove.append((s2, p2, o2))
             for s2, p2, o2 in g.triples((None, None, evt)):
                 to_remove.append((s2, p2, o2))
+    for t in to_remove:
+        g.remove(t)
+    i = 0
     for evtkey, when in events.items():
-        evt = BDR["EV"+lname+"_ATII_"+evtkey[0]]
+        evt = BDR["EV"+lname+"_ATII_"+str(i)]
+        i += 1
         g.add((BDR[lname], BDO.personEvent, evt))
-        g.add((evt, BDO.personEvent, BDO[evtkey]))
+        g.add((evt, RDF.type, BDO[evtkey]))
         g.add((evt, BDO.eventWhen, Literal(when, datatype=EDTF.EDTF)))
 
 def add_ewts_shad(s):
@@ -340,13 +344,16 @@ def import_persons(fname, reg):
                 needsWriting = True
                 replace_events(g, row[0], events)
                 log_replacement(row[0], "Events", graph_events, events)
-            if needsWriting:
-                add_lge(g, BDA[row[0]])
-                save_file(ds, row[0])
             if len(row) > 18 and row[19] == "F":
                 g.add((p, BDO.personGender, BDR.GenderFemale))
             else:
                 g.add((p, BDO.personGender, BDR.GenderMale))
+            if needsWriting or "AT" in row[0]:
+                add_lge(g, BDA[row[0]])
+                save_file(ds, row[0])
+            else:
+                print("no change in "+row[0])
+            
 
 reg = rdflib.Graph()
 reg.parse("static.ttl", format="turtle")
@@ -410,18 +417,19 @@ ROLEEVENTS = {
 }
 
 def import_attributions(fname):
+    res = {}
     with open(fname,  newline='') as csvfile:
         srcreader = csv.reader(csvfile, delimiter=',')
         next(srcreader)
         next(srcreader)
         texti = 1
-        textevents = {}
-        previoustextid = None
         for row in srcreader:
             d = row[0]
             if not d.startswith("D") or d.startswith("Dx"):
                 continue
             d = re.sub("D0+", "D", d)
+            d = d.replace("a", "")
+            d = d.replace("b", "a")
             if not d in DTORKTS:
                 print("%s not in rkts!" % d)
                 continue
@@ -430,21 +438,27 @@ def import_attributions(fname):
                 continue
             if (not row[3].startswith("P")) or " " in row[3] or "?" in row[3]:
                 continue
-            if d == previoustextid:
-                texti += 1
-            else:
-                previoustextid = d
-                texti = 1
-                textevents = {}
             role = ROLEMAPPING[row[2]]
-            eventtype = None if row[2] not in ROLEEVENTS else ROLEEVENTS[row[2]]
             watiblname = "WA0R%s%04d" % (rkts[:1], int(rkts[1:]))
             watib = BDR[watiblname]
             waindlname = "WA0R%sI%04d" % (rkts[:1], int(rkts[1:]))
             waind = BDR[waindlname]
             if rkts in RKTSTOWAI:
                 waind = BDR[RKTSTOWAI[rkts]]
-            aac = BDR["CR"+watiblname+("_%02d" % texti)]
+            if watib not in res:
+                res[watib] = []
+            res[watib].append(row)
+            if role == BDR.R0ER0019:
+                if waind not in res:
+                    res[waind] = []
+                res[waind].append(row)
+    for wa, warows in res.items():
+        ds = get_ds(row[0])
+        g = ds.graph(BDG[row[0]])
+        for i, row in enumerate(warows):
+            aac = BDR["CR"+wa+("_%02d" % i)]
+            role = ROLEMAPPING[row[2]]
+            eventtype = None if row[2] not in ROLEEVENTS else ROLEEVENTS[row[2]]
             reg.add((aac, RDF.type, BDO.AgentAsCreator))
             reg.add((aac, BDO.role, role))
             reg.add((aac, BDO.agent, BDR[row[3]]))
