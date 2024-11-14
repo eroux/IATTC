@@ -19,6 +19,8 @@ if len(sys.argv) > 1:
     GIT_ROOT = sys.argv[1]
 GIT_REPO_SUFFIX = "-20220922"
 
+BDRC_BLACKLIST = [""]
+
 BF = Namespace("http://id.loc.gov/ontologies/bibframe/")
 BDR = Namespace("http://purl.bdrc.io/resource/")
 BDO = Namespace("http://purl.bdrc.io/ontology/core/")
@@ -95,6 +97,8 @@ def get_ds(e):
     md5 = hashlib.md5(str.encode(e))
     two = md5.hexdigest()[:2]
     repo = get_repo(e)
+    if repo is None:
+        print(e)
     filepathstr = GIT_ROOT+repo+GIT_REPO_SUFFIX+"/"+two+"/"+e+".trig"
     ds = Dataset()
     if Path(filepathstr).is_file():
@@ -158,6 +162,7 @@ def add_base_note(g, e, note):
     g.add((noteres, BDO.noteText, Literal(note, lang="en")))
 
 EVTTYPEURITOKEY = {
+    "http://purl.bdrc.io/ontology/core/PersonEventNotSpecified": "PersonEventNotSpecified",
     "http://purl.bdrc.io/ontology/core/PersonBirth": "PersonBirth",
     "http://purl.bdrc.io/ontology/core/PersonDeath": "PersonDeath",
     "http://purl.bdrc.io/ontology/core/PersonFlourished": "PersonFlourished"
@@ -334,6 +339,9 @@ def import_persons(fname, reg):
                 replace_names(g, row[0], "sa", "sa-x-iast", sa_names)
                 log_replacement(row[0], "Sanskrit names", sa_graph_names, sa_names)
             bo_graph_names = get_graph_names(g, "bo")
+            if "AT" in row[0] and bo_names:
+                print("add preflabel")
+                g.add((BDR[row[0]], SKOS.prefLabel, Literal(bo_names[0], lang="bo-x-ewts")))
             if not all(e in bo_graph_names for e in bo_names):
                 needsWriting = True
                 new_names = list(set(bo_names) - set(bo_graph_names))
@@ -425,7 +433,7 @@ def get_graph_attributions(g, wa):
         aacs.append(aac)
     aacs.sort(key=lambda x: str(x))
     for aac in aacs:
-        res.append([g.value(aac, BDO.role), g.value(aac, BDO.agent), g.value(aac, creationEventType)])
+        res.append([g.value(aac, BDO.role), g.value(aac, BDO.agent), g.value(aac, BDO.creationEventType)])
     return res
 
 def replace_attributions(g, wa, attrlist):
@@ -440,10 +448,10 @@ def replace_attributions(g, wa, attrlist):
         aac = BDR["CR"+wa+"_ATII"+str(i)]
         g.add((BDR[wa], BDO.creator, aac))
         g.add((aac, RDF.type, BDO.AgentAsCreator))
-        g.add((aac, BDO.role, attribution[0]))
-        g.add((aac, BDO.agent, attribution[1]))
-        if attribution[2]:
-            g.add((aac, BDO.creationEventType, attribution[2]))
+        g.add((aac, BDO.role, attr[0]))
+        g.add((aac, BDO.agent, attr[1]))
+        if attr[2]:
+            g.add((aac, BDO.creationEventType, attr[2]))
 
 def import_attributions(fname):
     res = {}
@@ -482,18 +490,17 @@ def import_attributions(fname):
                     res[waindlname] = []
                 res[waindlname].append(attrib)
     for wa, attribs in res.items():
-        ds = get_ds(row[0])
-        g = ds.graph(BDG[row[0]])
+        ds = get_ds(wa)
+        g = ds.graph(BDG[wa])
         graph_attribs = get_graph_attributions(g, wa)
         if graph_attribs != attribs:
             replace_attributions(g, wa, attribs)
-            if needsWriting:
-                base_note = "Attribution information contributed by the Authors and Translators Identification Initiative (ATII) project in collaboration with the Khyentse Center at Universität Hamburg."
-                add_base_note(g, wa, base_note)
-                add_lge(g, BDA[wa])
-                save_file(ds, wa)
-            else:
-                print("no change in "+row[0])
+            base_note = "Attribution information contributed by the Authors and Translators Identification Initiative (ATII) project in collaboration with the Khyentse Center at Universität Hamburg."
+            add_base_note(g, wa, base_note)
+            add_lge(g, BDA[wa])
+            save_file(ds, wa)
+        else:
+            print("no change in "+wa)
 
 
 import_attributions("../csv/DergeKangyur.csv")
